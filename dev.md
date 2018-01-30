@@ -30,12 +30,9 @@ It's a Python plotting library, inspired by MATLAB, meaning that the terms used 
 ### figure
 `figure is the object that keeps the whole image output.`
 You can use it to configure things like:
-
-Image size (set_size_inches())
-
-Whether to use tight_layout (set_tight_layout())
-
-This adjusts the subplot padding; generally makes things look better.
+* Image size (set_size_inches())
+* Whether to use tight_layout (set_tight_layout())
+  This adjusts the subplot padding; generally makes things look better.
 
  
 ### axes
@@ -177,5 +174,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5Mjk2NDg2XX0=
+eyJoaXN0b3J5IjpbLTU0NzI5NTI0OF19
 -->
