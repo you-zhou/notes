@@ -14,14 +14,13 @@ $ git commit --patch
 
 $ git log --oneline --decorate
 
-# Reword the last commit message
-$ git commit --amend
-
+$ git commit --amend  # Reword the last commit message
+```git
 	# This can be useful to include files you forgot to track, or include modifications to the files you just commited. To do so, you can add the changes and then perform the amend:
 	$ git add README.md config/routes.rb
 	$ git rm notes.txt
 	$ git commit --amend
-
+```
 
 
 
@@ -170,5 +169,5 @@ chrome://net-internals/#proxy
 ==============================================================================
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1ODgyMzcyMV19
+eyJoaXN0b3J5IjpbLTUwNDkzNDE4NV19
 -->
