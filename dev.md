@@ -85,12 +85,12 @@ the backticks represent `important` text.
 
 the % is `%`
 
-## Indentation
+### Indentation
 > some indentation
 >> more indentation
 >>> even more intendation
 
-## Bullets
+### Bullets
 + item-1
 - item-2
 * item-3
@@ -133,5 +133,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTU2MTAyNzBdfQ==
+eyJoaXN0b3J5IjpbLTEyMjg4MTI2MDJdfQ==
 -->
