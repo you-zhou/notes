@@ -27,7 +27,8 @@ $ git commit --amend  # Reword the last commit message
 ## Matplotlib
 It's a Python plotting library, inspired by MATLAB, meaning that the terms used (Axis, Figure, Plots) will be similar to those used in MATLAB.
 
-### *Figure* is the object that keeps the whole image output.
+### figure
+*figure is the object that keeps the whole image output.*
 You can use it to configure things like:
 
 Image size (set_size_inches())
@@ -52,8 +53,8 @@ X-axis and Y-axis Labels (set_xlabel() and set_ylabel())
 
 The plot title (set_title())
 
-PyplotPermalink
-PyPlot is a shell-like interface to Matplotlib, to make it easier to use for people who are used to MATLAB.
+### pyplot
+**PyPlot is a shell-like interface to Matplotlib, to make it easier to use for people who are used to MATLAB.**
 
 Pyplot maintains state across calls.
 
@@ -178,5 +179,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTUzMTM4NTRdfQ==
+eyJoaXN0b3J5IjpbLTEwNzg2NzMyNDhdfQ==
 -->
