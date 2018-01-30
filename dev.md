@@ -59,7 +59,7 @@ plt.scatter(x,y)
 plt.show()
 ```
 
-* **plt.gcf*(* `gcf: Get Current Figure`
+* **plt.gcf()** `gcf: Get Current Figure`
 
 #### plt.gca `gca: Get Current Axes`
 
@@ -167,5 +167,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2OTMxNjc5M119
+eyJoaXN0b3J5IjpbMTk1MzkzMzYwNF19
 -->
