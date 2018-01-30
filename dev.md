@@ -26,9 +26,8 @@ $ git commit --amend  # Reword the last commit message
 
 ## Matplotlib
 It's a Python plotting library, inspired by MATLAB, meaning that the terms used (Axis, Figure, Plots) will be similar to those used in MATLAB.
-gurePermalink
-### Figure is the object that keeps the whole image output.
 
+### *Figure* is the object that keeps the whole image output.
 You can use it to configure things like:
 
 Image size (set_size_inches())
@@ -38,7 +37,7 @@ Whether to use tight_layout (set_tight_layout())
 This adjusts the subplot padding; generally makes things look better.
 
  
-AxesPermalink
+### axes
 See all methods available in the Axes Class API
 
 The Axes object represents the pair of axis that contain a single plot (x-axis and y-axis).
@@ -179,5 +178,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3OTA5NjU2OF19
+eyJoaXN0b3J5IjpbLTEyOTUzMTM4NTRdfQ==
 -->
