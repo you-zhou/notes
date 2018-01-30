@@ -52,7 +52,7 @@ X-axis and Y-axis Labels (set_xlabel() and set_ylabel())
 The plot title (set_title())
 
 ### pyplot
-**PyPlot is a shell-like interface to Matplotlib, to make it easier to use for people who are used to MATLAB.**
+`PyPlot is a shell-like interface to Matplotlib, to make it easier to use for people who are used to MATLAB.`
 
 Pyplot maintains state across calls.
 
@@ -177,5 +177,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMDYwMDk5Ml19
+eyJoaXN0b3J5IjpbMTA5Mjk2NDg2XX0=
 -->
