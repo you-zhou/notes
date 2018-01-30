@@ -59,7 +59,7 @@ plt.scatter(x,y)
 plt.show()
 ```
 
-* **plt.gcf()** `gcf: Get Current Figure`
+#### plt.gcf() `gcf: Get Current Figure`
 You can use it to get a reference to the current figure when using pyplot, for example, to change image sizes.
 
 ```python
@@ -79,7 +79,7 @@ fig.set_size_inches(6,2)
 
 plt.show()
 ```
-* **plt.gca()** `gca: Get Current Axes`
+#### plt.gca() `gca: Get Current Axes`
 Same as with plt.gcf(), you can use plt.gca() to get a reference to the current axes, if you need to change the limits on the y-axis, for example.
 
 ```python
@@ -205,5 +205,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4MDQwOTYwXX0=
+eyJoaXN0b3J5IjpbMjE0NjM1MjA1Ml19
 -->
