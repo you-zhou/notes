@@ -101,6 +101,9 @@ axis.set_ylim(-3,3)
 plt.show()
 ```
 
+#### plt.cla() / plt.clf()
+These methods are used to clear the current figure `plt.clf()` or the current axes `plt.cla()`.
+
 ## PYTHON
 ### Why ```if __name__ == '__main__'```?
 
@@ -205,5 +208,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NjM1MjA1Ml19
+eyJoaXN0b3J5IjpbODgxMDMyNDk5XX0=
 -->
