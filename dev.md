@@ -24,8 +24,54 @@ $ git commit --amend  # Reword the last commit message
 
 
 
-## DJANGO
+## Matplotlib
+It's a Python plotting library, inspired by MATLAB, meaning that the terms used (Axis, Figure, Plots) will be similar to those used in MATLAB.
+gurePermalink
+###Figure is the object that keeps the whole image output.
 
+You can use it to configure things like:
+
+Image size (set_size_inches())
+
+Whether to use tight_layout (set_tight_layout())
+
+This adjusts the subplot padding; generally makes things look better.
+
+ 
+AxesPermalink
+See all methods available in the Axes Class API
+
+The Axes object represents the pair of axis that contain a single plot (x-axis and y-axis).
+
+The Axes object has methods to allow you to configure things like:
+
+The plot frame (set_frame_on or set_frame_off)
+
+X-axis and Y-axis limits (set_xlim() and set_ylim())
+
+X-axis and Y-axis Labels (set_xlabel() and set_ylabel())
+
+The plot title (set_title())
+
+PyplotPermalink
+PyPlot is a shell-like interface to Matplotlib, to make it easier to use for people who are used to MATLAB.
+
+Pyplot maintains state across calls.
+
+Useful for use in Jupyter or IPython notebooks.
+
+Your can import it via the matplotlib.pyplot namespace.
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0,10,9)
+y = np.randn(9)
+
+plt.scatter(x,y)
+plt.show()
+plotting-with-pyplot
+Simplest possible example: scatter function from pyplot namespace
 
 
 
@@ -133,5 +179,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTM0ODMyXX0=
+eyJoaXN0b3J5IjpbLTE3Njc5ODQyMDZdfQ==
 -->
