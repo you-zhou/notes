@@ -76,7 +76,6 @@ If we run the module not by `importing` it but running it directly as a standalo
 
 
 ## Markdown
-
 ### Text Basics
 asterisk: this is *italic* and this is **bold**.
 
@@ -134,5 +133,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDI2NzUzNl19
+eyJoaXN0b3J5IjpbLTE2OTU2MTAyNzBdfQ==
 -->
