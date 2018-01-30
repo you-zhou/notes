@@ -101,7 +101,7 @@ axis.set_ylim(-3,3)
 plt.show()
 ```
 
-#### plt.cla() / plt.clf()
+#### plt.cla() / plt.clf() `clear figure/axes`
 These methods are used to clear the current figure `plt.clf()` or the current axes `plt.cla()`.
 
 ## PYTHON
@@ -208,5 +208,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgxMDMyNDk5XX0=
+eyJoaXN0b3J5IjpbNzcxMTkwMTY2XX0=
 -->
