@@ -43,7 +43,7 @@ The Axes object has methods to allow you to configure things like:
 * X-axis and Y-axis Labels (set_xlabel() and set_ylabel())
 * The plot title (set_title())
 
-### PyPlot
+### pyplot
 `pyplot is a shell-like interface to Matplotlib, to make it easier to use for people who are used to MATLAB.`
 pyplot maintains state across calls.
 Useful for use in Jupyter or IPython notebooks.
@@ -208,5 +208,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjY2MzEzNDZdfQ==
+eyJoaXN0b3J5IjpbNDkyNjk5MTUwXX0=
 -->
