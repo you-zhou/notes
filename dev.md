@@ -28,7 +28,7 @@ $ git commit --amend  # Reword the last commit message
 It's a Python plotting library, inspired by MATLAB, meaning that the terms used (**Axis, Figure, Plots**) will be similar to those used in MATLAB.
 
 ### figure
-figure is the object that keeps the whole image output.
+`figure is the object that keeps the whole image output.`
 You can use it to configure things like:
 
 Image size (set_size_inches())
@@ -39,7 +39,7 @@ This adjusts the subplot padding; generally makes things look better.
 
  
 ### axes
-**The Axes object represents the pair of axis that contain a single plot (x-axis and y-axis).**
+`The Axes object represents the pair of axis that contain a single plot (x-axis and y-axis).`
 
 The Axes object has methods to allow you to configure things like:
 
@@ -177,5 +177,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgyOTU4NTA4XX0=
+eyJoaXN0b3J5IjpbMjAyMDYwMDk5Ml19
 -->
