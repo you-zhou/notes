@@ -1,3 +1,4 @@
+# D
 GIT
 ==============================================================================
 $ git config --global user.name "George Brocklehurst"
@@ -168,5 +169,5 @@ chrome://net-internals/#proxy
 ==============================================================================
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjIyMTIyMDRdfQ==
+eyJoaXN0b3J5IjpbMTQ3ODY5OTYwOV19
 -->
