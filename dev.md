@@ -37,26 +37,19 @@ You can use it to configure things like:
  
 ### axes
 `The Axes object represents the pair of axis that contain a single plot (x-axis and y-axis).`
-
 The Axes object has methods to allow you to configure things like:
-
-The plot frame (set_frame_on or set_frame_off)
-
-X-axis and Y-axis limits (set_xlim() and set_ylim())
-
-X-axis and Y-axis Labels (set_xlabel() and set_ylabel())
-
-The plot title (set_title())
+* The plot frame (set_frame_on or set_frame_off)
+* X-axis and Y-axis limits (set_xlim() and set_ylim())
+* X-axis and Y-axis Labels (set_xlabel() and set_ylabel())
+* The plot title (set_title())
 
 ### pyplot
 `PyPlot is a shell-like interface to Matplotlib, to make it easier to use for people who are used to MATLAB.`
-
 Pyplot maintains state across calls.
-
 Useful for use in Jupyter or IPython notebooks.
 
 Your can import it via the matplotlib.pyplot namespace.
-
+```
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -65,6 +58,7 @@ y = np.randn(9)
 
 plt.scatter(x,y)
 plt.show()
+```
 plotting-with-pyplot
 Simplest possible example: scatter function from pyplot namespace
 
@@ -174,5 +168,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NzI5NTI0OF19
+eyJoaXN0b3J5IjpbMTE4NTA0Njk2Ml19
 -->
