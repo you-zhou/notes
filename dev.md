@@ -25,17 +25,17 @@ $ git commit --amend  # Reword the last commit message
 
 
 ## Matplotlib
-It's a Python plotting library, inspired by MATLAB, meaning that the terms used (**axis, figure, plots**) will be similar to those used in MATLAB. [ref](http://queirozf.com/entries/matplotlib-pylab-pyplot-etc-what-s-the-different-between-these)
+It's a Python plotting library, inspired by MATLAB, meaning that the terms used (**Axis, Figure, Plots**) will be similar to those used in MATLAB. [ref](http://queirozf.com/entries/matplotlib-pylab-pyplot-etc-what-s-the-different-between-these)
 
-### figure
-`figure is the object that keeps the whole image output.`
+### Figure
+`Figure is the object that keeps the whole image output. This is the entire window where one or more subplots live. A Figure object (new window) is created with the figure() command.`
 You can use it to configure things like:
 * Image size (set_size_inches())
 * Whether to use tight_layout (set_tight_layout())
   This adjusts the subplot padding; generally makes things look better.
 
  
-### axes
+### Axes
 `The Axes object represents the pair of axis that contain a single plot (x-axis and y-axis).`
 The Axes object has methods to allow you to configure things like:
 * The plot frame (set_frame_on or set_frame_off)
@@ -43,7 +43,7 @@ The Axes object has methods to allow you to configure things like:
 * X-axis and Y-axis Labels (set_xlabel() and set_ylabel())
 * The plot title (set_title())
 
-### pyplot
+### PyPlot
 `pyplot is a shell-like interface to Matplotlib, to make it easier to use for people who are used to MATLAB.`
 pyplot maintains state across calls.
 Useful for use in Jupyter or IPython notebooks.
@@ -208,5 +208,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMTA3MzkwM119
+eyJoaXN0b3J5IjpbLTExNjY2MzEzNDZdfQ==
 -->
