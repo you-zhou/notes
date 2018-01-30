@@ -36,7 +36,7 @@ You can use it to configure things like:
 
  
 ### Axes
-`The Axes object represents the pair of axis that contain a single plot (x-axis and y-axis).`
+`This is an object representing a subplot (which you might casually call a “plot”) which contains axes, ticks, lines, points, text, etc.`
 The Axes object has methods to allow you to configure things like:
 * The plot frame (set_frame_on or set_frame_off)
 * X-axis and Y-axis limits (set_xlim() and set_ylim())
@@ -208,5 +208,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyNjk5MTUwXX0=
+eyJoaXN0b3J5IjpbLTU2NzQwMDU0Ml19
 -->
