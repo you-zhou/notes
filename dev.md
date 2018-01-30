@@ -107,6 +107,9 @@ axis.set_ylim(-3,3)
 plt.show()
 ```
 
+### pandas dtype='datetime64[ns]' -> time series in matplotlib
+TODO
+
 #### plt.cla() / plt.clf() `clear figure/axes`
 These methods are used to clear the current figure `plt.clf()` or the current axes `plt.cla()`.
 
@@ -214,5 +217,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMxMDQ2NDQ0XX0=
+eyJoaXN0b3J5IjpbLTEzNDE2NzYzMDVdfQ==
 -->
