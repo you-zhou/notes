@@ -1,4 +1,7 @@
-# Dev Notes----------
+# Dev Notes
+
+
+----------
 
 
 GIT
@@ -171,5 +174,5 @@ chrome://net-internals/#proxy
 ==============================================================================
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTcwMDg5NDVdfQ==
+eyJoaXN0b3J5IjpbLTEzNDE1MzUwMzVdfQ==
 -->
