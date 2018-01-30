@@ -25,7 +25,7 @@ $ git commit --amend  # Reword the last commit message
 
 
 ## Matplotlib
-It's a Python plotting library, inspired by MATLAB, meaning that the terms used (**axis, figure, plots**) will be similar to those used in MATLAB.
+It's a Python plotting library, inspired by MATLAB, meaning that the terms used (**axis, figure, plots**) will be similar to those used in MATLAB. [REF](http://queirozf.com/entries/matplotlib-pylab-pyplot-etc-what-s-the-different-between-these)
 
 ### figure
 `figure is the object that keeps the whole image output.`
@@ -208,5 +208,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcxMTkwMTY2XX0=
+eyJoaXN0b3J5IjpbNjE1MDc5NDM5XX0=
 -->
