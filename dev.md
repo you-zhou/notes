@@ -1,11 +1,7 @@
 # Dev Notes
-
-
 ----------
 
-
-GIT
-==============================================================================
+## GIT
 $ git config --global user.name "George Brocklehurst"
 $ git config --global user.email george@georgebrock.com
 
@@ -174,5 +170,5 @@ chrome://net-internals/#proxy
 ==============================================================================
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDE1MzUwMzVdfQ==
+eyJoaXN0b3J5IjpbLTI1ODgyMzcyMV19
 -->
