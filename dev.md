@@ -81,7 +81,7 @@ asterisk: this is *italic* and this is **bold**.
 
 underscore: another _italic_ and another __bold__.
 
-the backticks represent `important` text.
+the back ticks represent `important` text.
 
 the % is `%`
 
@@ -133,5 +133,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjg4MTI2MDJdfQ==
+eyJoaXN0b3J5IjpbMTYxNTM0ODMyXX0=
 -->
