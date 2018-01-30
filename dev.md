@@ -60,7 +60,24 @@ plt.show()
 ```
 
 * **plt.gcf()** `gcf: Get Current Figure`
+You can use it to get a reference to the current figure when using pyplot, for example, to change image sizes.
+```python
+import matplotlib.pyplot as plt
+import numpy as np
 
+x = np.linspace(0,10,9)
+y = np.randn(9)
+
+# this call creates a figure in the background
+plt.scatter(x,y)
+
+# this allows you to retrieve the figure created
+# by the call to scatter() above
+fig = plt.gcf()
+fig.set_size_inches(6,2)
+
+plt.show()
+```
 * **plt.gca()** `gca: Get Current Axes`
 
 ## PYTHON
@@ -167,5 +184,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODYwMDc2MDldfQ==
+eyJoaXN0b3J5IjpbMTA2NTE1MjM5MV19
 -->
