@@ -61,7 +61,7 @@ plt.show()
 
 * **plt.gcf()** `gcf: Get Current Figure`
 
-#### plt.gca `gca: Get Current Axes`
+* **plt.gca()** `gca: Get Current Axes`
 
 ## PYTHON
 ### Why ```if __name__ == '__main__'```?
@@ -167,5 +167,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MzkzMzYwNF19
+eyJoaXN0b3J5IjpbLTExODYwMDc2MDldfQ==
 -->
