@@ -75,10 +75,9 @@ If we run the module not by `importing` it but running it directly as a standalo
 
 
 
-## Test
-==============================================================================
-## Text Basics
+## Markdown
 
+### Text Basics
 asterisk: this is *italic* and this is **bold**.
 
 underscore: another _italic_ and another __bold__.
@@ -101,8 +100,7 @@ the % is `%`
   * sub-item-3
 
 
-Proxy
-==============================================================================
+## Proxy
 The auto proxy detection system works by downloading a file called wpad.dat from the host wpad. First confirm this host exists from a command prompt:
 
 ```ping wpad```
@@ -135,27 +133,6 @@ chrome://net-internals/#proxy
 ```reg query "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" | find /i "proxyserver"
 ```
 
-
-==============================================================================
-
-==============================================================================
-
-==============================================================================
-
-==============================================================================
-
-==============================================================================
-
-==============================================================================
-
-==============================================================================
-
-==============================================================================
-
-==============================================================================
-
-==============================================================================
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjIxNjcwMzZdfQ==
+eyJoaXN0b3J5IjpbMTA2NDI2NzUzNl19
 -->
