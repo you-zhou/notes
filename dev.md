@@ -25,14 +25,12 @@ $ git commit --amend  # Reword the last commit message
 
 
 ## DJANGO
-==============================================================================
 
 
 
 
-PYTHON
-==============================================================================
-## Why ```if __name__ == '__main__'```?
+## PYTHON
+### Why ```if __name__ == '__main__'```?
 
 It checks if a module is being `imported` or ran `directly`. Refer to [Python Docs](https://docs.python.org/3/library/__main__.html).
 
@@ -63,12 +61,12 @@ If we `import` the module, then `__name__` is the module's filename, without a d
 If we run the module not by `importing` it but running it directly as a standalone program,  `__name__` will be a special default value: `__main__.
 
 
-## self
+### self
 
 
 
 
-## Divide Operator
+### Divide Operator
 * 26 % 7 == 5 (you will get remainder)
 
 * 26 / 7 == 3.7142857142857144 (you will get divisor can be float value )
@@ -77,17 +75,7 @@ If we run the module not by `importing` it but running it directly as a standalo
 
 
 
-==============================================================================
-
-
-
-
-==============================================================================
-
-
-
-
-Test
+## Test
 ==============================================================================
 ## Text Basics
 
@@ -169,5 +157,5 @@ chrome://net-internals/#proxy
 ==============================================================================
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTk5ODUxMTNdfQ==
+eyJoaXN0b3J5IjpbLTE5MjIxNjcwMzZdfQ==
 -->
