@@ -24,7 +24,7 @@ $ git commit --amend  # Reword the last commit message
 
 
 
-DJANGO
+## DJANGO
 ==============================================================================
 
 
@@ -169,5 +169,5 @@ chrome://net-internals/#proxy
 ==============================================================================
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNDkzNDE4NV19
+eyJoaXN0b3J5IjpbLTE3OTk5ODUxMTNdfQ==
 -->
