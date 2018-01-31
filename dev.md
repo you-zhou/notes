@@ -134,6 +134,9 @@ munits.registry[np.datetime64] = pdtc.DatetimeConverter()
 xticklabels = df['Period start time'].dt.strftime('%d/%m/%y %I%p').values
 # Use index of date array as the x-tick.
 xticks = [i for i in range(len(xticklabels))]
+
+ax.plot(xticks, y)
+ax.set_xticklabels(xticklabels, rotation=45)
 ```
 
 
@@ -241,5 +244,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk5NjE3Nzk2XX0=
+eyJoaXN0b3J5IjpbLTE2MTYzNjUxMzFdfQ==
 -->
