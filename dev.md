@@ -130,7 +130,9 @@ munits.registry[np.datetime64] = pdtc.DatetimeConverter()
 ```
 **workaround**
 ```python
+# Convert date series to array of strings.
 xticklabels = df['Period start time'].dt.strftime('%d/%m/%y %I%p').values
+# Use index of date array as the x-tick.
 xticks = [i for i in range(len(xticklabels))]
 ```
 
@@ -239,5 +241,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDkyNjcwMV19
+eyJoaXN0b3J5IjpbMjk5NjE3Nzk2XX0=
 -->
