@@ -128,7 +128,9 @@ import numpy as np
 
 munits.registry[np.datetime64] = pdtc.DatetimeConverter()
 ```
-**workaround**: plot index as x-ticks (e.g. 0, 1, 2, .., n)
+**workaround**: 
+* plot index as x-ticks (e.g. 0, 1, 2, .., n) 
+* use array/list elements as x-tick labels (e.g. dates[0], dates[1], ..., dates[n]
 ```python
 # Convert date series to array of strings.
 xticklabels = df['Period start time'].dt.strftime('%d/%m/%y %I%p').values
@@ -244,5 +246,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDY2NjIyOTddfQ==
+eyJoaXN0b3J5IjpbNDI3NzM5MDM4XX0=
 -->
