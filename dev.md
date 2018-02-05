@@ -144,7 +144,7 @@ ax.set_xticklabels(xticklabels, rotation=45)
 
 ### Plot vertical lines
 ```python
-# Add a vertical line to indicate cutover.
+# Add a vertical line separator.
 ax.axvline(x=5, color='r', linestyle='dashed')
 ```
 
@@ -252,5 +252,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNDY5NDg4OF19
+eyJoaXN0b3J5IjpbLTIxNDMzNTQ1MzddfQ==
 -->
