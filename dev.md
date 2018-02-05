@@ -142,10 +142,15 @@ ax.set_xticklabels(xticklabels, rotation=45)
 ```
 
 
-### Plot vertical lines
+### plot vertical lines
 ```python
 # Add a vertical line separator.
 ax.axvline(x=5, color='r', linestyle='dashed')
+```
+
+### plot small grid lines
+```python
+ax.grid(True, linestyle=':')
 ```
 
 ## PYTHON
@@ -252,5 +257,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDMzNTQ1MzddfQ==
+eyJoaXN0b3J5IjpbNTYyOTUzNjM1XX0=
 -->
