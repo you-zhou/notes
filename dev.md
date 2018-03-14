@@ -142,19 +142,19 @@ ax.set_xticklabels(xticklabels, rotation=45)
 ```
 
 
-### plot vertical lines
+## plot vertical lines
 ```python
 # Add a vertical line separator.
 ax.axvline(x=5, color='r', linestyle='dashed')
 ```
 
-### plot small grid lines
+## plot small grid lines
 ```python
 ax.grid(True, linestyle=':')
 ```
 
-## PYTHON
-### Why ```if __name__ == '__main__'```?
+# PYTHON
+## Why ```if __name__ == '__main__'```?
 
 It checks if a module is being `imported` or ran `directly`. Refer to [Python Docs](https://docs.python.org/3/library/__main__.html).
 
@@ -185,12 +185,12 @@ If we `import` the module, then `__name__` is the module's filename, without a d
 If we run the module not by `importing` it but running it directly as a standalone program,  `__name__` will be a special default value: `__main__.
 
 
-### self
+## self
 TODO
 
 
 
-### Divide Operator
+## Divide Operator
 * 26 % 7 == 5 (you will get remainder)
 
 * 26 / 7 == 3.7142857142857144 (you will get divisor can be float value )
@@ -198,9 +198,9 @@ TODO
 * 26 // 7 == 3 (you will get divisor only integer value) )
 
 
-## Django
-### Slug
-#### Generating a unique slug for a *single* model.
+# Django
+## Slug
+### Generating a unique slug for a *single* model.
 [ref: unique slug for a single model](https://fazle.me/auto-generating-unique-slug-in-django/)
 ```python
 # models.py
@@ -247,7 +247,7 @@ class Article(models.Model):
 ```
 
 
-#### Generating unique slug for generic models. DRY.
+### Generating unique slug for generic models. DRY.
 [ref:  unique slug for generic models](https://fazle.me/auto-generating-unique-slug-django-generic-approach/)
 ```python
 # models.py
@@ -292,8 +292,8 @@ def get_unique_slug(model_instance, slugable_field_name, slug_field_name):
 ```
 
 
-## Markdown
-### Text
+# Markdown
+## Text
 asterisk: this is *italic* and this is **bold**.
 
 underscore: another _italic_ and another __bold__.
@@ -302,12 +302,12 @@ the back ticks represent `important` text.
 
 the % is `%`
 
-### Indentation
+## Indentation
 > some indentation
 >> more indentation
 >>> even more intendation
 
-### Bullets
+## Bullets
 + item-1
 - item-2
 * item-3
@@ -316,7 +316,7 @@ the % is `%`
   * sub-item-3
 
 
-## Proxy
+# Proxy
 The auto proxy detection system works by downloading a file called wpad.dat from the host wpad. First confirm this host exists from a command prompt:
 
 ```ping wpad```
@@ -341,14 +341,14 @@ If this file doesn't exist, then either there is no proxy server, or the proxy s
 This will provide a list of connections made with the process id of each process. Go to Task Manager, and select View/Select Columns and enable PID (Process Identifier). Look for the PID of iexplore.exe in the list returned by netstat -ban This will reveal the proxy ip and port.
 
 
-### Check proxy details from Chrome
+## Check proxy details from Chrome
 chrome and go to below URL to see the proxy details:
 chrome://net-internals/#proxy
 
-### Check proxy setttings from regedt in Windows 
+## Check proxy setttings from regedt in Windows 
 ```reg query "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" | find /i "proxyserver"
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MjAwMjc2N119
+eyJoaXN0b3J5IjpbLTE2NTAzMzk1NDhdfQ==
 -->
