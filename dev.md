@@ -201,6 +201,7 @@ TODO
 ## Django
 ### Slug
 #### Generating a unique slug for a *single* model.
+[ref: unique slug for a single model](https://fazle.me/auto-generating-unique-slug-in-django/)
 ```python
 # models.py
 from django.db import models
@@ -243,7 +244,7 @@ class Article(models.Model):
         super().save()
 ```
 
-[how to get unique slug for models](https://fazle.me/auto-generating-unique-slug-django-generic-approach/)
+[ref:  get unique slug for models](https://fazle.me/auto-generating-unique-slug-django-generic-approach/)
 ```python
 # models.py
 from  django.db import  models
@@ -338,5 +339,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MDIzMjkzNl19
+eyJoaXN0b3J5IjpbMTI0OTg5MzI1Nl19
 -->
