@@ -111,7 +111,7 @@ plt.show()
 These methods are used to clear the current figure `plt.clf()` or the current axes `plt.cla()`.
 
 
-### Plot `numpy.datetime64` values
+## Plot `numpy.datetime64` values
 `pandas dtype='datetime64[ns]'` -> time series in matplotlib
 
 For Matplotlib to plot dates (or any scalar with units) a **converter to float** needs to be registered with the matplolib.units module. The current best converters for datetime64 values are in pandas. To enable the converter, import it from pandas:
@@ -350,5 +350,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTUyNzg4MTRdfQ==
+eyJoaXN0b3J5IjpbLTc2MjAwMjc2N119
 -->
