@@ -200,7 +200,21 @@ TODO
 
 ## Django
 ### Slug
-#### Generating a unique slug for a 
+#### Generating a unique slug for a *single* model.
+```python
+# models.py
+from django.db import models
+class Article(models.Model):
+    title = models.CharField(max_length=120)
+    slug = models.SlugField(max_length=140, unique=True)
+    content = models.TextField()
+    def __str__(self):
+        return self.title
+```
+
+```python
+
+```
 
 [how to get unique slug for models](https://fazle.me/auto-generating-unique-slug-django-generic-approach/)
 ```python
@@ -297,5 +311,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0OTYxODkyXX0=
+eyJoaXN0b3J5IjpbLTEzNzcxNDA5MTZdfQ==
 -->
