@@ -1,7 +1,7 @@
-# Dev Notes
+Dev Notes
 ----------
 
-## GIT
+# GIT
 $ git config --global user.name "George Brocklehurst"
 $ git config --global user.email george@georgebrock.com
 
@@ -24,10 +24,10 @@ $ git commit --amend  # Reword the last commit message
 
 
 
-## Matplotlib
+# Matplotlib
 It's a Python plotting library, inspired by MATLAB, meaning that the terms used (**Axis, Figure, Plots**) will be similar to those used in MATLAB. [ref](http://queirozf.com/entries/matplotlib-pylab-pyplot-etc-what-s-the-different-between-these)
 
-### Figure
+## Figure
 `This is the entire window where one or more subplots live. A Figure object (new window) is created with the figure() command.`
 You can use it to configure things like:
 * Image size (set_size_inches())
@@ -35,7 +35,7 @@ You can use it to configure things like:
   This adjusts the subplot padding; generally makes things look better.
 
  
-### Axes
+## Axes
 `This is an object representing a subplot (which you might casually call a “plot”) which contains axes, ticks, lines, points, text, etc.`
 The Axes object has methods to allow you to configure things like:
 * The plot frame (set_frame_on or set_frame_off)
@@ -59,7 +59,7 @@ plt.scatter(x,y)
 plt.show()
 ```
 
-#### plot()
+### plot()
 This is a command that draws points or lines and returns a list of Line2D objects. One sublety is that plot() will automatically call figure() and/or subplot() if neccesary to create the underlying Figure and Axes objects.
 #### subplot()
 This is a command that creates and returns a new subplot (Axes) object which will be used for subsequent plotting commands.
@@ -350,5 +350,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTYyNDcyMjRdfQ==
+eyJoaXN0b3J5IjpbMTk4NDYxNDM2Nl19
 -->
