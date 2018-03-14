@@ -211,6 +211,7 @@ class  Author(models.Model):
 		return  self.name
 ```
 
+Instead of defining a method `get_unique_slug()` for each and every 
 
 ## Markdown
 ### Text
@@ -270,5 +271,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDIzNTcwOTZdfQ==
+eyJoaXN0b3J5IjpbMTI4ODAzNjkyXX0=
 -->
