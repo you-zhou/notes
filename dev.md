@@ -211,7 +211,7 @@ class  Author(models.Model):
 		return  self.name
 ```
 
-Instead of defining a method `get_unique_slug()`  inside each and every model class, create a `utils.py`  to centralise all 
+Instead of defining a method `get_unique_slug()`  inside each and every model class, create a `utils.py`  to centralise common functions
 
 
 ## Markdown
@@ -272,5 +272,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNzc4NzY1XX0=
+eyJoaXN0b3J5IjpbMTkwNDA0NjY3Nl19
 -->
