@@ -61,11 +61,11 @@ plt.show()
 
 ### plot()
 This is a command that draws points or lines and returns a list of Line2D objects. One sublety is that plot() will automatically call figure() and/or subplot() if neccesary to create the underlying Figure and Axes objects.
-#### subplot()
+### subplot()
 This is a command that creates and returns a new subplot (Axes) object which will be used for subsequent plotting commands.
 
 
-#### plt.gcf() `gcf: Get Current Figure`
+### plt.gcf() `gcf: Get Current Figure`
 You can use it to get a reference to the current figure when using pyplot, for example, to change image sizes.
 
 ```python
@@ -350,5 +350,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NDYxNDM2Nl19
+eyJoaXN0b3J5IjpbLTgwMDM2NDk2Nl19
 -->
