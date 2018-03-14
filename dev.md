@@ -211,7 +211,7 @@ class  Author(models.Model):
 		return  self.name
 ```
 
-Instead of defining a method `get_unique_slug()`  inside each and every model class, cerate a ~
+Instead of defining a method `get_unique_slug()`  inside each and every model class, cerate a `utils.py` 
 
 ## Markdown
 ### Text
@@ -271,5 +271,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NDg1MTQwN119
+eyJoaXN0b3J5IjpbNzM0MjMwMjk1XX0=
 -->
