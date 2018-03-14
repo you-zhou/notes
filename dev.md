@@ -292,7 +292,7 @@ def get_unique_slug(model_instance, slugable_field_name, slug_field_name):
     return unique_slug
 ```
 
-
+Override the default `save()` to populate the `slug` field when saving a new object.
 ```python
 # models.py
 from django.db import models
@@ -379,5 +379,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNTI0NTE1OF19
+eyJoaXN0b3J5IjpbLTE0NTUwNTY2NV19
 -->
