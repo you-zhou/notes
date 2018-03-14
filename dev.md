@@ -247,7 +247,7 @@ class Article(models.Model):
 ```
 
 
-#### Generating unique slug for generic models. DRY
+#### Generating unique slug for generic models. DRY.
 [ref:  unique slug for generic models](https://fazle.me/auto-generating-unique-slug-django-generic-approach/)
 ```python
 # models.py
@@ -343,5 +343,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk2OTk5MTQzXX0=
+eyJoaXN0b3J5IjpbLTEyOTUwOTU4MDNdfQ==
 -->
