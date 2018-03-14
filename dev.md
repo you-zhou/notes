@@ -202,6 +202,7 @@ TODO
 ### Slug
 [how to get unique slug for models](https://fazle.me/auto-generating-unique-slug-django-generic-approach/)
 ```python
+# models.py
 from  django.db import  models
 class  Author(models.Model):
 	name  =  models.CharField(max_length=120)
@@ -269,5 +270,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUyNDQ4NTQyXX0=
+eyJoaXN0b3J5IjpbLTE2NDIzNTcwOTZdfQ==
 -->
