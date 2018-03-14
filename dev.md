@@ -215,7 +215,7 @@ class Article(models.Model):
     def __str__(self):
         return self.title
 ```
-The idea is to attach a number to the slug to make it **unique**, if a simple `django.utils.text.slugify()`
+The idea is to attach a number to the slug to make it **unique**, if the simple `django.utils.text.slugify()` 
 * Append/Increment a number, if a slugified field already exists.
 * Override the default `save()` method to ensure `self.slug` is always unique (with a integer appendix if necessary).
 ```python
@@ -341,5 +341,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNjI5NzE4Ml19
+eyJoaXN0b3J5IjpbLTExOTM1MzYwMDRdfQ==
 -->
