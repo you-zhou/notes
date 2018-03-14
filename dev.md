@@ -263,8 +263,10 @@ class  Author(models.Model):
 ```
 
 Instead of defining a method `get_unique_slug()`  inside each and every model class, create a `utils.py`  to centralise common functions.
-* place it as `project/app/utils.py` for application wide reuse. can be packaged with the app.
-* place it as `project/utils/utils.py` for project wide reuse. **cannot** be packaged with the app.
+
+Differences in place this `utils.py`
+* `project/app/utils.py` for application wide reuse. can be packaged with the app.
+* `project/utils/utils.py` for project wide reuse. **cannot** be packaged with the app.
 
 ```python
 # utils.py
@@ -348,5 +350,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTUxMjYzNjNdfQ==
+eyJoaXN0b3J5IjpbMTUyNDE1ODU1MV19
 -->
