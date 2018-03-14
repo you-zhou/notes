@@ -292,7 +292,7 @@ def get_unique_slug(model_instance, slugable_field_name, slug_field_name):
     return unique_slug
 ```
 
-3. fill in slugs with prepopulated_fileds
+### fill in slug with prepopulated_fileds
 [ref: django doc](https://docs.djangoproject.com/en/2.0/ref/contrib/admin/#django.contrib.admin.ModelAdmin.prepopulated_fields)
 Use JavaScript to *automatically* populate the slug field from the fields assigned, by substituting dashes for spaces.
 NOTE: this is ONLY for the **admin** interface.
@@ -359,5 +359,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTI4NjA2MDldfQ==
+eyJoaXN0b3J5IjpbLTM1Mjk3MjA2Nl19
 -->
