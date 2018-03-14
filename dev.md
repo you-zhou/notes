@@ -293,7 +293,7 @@ def get_unique_slug(model_instance, slugable_field_name, slug_field_name):
 ```
 
 ## prepopulated_fileds
-[ref: 
+[ref: django's 
 
 
 # Markdown
@@ -354,5 +354,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODMzNjg0N119
+eyJoaXN0b3J5IjpbMTkyMDgxNzAwMF19
 -->
