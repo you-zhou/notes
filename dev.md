@@ -200,7 +200,7 @@ TODO
 
 ## Django
 ### Slug
-
+[how to get unique slug for models](https://fazle.me/auto-generating-unique-slug-django-generic-approach/)
 ```python
 from  django.db import  models
 class  Author(models.Model):
@@ -269,5 +269,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg1MzgyMTI2XX0=
+eyJoaXN0b3J5IjpbLTU4MzU3NTY3N119
 -->
