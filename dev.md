@@ -293,8 +293,12 @@ def get_unique_slug(model_instance, slugable_field_name, slug_field_name):
 ```
 
 ## prepopulated_fileds
-[ref: django's 
+[ref: django doc](https://docs.djangoproject.com/en/2.0/ref/contrib/admin/#django.contrib.admin.ModelAdmin.prepopulated_fields)
 
+```python
+class ArticleAdmin(admin.ModelAdmin):
+    prepopulated_fields = {"slug": ("title",)}
+```
 
 # Markdown
 ## Text
@@ -354,5 +358,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMDgxNzAwMF19
+eyJoaXN0b3J5IjpbMTA4NzkxNDY3M119
 -->
