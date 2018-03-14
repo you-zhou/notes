@@ -85,7 +85,7 @@ fig.set_size_inches(6,2)
 
 plt.show()
 ```
-#### plt.gca() `gca: Get Current Axes`
+### plt.gca() `gca: Get Current Axes`
 Same as with plt.gcf(), you can use plt.gca() to get a reference to the current axes, if you need to change the limits on the y-axis, for example.
 
 ```python
@@ -350,5 +350,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDM2NDk2Nl19
+eyJoaXN0b3J5IjpbLTE1NjEzNzcxNjVdfQ==
 -->
