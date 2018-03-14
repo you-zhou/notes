@@ -216,6 +216,7 @@ class Article(models.Model):
         return self.title
 ```
 
+Increment a number, if a slugified field already exists.
 ```python
 from django.db import models
 from django.utils.text import slugify
@@ -244,7 +245,7 @@ class Article(models.Model):
         super().save()
 ```
 
-[ref:  get unique slug for models](https://fazle.me/auto-generating-unique-slug-django-generic-approach/)
+[ref:  unique slug for generic models](https://fazle.me/auto-generating-unique-slug-django-generic-approach/)
 ```python
 # models.py
 from  django.db import  models
@@ -339,5 +340,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0OTg5MzI1Nl19
+eyJoaXN0b3J5IjpbMjgwNTU4ODBdfQ==
 -->
