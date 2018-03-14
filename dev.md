@@ -252,9 +252,12 @@ class Article(models.Model):
 ```python
 # models.py
 from  django.db import  models
+
+
 class  Author(models.Model):
 	name  =  models.CharField(max_length=120)
 	slug  =  models.SlugField(max_length=140,  unique=True)
+
 	def  __str__(self):
 		return  self.name
 ```
@@ -264,6 +267,8 @@ Instead of defining a method `get_unique_slug()`  inside each and every model cl
 ```python
 # utils.py
 from django.utils.text import slugify
+
+
 def get_unique_slug(model_instance, slugable_field_name, slug_field_name):
     """
     Takes a model instance, sluggable field name (such as 'title') of that
@@ -343,5 +348,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTUwOTU4MDNdfQ==
+eyJoaXN0b3J5IjpbLTEyMjczNjg0NjldfQ==
 -->
