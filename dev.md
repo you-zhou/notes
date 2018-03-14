@@ -215,8 +215,8 @@ class Article(models.Model):
     def __str__(self):
         return self.title
 ```
-
-* Increment a number, if a slugified field already exists.
+The idea is to 
+* Append/Increment a number, if a slugified field already exists.
 * Override the default `save()` method to ensure `self.slug` is always unique (with a integer appendix if necessary).
 ```python
 from django.db import models
@@ -341,5 +341,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzYwNjgxMThdfQ==
+eyJoaXN0b3J5IjpbLTkzODQwMjU4Nl19
 -->
