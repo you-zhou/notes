@@ -200,6 +200,7 @@ TODO
 
 ## Django
 ### Slug
+
 ```python
 from  django.db import  models
 class  Author(models.Model):
@@ -268,5 +269,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjQ2NzQ5NDRdfQ==
+eyJoaXN0b3J5IjpbMjg1MzgyMTI2XX0=
 -->
