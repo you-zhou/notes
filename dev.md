@@ -212,7 +212,7 @@ class  Author(models.Model):
 
 
 ## Markdown
-### Text Basics
+### Text
 asterisk: this is *italic* and this is **bold**.
 
 underscore: another _italic_ and another __bold__.
@@ -269,5 +269,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MzU3NTY3N119
+eyJoaXN0b3J5IjpbODUyNDQ4NTQyXX0=
 -->
