@@ -292,6 +292,26 @@ def get_unique_slug(model_instance, slugable_field_name, slug_field_name):
     return unique_slug
 ```
 
+
+```python
+# models.py
+from django.db import models
+from .utils import get_unique_slug
+
+
+class Author(models.Model):
+    name = models.CharField(max_length=120)
+    slug = models.SlugField(max_length=140, unique=True)
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.slug = get_unique_slug(self, 'name', 'slug')
+        super().save()
+
+    def __str__(self):
+        return self.name
+```
+
 ### 3. fill in slug with prepopulated_fileds
 [ref: django doc](https://docs.djangoproject.com/en/2.0/ref/contrib/admin/#django.contrib.admin.ModelAdmin.prepopulated_fields)
 Use JavaScript to *automatically* populate the slug field from the fields assigned, by substituting dashes for spaces.
@@ -359,5 +379,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MzA1NDYxOV19
+eyJoaXN0b3J5IjpbLTUzNTI0NTE1OF19
 -->
