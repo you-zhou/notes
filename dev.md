@@ -200,8 +200,37 @@ TODO
 
 ## Django
 ### Slug
-`
-`
+```
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+from  django.db import  models
+
+class  Author(models.Model):
+
+name  =  models.CharField(max_length=120)
+
+slug  =  models.SlugField(max_length=140,  unique=True)
+
+def  \_\_str\_\_(self):
+
+return  self.name
+```
 
 
 ## Markdown
@@ -262,5 +291,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MzU0MDg0Nl19
+eyJoaXN0b3J5IjpbLTY4NTM2NjM1OV19
 -->
