@@ -199,7 +199,7 @@ TODO
 
 # Django
 ## Slug
-1. Generating a unique slug for a *single* model.
+### 1. Generating a unique slug for a *single* model.
 [ref: unique slug for a single model](https://fazle.me/auto-generating-unique-slug-in-django/)
 ```python
 # models.py
@@ -248,7 +248,7 @@ class Article(models.Model):
 ```
 
 
-2. Generating unique slug for generic models. DRY.
+### 2. Generating unique slug for generic models. DRY.
 [ref:  unique slug for generic models](https://fazle.me/auto-generating-unique-slug-django-generic-approach/)
 ```python
 # models.py
@@ -292,7 +292,7 @@ def get_unique_slug(model_instance, slugable_field_name, slug_field_name):
     return unique_slug
 ```
 
-### fill in slug with prepopulated_fileds
+### 3. fill in slug with prepopulated_fileds
 [ref: django doc](https://docs.djangoproject.com/en/2.0/ref/contrib/admin/#django.contrib.admin.ModelAdmin.prepopulated_fields)
 Use JavaScript to *automatically* populate the slug field from the fields assigned, by substituting dashes for spaces.
 NOTE: this is ONLY for the **admin** interface.
@@ -359,5 +359,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1Mjk3MjA2Nl19
+eyJoaXN0b3J5IjpbMTE2MzA1NDYxOV19
 -->
