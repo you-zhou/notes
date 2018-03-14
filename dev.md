@@ -198,6 +198,11 @@ TODO
 * 26 // 7 == 3 (you will get divisor only integer value) )
 
 
+## Django
+### Slug
+`
+`
+
 
 ## Markdown
 ### Text Basics
@@ -257,5 +262,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyOTUzNjM1XX0=
+eyJoaXN0b3J5IjpbLTI1MzU0MDg0Nl19
 -->
