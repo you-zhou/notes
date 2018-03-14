@@ -217,7 +217,8 @@ class Article(models.Model):
 The idea is to attach a number to the slug to make it **unique**, if the result of a simple `django.utils.text.slugify()` duplicates with existing records.
 * Append/Increment a number, if a slugified field already exists.
 * Override the default `save()` method to ensure `self.slug` is always unique (with a integer appendix if necessary).
-So, add `_get_unique_slug()`
+
+So, add a `_get_unique_slug()` **inside** the Article model.
 ```python
 from django.db import models
 from django.utils.text import slugify
@@ -350,5 +351,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcxODU4NDY5XX0=
+eyJoaXN0b3J5IjpbLTE1MTQ1ODQ4NzJdfQ==
 -->
