@@ -215,7 +215,7 @@ class Article(models.Model):
     def __str__(self):
         return self.title
 ```
-The idea is to attach a number to the slug to make it **unique**, if the simple `django.utils.text.slugify()` 
+The idea is to attach a number to the slug to make it **unique**, if the result of a simple `django.utils.text.slugify()` duplicates with existing records.
 * Append/Increment a number, if a slugified field already exists.
 * Override the default `save()` method to ensure `self.slug` is always unique (with a integer appendix if necessary).
 ```python
@@ -246,6 +246,8 @@ class Article(models.Model):
         super().save()
 ```
 
+
+#### Generating unique slug for generic models. DRY
 [ref:  unique slug for generic models](https://fazle.me/auto-generating-unique-slug-django-generic-approach/)
 ```python
 # models.py
@@ -341,5 +343,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTM1MzYwMDRdfQ==
+eyJoaXN0b3J5IjpbNjk2OTk5MTQzXX0=
 -->
