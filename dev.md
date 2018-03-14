@@ -263,9 +263,11 @@ class  Author(models.Model):
 ```
 
 Instead of defining a method `get_unique_slug()`  inside each and every model class, create a `utils.py`  to centralise common functions.
+* place it as `project/app/utils.py`
+* place it as `project/utils/utils.py`
 
 ```python
-# utils.py in the app directory
+# utils.py
 from django.utils.text import slugify
 
 
@@ -346,5 +348,5 @@ chrome://net-internals/#proxy
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAwNTU4MjE3XX0=
+eyJoaXN0b3J5IjpbLTgwNTQzMDU5N119
 -->
