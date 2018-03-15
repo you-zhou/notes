@@ -380,7 +380,7 @@ chrome://net-internals/#proxy
 
 
 # System
-## TAR/TAR.GZ
+## tar/tar.gz
 TAR is short for Tape Archive.
 It is used to store multiple files in one single file. But it is **only** for storing data, **not** compressing it.
 TAR files are often compressed after being created. And then the extension would become: tgz, tar.gz or gz.
@@ -395,5 +395,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjE5OTQ3NzZdfQ==
+eyJoaXN0b3J5IjpbMjAzMjY3MzE5Ml19
 -->
