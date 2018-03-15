@@ -382,7 +382,7 @@ chrome://net-internals/#proxy
 # System
 ## TAR/TAR.GZ
 TAR is short for Tape Archive.
-It is used to store multiple files in one single file. ON
+It is used to store multiple files in one single file. ONLY for 
 
 * Unix command to open a TAR file without any external programs:
 `$ tar -xvf file.tar`
@@ -394,5 +394,5 @@ It is used to store multiple files in one single file. ON
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzAxNjkwNV19
+eyJoaXN0b3J5IjpbLTExODQ3MDYwNDFdfQ==
 -->
