@@ -381,7 +381,7 @@ chrome://net-internals/#proxy
 
 # System
 ## TAR/TAR.GZ
-
+> Tape Archive
 
 * Unix command to open a TAR file without any external programs:
 `$ tar -xvf file.tar`
@@ -393,5 +393,5 @@ chrome://net-internals/#proxy
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njg4NjEwOTBdfQ==
+eyJoaXN0b3J5IjpbNDE4MjcyMjYwXX0=
 -->
