@@ -388,10 +388,10 @@ chrome://net-internals/#proxy
 
 * Unix command to create a **compressed** TAR file:
 `$ tar -czvf file.tar.gz /path/to/folder-or-file`
-	* -c: reate an archive
+	* -c: create an archive
 	* -z: use gzip to **compress** the archive
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTI0OTkwMDVdfQ==
+eyJoaXN0b3J5IjpbLTE4Njg4NjEwOTBdfQ==
 -->
