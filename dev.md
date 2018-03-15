@@ -323,7 +323,7 @@ class ArticleAdmin(admin.ModelAdmin):
 
 ## Upload Files/Images
 [ref: django doc](https://docs.djangoproject.com/en/2.0/topics/http/file-uploads/)
-
+Note that [`request.FILES`](https://docs.djangoproject.com/en/2.0/ref/request-response/#django.http.HttpRequest.FILES "django.http.HttpRequest.FILES") will only contain data if the request method was `POST` and the `<form>` that posted the request has the attribute `enctype="multipart/form-data"`. Otherwise, `request.FILES` will be **empty**.
 
 # Markdown
 ## Text
@@ -399,5 +399,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NTU2NDk0MV19
+eyJoaXN0b3J5IjpbLTcxMDkyMDUyOF19
 -->
