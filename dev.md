@@ -380,7 +380,8 @@ chrome://net-internals/#proxy
 
 
 # System
-## TAR/
+## TAR/TAR.GZ
+T
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTE2NjA2NTldfQ==
+eyJoaXN0b3J5IjpbLTY5MjM3NzQzOV19
 -->
