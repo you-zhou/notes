@@ -378,6 +378,9 @@ chrome://net-internals/#proxy
 ```reg query "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" | find /i "proxyserver"
 ```
 
+
+# System
+## TAR/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDUxMDgwOTddfQ==
+eyJoaXN0b3J5IjpbLTIwNTE2NjA2NTldfQ==
 -->
