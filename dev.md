@@ -387,7 +387,7 @@ chrome://net-internals/#proxy
 `$ tar -xvf file.tar`
 
 * Unix command to create a **compressed** TAR file:
-`$ tar -czvf file.tar.gz /path/to/folder`
+`$ tar -czvf file.tar.gz /path/to/folder-or-file`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxNzYxMTYxXX0=
+eyJoaXN0b3J5IjpbLTY4MDMxMzY5NF19
 -->
