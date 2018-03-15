@@ -383,8 +383,10 @@ chrome://net-internals/#proxy
 ## TAR/TAR.GZ
 
 
-Unix command to open TAR files without any external programs:
-`$`
+* Unix command to open TAR files without any external programs:
+`$ tar -xvf file.tar`
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDM3Mjc0MDNdfQ==
+eyJoaXN0b3J5IjpbOTE2MzgyMjAwXX0=
 -->
