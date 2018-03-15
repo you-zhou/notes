@@ -321,6 +321,10 @@ class ArticleAdmin(admin.ModelAdmin):
     prepopulated_fields = {"slug": ("title",)}
 ```
 
+## Upload Files/Images
+[ref: django doc](https://docs.djangoproject.com/en/2.0/topics/http/file-uploads/)
+
+
 # Markdown
 ## Text
 asterisk: this is *italic* and this is **bold**.
@@ -395,5 +399,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA4NTAxNDA0XX0=
+eyJoaXN0b3J5IjpbLTU4NTU2NDk0MV19
 -->
