@@ -332,15 +332,11 @@ Note that [`request.FILES`](https://docs.djangoproject.com/en/2.0/ref/request-re
 * [babel](https://babeljs.io/repl/)
 
 ## Variable declaration:  var, let & const
-1. const: The strictest. Its value must be assigned at declaration time. And it can't be **re**assigned.
-2. let: 
-3. var: The weakest. Redeclaring a `var` variable is allowed.
-
 Declaration | Limitation | Re-declaration | Re-assignment | Note
---- | --- | :---: | --- | --- |
-const | Strictest | N | N |
-let | Moderate | N |
-var | Weakest | Y |
+--- | --- | :---: | --- | --- 
+const | Strictest | N | N | must be assigned at declaration time
+let | Moderate | N | Y |
+var | Weakest | Y | Y |
 
 
 
@@ -426,5 +422,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMzg1OTM4NV19
+eyJoaXN0b3J5IjpbLTE1MTU1Njc3N119
 -->
