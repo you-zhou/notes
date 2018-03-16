@@ -326,6 +326,12 @@ class ArticleAdmin(admin.ModelAdmin):
 Note that [`request.FILES`](https://docs.djangoproject.com/en/2.0/ref/request-response/#django.http.HttpRequest.FILES "django.http.HttpRequest.FILES") will only contain data if the request method was `POST` and the `<form>` that posted the request has the attribute `enctype="multipart/form-data"`. Otherwise, `request.FILES` will be **empty**.
 
 
+# JavaScript
+## Variable declaration:  var, let & const
+1. const
+2. var
+3. let
+
 # Bootstrap
 ## From pixels to rems
 Bootstrap 4 has swapped out pixels with **relative units of measurements (rems)** in all places except media queries and grid behaviours. This means more flexibility and responsiveness, as rem units aren’t absolute, which pixels are.
@@ -408,5 +414,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NTg4NjQ2NF19
+eyJoaXN0b3J5IjpbLTE4MTczODg3MDBdfQ==
 -->
