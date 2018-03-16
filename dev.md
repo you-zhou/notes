@@ -199,7 +199,7 @@ TODO
 
 ## open(filename, mode) binary v.s. text mode
 ### text mode
-Files are opened in text mode by default.
+Files are opened in text mode by default, which means a specific encoding is used
 
 ### binary mode
 
@@ -468,5 +468,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDg0NzEzMjVdfQ==
+eyJoaXN0b3J5IjpbLTY2ODU2MDc2N119
 -->
