@@ -328,7 +328,9 @@ Note that [`request.FILES`](https://docs.djangoproject.com/en/2.0/ref/request-re
 
 # Bootstrap
 ## From pixels to rems
+Bootstrap 4 has swapped out pixels with **relative units of measurements (rems)** in all places except media queries and grid behaviours. This means more flexibility and responsiveness, as rem units aren’t absolute, which pixels are.
 
+With  `rems`  all font sizes are relative to the root element (the  `html`  tag), and by default,  `1rem`  equals  `16px`. However, if you change the font-size to, say, 50% in the root element, then  `1rem`  will equal  `8px`  throughout the app.
 
 
 
@@ -406,5 +408,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjkyNTY0NTJdfQ==
+eyJoaXN0b3J5IjpbMTQ3NTg4NjQ2NF19
 -->
