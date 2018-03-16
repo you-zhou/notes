@@ -327,11 +327,15 @@ Note that [`request.FILES`](https://docs.djangoproject.com/en/2.0/ref/request-re
 
 
 # JavaScript
-## REPL (Read, Eval, Print, Loop)
+## REPL (Read Eval Print Loop)
+* [codepen](https://codepen.io/)
+* [babel](https://babeljs.io/repl/)
+
 ## Variable declaration:  var, let & const
 1. const: The strictest. Its value must be assigned at declaration time. And it can't be **re**assigned.
 2. var: The weakest.
 3. let
+
 
 # Bootstrap
 ## From pixels to rems
@@ -415,5 +419,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1NDgyNDA0XX0=
+eyJoaXN0b3J5IjpbMTAxMzEyNTU0MV19
 -->
