@@ -356,9 +356,12 @@ const double = x => x * 2;
 ```
 The value of the a function expression is the function itself:
 ```javascript
-
+double; // [Function: double]
 ```
-To check the function definition
+To check the function definition, use `.toString()` method:
+```javascript
+double.toString(); // 'x => x * 2'
+```
 
 
 
@@ -459,5 +462,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTkxMDA1OF19
+eyJoaXN0b3J5IjpbLTc0MjUwMDYxNV19
 -->
