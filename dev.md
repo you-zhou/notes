@@ -198,7 +198,10 @@ TODO
 
 
 ## open(filename, mode) binary v.s. text mode
-### 
+### text mode
+Files are opened in text mode by default.
+
+### binary mode
 
 # Django
 ## Slug
@@ -465,5 +468,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTQzMjc0N119
+eyJoaXN0b3J5IjpbLTExMDg0NzEzMjVdfQ==
 -->
