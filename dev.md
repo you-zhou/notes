@@ -350,8 +350,9 @@ var | Weakest | Y | Y |
 
 
 ## Functions
+To represent a function f(x) = x* 2, and assign it with th
 ```javascript
-
+const double = x => x * 2;
 ```
 
 
@@ -452,5 +453,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDE1NTI0MjBdfQ==
+eyJoaXN0b3J5IjpbMjEwMTY4NzU2Nl19
 -->
