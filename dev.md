@@ -199,8 +199,9 @@ TODO
 
 ## open(filename, mode) binary v.s. text mode
 [ref: python](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
-### * text mode
+### text mode
 Default. Data strings are converted to files while reading and writing with a specific encoding (platform dependent).
+In text mode, the default when reading is to convert platform-specific line endings (`\n` on Unix, `\r\n` on Windows) to just `\n`. When writing in text mode, the default is to convert occurrences of `\n` back to platform-specific line endings. This behind-the-scenes modification to file data is fine for text files, but will corrupt binary data like that in `JPEG` or `EXE` files.
 
 ### binary mode
 Data is read and written in the form of bytes objects. This mode should be used for all files that don't contain text.
@@ -470,5 +471,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2Nzc2NDYzNV19
+eyJoaXN0b3J5IjpbLTE1MzgwNjU2N119
 -->
