@@ -338,6 +338,12 @@ const | Strictest | N | N | must be assigned at declaration time
 let | Moderate | N | Y |
 var | Weakest | Y | Y |
 
+## Operators
+* == equal
+* != not equal
+* === strict equal
+* !== not strict equal
+* t
 
 ## Object in JavaScript
 An object in JavaScript is a collection of key: value pairs. It also has a literal notation:
@@ -436,5 +442,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzU4Mjg2ODddfQ==
+eyJoaXN0b3J5IjpbMTgzODcxNTEzMF19
 -->
