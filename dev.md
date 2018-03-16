@@ -337,7 +337,7 @@ Note that [`request.FILES`](https://docs.djangoproject.com/en/2.0/ref/request-re
 3. var: The weakest. Redeclaring a `var` variable is allowed.
 
 Declaration | Redeclare | x
-__________________________
+--- | --- | ---
 sdf 
 ---------------------------------
 sdf
@@ -424,5 +424,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDk5Njg1N119
+eyJoaXN0b3J5IjpbLTE5OTI0NjM3MDhdfQ==
 -->
