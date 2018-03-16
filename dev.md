@@ -198,7 +198,7 @@ TODO
 
 
 ## Reading & Writing Files
-[ref: python](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
+[ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 ### open(filename, mode) binary v.s. text mode
 * text mode
 The default mode. Data strings are converted to files while reading and writing with a specific encoding (platform dependent).
@@ -472,5 +472,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0ODUwOTg5M119
+eyJoaXN0b3J5IjpbNTU1MDA5NDQwXX0=
 -->
