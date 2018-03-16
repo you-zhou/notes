@@ -338,7 +338,20 @@ const | Strictest | N | N | must be assigned at declaration time
 let | Moderate | N | Y |
 var | Weakest | Y | Y |
 
+## Object in JavaScript
+An object in JavaScript is a collection of key: value pairs. It also has a literal notation:
+```javascript
+{  
+  key: 'value'  
+}
+```
 
+And of course, you can assign an object to a name:
+```javascript
+const foo = {  
+  bar: 'bar'  
+}
+```
 
 # Bootstrap
 ## From pixels to rems
@@ -422,5 +435,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTU1Njc3N119
+eyJoaXN0b3J5IjpbNTk3MzQxNDA3XX0=
 -->
