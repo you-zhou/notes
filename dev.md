@@ -328,7 +328,7 @@ Note that [`request.FILES`](https://docs.djangoproject.com/en/2.0/ref/request-re
 
 # JavaScript
 ## Variable declaration:  var, let & const
-1. const: strictest. Ivalue must be assigned at declaration time. And it can't be **re**assigned.
+1. const: The strictest. Its value must be assigned at declaration time. And it can't be **re**assigned.
 2. var
 3. let
 
@@ -414,5 +414,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwNjc5NTk2XX0=
+eyJoaXN0b3J5IjpbLTI3OTY1MDY0NF19
 -->
