@@ -343,9 +343,17 @@ var | Weakest | Y | Y |
 * != not equal
 * === strict equal
 * !== not strict equal
-* t
+* ternary
+	```javascript
+	14 - 7 === 7 ? 'Yep!' : 'Nope.'; // Yep!
+	```
 
-## Object in JavaScript
+
+## Functions
+
+
+
+## Objects
 An object in JavaScript is a collection of key: value pairs. It also has a literal notation:
 ```javascript
 {  
@@ -442,5 +450,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzODcxNTEzMF19
+eyJoaXN0b3J5IjpbMTYwNjA1NTQzNV19
 -->
