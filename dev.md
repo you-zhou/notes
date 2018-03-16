@@ -197,6 +197,9 @@ TODO
 * 26 // 7 == 3 (you will get divisor only integer value) )
 
 
+## open(filename, mode) binary v.s. text mode
+
+
 # Django
 ## Slug
 ### 1. Generating a unique slug for a *single* model.
@@ -462,5 +465,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MjUwMDYxNV19
+eyJoaXN0b3J5IjpbOTgzMzEyMDA4XX0=
 -->
