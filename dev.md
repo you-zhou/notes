@@ -199,9 +199,10 @@ TODO
 
 ## open(filename, mode) binary v.s. text mode
 ### text mode
-Files are opened in text mode by default, which means strings are converted to files while reading and writing using to  a specific encoding is 
+Default., which means strings are converted to files while reading and writing with a specific encoding (platform dependent).
 
 ### binary mode
+Data 
 
 # Django
 ## Slug
@@ -468,5 +469,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MDExOTc5MV19
+eyJoaXN0b3J5IjpbLTI1NzYxODYzXX0=
 -->
