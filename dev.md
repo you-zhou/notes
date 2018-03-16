@@ -350,10 +350,16 @@ var | Weakest | Y | Y |
 
 
 ## Functions
-To represent a function f(x) = x* 2, and assign it with th
+To represent a function `f(x) = x* 2`, and assign it with the name "double":
 ```javascript
 const double = x => x * 2;
 ```
+The value of the a function expression is the function itself:
+```javascript
+
+```
+To check the function definition
+
 
 
 ## Objects
@@ -453,5 +459,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMTY4NzU2Nl19
+eyJoaXN0b3J5IjpbLTUyMTkxMDA1OF19
 -->
