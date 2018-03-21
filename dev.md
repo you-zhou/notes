@@ -40,6 +40,8 @@ Windows:
 
 Linux:
 export PATH=${PATH}:/home/jack/bin
+To make it permanent, append this line to ~/.bash_profile or ~/.profile
+
 
 # Matplotlib
 It's a Python plotting library, inspired by MATLAB, meaning that the terms used (**Axis, Figure, Plots**) will be similar to those used in MATLAB. [ref](http://queirozf.com/entries/matplotlib-pylab-pyplot-etc-what-s-the-different-between-these)
@@ -557,5 +559,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MDkxMTk0NF19
+eyJoaXN0b3J5IjpbMzgyNjg4MDk1XX0=
 -->
