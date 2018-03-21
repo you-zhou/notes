@@ -211,6 +211,7 @@ Data is read and written in the form of bytes objects. This mode should be used 
 
 ## dataset
 [dataset.readthedocs.io](https://dataset.readthedocs.io/en/latest/)
+A simple data loading script using **dataset**:
 ```python
 import dataset
 
@@ -219,8 +220,8 @@ table = db\['sometable'\]
 table.insert(dict(name='John Doe', age=37))
 table.insert(dict(name='Jane Doe', age=34, gender='female'))
 john = table.find_one(name='John Doe')
-
 ```
+
 Connections to different DBs.
 ```python
 # connecting to a SQLite database
@@ -498,5 +499,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzQ4MDI5NF19
+eyJoaXN0b3J5IjpbMTYzMDY3OTAzOF19
 -->
