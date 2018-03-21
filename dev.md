@@ -220,6 +220,8 @@ os.environ['PATH']
 # get a possible value with a default value
 # instead of a 'KeyError' if it does not exist.
 os.environ.get('DROPBOX', 'to be defined')
+# O
+os.getenv('DROPBOX', 'to be defined')
 ```
 
 ## SQLite
@@ -532,5 +534,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NjM0MzQwM119
+eyJoaXN0b3J5IjpbLTEyMDM2ODY1OF19
 -->
