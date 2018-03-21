@@ -250,6 +250,8 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 ## pytz v.s. dateutil.tz
 [ref: time zones](https://blog.ganssle.io/articles/2018/03/pytz-fastest-footgun.html)
 
+
+
 # Django
 ## Slug
 ### 1. Generating a unique slug for a *single* model.
@@ -515,5 +517,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NzkyMjI2OF19
+eyJoaXN0b3J5IjpbLTExMzE2NDUwMDBdfQ==
 -->
