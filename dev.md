@@ -37,7 +37,9 @@ or
 
 ## List a specific env var
 Windows:
-`echo %PATH%`
+`> set PATH`
+or
+`> echo %PATH%`
 
 Linux:
 `echo $PATH`
@@ -568,5 +570,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNDUzMjU4MV19
+eyJoaXN0b3J5IjpbLTk3MTQ5MDQ1OV19
 -->
