@@ -214,6 +214,15 @@ Data is read and written in the form of bytes objects. This mode should be used 
 ```python
 import dataset
 
+db = dataset.connect('sqlite:///:memory:')
+table = db\['sometable'\]
+table.insert(dict(name='John Doe', age=37))
+table.insert(dict(name='Jane Doe', age=34, gender='female'))
+john = table.find_one(name='John Doe')
+
+```
+Connections to different DBs.
+```python
 # connecting to a SQLite database
 db = dataset.connect('sqlite:///mydatabase.db')
 
@@ -489,5 +498,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzg4NzQ2NTddfQ==
+eyJoaXN0b3J5IjpbMTIxMzQ4MDI5NF19
 -->
