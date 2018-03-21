@@ -215,7 +215,8 @@ Data is read and written in the form of bytes objects. This mode should be used 
 os.environ
 # get the value of PATH
 os.environ['PATH']
-# get 
+# get a possible value without a 'KeyError'
+os.environ.get('DROPBOX', 'N/A')
 ```
 
 ## SQLite
@@ -528,5 +529,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjQ2MDEzMjddfQ==
+eyJoaXN0b3J5IjpbLTE0OTY4NzI1NThdfQ==
 -->
