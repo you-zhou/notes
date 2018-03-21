@@ -211,7 +211,18 @@ Data is read and written in the form of bytes objects. This mode should be used 
 
 ## dataset
 [dataset.readthedocs.io](https://dataset.readthedocs.io/en/latest/)
+```python
+import dataset
 
+# connecting to a SQLite database
+db = dataset.connect('sqlite:///mydatabase.db')
+
+# connecting to a MySQL database with user and password
+db = dataset.connect('mysql://user:password@localhost/mydatabase')
+
+# connecting to a PostgreSQL database
+db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
+```
 
 # Django
 ## Slug
@@ -478,5 +489,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjY3OTA4N119
+eyJoaXN0b3J5IjpbLTEyNzg4NzQ2NTddfQ==
 -->
