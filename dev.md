@@ -24,7 +24,7 @@ $ git commit --amend  # Reword the last commit message
 # Environment Variables
 Environment variables are a way to store configurable values across your entire system—all your programs have access to these.
 
-
+To 
 # Matplotlib
 It's a Python plotting library, inspired by MATLAB, meaning that the terms used (**Axis, Figure, Plots**) will be similar to those used in MATLAB. [ref](http://queirozf.com/entries/matplotlib-pylab-pyplot-etc-what-s-the-different-between-these)
 
@@ -541,5 +541,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDMwOTQ3MF19
+eyJoaXN0b3J5IjpbLTYzMTIyODc4M119
 -->
