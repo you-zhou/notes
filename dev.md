@@ -208,6 +208,7 @@ In text mode, the default when reading is to convert platform-specific line endi
 Data is read and written in the form of bytes objects. This mode should be used for all files that don't contain text.
 
 ## SQLite
+sqlite3 is part of the Python Standard Library.
 
 ## dataset
 [dataset.readthedocs.io](https://dataset.readthedocs.io/en/latest/)
@@ -499,5 +500,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMDY3OTAzOF19
+eyJoaXN0b3J5IjpbNzA0NDQ5ODZdfQ==
 -->
