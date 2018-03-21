@@ -29,10 +29,10 @@ use the `set` command. It is the same for both Linux and Windows.
 
 Linux:
 `$ set`
-Or
+or
 `$ env`
 or
-`$ printe`
+`$ printenv`
 
 ## List a specific env var
 Windows:
@@ -567,5 +567,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjIyOTY3MV19
+eyJoaXN0b3J5IjpbNjM3NzM3NzkxXX0=
 -->
