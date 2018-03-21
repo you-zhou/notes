@@ -209,8 +209,8 @@ Data is read and written in the form of bytes objects. This mode should be used 
 
 
 ## Access Environment Variables
-This is can be used to access files stored in the dropbox, which would have a different directory in different computers. 
-Set 
+This is can be used to access files stored in the dropbox, which would have a different directory in different computers. Set the dropbox directory or database file location inside a common environment variable will make scripts portable across computers.
+
 ### os.environ
 ```python
 # list all environment variables
@@ -532,5 +532,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDY4NzcyNzNdfQ==
+eyJoaXN0b3J5IjpbLTM2NjM0MzQwM119
 -->
