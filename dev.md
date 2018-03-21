@@ -27,6 +27,13 @@ Environment variables are a way to store configurable values across your entire 
 ## List all current env var
 use the `set` command. It is the same for both Linux and Windows.
 
+Linux:
+`$ set`
+Or
+`$ env`
+or
+`$ printe`
+
 ## List a specific env var
 Windows:
 `echo %PATH%`
@@ -560,5 +567,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE5NDA2OTIyXX0=
+eyJoaXN0b3J5IjpbMjEyNjIyOTY3MV19
 -->
