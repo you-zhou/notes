@@ -21,6 +21,8 @@ $ git commit --amend  # Reword the last commit message
 	$ git commit --amend
 ```
 
+# Environment Variables
+Environment variables are a way to store configurable values across your entire system—all your programs have access to these.
 
 
 # Matplotlib
@@ -539,5 +541,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTY2OTE5MDVdfQ==
+eyJoaXN0b3J5IjpbLTc4NDMwOTQ3MF19
 -->
