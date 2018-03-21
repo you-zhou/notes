@@ -207,6 +207,15 @@ In text mode, the default when reading is to convert platform-specific line endi
 * binary mode
 Data is read and written in the form of bytes objects. This mode should be used for all files that don't contain text.
 
+
+## Access Environment Variables
+### os.environ
+```python
+# list all environment variables
+os.environ
+# 
+```
+
 ## SQLite
 sqlite3 is part of the Python Standard Library.
 [ref: sqlite](http://sebastianraschka.com/Articles/2014_sqlite_in_python_tutorial.html)
@@ -517,5 +526,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzE2NDUwMDBdfQ==
+eyJoaXN0b3J5IjpbLTE0MDc0OTA0NTRdfQ==
 -->
