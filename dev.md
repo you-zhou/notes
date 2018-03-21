@@ -25,7 +25,8 @@ $ git commit --amend  # Reword the last commit message
 Environment variables are a way to store configurable values across your entire system—all your programs have access to these.
 
 ## List all current env var
-use the `set` command. It is the same for both Linux and Windows.
+Windows:
+`> set`
 
 Linux:
 `$ set`
@@ -567,5 +568,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM3NzM3NzkxXX0=
+eyJoaXN0b3J5IjpbMTEwNDUzMjU4MV19
 -->
