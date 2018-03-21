@@ -216,7 +216,7 @@ import sqlite3
 conn = sqlite3.connect(sqlite_file)
 c = conn.cursor()
 ```
-And this `sqlite_file` can reside anywhere on the disk.
+And this `sqlite_file` can reside anywhere on the disk, e.g.,
  ```python
 sqlite_file = '/Users/Sebastian/Desktop/my_db.sqlite'
 ```
@@ -512,5 +512,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODA4MDA0N119
+eyJoaXN0b3J5IjpbLTE4OTc5OTkyMjFdfQ==
 -->
