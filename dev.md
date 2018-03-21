@@ -207,6 +207,12 @@ In text mode, the default when reading is to convert platform-specific line endi
 * binary mode
 Data is read and written in the form of bytes objects. This mode should be used for all files that don't contain text.
 
+## SQLite
+
+## dataset
+[dataset.readthedocs.io](https://dataset.readthedocs.io/en/latest/)
+
+
 # Django
 ## Slug
 ### 1. Generating a unique slug for a *single* model.
@@ -472,5 +478,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU1MDA5NDQwXX0=
+eyJoaXN0b3J5IjpbMTcxMjY3OTA4N119
 -->
