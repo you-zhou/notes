@@ -210,13 +210,14 @@ Data is read and written in the form of bytes objects. This mode should be used 
 ## SQLite
 sqlite3 is part of the Python Standard Library.
 
-The ONLY thing that needs to be done before we can perform any operation on a SQLite DB via Python's `sqlite3` module is to open a connection to an SQLite dat
+The ONLY thing that needs to be done before we can perform any operation on a SQLite DB via Python's `sqlite3` module is to open a connection to an **SQLite DB file**.
 ```python
 import sqlite3
 conn = sqlite3.connect(sqlite_file)
 c = conn.cursor()
 ```
-```
+
+
 ## dataset
 [dataset.readthedocs.io](https://dataset.readthedocs.io/en/latest/)
 A simple data loading script using **dataset**:
@@ -507,5 +508,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NTAyMDAwOV19
+eyJoaXN0b3J5IjpbMTM0MjIwODkwXX0=
 -->
