@@ -213,13 +213,18 @@ This is can be used to access files stored in the dropbox, which would have a di
 
 ### os.environ
 ```python
+import os
+
 # list all environment variables
 os.environ
+
 # get the value of PATH
 os.environ['PATH']
+
 # get a possible value with a default value
 # instead of a 'KeyError' if it does not exist.
 os.environ.get('DROPBOX', 'to be defined')
+
 # Or use the shorter version below.
 os.getenv('DROPBOX', 'to be defined')
 ```
@@ -534,5 +539,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNTYwMTM0MF19
+eyJoaXN0b3J5IjpbLTEyMTY2OTE5MDVdfQ==
 -->
