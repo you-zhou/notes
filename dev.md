@@ -24,10 +24,9 @@ $ git commit --amend  # Reword the last commit message
 # Environment Variables
 Environment variables are a way to store configurable values across your entire system—all your programs have access to these.
 
-## List all current env var
 List/display/set/change/delete environment variables in Windows & Linux.
 
-### Windows Commands
+## Windows Commands
 * List all environment variables.
 `> set`
 * Display the value of an environment variable.
@@ -41,7 +40,7 @@ or
 * Delete the an  environment variable by settting it to an empty string. (Note: nothing after the '=')
 
 
-### Linux Commands
+## Linux Commands
 * List all environment variables.
 `$ set`
 or
@@ -577,5 +576,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxODIzMjA0N119
+eyJoaXN0b3J5IjpbNjEwNDE2OTMxXX0=
 -->
