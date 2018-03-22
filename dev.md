@@ -302,7 +302,7 @@ for n in newlist:
 # 8
 # 12
 ```
-`lambda` functions cannot contain branches or loops but can contain conditional expression. Usually a simple expression:
+`lambda` functions **cannot** contain branches or loops but can contain conditional expression. Usually a simple expression:
 ```python
 import random
 
@@ -664,5 +664,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzODM1ODIwN119
+eyJoaXN0b3J5IjpbLTE3MzEwNzcxMV19
 -->
