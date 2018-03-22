@@ -294,7 +294,13 @@ my_function()
 ## Anonymous Functions (Lambda Expressions)
 `lambda` functions are anonymous functions for simple operations. It is very common where we pass a function to another function. For example the builtin map function to map a list to a new list:
 ```python
-
+ls = [2,4,6]
+newlist = map(lambda item:item * 2, ls)
+for n in newlist:
+    print(n) 
+# 4
+# 8
+# 12
 ```
 
 ## Function Annotations (Python 3)
@@ -643,5 +649,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1ODU5NTg4NV19
+eyJoaXN0b3J5IjpbMTM4MDczNjQzNV19
 -->
