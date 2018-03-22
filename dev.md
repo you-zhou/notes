@@ -269,6 +269,54 @@ It is important to handle Exceptions & Errors when dealing with some functions. 
 * file handling (open a file which does not exist)
 * process response from a server (which could be down)
 
+## Decorator
+Decorator is a good example of closure. Decorator is a function that takes another function and extends the behavior of the latter function  _without_  explicitly modifying it
+```python
+def add_stars(some_function):
+    def wrapper():
+        print("********************")
+        some_function()
+        print("********************")
+    return wrapper
+
+@add_stars
+def my_function():
+    print("Hello!!!")
+
+my_function()
+
+# ********************
+# Hello!!!
+# ********************
+```
+def  add_stars(some_function):
+
+def  wrapper():
+
+print("********************")
+
+some_function()
+
+print("********************")
+
+return  wrapper
+
+@add_stars
+
+def  my_function():
+
+print("Hello!!!")
+
+my_function()
+
+\# ********************
+
+\# Hello!!!
+
+\# ********************
+
+Before calling my\_function we are actually calling add\_stars sending my_function as a
+
 
 ## Access Environment Variables
 This is can be used to access files stored in the dropbox, which would have a different directory in different computers. Set the dropbox directory or database file location inside a common environment variable will make scripts portable across computers.
@@ -601,5 +649,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODY0NTEwODRdfQ==
+eyJoaXN0b3J5IjpbMTI4NTM0NjQ5N119
 -->
