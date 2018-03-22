@@ -61,15 +61,22 @@ or
 
 ### Linux Commands
 * List all environment variables.
-`echo $PATH`
+`$ set`
+or
+`$ env`
+or
+`$ printenv`
 
 * Display the value of an environment variable.
+`echo $PATH`
 
 * Set or change the value of an environment variable. (Note: **no space** before and after '=')
 
 `export PATH=${PATH}:/home/jack/bin`
 To make it permanent, append this line to `~/.bash_profile` or `~/.profile`.
 It will then be executed every time you login using console or remotely using SSH.
+
+* Delete the an  environment variable by settting it to an empty string. (Note: nothing after the '=')
 
 
 # Matplotlib
@@ -588,5 +595,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTAxNTY4OTldfQ==
+eyJoaXN0b3J5IjpbLTY0MjU1MzMyXX0=
 -->
