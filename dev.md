@@ -262,8 +262,9 @@ Data is read and written in the form of bytes objects. This mode should be used 
 
 
 ## Exceptions and Error Handlings
-[ref: ## [PYTHON – EXCEPTIONS AND ERROR HANDLINGS](http://devarea.com/python-exceptions-and-error-handlings/)(http://devarea.com/python-exceptions-and-error-handlings/)
-To write a complex python code, it is 
+[ref: PYTHON – EXCEPTIONS AND ERROR HANDLINGS](http://devarea.com/python-exceptions-and-error-handlings/)
+
+It is important to handle Exceptions & Erros when dealing with some functions
 
 
 ## Access Environment Variables
@@ -597,5 +598,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NDc2NTAzOV19
+eyJoaXN0b3J5IjpbMTkwMzg3MDU3Nl19
 -->
