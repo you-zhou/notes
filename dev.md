@@ -302,6 +302,21 @@ for n in newlist:
 # 8
 # 12
 ```
+`lambda` functions cannot contain branches or loops but can contain conditional expression. Usually a simple expression:
+```python
+import random
+
+f1 = lambda x:x+10
+f2 = lambda :random.randint(100,200)
+f3 = lambda x,y:x+y
+compare=lambda a,b: -1 if a < b else (+1 if a > b else 0)
+
+print( f1(10) ) # 20
+print( f2() ) # prints random number 
+print( f3(2,3)) # 5
+print( compare(10,20) ) # -1
+```
+
 
 ## Function Annotations (Python 3)
 You can add documentation to the parameters and the return value:
@@ -649,5 +664,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MDczNjQzNV19
+eyJoaXN0b3J5IjpbLTUzODM1ODIwN119
 -->
