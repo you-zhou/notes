@@ -267,6 +267,7 @@ Data is read and written in the form of bytes objects. This mode should be used 
 It is important to handle Exceptions & Erros when dealing with some functions. e.g.
 * database connection
 * file handling
+* process response from a server (which could be down
 
 
 ## Access Environment Variables
@@ -600,5 +601,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTYzMjI5Nl19
+eyJoaXN0b3J5IjpbLTEyMjU0Nzg0MTVdfQ==
 -->
