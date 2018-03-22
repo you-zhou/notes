@@ -41,7 +41,7 @@ or
 * Set or change the value of an environment variable. (Note: **no space** before and after '=')
 `> set DROPBOX_HOME=C:\Users\Jack\Dropbox`
 > To make it permanent, add it into Control Panel -> System and Security -> System. And there is an "Advanced System Settings" on the left side menu.
-> If without admin privillege, this can be set via Control Panel -> User Accounts -> User Accounts. And there is a "Change my environment variables" option on the left side menu.
+> If **without admin privilege**, this can be set via Control Panel -> User Accounts -> User Accounts. And there is a "Change my environment variables" option on the left side menu.
 
 * Delete/Unset the an  environment variable by settting it to an empty string. (Note: nothing after the '=')
 `> set DROPBOX_HOME=`
@@ -665,5 +665,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAxMzM0NjMwXX0=
+eyJoaXN0b3J5IjpbLTkxMTI0NTA0NF19
 -->
