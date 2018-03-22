@@ -26,6 +26,7 @@ Environment variables are a way to store configurable values across your entire 
 
 List/display/set/change/delete environment variables in Windows & Linux.
 
+
 ## Windows Commands
 * List all environment variables.
 `> set`
@@ -577,5 +578,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4ODA4NDE2M119
+eyJoaXN0b3J5IjpbLTE4NzY1ODA3NTFdfQ==
 -->
