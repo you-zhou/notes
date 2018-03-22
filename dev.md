@@ -51,12 +51,13 @@ Windows:
 or
 `> echo %DROPBOX_HOME%`
 
-
+* Set or change the value of an environment variable (Note: **no space** before and after)
 `> set DROPBOX_HOME=C:\Users\Jack\Dropbox`
 `> `
 `> `
 
 Linux:
+`echo $PATH`
 `export PATH=${PATH}:/home/jack/bin`
 To make it permanent, append this line to `~/.bash_profile` or `~/.profile`.
 It will then be executed every time you login using console or remotely using SSH.
@@ -578,5 +579,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTcxNzc0NzldfQ==
+eyJoaXN0b3J5IjpbLTYwNTkwNTExM119
 -->
