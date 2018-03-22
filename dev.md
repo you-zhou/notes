@@ -44,15 +44,17 @@ or
 Linux:
 `echo $PATH`
 
-## Display/Set/Change/Unset an environment variable
+## Display/Set/Change/Delete an environment variable
 Windows:
 * Display the value of an environment variable
 `> set DROPBOX_HOME` 
 or
 `> echo %DROPBOX_HOME%`
 
-* Set or change the value of an environment variable (Note: **no space** before and after)
+* Set or change the value of an environment variable (Note: **no space** before and after '=')
 `> set DROPBOX_HOME=C:\Users\Jack\Dropbox`
+
+* Delete the an  environment variable by settting it to an empty string. (No
 `> `
 `> `
 
@@ -579,5 +581,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTkwNTExM119
+eyJoaXN0b3J5IjpbLTQwMDMyNzg5M119
 -->
