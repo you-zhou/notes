@@ -44,8 +44,8 @@ or
 Linux:
 `echo $PATH`
 
-## Display/Set/Change/Delete an environment variable
-Windows:
+## List/Display/Set/Change/Delete environment variables
+### Windows commands:
 * List all environment variables.
 `> set`
 * Display the value of an environment variable.
@@ -57,10 +57,9 @@ or
 `> set DROPBOX_HOME=C:\Users\Jack\Dropbox`
 
 * Delete the an  environment variable by settting it to an empty string. (Note: nothing after the '=')
-`> `
-`> `
 
-Linux:
+
+### Linux Commands
 `echo $PATH`
 `export PATH=${PATH}:/home/jack/bin`
 To make it permanent, append this line to `~/.bash_profile` or `~/.profile`.
@@ -583,5 +582,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MTM0ODYxOV19
+eyJoaXN0b3J5IjpbMTc3NTg0MF19
 -->
