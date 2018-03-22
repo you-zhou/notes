@@ -48,8 +48,6 @@ or
 
 ## Linux Commands
 * List all environment variables.
-`$ set`
-or
 `$ env`
 or
 `$ printenv`
@@ -594,5 +592,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjgzMjA3XX0=
+eyJoaXN0b3J5IjpbLTk0OTUxODIzMF19
 -->
