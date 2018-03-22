@@ -68,6 +68,11 @@ Or, enclosed the _value_ with double quotes if it contains spaces.
 or
 `$ unset DROPBOX_HOME`
 
+Note: for the older  csh  (C-shell) and  ksh  (Korn-shell):
+
+-   Use "`printenv`" (or "`env`") to list all the environment variables.
+-   Use "`setenv  _varname value_`" and "`unsetenv  _varname_`" to set and unset an environment variable.
+-   Use "`set  _varname_=_value_`" and "`unset  _varname_`" to set and unset a local variable for the current process.
 
 # Matplotlib
 It's a Python plotting library, inspired by MATLAB, meaning that the terms used (**Axis, Figure, Plots**) will be similar to those used in MATLAB. [ref](http://queirozf.com/entries/matplotlib-pylab-pyplot-etc-what-s-the-different-between-these)
@@ -585,5 +590,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDYyNV19
+eyJoaXN0b3J5IjpbLTE1NzIwMzg0MzBdfQ==
 -->
