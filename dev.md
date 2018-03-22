@@ -269,6 +269,7 @@ It is important to handle Exceptions & Errors when dealing with some functions. 
 * file handling (open a file which does not exist)
 * process response from a server (which could be down)
 
+
 ## Decorator
 Decorator is a good example of closure. Decorator is a function that takes another function and extends the behavior of the latter function  _without_  explicitly modifying it
 ```python
@@ -289,6 +290,13 @@ my_function()
 # Hello!!!
 # ********************
 ```
+
+## Anonymous Functions (Lambda Expressions)
+`lambda` functions are anonymous functions for simple operations. It is very common where we pass a function to another function. For example the builtin map function to map a list to a new list:
+```python
+
+```
+
 ## Function Annotations (Python 3)
 You can add documentation to the parameters and the return value:
 ```python
@@ -635,5 +643,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyODkxMTIxM119
+eyJoaXN0b3J5IjpbMTA1ODU5NTg4NV19
 -->
