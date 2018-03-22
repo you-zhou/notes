@@ -61,7 +61,7 @@ Or, enclosed the _value_ with double quotes if it contains spaces.
 > * `~/.bashrc` 
 > * `~/.bash_profile` 
 > * `~/.profile`
-It will then be executed every time you login using console or remotely using SSH.
+> It will then be executed every time you login using console or remotely using SSH.
 
 * Delete/Unset the an  environment variable by settting it to an empty string. (Note: nothing after the '=')
 `$ DROPBOX_HOME=`
@@ -585,5 +585,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMTM0MTYzMV19
+eyJoaXN0b3J5IjpbLTczNDYyNV19
 -->
