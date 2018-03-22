@@ -284,7 +284,7 @@ os.getenv('DROPBOX', 'to be defined')
 
 ## SQLite
 sqlite3 is part of the Python Standard Library.
-[ref: sqlite](http://sebastianraschka.com/Articles/2014_sqlite_in_python_tutorial.html)
+[ref: # A thorough guide to SQLite database operations in Python](http://sebastianraschka.com/Articles/2014_sqlite_in_python_tutorial.html)
 The ONLY thing that needs to be done before we can perform any operation on a SQLite DB via Python's `sqlite3` module is to open a connection to an **SQLite DB file**. e.g. `sqlite_file` in the example below:
 ```python
 import sqlite3
@@ -592,5 +592,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0OTUxODIzMF19
+eyJoaXN0b3J5IjpbODg0MDg1ODYzXX0=
 -->
