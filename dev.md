@@ -46,8 +46,9 @@ Linux:
 
 ## Display/Set/Change/Delete an environment variable
 Windows:
-* List all environment a
-* Display the value of an environment variable
+* List all environment variables.
+`> set`
+* Display the value of an environment variable.
 `> set DROPBOX_HOME` 
 or
 `> echo %DROPBOX_HOME%`
@@ -582,5 +583,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTAxNTkxM119
+eyJoaXN0b3J5IjpbMTE1MTM0ODYxOV19
 -->
