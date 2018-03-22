@@ -265,7 +265,7 @@ Data is read and written in the form of bytes objects. This mode should be used 
 [ref: PYTHON – EXCEPTIONS AND ERROR HANDLINGS](http://devarea.com/python-exceptions-and-error-handlings/)
 
 It is important to handle Exceptions & Errors when dealing with some functions. e.g.
-* database connection (could not find the database?)
+* database connection (could not connect to the database due to wrong password?)
 * file handling (open a file which does not exist)
 * process response from a server (which could be down)
 
@@ -601,5 +601,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjAwNTUyMTddfQ==
+eyJoaXN0b3J5IjpbODExMDEzNzYwXX0=
 -->
