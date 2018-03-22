@@ -289,8 +289,20 @@ my_function()
 # Hello!!!
 # ********************
 ```
+## Function Annotations (Python 3)
 
+```python
+def add(a:"first number" = 0,
+        b:"second number" = 0) -> "sum of a and b":
+    return a+b
 
+for item in add.__annotations__.items():
+    print(item)
+
+# ('a', 'first number')
+# ('b', 'second number')
+# ('return', 'sum of a and b')
+```
 
 ## Access Environment Variables
 This is can be used to access files stored in the dropbox, which would have a different directory in different computers. Set the dropbox directory or database file location inside a common environment variable will make scripts portable across computers.
@@ -623,5 +635,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NzIxOTM0Nl19
+eyJoaXN0b3J5IjpbLTk2MzI2OTg0Ml19
 -->
