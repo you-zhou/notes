@@ -45,7 +45,7 @@ Linux:
 `echo $PATH`
 
 ## List/Display/Set/Change/Delete environment variables
-### Windows commands:
+### Windows Commands
 * List all environment variables.
 `> set`
 * Display the value of an environment variable.
@@ -60,7 +60,13 @@ or
 
 
 ### Linux Commands
+* List all environment variables.
 `echo $PATH`
+
+* Display the value of an environment variable.
+
+* Set or change the value of an environment variable. (Note: **no space** before and after '=')
+
 `export PATH=${PATH}:/home/jack/bin`
 To make it permanent, append this line to `~/.bash_profile` or `~/.profile`.
 It will then be executed every time you login using console or remotely using SSH.
@@ -582,5 +588,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTg0MF19
+eyJoaXN0b3J5IjpbLTE0MTAxNTY4OTldfQ==
 -->
