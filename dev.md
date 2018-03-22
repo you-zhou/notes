@@ -35,7 +35,7 @@ or
 or
 `$ printenv`
 
-## List a specific env var
+## List an environment variable
 Windows:
 `> set PATH`
 or
@@ -44,7 +44,7 @@ or
 Linux:
 `echo $PATH`
 
-## Set/Change/Unset a specific env var
+## Set/Change/Unset an environment variable
 Windows:
 
 
@@ -570,5 +570,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5ODgwMDE3MF19
+eyJoaXN0b3J5IjpbODUxNzMyMjcwXX0=
 -->
