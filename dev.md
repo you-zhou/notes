@@ -51,12 +51,12 @@ or
 `$ printenv`
 
 * Display the value of an environment variable.
-`echo $PATH`
+`echo $DROPBOX_HOME`
 
 * Set or change the value of an environment variable. (Note: **no space** before and after '=') 
-`export PATH=${PATH}:/home/jack/bin`
+`export DROPBOX_HOME=/home/jack/Dropbox`
 Or, enclosed the _value_ with double quotes if it contains spaces.
-`export PATH="${PATH}:/home/jack zhou/bin"`
+`export DROPBOX_HOME="/home/jack zhou/Dropbox"`
 > To make it permanent, append this line to `~/.bash_profile` or `~/.profile`.
 It will then be executed every time you login using console or remotely using SSH.
 
@@ -582,5 +582,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3MzA4MDMzXX0=
+eyJoaXN0b3J5IjpbMTg2Nzc5MTc5Ml19
 -->
