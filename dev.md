@@ -53,7 +53,9 @@ or
 * Display the value of an environment variable.
 `echo $PATH`
 
-* Set or change the value of an environment variable. (Note: **no space** before and after '=')
+* Set or change the value of an environment variable. (Note: **no space** before and after '=') Enclosed the _value_ with double quotes if it contains spaces.
+`export PATH=${PATH}:/home/jack/bin`
+
 `export PATH=${PATH}:/home/jack/bin`
 > To make it permanent, append this line to `~/.bash_profile` or `~/.profile`.
 It will then be executed every time you login using console or remotely using SSH.
@@ -577,5 +579,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MjQ4NTcyM119
+eyJoaXN0b3J5IjpbMTc1Mzc4MDc4OV19
 -->
