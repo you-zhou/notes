@@ -39,6 +39,7 @@ or
 > To make it permanent, add it into Control Panel -> Advanced System Settings -> Environment Variables
 
 * Delete the an  environment variable by settting it to an empty string. (Note: nothing after the '=')
+`> set DROPBOX_HOME=`
 
 
 ## Linux Commands
@@ -576,5 +577,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjQ2MzgwOF19
+eyJoaXN0b3J5IjpbMTg4ODA4NDE2M119
 -->
