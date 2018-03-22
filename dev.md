@@ -26,7 +26,7 @@ Environment variables are a way to store configurable values across your entire 
 
 [List/display/set/change/delete environment variables in Windows & Linux.](https://www.ntu.edu.sg/home/ehchua/programming/howto/Environment_Variables.html)
 
-A few Note: 
+## Notes: Windows vs Linux 
 - Windows use semi-colon  `';'`  as path separator (e.g., in  `PATH`  environment variable), while Unix uses colon  `':'`.
 -   Unix's variable name is denoted as  `$_varname_`, e.g.,  `$CLASSPATH`. Windows uses  `%_varname_%`, e,g.,  `%CLASSPATH%`.
 
@@ -594,5 +594,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MzY5NTQ3NV19
+eyJoaXN0b3J5IjpbMTMyMjgzMjA3XX0=
 -->
