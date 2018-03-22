@@ -290,7 +290,7 @@ my_function()
 # ********************
 ```
 ## Function Annotations (Python 3)
-
+You can add documentation to the parameters and the return value:
 ```python
 def add(a:"first number" = 0,
         b:"second number" = 0) -> "sum of a and b":
@@ -635,5 +635,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MzI2OTg0Ml19
+eyJoaXN0b3J5IjpbMTEyODkxMTIxM119
 -->
