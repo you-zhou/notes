@@ -293,9 +293,7 @@ my_function()
 ```
 
 ## Colour Coded Print
-  
-
-
+Print messages in colouTo highlight program message.
 Print a string that starts a color/style, then the string, then end the color/style change with  `'\x1b[0m'`:
 
 ```
@@ -680,5 +678,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1NzkxNzcxXX0=
+eyJoaXN0b3J5IjpbODk2MTM2MTgzXX0=
 -->
