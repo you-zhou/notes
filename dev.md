@@ -292,6 +292,21 @@ my_function()
 # ********************
 ```
 
+## Colour Coded Print
+  
+
+
+Print a string that starts a color/style, then the string, then end the color/style change with  `'\x1b[0m'`:
+
+```
+print('\x1b[6;30;42m' + 'Success!' + '\x1b[0m')
+```
+
+[![Success with green background example](https://i.stack.imgur.com/RN3MN.png)](https://i.stack.imgur.com/RN3MN.png)
+
+
+
+
 ## Anonymous Functions (Lambda Expressions)
 `lambda` functions are anonymous functions for simple operations. It is very common where we pass a function to another function. For example the builtin map function to map a list to a new list:
 ```python
@@ -665,5 +680,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMTI0NTA0NF19
+eyJoaXN0b3J5IjpbNzM1NzkxNzcxXX0=
 -->
