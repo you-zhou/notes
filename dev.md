@@ -437,6 +437,8 @@ sqlite3 is part of the Python Standard Library.
 The ONLY thing that needs to be done before we can perform any operation on a SQLite DB via Python's `sqlite3` module is to open a connection to an **SQLite DB file**. e.g. `sqlite_file` in the example below:
 ```python
 import sqlite3
+
+# This will create a new databae file, if sqlite_file does not already exist.
 conn = sqlite3.connect(sqlite_file)
 c = conn.cursor()
 ```
@@ -741,5 +743,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyMTMyMzMxXX0=
+eyJoaXN0b3J5IjpbLTY4NzkzNTA5MF19
 -->
