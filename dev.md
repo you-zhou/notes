@@ -441,6 +441,9 @@ import sqlite3
 # This will create a new databae file, if sqlite_file does not already exist.
 conn = sqlite3.connect(sqlite_file)
 c = conn.cursor()
+# ...
+c.commit()
+c.close()
 ```
 And this `sqlite_file` can reside anywhere on the disk, e.g.,
  ```python
@@ -743,5 +746,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NzkzNTA5MF19
+eyJoaXN0b3J5IjpbMjEyODA0NTM4Ml19
 -->
