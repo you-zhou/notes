@@ -442,6 +442,11 @@ import sqlite3
 conn = sqlite3.connect(sqlite_file)
 c = conn.cursor()
 # ...
+# Create table
+c.execute('''CREATE TABLE stocks
+ (date text, trans text, symbol text, qty real, price real)''')
+# Insert a row of data
+c.execute("INSERT INTO stocks VALUES ('2006-01-05','BUY','RHAT',100,35.14)")
 c.commit()
 c.close()
 ```
@@ -746,5 +751,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyODA0NTM4Ml19
+eyJoaXN0b3J5IjpbLTExMjc4NTk2NjldfQ==
 -->
