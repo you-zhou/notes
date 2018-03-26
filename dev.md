@@ -463,7 +463,7 @@ A simple data loading script using **dataset**:
 import dataset
 
 db = dataset.connect('sqlite:///:memory:')
-table = db['sometable'\]
+table = db['sometable']
 table.insert(dict(name='John Doe', age=37))
 table.insert(dict(name='Jane Doe', age=34, gender='female'))
 john = table.find_one(name='John Doe')
@@ -751,5 +751,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2MDgwODc1XX0=
+eyJoaXN0b3J5IjpbLTE3MDY3OTcwNzddfQ==
 -->
