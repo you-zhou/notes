@@ -1,6 +1,12 @@
-Dev Notes
+# Dev Notes
 ----------
-# GIT
+## System Setup
+windows:
+`python -V`
+`pip -V`
+
+
+## GIT
 $ git config --global user.name "George Brocklehurst"
 $ git config --global user.email george@georgebrock.com
 
@@ -77,10 +83,10 @@ Note: for the older  csh  (C-shell) and  ksh  (Korn-shell):
 -   Use "`setenv  _varname value_`" and "`unsetenv  _varname_`" to set and unset an environment variable.
 -   Use "`set  _varname_=_value_`" and "`unset  _varname_`" to set and unset a local variable for the current process.
 
-# Matplotlib
+## Matplotlib
 It's a Python plotting library, inspired by MATLAB, meaning that the terms used (**Axis, Figure, Plots**) will be similar to those used in MATLAB. [ref](http://queirozf.com/entries/matplotlib-pylab-pyplot-etc-what-s-the-different-between-these)
 
-## Figure
+### Figure
 `This is the entire window where one or more subplots live. A Figure object (new window) is created with the figure() command.`
 You can use it to configure things like:
 * Image size (set_size_inches())
@@ -88,7 +94,7 @@ You can use it to configure things like:
   This adjusts the subplot padding; generally makes things look better.
 
  
-## Axes
+### Axes
 `This is an object representing a subplot (which you might casually call a “plot”) which contains axes, ticks, lines, points, text, etc.`
 The Axes object has methods to allow you to configure things like:
 * The plot frame (set_frame_on or set_frame_off)
@@ -112,13 +118,13 @@ plt.scatter(x,y)
 plt.show()
 ```
 
-### plot()
+#### plot()
 This is a command that draws points or lines and returns a list of Line2D objects. One sublety is that plot() will automatically call figure() and/or subplot() if neccesary to create the underlying Figure and Axes objects.
-### subplot()
+#### subplot()
 This is a command that creates and returns a new subplot (Axes) object which will be used for subsequent plotting commands.
 
 
-### plt.gcf() `gcf: Get Current Figure`
+#### plt.gcf() `gcf: Get Current Figure`
 You can use it to get a reference to the current figure when using pyplot, for example, to change image sizes.
 
 ```python
@@ -138,7 +144,7 @@ fig.set_size_inches(6,2)
 
 plt.show()
 ```
-### plt.gca() `gca: Get Current Axes`
+#### plt.gca() `gca: Get Current Axes`
 Same as with plt.gcf(), you can use plt.gca() to get a reference to the current axes, if you need to change the limits on the y-axis, for example.
 
 ```python
@@ -160,11 +166,11 @@ axis.set_ylim(-3,3)
 plt.show()
 ```
 
-### plt.cla() / plt.clf() `clear figure/axes`
+#### plt.cla() / plt.clf() `clear figure/axes`
 These methods are used to clear the current figure `plt.clf()` or the current axes `plt.cla()`.
 
 
-## Plot `numpy.datetime64` values
+### Plot `numpy.datetime64` values
 `pandas dtype='datetime64[ns]'` -> time series in matplotlib
 
 For Matplotlib to plot dates (or any scalar with units) a **converter to float** needs to be registered with the matplolib.units module. The current best converters for datetime64 values are in pandas. To enable the converter, import it from pandas:
@@ -195,19 +201,41 @@ ax.set_xticklabels(xticklabels, rotation=45)
 ```
 
 
-## plot vertical lines
+### plot vertical lines
 ```python
 # Add a vertical line separator.
 ax.axvline(x=5, color='r', linestyle='dashed')
 ```
 
-## plot small grid lines
+### plot small grid lines
 ```python
 ax.grid(True, linestyle=':')
 ```
 
-# PYTHON
-## Why ```if __name__ == '__main__'```?
+## PYTHON
+### pip
+Upgrading pip.
+* On Linux or macOS:
+	`pip install -U pip`
+
+* On Windows:
+	`python -m pip install -U pip`
+
+To INSTALL all packages from a list to the current environment.
+	`pip install -r requirements.txt`
+
+To UNINSTALL all packages in the current environment.
+* Method 1 (with  `pip freeze`)
+	`pip freeze | xargs pip uninstall -y`
+
+* Method 2 (with  `pip list`)
+	`pip list | awk '{print $1}' | xargs pip uninstall -y`
+
+* Method 3 (with  `virtualenv`)
+	`virtualenv --clear MYENV`
+	
+
+### Why ```if __name__ == '__main__'```?
 
 It checks if a module is being `imported` or ran `directly`. Refer to [Python Docs](https://docs.python.org/3/library/__main__.html).
 
@@ -238,12 +266,12 @@ If we `import` the module, then `__name__` is the module's filename, without a d
 If we run the module not by `importing` it but running it directly as a standalone program,  `__name__` will be a special default value: `__main__.
 
 
-## self
+### self
 TODO
 
 
 
-## Divide Operator
+### Divide Operator
 * 26 % 7 == 5 (you will get remainder)
 
 * 26 / 7 == 3.7142857142857144 (you will get divisor can be float value )
@@ -679,6 +707,8 @@ With  `rems`  all font sizes are relative to the root element (the  `html`  tag)
 
 # Markdown
 ## Text
+## Markdown
+### Text Basics
 asterisk: this is *italic* and this is **bold**.
 
 underscore: another _italic_ and another __bold__.
@@ -687,12 +717,12 @@ the back ticks represent `important` text.
 
 the % is `%`
 
-## Indentation
+### Indentation
 > some indentation
 >> more indentation
 >>> even more intendation
 
-## Bullets
+### Bullets
 + item-1
 - item-2
 * item-3
@@ -701,7 +731,7 @@ the % is `%`
   * sub-item-3
 
 
-# Proxy
+## Proxy
 The auto proxy detection system works by downloading a file called wpad.dat from the host wpad. First confirm this host exists from a command prompt:
 
 ```ping wpad```
@@ -726,11 +756,11 @@ If this file doesn't exist, then either there is no proxy server, or the proxy s
 This will provide a list of connections made with the process id of each process. Go to Task Manager, and select View/Select Columns and enable PID (Process Identifier). Look for the PID of iexplore.exe in the list returned by netstat -ban This will reveal the proxy ip and port.
 
 
-## Check proxy details from Chrome
+### Check proxy details from Chrome
 chrome and go to below URL to see the proxy details:
 chrome://net-internals/#proxy
 
-## Check proxy setttings from regedt in Windows 
+### Check proxy setttings from regedt in Windows 
 ```reg query "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" | find /i "proxyserver"
 ```
 
@@ -751,5 +781,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDY3OTcwNzddfQ==
+eyJoaXN0b3J5IjpbMTg1MzcxMDEwMF19
 -->
