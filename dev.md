@@ -49,9 +49,9 @@ source /usr/local/bin/virtualenvwrapper.sh
 `DROPBOX_HOME`
 `ONEDRIVE_HOME`
 
-Below is a customised script
+Below is a customised bash shell script that should be executed at the end of `~/.bashrc` or `~/.bash_profile`.
 ```bash
-
+export HOME=$HOME
 ```
 
 ### jupyter notebook & lab
@@ -846,5 +846,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMTYzMjUyNl19
+eyJoaXN0b3J5IjpbNTc3NjYzMzYzXX0=
 -->
