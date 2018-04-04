@@ -20,8 +20,8 @@ root | /usr/bin
 Installing packages with pip.
 user | directory
 --- | ---
-regular user (none root) | `~/.local/lib/pythonX.X/site-packages`
-root | `/usr/lib/pythonX.X/dist-packages`
+regular user (none root) | ~/.local/lib/pythonX.X/site-packages
+root | /usr/lib/pythonX.X/dist-packages
 
 `$ which python3`
 `$ python3 -V`
@@ -832,5 +832,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTYxNjU5NjFdfQ==
+eyJoaXN0b3J5IjpbMTI0NjA2NDkwM119
 -->
