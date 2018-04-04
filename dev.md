@@ -77,7 +77,7 @@ or
 
 
 ### git
-
+Installation.
 `$ sudo apt-get install git`
 `$ git --version`
 
@@ -857,5 +857,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDc2MzkwNzhdfQ==
+eyJoaXN0b3J5IjpbLTQ2NTU1OTY1Nl19
 -->
