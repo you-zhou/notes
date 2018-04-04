@@ -100,7 +100,8 @@ $ git commit --amend  # Reword the last commit message
 	$ git commit --amend
 ```
 
-### node.js
+### node.js & npm
+``
 
 
 # Environment Variables
@@ -859,5 +860,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDAxMzE1NjZdfQ==
+eyJoaXN0b3J5IjpbLTE0MTM1MDMzMDddfQ==
 -->
