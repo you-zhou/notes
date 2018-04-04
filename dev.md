@@ -53,7 +53,9 @@ Below is a customised bash shell script that should be executed at the end of `~
 Append this line: `source .myscript`
 
 ```bash
-export HOME=$HOME:~/
+export HOME=$HOME:~/.local/bin
+# Make use of commands like workon, mkvirtualenv, etc.
+source /usr/local/bin/virtualenvwrapper.sh
 ```
 
 ### jupyter notebook & lab
@@ -848,5 +850,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MzcyMzgxNl19
+eyJoaXN0b3J5IjpbLTEwMzYzNjMzMzBdfQ==
 -->
