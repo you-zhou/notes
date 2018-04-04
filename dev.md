@@ -54,7 +54,7 @@ Append this line: `source .my_env_script`
 
 ```bash
 # .my_env_script
-# DESCRIPTION: this is to set up common env
+# DESCRIPTION: this is to set up common environment across my different PCs.
 
 # register local bin
 export PATH=$PATH:~/.local/bin
@@ -860,5 +860,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4NDk2NzcwXX0=
+eyJoaXN0b3J5IjpbMTY4MTIxMTA5NF19
 -->
