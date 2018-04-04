@@ -9,9 +9,13 @@ windows
 `pip install -U virtualenvwrapper-win`
 
 Linux
+When using differ
 user | directory
----
+--- | ---
 jack | ~/.local/bin
+root | /usr/bin
+
+`$ export PATH=$PATH:~/.local/bin`
 
 `$ which python3`
 `$ python3 -V`
@@ -816,5 +820,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzcxNTU3OTJdfQ==
+eyJoaXN0b3J5IjpbMTEyNDU0MDU0NV19
 -->
