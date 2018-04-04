@@ -62,7 +62,7 @@ export DEV_HOME=~/Dev
 export DROPBOX_HOME=~/Dropbox
 
 # virtualenvwrapper set up
-export WORKON_HOME=$HOME/.virtualenvs
+export WORKON_HOME=~/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 ```
 
@@ -858,5 +858,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0OTMxNzQ1OF19
+eyJoaXN0b3J5IjpbLTExNDMxMDQ4N119
 -->
