@@ -14,6 +14,7 @@ Linux
 `pip3 -V`
 `sudo apt-get install -U python3-pip`
 `pip3 install -U virutualenvwrapper`
+NOTE: Ubuntu would not recognise the virtualenv commands straight away.
 
 
 ### Environment Variables
@@ -21,6 +22,8 @@ Linux
 `DROPBOX_HOME`
 `ONEDRIVE_HOME`
 
+### Jupyter notebook & lab
+`pip install -U install `
 
 ## GIT
 $ git config --global user.name "George Brocklehurst"
@@ -797,5 +800,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1Njk3MTU1XX0=
+eyJoaXN0b3J5IjpbLTIwOTg5MDQzOTVdfQ==
 -->
