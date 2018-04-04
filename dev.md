@@ -50,7 +50,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 `ONEDRIVE_HOME`
 
 Below is a customised bash shell script that should be executed at the end of `~/.bashrc` or `~/.bash_profile`.
-Append this line: `source .my_env_script`
+e.g. Append  `source .my_env_script` to `~/.bashrc`
 
 ```bash
 # .my_env_script
@@ -65,7 +65,11 @@ export DROPBOX_HOME=~/Dropbox
 
 # virtualenvwrapper set up
 export WORKON_HOME=~/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
+# solved "could not import the module virtualenvwrapper.hook_loader" issue
+export VIRTUALENVWRAPPER_PYTHON=`which python3`
+export VIRTUALENVWRAPPER_VIRTUALENV=`which virtualenv`
+# source /usr/local/bin/virtualenvwrapper.sh
+source `which virtualenvwrapper.sh`
 ```
 
 ### jupyter notebook & lab
@@ -860,5 +864,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTIxMTA5NF19
+eyJoaXN0b3J5IjpbMTg5MDUyNjk0Ml19
 -->
