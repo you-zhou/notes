@@ -1,7 +1,7 @@
 # Dev Notes
 ----------
 ## System Setup
-### ython, pip &rtualenv
+### python, pip & virtualenv
 windows
 `python -V`
 `pip -V`
@@ -32,10 +32,6 @@ NOTE: it is import to add sudo
 NOTE: Ubuntu would not recognise the virtualenv commands straight away.
 `$ export PATH=$PATH:~/.local/bin`
 `$ source /usr/local/bin/virtualenvwrapper.sh` 
-
-
-### Environment Variables
-
 
 ### Environment Variables
 Below is a customised bash shell script that should be executed at the end of `~/.bashrc` or `~/.bash_profile`.
@@ -85,7 +81,7 @@ Installation.
 `$ git --version`
 
 $ git config --global user.name "You Zhou"
-$ git config --global user.email zhouyou.xy@gmail.com
+$ git config --global user.email george@georgebrock.com
 
 
 $ git status
@@ -860,5 +856,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzYzMDQ3OTldfQ==
+eyJoaXN0b3J5IjpbNzc2NTc3MjY0XX0=
 -->
