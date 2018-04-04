@@ -25,9 +25,8 @@ root | /usr/bin
 NOTE: Ubuntu would not recognise the virtualenv commands straight away.
 `$ export PATH=$PATH:~/.local/bin`
 
-`$ sudo /usr/bin/easy_install virtualenv`
 ```bash
-# fdfasdf
+# puts virtualenv in /usr/local/bin/
 $ sudo /usr/bin/easy_install virtualenv
 ```
 
@@ -827,5 +826,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIyOTczNjQzXX0=
+eyJoaXN0b3J5IjpbLTIwMjgzNTk5NTldfQ==
 -->
