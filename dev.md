@@ -31,7 +31,7 @@ NOTE: it is import to add sudo
 `$ sudo pip3 install -U virutualenvwrapper`
 NOTE: Ubuntu would not recognise the virtualenv commands straight away.
 `$ export PATH=$PATH:~/.local/bin`
-`$ source /usr/local/bin/virtualenvwrapper.sh`
+`$ source /usr/local/bin/virtualenvwrapper.sh` 
 
 ```bash
 # puts virtualenv in /usr/local/bin/
@@ -841,5 +841,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODIzNzE2M119
+eyJoaXN0b3J5IjpbNzczNjk2NjQ5XX0=
 -->
