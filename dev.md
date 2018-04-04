@@ -49,6 +49,11 @@ source /usr/local/bin/virtualenvwrapper.sh
 `DROPBOX_HOME`
 `ONEDRIVE_HOME`
 
+Below is a customised script
+```bash
+
+```
+
 ### jupyter notebook & lab
 * It's better to isolate packages related to jupyter to an individual virtual environment.
 `$ mkvirtualenv jupyter`
@@ -841,5 +846,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzczNjk2NjQ5XX0=
+eyJoaXN0b3J5IjpbLTgxMTYzMjUyNl19
 -->
