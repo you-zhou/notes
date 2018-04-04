@@ -58,7 +58,7 @@ Append this line: `source .myscript`
 export HOME=$HOME:~/.local/bin
 # Common directories for cross PC scripts.
 export DEV_HOME=~/Dev
-export 
+export DROPBOX_HOME=~/Dropbox
 # Make use of commands like workon, mkvirtualenv, etc.
 source /usr/local/bin/virtualenvwrapper.sh
 ```
@@ -855,5 +855,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyMjU0NDQ4XX0=
+eyJoaXN0b3J5IjpbLTU5NzEwOTA4OF19
 -->
