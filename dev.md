@@ -81,8 +81,8 @@ Installation.
 `$ sudo apt-get install git`
 `$ git --version`
 
-$ git config --global user.name "George Brocklehurst"
-$ git config --global user.email george@georgebrock.com
+$ git config --global user.name "You Zhou"
+$ git config --global user.email zhouyou.xy@gmail.com
 
 
 $ git status
@@ -857,5 +857,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NTU1OTY1Nl19
+eyJoaXN0b3J5IjpbMTA3NDM2MzQ5NV19
 -->
