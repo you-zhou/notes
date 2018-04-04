@@ -22,8 +22,10 @@ NOTE: Ubuntu would not recognise the virtualenv commands straight away.
 `DROPBOX_HOME`
 `ONEDRIVE_HOME`
 
-### Jupyter notebook & lab
-`pip install -U install `
+### jupyter notebook & lab
+It's better to isolate 
+`mkvirtualenv jupyter`
+`pip install -U install jupyter`
 
 ## GIT
 $ git config --global user.name "George Brocklehurst"
@@ -800,5 +802,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTg5MDQzOTVdfQ==
+eyJoaXN0b3J5IjpbLTEwNDM4NTIyMl19
 -->
