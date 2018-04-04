@@ -24,9 +24,14 @@ NOTE: Ubuntu would not recognise the virtualenv commands straight away.
 
 ### jupyter notebook & lab
 It's better to isolate packages related to jupyter to an individual virtual environment.
-`mkvirtualenv jupyter`
-`pi`
-`pip install -U install jupyterlab`
+`$ mkvirtualenv jupyter`
+`$ pip install -U install jupyterlab`
+`$ jupyter notebook --version`
+
+Start jupyter notebook / lab
+`$ jupyter notebook`
+or
+`$ jupyter lab`
 
 
 
@@ -805,5 +810,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTkxOTg0NTddfQ==
+eyJoaXN0b3J5IjpbLTQxODk5NDczMV19
 -->
