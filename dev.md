@@ -283,6 +283,8 @@ To INSTALL all packages from a list to the current environment.
 To UNINSTALL all packages in the current environment.
 * Method 1 (with  `pip freeze`)
 	`pip freeze | xargs pip uninstall -y`
+	or
+	`pip3 freeze | xargs sudo pip3 uninstall -y`
 
 * Method 2 (with  `pip list`)
 	`pip list | awk '{print $1}' | xargs pip uninstall -y`
@@ -837,5 +839,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE4ODEzMzMwXX0=
+eyJoaXN0b3J5IjpbLTE3MDcwMDU5NThdfQ==
 -->
