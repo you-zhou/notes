@@ -50,10 +50,10 @@ source /usr/local/bin/virtualenvwrapper.sh
 `ONEDRIVE_HOME`
 
 Below is a customised bash shell script that should be executed at the end of `~/.bashrc` or `~/.bash_profile`.
-Append this line: `source .myscript`
+Append this line: `source .my_env_script`
 
 ```bash
-# .myscript
+# .my_env_script
 # Local bin.
 export HOME=$HOME:~/.local/bin
 # Common directories for cross PC scripts.
@@ -855,5 +855,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NzEwOTA4OF19
+eyJoaXN0b3J5IjpbMzYxNjI2OTc0XX0=
 -->
