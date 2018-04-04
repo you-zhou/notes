@@ -5,13 +5,14 @@ windows
 `python -V`
 `pip -V`
 `python -m pip install -U pip`
+`pip install -U virtualenvwrapper-win`
 
 Linux
 `which python3`
 `python3 -V`
 `pip3 -V`
 `sudo apt-get install -U python3-pip`
-`pip3 install -U virutual`
+`pip3 install -U virutualenvwrapper`
 
 
 ## GIT
@@ -789,5 +790,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MTg4MDQyMF19
+eyJoaXN0b3J5IjpbODYyMzMxMjM4XX0=
 -->
