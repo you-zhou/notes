@@ -1,7 +1,7 @@
 # Dev Notes
 ----------
 ## System Setup
-### ython, pip & irtualenv
+### ython, pip &rtualenv
 windows
 `python -V`
 `pip -V`
@@ -45,7 +45,10 @@ e.g. Append  `source .my_env_script` to `~/.bashrc`
 # .my_env_script
 # DESCRIPTION: this is to set up common environment across my different PCs.
 
-# register local bin
+# nvironent ariables
+
+
+### Environment Variablesregister local bin
 export PATH=$PATH:~/.local/bin
 
 # common directories for cross PC scripts
@@ -857,5 +860,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NDM2MzQ5NV19
+eyJoaXN0b3J5IjpbLTE1MzYzMDQ3OTldfQ==
 -->
