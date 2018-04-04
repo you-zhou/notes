@@ -12,10 +12,14 @@ Linux
 Installing apps with different profiles will have different default package destinations.
 user | directory
 --- | ---
-jack | ~/.local/bin
+regular user (none root)| ~/.local/bin
 root | /usr/bin
 
 `$ export PATH=$PATH:~/.local/bin`
+
+Installing with pip.
+
+`~/.local/lib/pythonX.X/site-packages`
 
 `$ which python3`
 `$ python3 -V`
@@ -826,5 +830,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjgzNTk5NTldfQ==
+eyJoaXN0b3J5IjpbODg2NjYzNjc3XX0=
 -->
