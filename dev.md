@@ -36,6 +36,11 @@ NOTE: Ubuntu would not recognise the virtualenv commands straight away.
 $ sudo /usr/bin/easy_install virtualenv
 ```
 
+```bash
+export WORKON_HOME=$HOME/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
+```
+
 
 ### Environment Variables
 `DEV_HOME`
@@ -832,5 +837,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjA2NDkwM119
+eyJoaXN0b3J5IjpbMjE4ODEzMzMwXX0=
 -->
