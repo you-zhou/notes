@@ -33,22 +33,8 @@ NOTE: Ubuntu would not recognise the virtualenv commands straight away.
 `$ export PATH=$PATH:~/.local/bin`
 `$ source /usr/local/bin/virtualenvwrapper.sh` 
 
-```bash
-# puts virtualenv in /usr/local/bin/
-$ sudo /usr/bin/easy_install virtualenv
-```
-
-```bash
-export WORKON_HOME=$HOME/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
-```
-
 
 ### Environment Variables
-`DEV_HOME`
-`DROPBOX_HOME`
-`ONEDRIVE_HOME`
-
 Below is a customised bash shell script that should be executed at the end of `~/.bashrc` or `~/.bash_profile`.
 e.g. Append  `source .my_env_script` to `~/.bashrc`
 
@@ -864,5 +850,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NDcwMDYwMV19
+eyJoaXN0b3J5IjpbLTE0OTkwNzY3Ml19
 -->
