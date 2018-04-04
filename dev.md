@@ -54,17 +54,15 @@ Append this line: `source .my_env_script`
 
 ```bash
 # .my_env_script
-# Register local bin.
-export HOME=$HOME:~/.local/bin
+# register local bin
+export PATH=$PATH:~/.local/bin
 
-# Common directories for cross PC scripts.
+# common directories for cross PC scripts
 export DEV_HOME=~/Dev
 export DROPBOX_HOME=~/Dropbox
 
-# virtualenvwrapper
+# virtualenvwrapper set up
 export WORKON_HOME=$HOME/.virtualenvs
-
-# Make use of commands like workon, mkvirtualenv, etc.
 source /usr/local/bin/virtualenvwrapper.sh
 ```
 
@@ -860,5 +858,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMjU3MzgyM119
+eyJoaXN0b3J5IjpbLTU0OTMxNzQ1OF19
 -->
