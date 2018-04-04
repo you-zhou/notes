@@ -1,7 +1,7 @@
 # Dev Notes
 ----------
 ## System Setup
-### python, pip & virtualenv
+### ython, pip & irtualenv
 windows
 `python -V`
 `pip -V`
@@ -32,6 +32,9 @@ NOTE: it is import to add sudo
 NOTE: Ubuntu would not recognise the virtualenv commands straight away.
 `$ export PATH=$PATH:~/.local/bin`
 `$ source /usr/local/bin/virtualenvwrapper.sh` 
+
+
+### Environment Variables
 
 
 ### Environment Variables
@@ -850,5 +853,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTkwNzY3Ml19
+eyJoaXN0b3J5IjpbLTIwOTAxNjQ0M119
 -->
