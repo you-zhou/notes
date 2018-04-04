@@ -9,13 +9,13 @@ windows
 `pip install -U virtualenvwrapper-win`
 
 Linux
-`which python3`
-`python3 -V`
-`pip3 -V`
-`sudo apt-get install -U python3-pip`
-`pip3 install -U virutualenvwrapper`
+`$ which python3`
+`$ python3 -V`
+`$ pip3 -V`
+`$ sudo apt-get install -U python3-pip`
+`$ pip3 install -U virutualenvwrapper`
 NOTE: Ubuntu would not recognise the virtualenv commands straight away.
-``
+`$ export PATH=$PATH:~/.local/bin`
 
 ### Environment Variables
 `DEV_HOME`
@@ -812,5 +812,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMDQwNzQ4NV19
+eyJoaXN0b3J5IjpbMTQwNjMzMzkxNF19
 -->
