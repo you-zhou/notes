@@ -23,7 +23,7 @@ NOTE: Ubuntu would not recognise the virtualenv commands straight away.
 `ONEDRIVE_HOME`
 
 ### jupyter notebook & lab
-It's better to isolate 
+It's better to isolate packages related to jupyter to an individual virtual environment.
 `mkvirtualenv jupyter`
 `pip install -U install jupyter`
 
@@ -802,5 +802,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDM4NTIyMl19
+eyJoaXN0b3J5IjpbLTExNzc5MTA3NDddfQ==
 -->
