@@ -35,12 +35,13 @@ NOTE: Ubuntu would not recognise the virtualenv commands straight away.
 
 Install `pipenv` in Ubuntu:
 * using apt
-	```bash
-	$ sudo apt install software-properties-common python-software-properties
-	$ sudo add-apt-repository ppa:pypa/ppa
-	$ sudo apt update
-	$ sudo apt install pipenv
-	```
+```bash
+$ sudo apt install software-properties-common python-software-properties
+$ sudo add-apt-repository ppa:pypa/ppa
+$ sudo apt update
+$ sudo apt install pipenv
+```
+or
 * using pip
 `$ pip install pipenv`
 
@@ -872,5 +873,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODQ1NzcxNl19
+eyJoaXN0b3J5IjpbMjA2MzY4MzAzM119
 -->
