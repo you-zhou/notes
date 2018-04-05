@@ -655,10 +655,8 @@ Now we need to tell Django the information of my database. To do it, you need to
 If you are under a Unix environment. The following command does the job:
 
 export `DATABASE_URL=postgres://example_user:password@localhost:5432/bitsroom`
-
 After this, run Django migrations: `$ python manage.py migrate`
-
-And if you got something like this, let’s run the server!
+And then, run the server with:  `$ python manage.py runserver`
 
 ## slug
 ### 1. Generating a unique slug for a *single* model.
@@ -926,6 +924,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIxMTMwNzYxLC0yMDMxODcyNTk5LC0xOT
+eyJoaXN0b3J5IjpbMjAzMTA2MDIzLC0yMDMxODcyNTk5LC0xOT
 Q1NTcyNDk4XX0=
 -->
