@@ -1,7 +1,7 @@
-# Dev Notes
+Dev Notes
 
-## System Setup
-### python, pip, virtualenv & pipenv
+# System Setup
+## python, pip, virtualenv & pipenv
 windows
 `python -V`
 `pip -V`
@@ -45,7 +45,7 @@ or
 * using pip
 `$ pip install pipenv`
 
-### environment script
+## environment script
 Below is a customised bash shell script that should be executed at the end of `~/.bashrc` or `~/.bash_profile`.
 e.g. Append  `source .my_env_script` to `~/.bashrc`
 
@@ -87,7 +87,7 @@ or
 
 
 
-### git
+## git
 Installation.
 `$ sudo apt-get install git`
 `$ git --version`
@@ -126,7 +126,7 @@ Environment variables are a way to store configurable values across your entire 
 - Windows use semi-colon  `';'`  as path separator (e.g., in  `PATH`  environment variable), while Unix uses colon  `':'`.
 -   Unix's variable name is denoted as  `$_varname_`, e.g.,  `$CLASSPATH`. Windows uses  `%_varname_%`, e,g.,  `%CLASSPATH%`.
 
-## Windows Commands
+#### Windows Commands
 * List all environment variables.
 `> set`
 * Display the value of an environment variable.
@@ -143,7 +143,7 @@ or
 `> set DROPBOX_HOME=`
 
 
-## Linux Commands
+#### Linux Commands
 * List all environment variables.
 `$ env`
 or
@@ -920,6 +920,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAwODE0MTM1LC0yMDMxODcyNTk5LC0xOT
-Q1NTcyNDk4XX0=
+eyJoaXN0b3J5IjpbLTU1ODY4NDU4MCwtMjAzMTg3MjU5OSwtMT
+k0NTU3MjQ5OF19
 -->
