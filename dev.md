@@ -627,11 +627,11 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 
 ## database
 ### Configure Postgres Database
-create a 
+with sample values
 * database: example
 * user: example_user
-* password: password’.
-
+* password: password
+```sql
 -- Create the database project
 CREATE DATABASE example;
 
@@ -646,6 +646,7 @@ CREATEDB;
 -- Grant privileges to the user to access database
 GRANT ALL PRIVILEGES ON DATABASE example 
 TO example_user;
+```
 
 In this point we should have an empty database working with the specified user.
 
@@ -931,6 +932,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5MDQxODY3LC0yMDMxODcyNTk5LC0xOT
-Q1NTcyNDk4XX0=
+eyJoaXN0b3J5IjpbLTEzODYwOTAxMTUsLTIwMzE4NzI1OTksLT
+E5NDU1NzI0OThdfQ==
 -->
