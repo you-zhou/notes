@@ -98,12 +98,17 @@ $ git config --global user.email zhouyou.xy@gmail.com
 
 $ git status
 
+
+### remove unstaged & tracked files
+$ git checkout .
+
 ### remove unstaged & untracked files
 $ git clean -f # remove untracked files
 $ git clean -fd # remove untracked directories
 
-### remove unstaged & tracked files
-$ git checkout .
+
+### remove staged & tracked
+$ git reset --hard
 
 $ git diff
 $ git diff --staged
@@ -928,6 +933,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMjQ2NjIzOCwtMjAzMTg3MjU5OSwtMT
-k0NTU3MjQ5OF19
+eyJoaXN0b3J5IjpbLTEzOTg0ODYyMDEsLTIwMzE4NzI1OTksLT
+E5NDU1NzI0OThdfQ==
 -->
