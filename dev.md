@@ -615,8 +615,9 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 	`mkvirtualenv bitsroom`
 	or
 	* pipenv
-	`cd ~/Dev/bitsroom`
-	``
+	`$ cd ~/Dev/bitsroom`
+	`$ pipenv install` # 
+	`$ pipenv shell` # activate virtual environment
 
 
 ## cookiecutter
@@ -887,5 +888,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzOTMzMDE3NywtMTk0NTU3MjQ5OF19
+eyJoaXN0b3J5IjpbMTc1MjY3OTgxNywtMTk0NTU3MjQ5OF19
 -->
