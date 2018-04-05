@@ -612,7 +612,7 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 2. clone it `$ git clone https://github.com/you-zhou/bitsroom.git`
 3. create a virtual environment for the project
 	* virtualenvwrapper
-	`mkvirtualenv bitsroom`
+	`mkvirtualenv bitsroom` # new virtual environement will be activated after the creation
 	or
 	* pipenv
 	`$ cd ~/Dev/bitsroom` # **ENTER** project directory first
@@ -888,5 +888,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMzg5MzMyMywtMTk0NTU3MjQ5OF19
+eyJoaXN0b3J5IjpbODI5MTQwMTEsLTE5NDU1NzI0OThdfQ==
 -->
