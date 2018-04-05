@@ -34,12 +34,15 @@ NOTE: Ubuntu would not recognise the virtualenv commands straight away.
 `$ source /usr/local/bin/virtualenvwrapper.sh` 
 
 Install `pipenv` in Ubuntu:
-```bash
-$ sudo apt install software-properties-common python-software-properties
-$ sudo add-apt-repository ppa:pypa/ppa
-$ sudo apt update
-$ sudo apt install pipenv
-```
+* using apt
+	```bash
+	$ sudo apt install software-properties-common python-software-properties
+	$ sudo add-apt-repository ppa:pypa/ppa
+	$ sudo apt update
+	$ sudo apt install pipenv
+	```
+* using pip
+`$ pip install pipenv`
 
 ### environment script
 Below is a customised bash shell script that should be executed at the end of `~/.bashrc` or `~/.bash_profile`.
@@ -869,5 +872,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njc1MzAwMTZdfQ==
+eyJoaXN0b3J5IjpbMjAyODQ1NzcxNl19
 -->
