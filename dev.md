@@ -611,8 +611,9 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 1. create a repository (e.g. bitsroom) in github
 2. clone it `$ git clone https://github.com/you-zhou/bitsroom.git`
 
-## Cookiecutter
-## Slug
+## cookiecutter
+
+## slug
 ### 1. Generating a unique slug for a *single* model.
 [ref: unique slug for a single model](https://fazle.me/auto-generating-unique-slug-in-django/)
 ```python
@@ -878,5 +879,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDU1NzI0OThdfQ==
+eyJoaXN0b3J5IjpbMTk0OTc1MjAwMCwtMTk0NTU3MjQ5OF19
 -->
