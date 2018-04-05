@@ -625,6 +625,48 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 
 ## cookiecutter
 
+## database
+### Configure Postgres Database
+
+Yes, It comes with Postgres by default, and you can change it, but definitively It’s always better to use Postgres.
+
+Let’s prepare the Database:
+
+I’m going to create a database example, with an user example_user, and as password i will use ‘password’.
+
+-- Create the database project
+CREATE DATABASE example;
+
+-- Create user for database
+CREATE ROLE example_user 
+WITH LOGIN ENCRYPTED PASSWORD 'password' 
+CREATEDB;
+-- Edit September 25/2015 : 
+-- For security Only set CREATEDB permission
+-- Which is required for the Django tests
+
+-- Grant privileges to the user to access database
+GRANT ALL PRIVILEGES ON DATABASE example 
+TO example_user;
+
+In this point we should have an empty database working with the specified user.
+
+Now we need to tell Django the information of my database. To do it, you need to define an environment variable  **DATABASE_URL**  using the Django convention:
+
+If you are under a Unix environment. The following command does the job:
+
+export DATABASE_URL=postgres://example_user:password@localhost:5432/example
+
+After this, you should be able to run Django migrations with no problem:
+
+python manage.py migrate
+
+You should get something like this:
+
+![](https://s3-us-west-2.amazonaws.com/swapwp/static/sites/4/2015/09/img_55f8caa871d26.png)
+
+And if you got something like this, let’s run the server!
+
 ## slug
 ### 1. Generating a unique slug for a *single* model.
 [ref: unique slug for a single model](https://fazle.me/auto-generating-unique-slug-in-django/)
@@ -891,6 +933,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDU3MDAwMTEsLTIwMzE4NzI1OTksLT
-E5NDU1NzI0OThdfQ==
+eyJoaXN0b3J5IjpbMTI4NzczMDcwMiwtMjAzMTg3MjU5OSwtMT
+k0NTU3MjQ5OF19
 -->
