@@ -627,12 +627,10 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 
 ## database
 ### Configure Postgres Database
-
-Yes, It comes with Postgres by default, and you can change it, but definitively It’s always better to use Postgres.
-
-Let’s prepare the Database:
-
-I’m going to create a database example, with an user example_user, and as password i will use ‘password’.
+create a 
+* database: example
+* user: example_user
+* password: password’.
 
 -- Create the database project
 CREATE DATABASE example;
@@ -933,6 +931,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NzczMDcwMiwtMjAzMTg3MjU5OSwtMT
-k0NTU3MjQ5OF19
+eyJoaXN0b3J5IjpbNjQ5MDQxODY3LC0yMDMxODcyNTk5LC0xOT
+Q1NTcyNDk4XX0=
 -->
