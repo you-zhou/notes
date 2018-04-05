@@ -654,15 +654,9 @@ Now we need to tell Django the information of my database. To do it, you need to
 
 If you are under a Unix environment. The following command does the job:
 
-export DATABASE_URL=postgres://example_user:password@localhost:5432/example
+export `DATABASE_URL=postgres://example_user:password@localhost:5432/bitsroom`
 
-After this, you should be able to run Django migrations with no problem:
-
-python manage.py migrate
-
-You should get something like this:
-
-![](https://s3-us-west-2.amazonaws.com/swapwp/static/sites/4/2015/09/img_55f8caa871d26.png)
+After this, run Django migrations: `$ python manage.py migrate`
 
 And if you got something like this, let’s run the server!
 
@@ -932,6 +926,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMwMDE4NjYsLTIwMzE4NzI1OTksLTE5ND
-U1NzI0OThdfQ==
+eyJoaXN0b3J5IjpbMjIxMTMwNzYxLC0yMDMxODcyNTk5LC0xOT
+Q1NTcyNDk4XX0=
 -->
