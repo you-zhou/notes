@@ -610,6 +610,8 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 ## how to start a django project properly
 1. create a repository (e.g. bitsroom) in github
 2. clone it `$ git clone https://github.com/you-zhou/bitsroom.git`
+3. create a virutal environment for the project
+
 
 ## cookiecutter
 
@@ -879,5 +881,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0OTc1MjAwMCwtMTk0NTU3MjQ5OF19
+eyJoaXN0b3J5IjpbLTE3OTUyMjM0NjUsLTE5NDU1NzI0OThdfQ
+==
 -->
