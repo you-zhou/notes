@@ -1,7 +1,7 @@
 # Dev Notes
 
 ## System Setup
-### python, pip & virtualenv
+### python, pip, virtualenv & pipenv
 windows
 `python -V`
 `pip -V`
@@ -861,5 +861,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNTQ4MTQxMV19
+eyJoaXN0b3J5IjpbLTY0NTAwMDU3NV19
 -->
