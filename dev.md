@@ -611,9 +611,12 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 1. create a repository (e.g. bitsroom) in github
 2. clone it `$ git clone https://github.com/you-zhou/bitsroom.git`
 3. create a virtual environment for the project
+	* virtualenvwrapper
 	`mkvirtualenv bitsroom`
 	or
-	`cd ~/Dev/bitsroom && `
+	* pipenv
+	`cd ~/Dev/bitsroom`
+	``
 
 
 ## cookiecutter
@@ -884,5 +887,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwODk3MTAwLC0xOTQ1NTcyNDk4XX0=
+eyJoaXN0b3J5IjpbMTUzOTMzMDE3NywtMTk0NTU3MjQ5OF19
 -->
