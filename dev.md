@@ -607,6 +607,7 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 
 
 # Django
+## Cookieco
 ## Slug
 ### 1. Generating a unique slug for a *single* model.
 [ref: unique slug for a single model](https://fazle.me/auto-generating-unique-slug-in-django/)
@@ -873,5 +874,5 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MzY4MzAzM119
+eyJoaXN0b3J5IjpbMzg2ODcxNDY3XX0=
 -->
