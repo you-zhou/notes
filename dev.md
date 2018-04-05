@@ -627,13 +627,13 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 
 ## database
 ### Configure Postgres Database
-with sample values
-* database: example
+sample values:
+* database: bitsroom
 * user: example_user
 * password: password
 ```sql
 -- Create the database project
-CREATE DATABASE example;
+CREATE DATABASE bitsroom;
 
 -- Create user for database
 CREATE ROLE example_user 
@@ -644,7 +644,7 @@ CREATEDB;
 -- Which is required for the Django tests
 
 -- Grant privileges to the user to access database
-GRANT ALL PRIVILEGES ON DATABASE example 
+GRANT ALL PRIVILEGES ON DATABASE bitsroom
 TO example_user;
 ```
 
@@ -932,6 +932,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODYwOTAxMTUsLTIwMzE4NzI1OTksLT
-E5NDU1NzI0OThdfQ==
+eyJoaXN0b3J5IjpbNjMwMDE4NjYsLTIwMzE4NzI1OTksLTE5ND
+U1NzI0OThdfQ==
 -->
