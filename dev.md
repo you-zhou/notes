@@ -620,7 +620,7 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 	`$ pipenv shell` # activate virtual environment
 4. use cookiecutter
 	`$ pip install "cookiecutter>=1.4.0"` # do this within a virtual environment, as it will install several dependant packages.
-	`$ cookiecutter https://github.com/pydanny/cookiecutter-django`
+	`$ cookiecutter https://github.com/pydanny/cookiecutter-django` # this prompt 
 
 ## cookiecutter
 
@@ -890,6 +890,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDI4NTQ5NjgsLTE5NDU1NzI0OThdfQ
+eyJoaXN0b3J5IjpbLTIwMzE4NzI1OTksLTE5NDU1NzI0OThdfQ
 ==
 -->
