@@ -649,7 +649,7 @@ TO example_user;
 ```
 At this point, there should be an empty database working with the specified user.
 Now we need to tell Django the information of my database. To do it, you need to define an environment variable  **DATABASE_URL**  using the Django convention:
-In a Unix environment, below command will set the environment variable DATABSE_URL in the environment, which Django can then rea:
+In a Unix environment, below command will set the environment variable `DATABSE_URL` in the environment, which Django can then read from:
 `$ export DATABASE_URL=postgres://example_user:password@localhost:5432/bitsroom`
 After this, run Django migrations: `$ python manage.py migrate`
 And then, run the server with:  `$ python manage.py runserver`
@@ -920,6 +920,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MTg0NDgwNywtMjAzMTg3MjU5OSwtMT
+eyJoaXN0b3J5IjpbMTE0MDgwNDI2NywtMjAzMTg3MjU5OSwtMT
 k0NTU3MjQ5OF19
 -->
