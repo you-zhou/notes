@@ -671,6 +671,7 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 
 #### create a database
 The command prompt `$` will change into `#`, which means that we're now sending commands to PostgreSQL after below command.
+1. connect to 
 `$ psql -U user_name -W`
 
 1. create a user
@@ -1030,6 +1031,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MjAzNDU5MywtMjAzMTg3MjU5OSwtMT
+eyJoaXN0b3J5IjpbMTYzMTY2MDg2NSwtMjAzMTg3MjU5OSwtMT
 k0NTU3MjQ5OF19
 -->
