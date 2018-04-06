@@ -798,6 +798,12 @@ Work with the auxiliary package `django-heroku`.
 Create an app called `bitsroom`.
 `$ heroku create bitsroom`
 
+Check remote branch `heroku`.
+`$ git remote -v`
+
+Push the current branch to Heroku.
+`$ git push heroku `
+
 
 ## slug
 ### 1. Generating a unique slug for a *single* model.
@@ -1065,6 +1071,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NzAxNjQyMiwtMjAzMTg3MjU5OSwtMT
-k0NTU3MjQ5OF19
+eyJoaXN0b3J5IjpbNzk1NzI5NjkwLC0yMDMxODcyNTk5LC0xOT
+Q1NTcyNDk4XX0=
 -->
