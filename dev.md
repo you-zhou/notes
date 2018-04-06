@@ -784,9 +784,9 @@ Work on a new branch.
 3.  Push your branch to the remote repository:  
     `git push -u origin setup-heroku`
 
-Work with djang
+Work with the auxiliary package `django-heroku`.
 1. Inside the virtualenv, run `$ pip3 install django-heroku`
-
+2. Add `django-heroku=
 2. In  settings.py, at the very bottom:
 	```python
 	…
@@ -1061,6 +1061,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNzkwMjgyNywtMjAzMTg3MjU5OSwtMT
+eyJoaXN0b3J5IjpbLTY2NTU5MzYyNiwtMjAzMTg3MjU5OSwtMT
 k0NTU3MjQ5OF19
 -->
