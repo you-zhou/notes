@@ -678,17 +678,17 @@ To set the default password:
 
 1.  Run the  **psql**  command from the  `postgres`  user account:
     
-    `sudo -u postgres psql postgres`
+    `$ sudo -u postgres psql postgres`
     
 2.  Set the password:
     
-    `\password postgres`
+    `postgres=# \password postgres`
     
 3.  Enter a password.
     
 4.  Close  **psql**.
     
-    \q
+    `\q`
 
 `$ sudo -u user_name psql db_name`
 Set/change password:
@@ -992,6 +992,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDM2MjgwMSwtMjAzMTg3MjU5OSwtMT
-k0NTU3MjQ5OF19
+eyJoaXN0b3J5IjpbLTYxMDY5OTU2LC0yMDMxODcyNTk5LC0xOT
+Q1NTcyNDk4XX0=
 -->
