@@ -777,7 +777,7 @@ sudo apt-get update
 sudo apt-get install heroku
 ```
 
-Work on a new branch.
+Work on a new branch for heroku settings.
 1.  Create a new branch:  
     `git checkout -b setup-heroku`
 2.  Edit, add and commit your files.
@@ -1061,6 +1061,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyODEwODAyMywtMjAzMTg3MjU5OSwtMT
-k0NTU3MjQ5OF19
+eyJoaXN0b3J5IjpbLTE0OTkwOTAwNjMsLTIwMzE4NzI1OTksLT
+E5NDU1NzI0OThdfQ==
 -->
