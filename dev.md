@@ -708,6 +708,11 @@ Change line# 85 from:
 to:
 `local	all	postgres	md5`
 
+Change line# 90 from:
+`local	all	all	peer`
+to:
+`local	all	all	md5`
+
 And then restart PostsgreSQL by `$ sudo service postgresql restart`
 
 [stackoverflow ref](https://stackoverflow.com/questions/18664074/getting-error-peer-authentication-failed-for-user-postgres-when-trying-to-ge)
@@ -1007,6 +1012,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzQ2NTkyMzEsLTIwMzE4NzI1OTksLT
+eyJoaXN0b3J5IjpbLTIwMDExOTUyMzAsLTIwMzE4NzI1OTksLT
 E5NDU1NzI0OThdfQ==
 -->
