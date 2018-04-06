@@ -641,10 +641,8 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 
 
 # Django
-## how to start a django project properly
-1. create a repository (e.g. bitsroom) in github
-2. clone it `$ git clone https://github.com/you-zhou/bitsroom.git`
-3. create a virtual environment for the project
+## how to start a django project properly with cookiecutter
+1. create a virtual environment for the project
 	* virtualenvwrapper
 	`mkvirtualenv bitsroom` # new virtual environement will be activated after the creation
 	or
@@ -652,7 +650,7 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 	`$ cd ~/Dev/bitsroom` # **ENTER** project directory first
 	`$ pipenv install` # create/prepare a virtual environment (the venv name will be assigned based on the project folder name)
 	`$ pipenv shell` # activate virtual environment
-4. use cookiecutter
+2. use cookiecutter
 	`$ pip install "cookiecutter>=1.4.0"` # do this within a virtual environment, as it will install several dependant packages.
 	`$ cookiecutter -h` # check options
 	`$ cookiecutter https://github.com/pydanny/cookiecutter-django` # this prompt values for the project.
@@ -954,6 +952,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMzk2NTA0MiwtMjAzMTg3MjU5OSwtMT
-k0NTU3MjQ5OF19
+eyJoaXN0b3J5IjpbLTE5Njg3NzY3ODIsLTIwMzE4NzI1OTksLT
+E5NDU1NzI0OThdfQ==
 -->
