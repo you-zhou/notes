@@ -794,6 +794,9 @@ Work with the auxiliary package `django-heroku`.
 	import django_heroku
 	django_heroku.configure(locals())
 	```
+Create an app on Heroku.
+`$ heroku create bitsroom`
+
 
 ## slug
 ### 1. Generating a unique slug for a *single* model.
@@ -1061,6 +1064,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTkwOTAwNjMsLTIwMzE4NzI1OTksLT
-E5NDU1NzI0OThdfQ==
+eyJoaXN0b3J5IjpbMTk3OTI4OTQ5NywtMjAzMTg3MjU5OSwtMT
+k0NTU3MjQ5OF19
 -->
