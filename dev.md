@@ -704,7 +704,7 @@ Change line# 85 from:
 `local	all	postgres	peer`
 to:
 `local	all	postgres	md5`
-[stackoverflow ref
+[stackoverflow ref](https://stackoverflow.com/questions/18664074/getting-error-peer-authentication-failed-for-user-postgres-when-trying-to-ge)
 ```sql
 
 ```
@@ -1001,6 +1001,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTA3NTIzNSwtMjAzMTg3MjU5OSwtMT
-k0NTU3MjQ5OF19
+eyJoaXN0b3J5IjpbLTEwODQyMDMwMzAsLTIwMzE4NzI1OTksLT
+E5NDU1NzI0OThdfQ==
 -->
