@@ -671,16 +671,16 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 
 #### create a database
 The command prompt `$` will change into `#`, which means that we're now sending commands to PostgreSQL after below command.
-1. connect to 
-`$ psql -U user_name -W`
+1. connect to PostgreSQL with the default user `postgres`
+`$ psql -U postgres -W`
 
 1. create a user
 ```
-# CREATE USER user_name;
+# CREATE USER jackz;
 ```
 2. create a database with an assigned owner
 ```
-# CREATE DATABASE bitsroom OWNER user_name;
+# CREATE DATABASE bitsroom OWNER jackz;
 ```
 
 
@@ -719,7 +719,7 @@ Quit:
 #### test connection using psql
 `$ psql -d bitsroom -U postgres -W`
 or
-`$ psql -d bitsroom -U nathanz -W`
+`$ psql -d bitsroom -U jackz-W`
 
 If there is an error message `psql: FATAL: Peer authentication failed for user "postgres"`, edit `/etc/postgresql/9.6/main/pg_hba.conf` as below:
 Change line# 85 from:
@@ -1031,6 +1031,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTY2MDg2NSwtMjAzMTg3MjU5OSwtMT
+eyJoaXN0b3J5IjpbMjEyMDE5MDAwOCwtMjAzMTg3MjU5OSwtMT
 k0NTU3MjQ5OF19
 -->
