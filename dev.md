@@ -670,8 +670,9 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 `$ sudo apt-get install postgresql postgresql-contrib pgadmin3`
 
 #### create a database
-The command promptr `$` now changed into `#`, which means that we're now sending commands to PostgreSQL.
+The command prompt `$` will change into `#`, which means that we're now sending commands to PostgreSQL after below command.
 `$ psql -U user_name -W`
+
 1. create a user
 ```
 # CREATE USER name;
@@ -1029,6 +1030,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzU0ODIyNjYsLTIwMzE4NzI1OTksLT
-E5NDU1NzI0OThdfQ==
+eyJoaXN0b3J5IjpbLTM1ODE3MjU3NCwtMjAzMTg3MjU5OSwtMT
+k0NTU3MjQ5OF19
 -->
