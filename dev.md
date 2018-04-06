@@ -665,8 +665,11 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 	$ git remote add origin git@github.com:you-zhou/bitsroom.git
 	$ git push -u origin master
 	```
+### PostgreSQL
+#### Installation
+`$ sudo apt-get install postgresql pga`
 
-### Configure Postgres Database
+#### Configure Postgres Database
 * command line utility **psql**
 * graphical utility **pgAdmin**
 
@@ -1013,6 +1016,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTExOTkyMCwtMjAzMTg3MjU5OSwtMT
-k0NTU3MjQ5OF19
+eyJoaXN0b3J5IjpbLTE4OTQzNzcyNzgsLTIwMzE4NzI1OTksLT
+E5NDU1NzI0OThdfQ==
 -->
