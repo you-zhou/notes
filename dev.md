@@ -654,11 +654,11 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 	`$ pip install "cookiecutter>=1.4.0"` # do this within a virtual environment, as it will install several dependant packages.
 	`$ cookiecutter -h` # check options
 	`$ cookiecutter https://github.com/pydanny/cookiecutter-django` # this prompt values for the project.
-3. track files with version control
+3. track files with git
 	```git
 	# go into the project folder
 	cd bitsroom
-	# 
+	# versioin control
 	$ git init
 	$ git add .
 	$ git commit -m "initial commit"
@@ -963,6 +963,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjQwMjQ4LC0yMDMxODcyNTk5LC0xOT
+eyJoaXN0b3J5IjpbMjgzNTU4OTg5LC0yMDMxODcyNTk5LC0xOT
 Q1NTcyNDk4XX0=
 -->
