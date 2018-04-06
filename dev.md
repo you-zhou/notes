@@ -690,6 +690,7 @@ To set the default password:
     
     `postgres=# \q`
 
+> how to change a password
 `$ sudo -u user_name psql db_name`
 Set/change password:
 `$ \password user_name`
@@ -1012,6 +1013,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjQzMTQ0OSwtMjAzMTg3MjU5OSwtMT
+eyJoaXN0b3J5IjpbMTI0MTExOTkyMCwtMjAzMTg3MjU5OSwtMT
 k0NTU3MjQ5OF19
 -->
