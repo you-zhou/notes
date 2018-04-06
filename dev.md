@@ -752,7 +752,7 @@ DATABASES = {
 In the terminal, set up the DATABASE_URL as an **environment variable**.
 `$ export DATABASE_URL=postgres://jackz:mypwd@127.0.0.1:5432/bitsroom`
 In the same terminal, run:
-```shell
+```
 $ python manage.py migrate
 $ python manage.py runserver
 ```
@@ -1023,6 +1023,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NDM3MDYwNCwtMjAzMTg3MjU5OSwtMT
+eyJoaXN0b3J5IjpbLTc4MDExNTAzMiwtMjAzMTg3MjU5OSwtMT
 k0NTU3MjQ5OF19
 -->
