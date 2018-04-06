@@ -699,11 +699,15 @@ Quit:
 
 #### test connection using psql
 `$ psql -U postgres -W`
+
 If there is an error message `psql: FATAL: Peer authentication failed for user "postgres"`, edit `/etc/postgresql/9.6/main/pg_hba.conf` as below:
 Change line# 85 from:
 `local	all	postgres	peer`
 to:
 `local	all	postgres	md5`
+
+And then restart PostsgreSQL by `$ sudo service postgresql restart`
+
 [stackoverflow ref](https://stackoverflow.com/questions/18664074/getting-error-peer-authentication-failed-for-user-postgres-when-trying-to-ge)
 ```sql
 
@@ -1001,6 +1005,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQyMDMwMzAsLTIwMzE4NzI1OTksLT
+eyJoaXN0b3J5IjpbLTEzMjc1Mzk3OTIsLTIwMzE4NzI1OTksLT
 E5NDU1NzI0OThdfQ==
 -->
