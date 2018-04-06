@@ -92,6 +92,15 @@ Installation.
 `$ git config --global user.name "You Zhou"`
 `$ git config --global user.email zhouyou.xy@gmail.com`
 
+Caching your GitHub password in Git
+```
+# set git to use the credential memory cache
+$ git config --global credential.helper cache
+# set the cache to timeout after 10 hour (setting is in seconds)
+$ git config --global credential.helper 'cache --timeout=36000'
+```
+
+
 Connect to github via either ssh or httpps.
 ### register a new pc to github via ssh
 #### Generating a new SSH key
@@ -758,6 +767,16 @@ $ python manage.py runserver
 ```
 
 #### deployment for heroku
+Setup heroku CLI.
+```bash
+# Run this from your terminal.
+# The following will add our apt repository and install the CLI:
+sudo add-apt-repository "deb https://cli-assets.heroku.com/branches/stable/apt ./"
+curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install heroku
+```
+
 1. Inside the virtualenv, run `$ pip3 install django-heroku`
 
 2. In  settings.py, at the very bottom:
@@ -1034,6 +1053,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MjcxNzAxOSwtMjAzMTg3MjU5OSwtMT
+eyJoaXN0b3J5IjpbMTc4NjgzOTIwNSwtMjAzMTg3MjU5OSwtMT
 k0NTU3MjQ5OF19
 -->
