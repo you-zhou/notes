@@ -777,6 +777,14 @@ sudo apt-get update
 sudo apt-get install heroku
 ```
 
+Work on a new branch.
+1.  Create a new branch:  
+    `git checkout -b setup-heroku`
+2.  Edit, add and commit your files.
+3.  Push your branch to the remote repository:  
+    `git push -u origin setup-heroku`
+
+Work with djang
 1. Inside the virtualenv, run `$ pip3 install django-heroku`
 
 2. In  settings.py, at the very bottom:
@@ -1053,6 +1061,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NjgzOTIwNSwtMjAzMTg3MjU5OSwtMT
+eyJoaXN0b3J5IjpbMTAzNzkwMjgyNywtMjAzMTg3MjU5OSwtMT
 k0NTU3MjQ5OF19
 -->
