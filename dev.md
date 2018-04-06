@@ -750,7 +750,13 @@ DATABASES = {
 ```
 
 #### set DATABASE_URL for cookiecutter-django
-`$ export DATABASE_URL=postgres://jackz:mypw`
+In the terminal, set up the DATABASE_URL as an environment variable.
+`$ export DATABASE_URL=postgres://jackz:mypwd@127.0.0.1:5432/bitsroom`
+In the same terminal, run:
+```
+python manage.py migrate
+python manage.py runserver
+```
 
 ## slug
 ### 1. Generating a unique slug for a *single* model.
@@ -1018,6 +1024,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzOTY0MjE1MiwtMjAzMTg3MjU5OSwtMT
+eyJoaXN0b3J5IjpbMTYwMDY1NjQyNiwtMjAzMTg3MjU5OSwtMT
 k0NTU3MjQ5OF19
 -->
