@@ -801,8 +801,8 @@ Create an app called `bitsroom`.
 Check remote branch `heroku`.
 `$ git remote -v`
 
-Push the current branch to Heroku.
-`$ git push heroku `
+Push the current local branch `setup-heroku` to Heroku.
+`$ git push heroku setup-heroku`
 
 
 ## slug
@@ -1071,6 +1071,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1NzI5NjkwLC0yMDMxODcyNTk5LC0xOT
+eyJoaXN0b3J5IjpbNTQ3NzU0MDM5LC0yMDMxODcyNTk5LC0xOT
 Q1NTcyNDk4XX0=
 -->
