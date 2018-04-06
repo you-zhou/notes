@@ -708,7 +708,7 @@ Change line# 85 from:
 to:
 `local	all	postgres	md5`
 
-Change line# 90 from:
+And change line# 90 from:
 `local	all	all	peer`
 to:
 `local	all	all	md5`
@@ -1012,6 +1012,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDExOTUyMzAsLTIwMzE4NzI1OTksLT
-E5NDU1NzI0OThdfQ==
+eyJoaXN0b3J5IjpbMTY2MjQzMTQ0OSwtMjAzMTg3MjU5OSwtMT
+k0NTU3MjQ5OF19
 -->
