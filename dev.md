@@ -721,6 +721,34 @@ In a Unix environment, below command will set the environment variable `DATABSE_
 After this, run Django migrations: `$ python manage.py migrate`
 And then, run the server with:  `$ python manage.py runserver`
 
+#### update Django's `settings.py`
+Find this part in your  `mysite/settings.py`  file:
+
+```
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
+
+```
+
+And replace it with this:
+
+```
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'bitsroom',
+        'USER': 'jackz',
+        'PASSWORD': 'my',
+        'HOST': 'localhost',
+        'PORT': '',
+    }
+}
+```
+
 ## slug
 ### 1. Generating a unique slug for a *single* model.
 [ref: unique slug for a single model](https://fazle.me/auto-generating-unique-slug-in-django/)
@@ -987,6 +1015,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzg1OTY3NywtMjAzMTg3MjU5OSwtMT
-k0NTU3MjQ5OF19
+eyJoaXN0b3J5IjpbLTMyNzYzMTI2LC0yMDMxODcyNTk5LC0xOT
+Q1NTcyNDk4XX0=
 -->
