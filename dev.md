@@ -757,6 +757,17 @@ $ python manage.py migrate
 $ python manage.py runserver
 ```
 
+#### deployment for heroku
+Inside the virtualenv, 
+
+In  settings.py, at the very bottom:
+```python
+…
+# Configure Django App for Heroku.
+import django_heroku
+django_heroku.configure(locals())
+```
+
 ## slug
 ### 1. Generating a unique slug for a *single* model.
 [ref: unique slug for a single model](https://fazle.me/auto-generating-unique-slug-in-django/)
@@ -1023,6 +1034,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MDExNTAzMiwtMjAzMTg3MjU5OSwtMT
-k0NTU3MjQ5OF19
+eyJoaXN0b3J5IjpbODEyNzE0NzYyLC0yMDMxODcyNTk5LC0xOT
+Q1NTcyNDk4XX0=
 -->
