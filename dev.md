@@ -742,7 +742,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'bitsroom',
         'USER': 'jackz',
-        'PASSWORD': 'my',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '',
     }
@@ -1015,6 +1015,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNzYzMTI2LC0yMDMxODcyNTk5LC0xOT
+eyJoaXN0b3J5IjpbNTkzMTgwMTI2LC0yMDMxODcyNTk5LC0xOT
 Q1NTcyNDk4XX0=
 -->
