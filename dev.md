@@ -683,43 +683,10 @@ The command prompt `$` will change into `#`, which means that we're now sending 
 # CREATE DATABASE bitsroom OWNER jackz;
 ```
 
-
-#### configure Postgres Database
-* command line utility **psql**
-* graphical utility **pgAdmin**
-
-#### setting a password for the  `postgres`  user
-
-On Linux systems, there is no default password set.
-
-To set the default password:
-
-1.  Run the  **psql**  command from the  `postgres`  user account:
-    
-    `$ sudo -u postgres psql postgres`
-    
-2.  Set the password:
-    
-    `postgres=# \password postgres`
-    
-3.  Enter a password.
-    
-4.  Close  **psql**.
-    
-    `postgres=# \q`
-
-> how to change a password
-`$ sudo -u user_name psql db_name`
-Set/change password:
-`$ \password user_name`
-Quit:
-`$ \q`
-
-
 #### test connection using psql
 `$ psql -d bitsroom -U postgres -W`
 or
-`$ psql -d bitsroom -U jackz-W`
+`$ psql -d bitsroom -U jackz -W`
 
 If there is an error message `psql: FATAL: Peer authentication failed for user "postgres"`, edit `/etc/postgresql/9.6/main/pg_hba.conf` as below:
 Change line# 85 from:
@@ -735,9 +702,16 @@ to:
 And then restart PostsgreSQL by `$ sudo service postgresql restart`
 
 [stackoverflow ref](https://stackoverflow.com/questions/18664074/getting-error-peer-authentication-failed-for-user-postgres-when-trying-to-ge)
-```sql
+#### configure Postgres Database
+* command line utility **psql**
+* graphical utility **pgAdmin**
 
-```
+> how to change a password
+`$ sudo -u user_name psql db_name`
+Set/change password:
+`$ \password user_name`
+Quit:
+`$ \q`
 
 * database: bitsroom
 * user: example_user
@@ -1031,6 +1005,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMDE5MDAwOCwtMjAzMTg3MjU5OSwtMT
+eyJoaXN0b3J5IjpbLTcwMDQ1NzY2NywtMjAzMTg3MjU5OSwtMT
 k0NTU3MjQ5OF19
 -->
