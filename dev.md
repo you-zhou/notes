@@ -670,9 +670,11 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 `$ sudo apt-get install postgresql postgresql-contrib pgadmin3`
 
 #### create a database
-`$ psql`
-or
 `$ psql -U user_name -W`
+
+```
+# CREATE USER name;
+```
 
 
 #### configure Postgres Database
@@ -1022,6 +1024,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNjc2MzUxNywtMjAzMTg3MjU5OSwtMT
+eyJoaXN0b3J5IjpbMTEyNTIxODAxOCwtMjAzMTg3MjU5OSwtMT
 k0NTU3MjQ5OF19
 -->
