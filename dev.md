@@ -749,6 +749,9 @@ DATABASES = {
 }
 ```
 
+#### set DATABASE_URL for cookiecutter-django
+`$ export DATABASE_URL=postgres://jackz:mypw`
+
 ## slug
 ### 1. Generating a unique slug for a *single* model.
 [ref: unique slug for a single model](https://fazle.me/auto-generating-unique-slug-in-django/)
@@ -1015,6 +1018,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkzMTgwMTI2LC0yMDMxODcyNTk5LC0xOT
-Q1NTcyNDk4XX0=
+eyJoaXN0b3J5IjpbMTQzOTY0MjE1MiwtMjAzMTg3MjU5OSwtMT
+k0NTU3MjQ5OF19
 -->
