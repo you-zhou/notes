@@ -760,13 +760,13 @@ $ python manage.py runserver
 #### deployment for heroku
 1. Inside the virtualenv, run `$ pip3 install django-heroku`
 
-In  settings.py, at the very bottom:
-```python
-…
-# Configure Django App for Heroku.
-import django_heroku
-django_heroku.configure(locals())
-```
+2. In  settings.py, at the very bottom:
+	```python
+	…
+	# Configure Django App for Heroku.
+	import django_heroku
+	django_heroku.configure(locals())
+	```
 
 ## slug
 ### 1. Generating a unique slug for a *single* model.
@@ -1034,6 +1034,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDY5Mzg3MywtMjAzMTg3MjU5OSwtMT
+eyJoaXN0b3J5IjpbMTU5MjcxNzAxOSwtMjAzMTg3MjU5OSwtMT
 k0NTU3MjQ5OF19
 -->
