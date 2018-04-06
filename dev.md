@@ -671,9 +671,13 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 
 #### create a database
 `$ psql -U user_name -W`
-
+1. create a user
 ```
 # CREATE USER name;
+```
+2. create a database with 
+```
+# CREATE DATABASE djangogirls OWNER name;
 ```
 
 
@@ -1024,6 +1028,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTIxODAxOCwtMjAzMTg3MjU5OSwtMT
-k0NTU3MjQ5OF19
+eyJoaXN0b3J5IjpbOTEzMzA5NjIsLTIwMzE4NzI1OTksLTE5ND
+U1NzI0OThdfQ==
 -->
