@@ -699,7 +699,7 @@ Quit:
 
 #### test connection using psql
 `$ psql -U postgres -W`
-If there is a `psql: FATAL: Peer authentication failed for user "postgres"` 
+If there is an error message: `psql: FATAL: Peer authentication failed for user "postgres"`, edit `/etc/postgresql/9.6/main/pg_hba.conf`
 ```sql
 
 ```
@@ -996,6 +996,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MTE3Mjg1OCwtMjAzMTg3MjU5OSwtMT
-k0NTU3MjQ5OF19
+eyJoaXN0b3J5IjpbLTE2MTAxMTEzNjMsLTIwMzE4NzI1OTksLT
+E5NDU1NzI0OThdfQ==
 -->
