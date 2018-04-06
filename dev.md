@@ -642,7 +642,7 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 
 # Django
 ## how to start a django project properly with cookiecutter
-1. create a virtual environment for the project
+### create a virtual environment for the project
 	* virtualenvwrapper
 	`mkvirtualenv bitsroom` # new virtual environement will be activated after the creation
 	or
@@ -666,9 +666,6 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 	$ git push -u origin master
 	```
 
-## cookiecutter
-
-## database
 ### Configure Postgres Database
 sample values:
 * database: bitsroom
@@ -963,6 +960,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgzNTU4OTg5LC0yMDMxODcyNTk5LC0xOT
+eyJoaXN0b3J5IjpbNjEyODMzODkzLC0yMDMxODcyNTk5LC0xOT
 Q1NTcyNDk4XX0=
 -->
