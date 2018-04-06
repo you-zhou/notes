@@ -795,6 +795,7 @@ Work with the auxiliary package `django-heroku`.
 	django_heroku.configure(locals())
 	```
 ##### create an app on Heroku
+Ceate an app called `bitsroom`
 `$ heroku create bitsroom`
 
 
@@ -1064,6 +1065,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTk5OTM4MTAsLTIwMzE4NzI1OTksLT
-E5NDU1NzI0OThdfQ==
+eyJoaXN0b3J5IjpbMTc0Njg0NDg5NiwtMjAzMTg3MjU5OSwtMT
+k0NTU3MjQ5OF19
 -->
