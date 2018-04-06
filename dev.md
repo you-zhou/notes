@@ -702,6 +702,7 @@ to:
 And then restart PostsgreSQL by `$ sudo service postgresql restart`
 
 [stackoverflow ref](https://stackoverflow.com/questions/18664074/getting-error-peer-authentication-failed-for-user-postgres-when-trying-to-ge)
+
 #### configure Postgres Database
 * command line utility **psql**
 * graphical utility **pgAdmin**
@@ -713,25 +714,6 @@ Set/change password:
 Quit:
 `$ \q`
 
-* database: bitsroom
-* user: example_user
-* password: password
-```sql
--- Create the database project
-CREATE DATABASE bitsroom;
-
--- Create user for database
-CREATE ROLE example_user 
-WITH LOGIN ENCRYPTED PASSWORD 'password' 
-CREATEDB;
--- Edit September 25/2015 : 
--- For security Only set CREATEDB permission
--- Which is required for the Django tests
-
--- Grant privileges to the user to access database
-GRANT ALL PRIVILEGES ON DATABASE bitsroom
-TO example_user;
-```
 At this point, there should be an empty database working with the specified user.
 Now we need to tell Django the information of my database. To do it, you need to define an environment variable  **DATABASE_URL**  using the Django convention:
 In a Unix environment, below command will set the environment variable `DATABSE_URL` in the environment, which Django can then read from:
@@ -1005,6 +987,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDQ1NzY2NywtMjAzMTg3MjU5OSwtMT
+eyJoaXN0b3J5IjpbLTgyNzg1OTY3NywtMjAzMTg3MjU5OSwtMT
 k0NTU3MjQ5OF19
 -->
