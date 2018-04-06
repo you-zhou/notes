@@ -666,14 +666,16 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 	$ git push -u origin master
 	```
 ### PostgreSQL
-#### Installation
-`$ sudo apt-get install postgresql pga`
+#### installation
+`$ sudo apt-get install postgresql pgadmin3`
 
-#### Configure Postgres Database
+#### create a database
+
+#### configure Postgres Database
 * command line utility **psql**
 * graphical utility **pgAdmin**
 
-#### Setting a password for the  `postgres`  user
+#### setting a password for the  `postgres`  user
 
 On Linux systems, there is no default password set.
 
@@ -1016,6 +1018,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQzNzcyNzgsLTIwMzE4NzI1OTksLT
-E5NDU1NzI0OThdfQ==
+eyJoaXN0b3J5IjpbLTEzMDQ1MDc3LC0yMDMxODcyNTk5LC0xOT
+Q1NTcyNDk4XX0=
 -->
