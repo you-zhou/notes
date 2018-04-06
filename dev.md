@@ -655,7 +655,13 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 	`$ cookiecutter -h` # check options
 	`$ cookiecutter https://github.com/pydanny/cookiecutter-django` # this prompt values for the project.
 3. track files with version control
-	``
+	```git
+	$ git init
+	$ git add .
+	$ git commit -m "first awesome commit"
+	$ git remote add origin git@github.com:pydanny/redditclone.git
+	$ git push -u origin master
+	```
 5. push to github
 ## cookiecutter
 
@@ -954,6 +960,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTQ4NTkxNjcsLTIwMzE4NzI1OTksLT
-E5NDU1NzI0OThdfQ==
+eyJoaXN0b3J5IjpbMTkxMzY1MjMwMSwtMjAzMTg3MjU5OSwtMT
+k0NTU3MjQ5OF19
 -->
