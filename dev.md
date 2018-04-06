@@ -721,7 +721,7 @@ In a Unix environment, below command will set the environment variable `DATABSE_
 After this, run Django migrations: `$ python manage.py migrate`
 And then, run the server with:  `$ python manage.py runserver`
 
-#### config standard Django `settings.py`
+#### set database information in standard Django structure
 Find this part in your  `bitsroom/settings.py`  file:
 ```
 DATABASES = {
@@ -1023,6 +1023,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTkwNjM5MDEsLTIwMzE4NzI1OTksLT
-E5NDU1NzI0OThdfQ==
+eyJoaXN0b3J5IjpbLTk4NzgyODM3MiwtMjAzMTg3MjU5OSwtMT
+k0NTU3MjQ5OF19
 -->
