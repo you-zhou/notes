@@ -675,11 +675,11 @@ The command prompt `$` will change into `#`, which means that we're now sending 
 
 1. create a user
 ```
-# CREATE USER name;
+# CREATE USER user_name;
 ```
 2. create a database with an assigned owner
 ```
-# CREATE DATABASE djangogirls OWNER name;
+# CREATE DATABASE bitsroom OWNER user_name;
 ```
 
 
@@ -1030,6 +1030,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1ODE3MjU3NCwtMjAzMTg3MjU5OSwtMT
+eyJoaXN0b3J5IjpbLTc1MjAzNDU5MywtMjAzMTg3MjU5OSwtMT
 k0NTU3MjQ5OF19
 -->
