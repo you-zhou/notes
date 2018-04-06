@@ -667,7 +667,11 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 	```
 
 ### Configure Postgres Database
-``
+`$ sudo -u user_name psql db_name`
+
+```sql
+
+```
 
 * database: bitsroom
 * user: example_user
@@ -961,6 +965,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzUyMzk2ODYsLTIwMzE4NzI1OTksLT
-E5NDU1NzI0OThdfQ==
+eyJoaXN0b3J5IjpbLTEzMzI4MjEzNCwtMjAzMTg3MjU5OSwtMT
+k0NTU3MjQ5OF19
 -->
