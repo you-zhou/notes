@@ -697,7 +697,8 @@ Quit:
 `$ \q`
 
 
-###
+#### test connection using psql
+`$ sudo `
 ```sql
 
 ```
@@ -994,6 +995,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1NzUxNTI0LC0yMDMxODcyNTk5LC0xOT
-Q1NTcyNDk4XX0=
+eyJoaXN0b3J5IjpbMTc2NTIwMDUzNCwtMjAzMTg3MjU5OSwtMT
+k0NTU3MjQ5OF19
 -->
