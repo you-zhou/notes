@@ -786,8 +786,8 @@ Work on a new branch.
 
 Work with the auxiliary package `django-heroku`.
 1. Inside the virtualenv, run `$ pip3 install django-heroku`
-2. Add `django-heroku=
-2. In  settings.py, at the very bottom:
+2. Add `django-heroku==0.3.1` to `requirements/production.txt`
+3. In  `settings/production.py`, at the very bottom:
 	```python
 	…
 	# Configure Django App for Heroku.
@@ -1061,6 +1061,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTU5MzYyNiwtMjAzMTg3MjU5OSwtMT
+eyJoaXN0b3J5IjpbLTgyODEwODAyMywtMjAzMTg3MjU5OSwtMT
 k0NTU3MjQ5OF19
 -->
