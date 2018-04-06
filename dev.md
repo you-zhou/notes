@@ -670,6 +670,26 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 * command line utility **psql**
 * graphical utility **pgAdmin**
 
+#### Setting a password for the  `postgres`  user
+
+On Linux systems, there is no default password set.
+
+To set the default password:
+
+1.  Run the  **psql**  command from the  `postgres`  user account:
+    
+    `sudo -u postgres psql postgres`
+    
+2.  Set the password:
+    
+    `\password postgres`
+    
+3.  Enter a password.
+    
+4.  Close  **psql**.
+    
+    \q
+
 `$ sudo -u user_name psql db_name`
 Set/change password:
 `$ \password user_name`
@@ -972,6 +992,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY3OTQ1NjAsLTIwMzE4NzI1OTksLTE5ND
-U1NzI0OThdfQ==
+eyJoaXN0b3J5IjpbLTE0MDM2MjgwMSwtMjAzMTg3MjU5OSwtMT
+k0NTU3MjQ5OF19
 -->
