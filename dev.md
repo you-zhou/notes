@@ -1,7 +1,7 @@
 Dev Notes
 
 # System Setup
-## python, pip, virtualenv & pipenv
+## python, pip, irtualenv & pipenv
 windows
 `python -V`
 `pip -V`
@@ -45,7 +45,7 @@ or
 * using pip
 `$ pip install pipenv`
 
-## environment script
+### environment script
 Below is a customised bash shell script that should be executed at the end of `~/.bashrc` or `~/.bash_profile`.
 e.g. Append  `source .my_env_script` to `~/.bashrc`
 
@@ -53,10 +53,7 @@ e.g. Append  `source .my_env_script` to `~/.bashrc`
 # .my_env_script
 # DESCRIPTION: this is to set up common environment across my different PCs.
 
-# nvironent ariables
-
-
-### Environment Variablesregister local bin
+# nvironent ritregister local bin
 export PATH=$PATH:~/.local/bin
 
 # common directories for cross PC scripts
@@ -92,8 +89,38 @@ Installation.
 `$ sudo apt-get install git`
 `$ git --version`
 
-$ git config --global user.name "You Zhou"
-$ git config --global user.email zhouyou.xy@gmail.com
+`$ git config --global user.name "You Zhou"`
+`$ git config --global user.email zhouyou.xy@gmail.com`
+
+Connect to github via either ssh or httpps.
+### register a new pc to github via ssh
+#### Generating a new SSH key
+1.  Open Terminal.
+2.  Paste the text below, substituting in your GitHub email address.
+	`$ ssh-keygen -t rsa -b 4096 -C "zhouyou.xy@gmail.com"`
+	This creates a new ssh key, using the provided email as a label.
+    `Generating public/private rsa key pair.`
+    
+3.  When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.
+    `Enter a file in which to save the key (/home/_you_/.ssh/id_rsa): [Press enter]`
+    
+4.  At the prompt, type a secure passphrase. For more information, see ["Working with SSH key passphrases"](https://help.github.com/articles/working-with-ssh-key-passphrases).
+    
+    Enter passphrase (empty for no passphrase): _[Type a passphrase]_
+    Enter same passphrase again: _[Type passphrase again]_
+
+#### Adding your SSH key to the ssh-agent
+Before adding a new SSH key to the ssh-agent to manage your keys, you should have [checked for existing SSH keys](https://help.github.com/articles/checking-for-existing-ssh-keys) and [generated a new SSH key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key).
+
+1.  Start the ssh-agent in the background.
+    `$ eval "$(ssh-agent -s)"`
+    `Agent pid 59566`
+    
+2.  Add your SSH private key to the ssh-agent. If you created your key with a different name, or if you are adding an existing key that has a different name, replace _id_rsa_ in the command with the name of your private key file.
+    `$ ssh-add ~/.ssh/id_rsa`
+    
+3.  [Add the SSH key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account).
+
 
 $ git status
 
@@ -661,7 +688,7 @@ In a Unix environment, below command will set the environment variable `DATABSE_
 After this, run Django migrations: `$ python manage.py migrate`
 And then, run the server with:  `$ python manage.py runserver`
 
-## slug
+## sSlug
 ### 1. Generating a unique slug for a *single* model.
 [ref: unique slug for a single model](https://fazle.me/auto-generating-unique-slug-in-django/)
 ```python
@@ -927,6 +954,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTgxODQwNzUsLTIwMzE4NzI1OTksLT
-E5NDU1NzI0OThdfQ==
+eyJoaXN0b3J5IjpbLTUxMzk2NTA0MiwtMjAzMTg3MjU5OSwtMT
+k0NTU3MjQ5OF19
 -->
