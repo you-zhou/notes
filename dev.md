@@ -767,7 +767,7 @@ $ python manage.py runserver
 ```
 
 #### deployment for heroku
-Setup heroku CLI.
+##### setup heroku CLI
 ```bash
 # Run this from your terminal.
 # The following will add our apt repository and install the CLI:
@@ -777,7 +777,7 @@ sudo apt-get update
 sudo apt-get install heroku
 ```
 
-Work on a new branch for heroku settings.
+##### work on a new branch for heroku settings
 1.  Create a new branch:  
     `git checkout -b setup-heroku`
 2.  Edit, add and commit your files.
@@ -794,7 +794,7 @@ Work with the auxiliary package `django-heroku`.
 	import django_heroku
 	django_heroku.configure(locals())
 	```
-Create an app on Heroku.
+##### create an app on Heroku
 `$ heroku create bitsroom`
 
 
@@ -1064,6 +1064,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTI4OTQ5NywtMjAzMTg3MjU5OSwtMT
+eyJoaXN0b3J5IjpbMTA0ODUyMTk5OCwtMjAzMTg3MjU5OSwtMT
 k0NTU3MjQ5OF19
 -->
