@@ -721,9 +721,8 @@ In a Unix environment, below command will set the environment variable `DATABSE_
 After this, run Django migrations: `$ python manage.py migrate`
 And then, run the server with:  `$ python manage.py runserver`
 
-#### update Django's `settings.py`
+#### config standard Django `settings.py`
 Find this part in your  `mysite/settings.py`  file:
-
 ```
 DATABASES = {
     'default': {
@@ -1024,6 +1023,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NTMxNzk4MiwtMjAzMTg3MjU5OSwtMT
+eyJoaXN0b3J5IjpbLTk5MDAxMDIyMiwtMjAzMTg3MjU5OSwtMT
 k0NTU3MjQ5OF19
 -->
