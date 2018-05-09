@@ -430,6 +430,11 @@ TODO
 [great examples for string format](https://pyformat.info/)
 
 * % operator - similar to C's printf
+	```python
+	"Num: %d Hex: %x" % (12, 13)
+	# 'Num: 12 Hex: d'
+	"%s %s" % ('hello', 'world')
+	```
 	`"Num: %d Hex: %x" % (12, 13)`
 	
 * format
@@ -1117,7 +1122,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MjUwOTg4OCwtMjAxNjQ1NzUyNCwxOT
+eyJoaXN0b3J5IjpbMTU1MjY1MzAxNSwtMjAxNjQ1NzUyNCwxOT
 A5MzczNjEyLDU0Nzc1NDAzOSwtMjAzMTg3MjU5OSwtMTk0NTU3
 MjQ5OF19
 -->
