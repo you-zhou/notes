@@ -431,8 +431,10 @@ TODO
 
 * % operator - similar to C's printf
 	`"Num: %d Hex: %x" % (12, 13)`
+	
 * format
 	`"Percent: {:=+10.1%}".format(-44/100)`
+	
 * f-string from Python 3.6
 	`f"My name is {name}"`
 
@@ -1106,6 +1108,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMTczNTkzNCwxOTA5MzczNjEyLDU0Nz
+eyJoaXN0b3J5IjpbMTUyNDY5MTY0NiwxOTA5MzczNjEyLDU0Nz
 c1NDAzOSwtMjAzMTg3MjU5OSwtMTk0NTU3MjQ5OF19
 -->
