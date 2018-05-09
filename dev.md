@@ -430,10 +430,11 @@ TODO
 [great examples for string format](https://pyformat.info/)
 
 * '%'
-* f''.format()
-	``
+	`"Num: %d Hex: %x" % (12, 13)`
+* format
+	`"Percent: {:=+10.1%}".format(-44/100)`
 * f-string
-	`f'My name is {name}'`
+	`f"My name is {name}"`
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
@@ -1105,6 +1106,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU0NTQyNTk2LDE5MDkzNzM2MTIsNTQ3Nz
-U0MDM5LC0yMDMxODcyNTk5LC0xOTQ1NTcyNDk4XX0=
+eyJoaXN0b3J5IjpbLTY0Njg2NDI1MiwxOTA5MzczNjEyLDU0Nz
+c1NDAzOSwtMjAzMTg3MjU5OSwtMTk0NTU3MjQ5OF19
 -->
