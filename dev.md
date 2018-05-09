@@ -439,8 +439,8 @@ TODO
 * f-string from Python 3.6
 	```python
 	name = 'matt'
-	f"My name is {name}"
-	# 'My name is matt'
+	f"My name is {name.capitalize()}"
+	# 'My name is Matt'
 	```
 	
 	```python
@@ -1117,7 +1117,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAzMDA2OTg5LC0yMDE2NDU3NTI0LDE5MD
-kzNzM2MTIsNTQ3NzU0MDM5LC0yMDMxODcyNTk5LC0xOTQ1NTcy
-NDk4XX0=
+eyJoaXN0b3J5IjpbMTM4MjUwOTg4OCwtMjAxNjQ1NzUyNCwxOT
+A5MzczNjEyLDU0Nzc1NDAzOSwtMjAzMTg3MjU5OSwtMTk0NTU3
+MjQ5OF19
 -->
