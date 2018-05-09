@@ -443,6 +443,9 @@ TODO
 	name = 'Matt'
 	print('Hello {}'.format(name))
 	# Hello Matt
+
+	print('I:{} R:{} S:{}'.format(1, 2.5, 'foo'))
+	# I:1 R:2.5 S:foo
 	
 	"Name: {:*^12}".format("Ringo")
 	# 'Name: ***Ringo****'
@@ -450,8 +453,6 @@ TODO
 	"Percent: {:=+10.1%}".format(-44/100)
 	# 'Percent: - 44.0%'
 	```
-	`print('I:{} R:{} S:{}'.format(1, 2.5, 'foo'))`
-	`"Percent: {:=+10.1%}".format(-44/100)`
 	
 * f-string from Python 3.6
 	```python
@@ -1134,7 +1135,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMjU1NTcyMSwtMTAwNzg0MjA2NywtMj
+eyJoaXN0b3J5IjpbMTczNDQxMjMxOSwtMTAwNzg0MjA2NywtMj
 AxNjQ1NzUyNCwxOTA5MzczNjEyLDU0Nzc1NDAzOSwtMjAzMTg3
 MjU5OSwtMTk0NTU3MjQ5OF19
 -->
