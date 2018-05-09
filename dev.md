@@ -443,9 +443,10 @@ TODO
 	# 'My name is matt'
 	```
 	
-		```python
+	```python
+	f'Square root of two: {2**.5:5.3f}
+	# 'Square root of two: 1.414'
 	```
-
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 ### open(filename, mode) binary v.s. text mode
@@ -1116,7 +1117,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDEzOTEyOTgsLTIwMTY0NTc1MjQsMT
-kwOTM3MzYxMiw1NDc3NTQwMzksLTIwMzE4NzI1OTksLTE5NDU1
-NzI0OThdfQ==
+eyJoaXN0b3J5IjpbNjAzMDA2OTg5LC0yMDE2NDU3NTI0LDE5MD
+kzNzM2MTIsNTQ3NzU0MDM5LC0yMDMxODcyNTk5LC0xOTQ1NTcy
+NDk4XX0=
 -->
