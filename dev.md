@@ -426,6 +426,9 @@ TODO
 * 26 // 7 == 3 (you will get divisor only integer value) )
 
 
+### Strings
+[string format](https://pyformat.info/)
+
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 ### open(filename, mode) binary v.s. text mode
@@ -1096,6 +1099,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyODQ0NzQzNCw1NDc3NTQwMzksLTIwMz
+eyJoaXN0b3J5IjpbMTkwOTM3MzYxMiw1NDc3NTQwMzksLTIwMz
 E4NzI1OTksLTE5NDU1NzI0OThdfQ==
 -->
