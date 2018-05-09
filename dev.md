@@ -439,6 +439,13 @@ TODO
 	```
 	
 * format
+	```python
+	"Name: {:*^12}".format("Ringo")
+	# 'Name: ***Ringo****'
+	
+	"Percent: {:=+10.1%}".format(-44/100)
+	# 'Percent: - 44.0%'
+	```
 	`print('I:{} R:{} S:{}'.format(1, 2.5, 'foo'))`
 	`"Percent: {:=+10.1%}".format(-44/100)`
 	
@@ -1123,7 +1130,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjA3MDQxNzYsLTIwMTY0NTc1MjQsMT
+eyJoaXN0b3J5IjpbLTEwMDc4NDIwNjcsLTIwMTY0NTc1MjQsMT
 kwOTM3MzYxMiw1NDc3NTQwMzksLTIwMzE4NzI1OTksLTE5NDU1
 NzI0OThdfQ==
 -->
