@@ -437,7 +437,6 @@ TODO
 	"%s %s" % ('hello', 'world')
 	# 'hello world'
 	```
-	`"Num: %d Hex: %x" % (12, 13)`
 	
 * format
 	`print('I:{} R:{} S:{}'.format(1, 2.5, 'foo'))`
@@ -1124,7 +1123,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MzgzNDM1NiwtMjAxNjQ1NzUyNCwxOT
-A5MzczNjEyLDU0Nzc1NDAzOSwtMjAzMTg3MjU5OSwtMTk0NTU3
-MjQ5OF19
+eyJoaXN0b3J5IjpbLTE4MjA3MDQxNzYsLTIwMTY0NTc1MjQsMT
+kwOTM3MzYxMiw1NDc3NTQwMzksLTIwMzE4NzI1OTksLTE5NDU1
+NzI0OThdfQ==
 -->
