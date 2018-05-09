@@ -44,21 +44,32 @@ $ sudo apt install pipenv
 or
 * using pip
 `$ pip install pipenv`
+If `pipenv` command could not be found, but `$ python -m pipenv --version` works, it usually means a conflict with `virtualenv`.
+The solution is to uninstall both `virtualenv` and `pipenv`
+`$ pip uninstall virtualenv`
+`$ pip uninstall pipenv`
+and install `pipenv` again, which will install `virtualenv` as a dependency.
+`$ pip install --user pipenv` This does a [user installation](https://pip.pypa.io/en/stable/user_guide/#user-installs) to prevent breaking any system-wide packages.
 
 ### environment script
 Below is a customised bash shell script that should be executed at the end of `~/.bashrc` or `~/.bash_profile`.
-e.g. Append  `source .my_env_script` to `~/.bashrc`
+e.g. Append  `source ~/.setup_my_env` to `~/.bashrc`
 
 ```bash
-# .my_env_script
+# .setup_my_env
 # DESCRIPTION: this is to set up common environment across my different PCs.
 
-# nvironent ritregister local bin
+# environment register local bin
 export PATH=$PATH:~/.local/bin
 
 # common directories for cross PC scripts
 export DEV_HOME=~/Dev
 export DROPBOX_HOME=~/Dropbox
+
+# aliases
+alias vpn="windscribe status"
+alias vpnon="windscribe connect AU"
+alias vpnoff="windscribe disconnect"
 
 # virtualenvwrapper set up
 export WORKON_HOME=~/.virtualenvs
@@ -97,8 +108,9 @@ Caching your GitHub password in Git
 # set git to use the credential memory cache
 $ git config --global credential.helper cache
 # set the cache to timeout after 10 hour (setting is in seconds)
-$ git config --global credential.helper 'cache --timeout=36000'
+$ git config --global credential.helper 'cache --timeout 36000'
 ```
+For Windows, run `git config --global credential.helper wincred`
 
 
 Connect to github via either ssh or httpps.
@@ -680,17 +692,30 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 
 #### create a database
 The command prompt `$` will change into `#`, which means that we're now sending commands to PostgreSQL after below command.
-1. connect to PostgreSQL with the default user `postgres`
+1. Initiate password for the default user postgres.
+```
+sudo -u postgres psql postgres
+
+# \password postgres
+
+Enter new password: 
+```
+2. connect to PostgreSQL with the default user `postgres`
 `$ psql -U postgres -W`
 
-1. create a user
+3. create a user
 ```
 # CREATE USER jackz;
 ```
-2. create a database with an assigned owner
+4. create a database with an assigned owner
 ```
 # CREATE DATABASE bitsroom OWNER jackz;
 ```
+5. set password for new user.
+	* login database with the default user `postgres` and its password.
+		`$ sudo -u postgres psql bitsroom`
+	* set the password for `jackz`
+		`bitsroom=# \password jackz`
 
 #### test connection using psql
 `$ psql -d bitsroom -U postgres -W`
@@ -766,8 +791,8 @@ $ python manage.py migrate
 $ python manage.py runserver
 ```
 
-#### deployment for Heroku
-##### setup Heroku CLI
+### deployment for Hheroku
+#### sSetup Hheroku CLI.
 ```bash
 # Run this from your terminal.
 # The following will add our apt repository and install the CLI:
@@ -777,7 +802,7 @@ sudo apt-get update
 sudo apt-get install heroku
 ```
 
-##### work on a new branch for Heroku settings
+#### work on a new branch for Heroku settings
 1.  Create a new branch:  
     `git checkout -b setup-heroku`
 2.  Edit, add and commit your files.
@@ -785,16 +810,16 @@ sudo apt-get install heroku
     `git push -u origin setup-heroku`
 
 Work with the auxiliary package `django-heroku`.
-1. Inside the virtualenv, run `$ pip3 install django-heroku`
+ango-heroku`
 2. Add `django-heroku==0.3.1` to `requirements/production.txt`
-3. In  `settings/production.py`, at the very bottom:
+31. Inside the virtualenv, run `$ pip3 install dj. In  `settings/production.py`, at the very bottom:
 	```python
 	…
 	# Configure Django App for Heroku.
 	import django_heroku
 	django_heroku.configure(locals())
 	```
-##### create an app on Heroku
+#### create an app on Heroku
 Create an app called `bitsroom`.
 `$ heroku create bitsroom`
 
@@ -1071,6 +1096,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3NzU0MDM5LC0yMDMxODcyNTk5LC0xOT
-Q1NTcyNDk4XX0=
+eyJoaXN0b3J5IjpbMTcyODQ0NzQzNCw1NDc3NTQwMzksLTIwMz
+E4NzI1OTksLTE5NDU1NzI0OThdfQ==
 -->
