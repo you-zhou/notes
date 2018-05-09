@@ -440,6 +440,10 @@ TODO
 	
 * format
 	```python
+	name = 'Matt'
+	print('Hello {}'.format(name))
+	# Hello Matt
+	
 	"Name: {:*^12}".format("Ringo")
 	# 'Name: ***Ringo****'
 	
@@ -1130,7 +1134,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDc4NDIwNjcsLTIwMTY0NTc1MjQsMT
-kwOTM3MzYxMiw1NDc3NTQwMzksLTIwMzE4NzI1OTksLTE5NDU1
-NzI0OThdfQ==
+eyJoaXN0b3J5IjpbMjAxMjU1NTcyMSwtMTAwNzg0MjA2NywtMj
+AxNjQ1NzUyNCwxOTA5MzczNjEyLDU0Nzc1NDAzOSwtMjAzMTg3
+MjU5OSwtMTk0NTU3MjQ5OF19
 -->
