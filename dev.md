@@ -437,7 +437,11 @@ TODO
 	`"Percent: {:=+10.1%}".format(-44/100)`
 	
 * f-string from Python 3.6
-	```f"My name is {name}"`
+	```python
+	name = 'matt'
+	f"My name is {name}"
+	# 'My name is matt'
+	```
 	`f'Square root of two: {2**.5:5.3f}'` -> `'Square root of two: 1.414'`
 
 ## Reading & Writing Files
@@ -1110,6 +1114,6 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDU2MTE4NzIsMTkwOTM3MzYxMiw1ND
+eyJoaXN0b3J5IjpbLTE2MzQwMTM2MTIsMTkwOTM3MzYxMiw1ND
 c3NTQwMzksLTIwMzE4NzI1OTksLTE5NDU1NzI0OThdfQ==
 -->
