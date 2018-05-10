@@ -543,6 +543,8 @@ Tuples are IMMUTABLE.
 3. third_tuple = 1,
 All of them will create a tuple `(1,)`
 
+#### Three ways to create a tuple with one item in it
+
 ### list
 Lists are MUTABLE.
 
@@ -1242,11 +1244,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg0MTMwMDgyLC0yMDc4NzI1MzEyLDExMz
-AzMjgxMDMsLTE3Nzg5MDE0OSwtOTgwNTAwMzI5LC0yMTAxNTE5
-NjkwLC0xMDM3ODY5NTcxLC0xNDM3NDc4MjY2LC05ODQ1NTg2OD
-EsMTY0MDY3NTI1LC03ODkxMDM5NTEsMTIzMTYwMTYzNiw1Njky
-NTkzODgsLTE3ODM2NzAyMDMsMjAxODM2MDkyNywxMjc0NTc3NT
-QwLDYyODMwNjMyOCwxMTA4Nzk1OTUxLC04Nzg4MzAxMDMsMTUx
-ODI1ODQ5NV19
+eyJoaXN0b3J5IjpbMzQxMjQ3NjQ1LDM4NDEzMDA4MiwtMjA3OD
+cyNTMxMiwxMTMwMzI4MTAzLC0xNzc4OTAxNDksLTk4MDUwMDMy
+OSwtMjEwMTUxOTY5MCwtMTAzNzg2OTU3MSwtMTQzNzQ3ODI2Ni
+wtOTg0NTU4NjgxLDE2NDA2NzUyNSwtNzg5MTAzOTUxLDEyMzE2
+MDE2MzYsNTY5MjU5Mzg4LC0xNzgzNjcwMjAzLDIwMTgzNjA5Mj
+csMTI3NDU3NzU0MCw2MjgzMDYzMjgsMTEwODc5NTk1MSwtODc4
+ODMwMTAzXX0=
 -->
