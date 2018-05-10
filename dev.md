@@ -370,6 +370,7 @@ e.g. `dir("Jack Bauer")`
 
 
 ### dunder methods
+start and end with double underscores (Double UNDERscores). “Dunder add” is one way to say __add__,
 
 ### help()
 e.g. `help("FORMATTING")`
@@ -1151,8 +1152,8 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MjY5NTIxLC04Nzg4MzAxMDMsMTUxOD
-I1ODQ5NSwtMTAwNzg0MjA2NywtMjAxNjQ1NzUyNCwxOTA5Mzcz
-NjEyLDU0Nzc1NDAzOSwtMjAzMTg3MjU5OSwtMTk0NTU3MjQ5OF
-19
+eyJoaXN0b3J5IjpbMTU2MTAwNTQ4NiwtODc4ODMwMTAzLDE1MT
+gyNTg0OTUsLTEwMDc4NDIwNjcsLTIwMTY0NTc1MjQsMTkwOTM3
+MzYxMiw1NDc3NTQwMzksLTIwMzE4NzI1OTksLTE5NDU1NzI0OT
+hdfQ==
 -->
