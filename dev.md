@@ -391,7 +391,10 @@ upper(...) method of builtins.str instance
     Return a copy of S converted to uppercase.
 ```
 
-e.g. `help("FORMATTING")`
+e.g. to find examples for string formatting: `help("FORMATTING")`
+
+
+### pdb
 
 
 ### pip
@@ -1170,9 +1173,8 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjE1NjI2MDgsMTI3NDU3NzU0MCw2Mj
-gzMDYzMjgsMTEwODc5NTk1MSwtODc4ODMwMTAzLDE1MTgyNTg0
-OTUsLTEwMDc4NDIwNjcsLTIwMTY0NTc1MjQsMTkwOTM3MzYxMi
-w1NDc3NTQwMzksLTIwMzE4NzI1OTksLTE5NDU1NzI0OThdfQ==
-
+eyJoaXN0b3J5IjpbMjAxODM2MDkyNywxMjc0NTc3NTQwLDYyOD
+MwNjMyOCwxMTA4Nzk1OTUxLC04Nzg4MzAxMDMsMTUxODI1ODQ5
+NSwtMTAwNzg0MjA2NywtMjAxNjQ1NzUyNCwxOTA5MzczNjEyLD
+U0Nzc1NDAzOSwtMjAzMTg3MjU5OSwtMTk0NTU3MjQ5OF19
 -->
