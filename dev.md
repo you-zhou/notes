@@ -360,6 +360,7 @@ ax.grid(True, linestyle=':')
 ## PYTHON
 ### dir()
 The dir function returns the attributes of an object.
+e.g. `dir("Jack Bauer")`
 
 ### help()
 e.g. `help("FORMATTING")`
@@ -1141,7 +1142,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3MDgzODI4LDE1MTgyNTg0OTUsLTEwMD
-c4NDIwNjcsLTIwMTY0NTc1MjQsMTkwOTM3MzYxMiw1NDc3NTQw
-MzksLTIwMzE4NzI1OTksLTE5NDU1NzI0OThdfQ==
+eyJoaXN0b3J5IjpbLTkzMjk2MTA5OCwxNTE4MjU4NDk1LC0xMD
+A3ODQyMDY3LC0yMDE2NDU3NTI0LDE5MDkzNzM2MTIsNTQ3NzU0
+MDM5LC0yMDMxODcyNTk5LC0xOTQ1NTcyNDk4XX0=
 -->
