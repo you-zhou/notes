@@ -533,7 +533,10 @@ There are three ways to format  a string.
 ### tuple
 Tuples are IMMUTABLE. 
 ==Tuples can be used as keys in dictionaries. But not lists.==
-Tuples are used for returning multiple items from a function.
+
+Places to consider using tuples:
+* returning multiple items from a function.
+* hint devel
 
 #### Two ways to create an empty tuple
 1. first_tuple = tuple()
@@ -1252,7 +1255,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTUzOTM3NCwtMTIyMDA4NjQwNSwzOD
+eyJoaXN0b3J5IjpbLTU5NzIzNDE3MSwtMTIyMDA4NjQwNSwzOD
 QxMzAwODIsLTIwNzg3MjUzMTIsMTEzMDMyODEwMywtMTc3ODkw
 MTQ5LC05ODA1MDAzMjksLTIxMDE1MTk2OTAsLTEwMzc4Njk1Nz
 EsLTE0Mzc0NzgyNjYsLTk4NDU1ODY4MSwxNjQwNjc1MjUsLTc4
