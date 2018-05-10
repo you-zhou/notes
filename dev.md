@@ -538,6 +538,10 @@ Two ways to create a pre-populated list:
 1. first_list = list(['Tom', 'Jerry'])
 2. second_list = ['Tom', 'Jerry']
 
+```python
+names = ['George', 'Henry', 'Fred', 'Paul']
+
+```
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
@@ -1209,11 +1213,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzc0NzgyNjYsLTk4NDU1ODY4MSwxNj
-QwNjc1MjUsLTc4OTEwMzk1MSwxMjMxNjAxNjM2LDU2OTI1OTM4
-OCwtMTc4MzY3MDIwMywyMDE4MzYwOTI3LDEyNzQ1Nzc1NDAsNj
-I4MzA2MzI4LDExMDg3OTU5NTEsLTg3ODgzMDEwMywxNTE4MjU4
-NDk1LC0xMDA3ODQyMDY3LC0yMDE2NDU3NTI0LDE5MDkzNzM2MT
-IsNTQ3NzU0MDM5LC0yMDMxODcyNTk5LC0xOTQ1NTcyNDk4XX0=
-
+eyJoaXN0b3J5IjpbLTgyODQ0OTY3MSwtMTQzNzQ3ODI2NiwtOT
+g0NTU4NjgxLDE2NDA2NzUyNSwtNzg5MTAzOTUxLDEyMzE2MDE2
+MzYsNTY5MjU5Mzg4LC0xNzgzNjcwMjAzLDIwMTgzNjA5MjcsMT
+I3NDU3NzU0MCw2MjgzMDYzMjgsMTEwODc5NTk1MSwtODc4ODMw
+MTAzLDE1MTgyNTg0OTUsLTEwMDc4NDIwNjcsLTIwMTY0NTc1Mj
+QsMTkwOTM3MzYxMiw1NDc3NTQwMzksLTIwMzE4NzI1OTksLTE5
+NDU1NzI0OThdfQ==
 -->
