@@ -416,6 +416,10 @@ l, list | List source code around current line
 `is` check identity, i.e. id(obj)
 `==` checks value
 
+### None
+None is a singleton object in Python.
+Two places to use None:
+1. indicate a variable that may be assigned a value in the future.
 ### pip
 Upgrading pip.
 * On Linux or macOS:
@@ -1192,10 +1196,10 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4OTEwMzk1MSwxMjMxNjAxNjM2LDU2OT
-I1OTM4OCwtMTc4MzY3MDIwMywyMDE4MzYwOTI3LDEyNzQ1Nzc1
-NDAsNjI4MzA2MzI4LDExMDg3OTU5NTEsLTg3ODgzMDEwMywxNT
-E4MjU4NDk1LC0xMDA3ODQyMDY3LC0yMDE2NDU3NTI0LDE5MDkz
-NzM2MTIsNTQ3NzU0MDM5LC0yMDMxODcyNTk5LC0xOTQ1NTcyND
-k4XX0=
+eyJoaXN0b3J5IjpbNDIyNDQ3OTg3LC03ODkxMDM5NTEsMTIzMT
+YwMTYzNiw1NjkyNTkzODgsLTE3ODM2NzAyMDMsMjAxODM2MDky
+NywxMjc0NTc3NTQwLDYyODMwNjMyOCwxMTA4Nzk1OTUxLC04Nz
+g4MzAxMDMsMTUxODI1ODQ5NSwtMTAwNzg0MjA2NywtMjAxNjQ1
+NzUyNCwxOTA5MzczNjEyLDU0Nzc1NDAzOSwtMjAzMTg3MjU5OS
+wtMTk0NTU3MjQ5OF19
 -->
