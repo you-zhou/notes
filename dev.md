@@ -543,9 +543,13 @@ Two ways to delete an item from a list:
 names = ['George', 'Henry', 'Fred', 'Paul']
 # 1. remove method
 names.remove('Paul')
+print(names)
+# ['George', 'Henry', 'Fred']
 
-# 2. d
-
+# 2. delete by index using bracket notation
+del names[1]
+print(names)
+# ['George', 'Fred']
 ```
 
 ## Reading & Writing Files
@@ -1218,11 +1222,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1ODY1NzAwMywtMTQzNzQ3ODI2NiwtOT
-g0NTU4NjgxLDE2NDA2NzUyNSwtNzg5MTAzOTUxLDEyMzE2MDE2
-MzYsNTY5MjU5Mzg4LC0xNzgzNjcwMjAzLDIwMTgzNjA5MjcsMT
-I3NDU3NzU0MCw2MjgzMDYzMjgsMTEwODc5NTk1MSwtODc4ODMw
-MTAzLDE1MTgyNTg0OTUsLTEwMDc4NDIwNjcsLTIwMTY0NTc1Mj
-QsMTkwOTM3MzYxMiw1NDc3NTQwMzksLTIwMzE4NzI1OTksLTE5
-NDU1NzI0OThdfQ==
+eyJoaXN0b3J5IjpbLTEwMzc4Njk1NzEsLTE0Mzc0NzgyNjYsLT
+k4NDU1ODY4MSwxNjQwNjc1MjUsLTc4OTEwMzk1MSwxMjMxNjAx
+NjM2LDU2OTI1OTM4OCwtMTc4MzY3MDIwMywyMDE4MzYwOTI3LD
+EyNzQ1Nzc1NDAsNjI4MzA2MzI4LDExMDg3OTU5NTEsLTg3ODgz
+MDEwMywxNTE4MjU4NDk1LC0xMDA3ODQyMDY3LC0yMDE2NDU3NT
+I0LDE5MDkzNzM2MTIsNTQ3NzU0MDM5LC0yMDMxODcyNTk5LC0x
+OTQ1NTcyNDk4XX0=
 -->
