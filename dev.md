@@ -531,7 +531,9 @@ There are three ways to format  a string.
 	```
 
 ### tuple
-Tuples are IMMUTABLE.
+Tuples are IMMUTABLE. 
+==Tuples can be used as keys in dictionaries. But not lists.==
+Tuples are used for returning multiple items from a function.
 
 #### Two ways to create an empty tuple
 1. first_tuple = tuple()
@@ -1250,11 +1252,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjAwODY0MDUsMzg0MTMwMDgyLC0yMD
-c4NzI1MzEyLDExMzAzMjgxMDMsLTE3Nzg5MDE0OSwtOTgwNTAw
-MzI5LC0yMTAxNTE5NjkwLC0xMDM3ODY5NTcxLC0xNDM3NDc4Mj
-Y2LC05ODQ1NTg2ODEsMTY0MDY3NTI1LC03ODkxMDM5NTEsMTIz
-MTYwMTYzNiw1NjkyNTkzODgsLTE3ODM2NzAyMDMsMjAxODM2MD
-kyNywxMjc0NTc3NTQwLDYyODMwNjMyOCwxMTA4Nzk1OTUxLC04
-Nzg4MzAxMDNdfQ==
+eyJoaXN0b3J5IjpbLTUwOTUzOTM3NCwtMTIyMDA4NjQwNSwzOD
+QxMzAwODIsLTIwNzg3MjUzMTIsMTEzMDMyODEwMywtMTc3ODkw
+MTQ5LC05ODA1MDAzMjksLTIxMDE1MTk2OTAsLTEwMzc4Njk1Nz
+EsLTE0Mzc0NzgyNjYsLTk4NDU1ODY4MSwxNjQwNjc1MjUsLTc4
+OTEwMzk1MSwxMjMxNjAxNjM2LDU2OTI1OTM4OCwtMTc4MzY3MD
+IwMywyMDE4MzYwOTI3LDEyNzQ1Nzc1NDAsNjI4MzA2MzI4LDEx
+MDg3OTU5NTFdfQ==
 -->
