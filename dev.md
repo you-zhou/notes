@@ -534,7 +534,7 @@ There are three ways to format  a string.
 Tuples are IMMUTABLE. 
 ==Tuples can be used as keys in dictionaries. But not lists.==
 
-Places to consider using tuples:
+Scenarios to consider using tuples:
 * returning multiple items from a function.
 * hint developers that this variable is not meant to be modified.
 * conserve memory as it use less than a list.
@@ -1256,11 +1256,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4OTk2NDU4MywtMTIyMDA4NjQwNSwzOD
-QxMzAwODIsLTIwNzg3MjUzMTIsMTEzMDMyODEwMywtMTc3ODkw
-MTQ5LC05ODA1MDAzMjksLTIxMDE1MTk2OTAsLTEwMzc4Njk1Nz
-EsLTE0Mzc0NzgyNjYsLTk4NDU1ODY4MSwxNjQwNjc1MjUsLTc4
-OTEwMzk1MSwxMjMxNjAxNjM2LDU2OTI1OTM4OCwtMTc4MzY3MD
-IwMywyMDE4MzYwOTI3LDEyNzQ1Nzc1NDAsNjI4MzA2MzI4LDEx
-MDg3OTU5NTFdfQ==
+eyJoaXN0b3J5IjpbLTE5MjYyNjYyNzAsLTEyMjAwODY0MDUsMz
+g0MTMwMDgyLC0yMDc4NzI1MzEyLDExMzAzMjgxMDMsLTE3Nzg5
+MDE0OSwtOTgwNTAwMzI5LC0yMTAxNTE5NjkwLC0xMDM3ODY5NT
+cxLC0xNDM3NDc4MjY2LC05ODQ1NTg2ODEsMTY0MDY3NTI1LC03
+ODkxMDM5NTEsMTIzMTYwMTYzNiw1NjkyNTkzODgsLTE3ODM2Nz
+AyMDMsMjAxODM2MDkyNywxMjc0NTc3NTQwLDYyODMwNjMyOCwx
+MTA4Nzk1OTUxXX0=
 -->
