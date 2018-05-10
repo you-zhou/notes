@@ -364,10 +364,12 @@ Read–Eval–Print Loop
 ### dir()
 The dir function returns the **attributes** of an object. It is used to discover the attributes of any object quickly.
 
-The attribute list is in alphabetical order, and you can normally ignore the first couple
-of attributes starting with __.
+The attribute list is in alphabetical order, and you can normally ignore the first couple of attributes starting with `__`.
 
 e.g. `dir("Jack Bauer")`
+
+
+### dunder methods
 
 ### help()
 e.g. `help("FORMATTING")`
@@ -1149,7 +1151,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU3NzI1NTg0LC04Nzg4MzAxMDMsMTUxOD
+eyJoaXN0b3J5IjpbLTQ5MjY5NTIxLC04Nzg4MzAxMDMsMTUxOD
 I1ODQ5NSwtMTAwNzg0MjA2NywtMjAxNjQ1NzUyNCwxOTA5Mzcz
 NjEyLDU0Nzc1NDAzOSwtMjAzMTg3MjU5OSwtMTk0NTU3MjQ5OF
 19
