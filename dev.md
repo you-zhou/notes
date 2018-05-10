@@ -530,7 +530,7 @@ There are three ways to format  a string.
 	```
 
 ### list
-#### Two ways to create an empty list:
+#### Two ways to create an empty list
 1. first_list = list()
 2. second_list = []
 
@@ -553,8 +553,8 @@ print(names)
 ```
 
 #### Two ways to sort a list
-
-
+1. sort method will sort the list ==in place==.
+2. 
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
@@ -1226,7 +1226,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzI1MjczOTIsLTIxMDE1MTk2OTAsLT
+eyJoaXN0b3J5IjpbLTE2ODk3NjUyNTUsLTIxMDE1MTk2OTAsLT
 EwMzc4Njk1NzEsLTE0Mzc0NzgyNjYsLTk4NDU1ODY4MSwxNjQw
 Njc1MjUsLTc4OTEwMzk1MSwxMjMxNjAxNjM2LDU2OTI1OTM4OC
 wtMTc4MzY3MDIwMywyMDE4MzYwOTI3LDEyNzQ1Nzc1NDAsNjI4
