@@ -381,8 +381,16 @@ when **operations** are performed on an object. For example, when you use the + 
 ### help()
 The built-in help function also provides documentation for a method, module, class, or function if you pass them in as an argument. 
 For example, if you are curious what the attribute upper on a string does, the following gives you the documentation:
-` help('some string'.upper)`
+```python
+help('some string'.upper)
 Help on built-in function upper:
+
+upper(...) method of builtins.str instance
+    S.upper() -> str
+    
+    Return a copy of S converted to uppercase.
+```
+
 e.g. `help("FORMATTING")`
 
 
@@ -1162,8 +1170,9 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NDU3NzU0MCw2MjgzMDYzMjgsMTEwOD
-c5NTk1MSwtODc4ODMwMTAzLDE1MTgyNTg0OTUsLTEwMDc4NDIw
-NjcsLTIwMTY0NTc1MjQsMTkwOTM3MzYxMiw1NDc3NTQwMzksLT
-IwMzE4NzI1OTksLTE5NDU1NzI0OThdfQ==
+eyJoaXN0b3J5IjpbLTEzNjE1NjI2MDgsMTI3NDU3NzU0MCw2Mj
+gzMDYzMjgsMTEwODc5NTk1MSwtODc4ODMwMTAzLDE1MTgyNTg0
+OTUsLTEwMDc4NDIwNjcsLTIwMTY0NTc1MjQsMTkwOTM3MzYxMi
+w1NDc3NTQwMzksLTIwMzE4NzI1OTksLTE5NDU1NzI0OThdfQ==
+
 -->
