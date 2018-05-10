@@ -554,7 +554,7 @@ print(names)
 
 #### Two ways to sort a list
 1. `list.sort()` method sorts the list ==in place==.
-2. `sorted(list)` function returns a new list that is ordered.
+2. `sorted(list)` function returns a new list that is ordered. 
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
@@ -1226,11 +1226,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MDUwMDMyOSwtMjEwMTUxOTY5MCwtMT
-AzNzg2OTU3MSwtMTQzNzQ3ODI2NiwtOTg0NTU4NjgxLDE2NDA2
-NzUyNSwtNzg5MTAzOTUxLDEyMzE2MDE2MzYsNTY5MjU5Mzg4LC
-0xNzgzNjcwMjAzLDIwMTgzNjA5MjcsMTI3NDU3NzU0MCw2Mjgz
-MDYzMjgsMTEwODc5NTk1MSwtODc4ODMwMTAzLDE1MTgyNTg0OT
-UsLTEwMDc4NDIwNjcsLTIwMTY0NTc1MjQsMTkwOTM3MzYxMiw1
-NDc3NTQwMzldfQ==
+eyJoaXN0b3J5IjpbMTIyMjcxNzg4MSwtOTgwNTAwMzI5LC0yMT
+AxNTE5NjkwLC0xMDM3ODY5NTcxLC0xNDM3NDc4MjY2LC05ODQ1
+NTg2ODEsMTY0MDY3NTI1LC03ODkxMDM5NTEsMTIzMTYwMTYzNi
+w1NjkyNTkzODgsLTE3ODM2NzAyMDMsMjAxODM2MDkyNywxMjc0
+NTc3NTQwLDYyODMwNjMyOCwxMTA4Nzk1OTUxLC04Nzg4MzAxMD
+MsMTUxODI1ODQ5NSwtMTAwNzg0MjA2NywtMjAxNjQ1NzUyNCwx
+OTA5MzczNjEyXX0=
 -->
