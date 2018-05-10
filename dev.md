@@ -362,7 +362,7 @@ ax.grid(True, linestyle=':')
 Read–Eval–Print Loop
 
 ### dir and help
-
+==IMPORTANT: explore Python using dir and help.==
 #### dir()
 The dir function returns the **attributes** of an object. It is used to discover the attributes of any object quickly.
 
@@ -1188,7 +1188,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzODIxNjA2Miw1NjkyNTkzODgsLTE3OD
+eyJoaXN0b3J5IjpbMTIzMTYwMTYzNiw1NjkyNTkzODgsLTE3OD
 M2NzAyMDMsMjAxODM2MDkyNywxMjc0NTc3NTQwLDYyODMwNjMy
 OCwxMTA4Nzk1OTUxLC04Nzg4MzAxMDMsMTUxODI1ODQ5NSwtMT
 AwNzg0MjA2NywtMjAxNjQ1NzUyNCwxOTA5MzczNjEyLDU0Nzc1
