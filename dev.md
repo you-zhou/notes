@@ -613,7 +613,7 @@ Note:
 * Mutable items are not hashable in Python, which means you cannot hash a
 list or dictionary.
 * To hash your own user-created classes, you will need to implement `__hash__` and `__eq__`.
-* To use the `in` operation, 
+* To use the `in` operation, also implements the `__contains__` method.
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
@@ -1285,11 +1285,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODQ1ODMzNzMsODg5MzQyNzU3LC0xNz
-MzNzI0NTAzLC0xMjIwMDg2NDA1LDM4NDEzMDA4MiwtMjA3ODcy
-NTMxMiwxMTMwMzI4MTAzLC0xNzc4OTAxNDksLTk4MDUwMDMyOS
-wtMjEwMTUxOTY5MCwtMTAzNzg2OTU3MSwtMTQzNzQ3ODI2Niwt
-OTg0NTU4NjgxLDE2NDA2NzUyNSwtNzg5MTAzOTUxLDEyMzE2MD
-E2MzYsNTY5MjU5Mzg4LC0xNzgzNjcwMjAzLDIwMTgzNjA5Mjcs
-MTI3NDU3NzU0MF19
+eyJoaXN0b3J5IjpbNTcxMjg2OTExLDg4OTM0Mjc1NywtMTczMz
+cyNDUwMywtMTIyMDA4NjQwNSwzODQxMzAwODIsLTIwNzg3MjUz
+MTIsMTEzMDMyODEwMywtMTc3ODkwMTQ5LC05ODA1MDAzMjksLT
+IxMDE1MTk2OTAsLTEwMzc4Njk1NzEsLTE0Mzc0NzgyNjYsLTk4
+NDU1ODY4MSwxNjQwNjc1MjUsLTc4OTEwMzk1MSwxMjMxNjAxNj
+M2LDU2OTI1OTM4OCwtMTc4MzY3MDIwMywyMDE4MzYwOTI3LDEy
+NzQ1Nzc1NDBdfQ==
 -->
