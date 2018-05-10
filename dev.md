@@ -531,7 +531,7 @@ There are three ways to format  a string.
 	```
 
 ### tuple
-Tuples are IMMUTABLE. 
+Tuples are ordered sequences that are IMMUTABLE. 
 ==Tuples can be used as keys in dictionaries. But not lists.==
 
 Scenarios to consider using tuples:
@@ -558,7 +558,7 @@ All of them will create a tuple `(1,)`.
 All of them will create a tuple `('Steph', 'Curry', 'Guard')`.
 
 ### list
-Lists are MUTABLE.
+Lists are ordered sequences that are MUTABLE.
 
 #### Two ways to create an empty list
 1. first_list = list()
@@ -1286,11 +1286,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1MDk1NzIyLDg4OTM0Mjc1NywtMTczMz
-cyNDUwMywtMTIyMDA4NjQwNSwzODQxMzAwODIsLTIwNzg3MjUz
-MTIsMTEzMDMyODEwMywtMTc3ODkwMTQ5LC05ODA1MDAzMjksLT
-IxMDE1MTk2OTAsLTEwMzc4Njk1NzEsLTE0Mzc0NzgyNjYsLTk4
-NDU1ODY4MSwxNjQwNjc1MjUsLTc4OTEwMzk1MSwxMjMxNjAxNj
-M2LDU2OTI1OTM4OCwtMTc4MzY3MDIwMywyMDE4MzYwOTI3LDEy
-NzQ1Nzc1NDBdfQ==
+eyJoaXN0b3J5IjpbLTMzNjE2MzI5MCw1MDUwOTU3MjIsODg5Mz
+QyNzU3LC0xNzMzNzI0NTAzLC0xMjIwMDg2NDA1LDM4NDEzMDA4
+MiwtMjA3ODcyNTMxMiwxMTMwMzI4MTAzLC0xNzc4OTAxNDksLT
+k4MDUwMDMyOSwtMjEwMTUxOTY5MCwtMTAzNzg2OTU3MSwtMTQz
+NzQ3ODI2NiwtOTg0NTU4NjgxLDE2NDA2NzUyNSwtNzg5MTAzOT
+UxLDEyMzE2MDE2MzYsNTY5MjU5Mzg4LC0xNzgzNjcwMjAzLDIw
+MTgzNjA5MjddfQ==
 -->
