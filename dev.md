@@ -624,7 +624,7 @@ animals = ["cat", "dog", "bird"]
 for index in range(len(animals)):
 	print(index, animals[index])
 
-# Loop a list using the built-in function enumerate.
+# A more Pythonic way to loop a list is using the built-in function enumerate.
 for index, value in enumerate(animals):
 	print(index, value)
 ```
@@ -1298,11 +1298,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MTYxNzkyOSwtMzM2MTYzMjkwLDUwNT
-A5NTcyMiw4ODkzNDI3NTcsLTE3MzM3MjQ1MDMsLTEyMjAwODY0
-MDUsMzg0MTMwMDgyLC0yMDc4NzI1MzEyLDExMzAzMjgxMDMsLT
-E3Nzg5MDE0OSwtOTgwNTAwMzI5LC0yMTAxNTE5NjkwLC0xMDM3
-ODY5NTcxLC0xNDM3NDc4MjY2LC05ODQ1NTg2ODEsMTY0MDY3NT
-I1LC03ODkxMDM5NTEsMTIzMTYwMTYzNiw1NjkyNTkzODgsLTE3
-ODM2NzAyMDNdfQ==
+eyJoaXN0b3J5IjpbLTY4MDgyMDgzNywxMTcxNjE3OTI5LC0zMz
+YxNjMyOTAsNTA1MDk1NzIyLDg4OTM0Mjc1NywtMTczMzcyNDUw
+MywtMTIyMDA4NjQwNSwzODQxMzAwODIsLTIwNzg3MjUzMTIsMT
+EzMDMyODEwMywtMTc3ODkwMTQ5LC05ODA1MDAzMjksLTIxMDE1
+MTk2OTAsLTEwMzc4Njk1NzEsLTE0Mzc0NzgyNjYsLTk4NDU1OD
+Y4MSwxNjQwNjc1MjUsLTc4OTEwMzk1MSwxMjMxNjAxNjM2LDU2
+OTI1OTM4OF19
 -->
