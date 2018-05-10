@@ -373,8 +373,7 @@ e.g. `dir("Jack Bauer")`
 start and end with double underscores (Double UNDERscores). “Dunder add” is one way to say __add__,
 
 They are used to determine what happens under the covers
-when **operations** are performed on an object. For example, when you use the + or % operator
-on a string, the .__add__ or .__mod__ method is invoked respectively.
+when **operations** are performed on an object. For example, when you use the + or % operator on a string, the `.__add__` or `.__mod__` method is invoked respectively.
 
 ### help()
 e.g. `help("FORMATTING")`
@@ -1156,7 +1155,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNTA1NTg5NSwtODc4ODMwMTAzLDE1MT
+eyJoaXN0b3J5IjpbLTU0MjYyODk4MywtODc4ODMwMTAzLDE1MT
 gyNTg0OTUsLTEwMDc4NDIwNjcsLTIwMTY0NTc1MjQsMTkwOTM3
 MzYxMiw1NDc3NTQwMzksLTIwMzE4NzI1OTksLTE5NDU1NzI0OT
 hdfQ==
