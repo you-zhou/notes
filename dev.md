@@ -592,6 +592,7 @@ Unordered collection that cannot contain duplicates.
 Scenarios to use sets:
 * Removing duplicates.
 * Checking membership using the `in` operation, as fast lookup operation even on large sets.
+* set operations, such as union (|), intersection (&), difference (-), and xor (^)
 ```python
 # One way to create a set while remvoing duplicates.
 digits = [0, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -1285,7 +1286,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxMjg2OTExLDg4OTM0Mjc1NywtMTczMz
+eyJoaXN0b3J5IjpbNTA1MDk1NzIyLDg4OTM0Mjc1NywtMTczMz
 cyNDUwMywtMTIyMDA4NjQwNSwzODQxMzAwODIsLTIwNzg3MjUz
 MTIsMTEzMDMyODEwMywtMTc3ODkwMTQ5LC05ODA1MDAzMjksLT
 IxMDE1MTk2OTAsLTEwMzc4Njk1NzEsLTE0Mzc0NzgyNjYsLTk4
