@@ -538,8 +538,13 @@ Two ways to create a pre-populated list:
 1. first_list = list(['Tom', 'Jerry'])
 2. second_list = ['Tom', 'Jerry']
 
+Two ways to delete an item from a list:
 ```python
 names = ['George', 'Henry', 'Fred', 'Paul']
+# 1. remove method
+names.remove('Paul')
+
+# 2. d
 
 ```
 
@@ -1213,7 +1218,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyODQ0OTY3MSwtMTQzNzQ3ODI2NiwtOT
+eyJoaXN0b3J5IjpbMTk1ODY1NzAwMywtMTQzNzQ3ODI2NiwtOT
 g0NTU4NjgxLDE2NDA2NzUyNSwtNzg5MTAzOTUxLDEyMzE2MDE2
 MzYsNTY5MjU5Mzg4LC0xNzgzNjcwMjAzLDIwMTgzNjA5MjcsMT
 I3NDU3NzU0MCw2MjgzMDYzMjgsMTEwODc5NTk1MSwtODc4ODMw
