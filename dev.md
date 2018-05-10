@@ -554,7 +554,7 @@ print(names)
 
 #### Two ways to sort a list
 1. `list.sort()` method sorts the list ==in place==.
-2. `sorted(list)` function returns a new list that is ordered. 
+2. `sorted(list)` function returns a new list that is ordered. ==But it reuses all items in the list, instead of creating new items.==
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
@@ -1226,7 +1226,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMjcxNzg4MSwtOTgwNTAwMzI5LC0yMT
+eyJoaXN0b3J5IjpbLTE3Nzg5MDE0OSwtOTgwNTAwMzI5LC0yMT
 AxNTE5NjkwLC0xMDM3ODY5NTcxLC0xNDM3NDc4MjY2LC05ODQ1
 NTg2ODEsMTY0MDY3NTI1LC03ODkxMDM5NTEsMTIzMTYwMTYzNi
 w1NjkyNTkzODgsLTE3ODM2NzAyMDMsMjAxODM2MDkyNywxMjc0
