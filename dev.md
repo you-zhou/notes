@@ -625,7 +625,8 @@ animals = ["cat", "dog", "bird"]
 for index in range(len(animals)):
 	print(index, animals[index])
 
-# A preferemore Pythonic way to loop a list is to use the built-in function enumerate.
+# A prefered and more Pythonic way.
+# Loop a list is to use the built-in function enumerate.
 for index, value in enumerate(animals):
 	print(index, value)
 ```
@@ -1299,7 +1300,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTMwMDM2NTQsLTEyMjU4Mjg3MjcsMT
+eyJoaXN0b3J5IjpbLTE4Nzk0ODQzOTUsLTEyMjU4Mjg3MjcsMT
 E3MTYxNzkyOSwtMzM2MTYzMjkwLDUwNTA5NTcyMiw4ODkzNDI3
 NTcsLTE3MzM3MjQ1MDMsLTEyMjAwODY0MDUsMzg0MTMwMDgyLC
 0yMDc4NzI1MzEyLDExMzAzMjgxMDMsLTE3Nzg5MDE0OSwtOTgw
