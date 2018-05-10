@@ -375,7 +375,8 @@ start and end with double underscores (Double UNDERscores). “Dunder add” is 
 They are used to determine what happens under the covers
 when **operations** are performed on an object. For example, when you use the + or % operator on a string, the `.__add__` or `.__mod__` method is invoked respectively.
 
-==We only need to define dunder methods when we want our own classes need to ==
+==We only need to define dunder methods when we implement our own classes and want them to react to operations such as + or % ==
+
 ### help()
 e.g. `help("FORMATTING")`
 
@@ -1156,8 +1157,8 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQxMjc3MTQsMTEwODc5NTk1MSwtOD
-c4ODMwMTAzLDE1MTgyNTg0OTUsLTEwMDc4NDIwNjcsLTIwMTY0
-NTc1MjQsMTkwOTM3MzYxMiw1NDc3NTQwMzksLTIwMzE4NzI1OT
-ksLTE5NDU1NzI0OThdfQ==
+eyJoaXN0b3J5IjpbMTMyMjg0NDU1MCwxMTA4Nzk1OTUxLC04Nz
+g4MzAxMDMsMTUxODI1ODQ5NSwtMTAwNzg0MjA2NywtMjAxNjQ1
+NzUyNCwxOTA5MzczNjEyLDU0Nzc1NDAzOSwtMjAzMTg3MjU5OS
+wtMTk0NTU3MjQ5OF19
 -->
