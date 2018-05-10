@@ -591,7 +591,9 @@ Unordered collection that cannot contain duplicates.
 
 Scenarios to use sets:
 * removing duplicates
-* checking membership
+* checking membership, as fast lookup operation even on large sets.
+
+Note:
 
 
 ## Reading & Writing Files
@@ -1264,7 +1266,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODU1MTU5MiwtMTczMzcyNDUwMywtMT
+eyJoaXN0b3J5IjpbMTc3NTMzNjIwMCwtMTczMzcyNDUwMywtMT
 IyMDA4NjQwNSwzODQxMzAwODIsLTIwNzg3MjUzMTIsMTEzMDMy
 ODEwMywtMTc3ODkwMTQ5LC05ODA1MDAzMjksLTIxMDE1MTk2OT
 AsLTEwMzc4Njk1NzEsLTE0Mzc0NzgyNjYsLTk4NDU1ODY4MSwx
