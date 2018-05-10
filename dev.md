@@ -528,6 +528,11 @@ There are three ways to format  a string.
 	f'Square root of two: {2**.5:5.3f}
 	# 'Square root of two: 1.414'
 	```
+
+### list
+There 2 ways to create an empty list:
+1. first_list =
+
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 ### open(filename, mode) binary v.s. text mode
@@ -1198,10 +1203,10 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MDY3NTI1LC03ODkxMDM5NTEsMTIzMT
-YwMTYzNiw1NjkyNTkzODgsLTE3ODM2NzAyMDMsMjAxODM2MDky
-NywxMjc0NTc3NTQwLDYyODMwNjMyOCwxMTA4Nzk1OTUxLC04Nz
-g4MzAxMDMsMTUxODI1ODQ5NSwtMTAwNzg0MjA2NywtMjAxNjQ1
-NzUyNCwxOTA5MzczNjEyLDU0Nzc1NDAzOSwtMjAzMTg3MjU5OS
-wtMTk0NTU3MjQ5OF19
+eyJoaXN0b3J5IjpbLTE2Mjg5Njk1NTQsMTY0MDY3NTI1LC03OD
+kxMDM5NTEsMTIzMTYwMTYzNiw1NjkyNTkzODgsLTE3ODM2NzAy
+MDMsMjAxODM2MDkyNywxMjc0NTc3NTQwLDYyODMwNjMyOCwxMT
+A4Nzk1OTUxLC04Nzg4MzAxMDMsMTUxODI1ODQ5NSwtMTAwNzg0
+MjA2NywtMjAxNjQ1NzUyNCwxOTA5MzczNjEyLDU0Nzc1NDAzOS
+wtMjAzMTg3MjU5OSwtMTk0NTU3MjQ5OF19
 -->
