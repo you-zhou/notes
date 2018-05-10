@@ -361,24 +361,16 @@ ax.grid(True, linestyle=':')
 ### REPL
 Read–Eval–Print Loop
 
-### dir()
+### dir and help
+
+#### dir()
 The dir function returns the **attributes** of an object. It is used to discover the attributes of any object quickly.
 
 The attribute list is in alphabetical order, and you can normally ignore the first couple of attributes starting with `__`.
 
 e.g. `dir("Jack Bauer")`
 
-
-### dunder methods
-start and end with double underscores (Double UNDERscores). “Dunder add” is one way to say __add__,
-
-They are used to determine what happens under the covers
-when **operations** are performed on an object. For example, when you use the + or % operator on a string, the `.__add__` or `.__mod__` method is invoked respectively.
-
-==We only need to define dunder methods when we implement our own classes and want them to react to operations such as + or % ==
-
-
-### help()
+#### help()
 The built-in help function also provides documentation for a method, module, class, or function if you pass them in as an argument. 
 For example, if you are curious what the attribute upper on a string does, the following gives you the documentation:
 ```python
@@ -392,6 +384,18 @@ upper(...) method of builtins.str instance
 ```
 
 e.g. to find examples for string formatting: `help("FORMATTING")`
+
+### dunder methods
+start and end with double underscores (Double UNDERscores). “Dunder add” is one way to say __add__,
+
+They are used to determine what happens under the covers
+when **operations** are performed on an object. For example, when you use the + or % operator on a string, the `.__add__` or `.__mod__` method is invoked respectively.
+
+==We only need to define dunder methods when we implement our own classes and want them to react to operations such as + or % ==
+
+
+
+
 
 
 ### pdb
@@ -1184,9 +1188,9 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY5MjU5Mzg4LC0xNzgzNjcwMjAzLDIwMT
-gzNjA5MjcsMTI3NDU3NzU0MCw2MjgzMDYzMjgsMTEwODc5NTk1
-MSwtODc4ODMwMTAzLDE1MTgyNTg0OTUsLTEwMDc4NDIwNjcsLT
-IwMTY0NTc1MjQsMTkwOTM3MzYxMiw1NDc3NTQwMzksLTIwMzE4
-NzI1OTksLTE5NDU1NzI0OThdfQ==
+eyJoaXN0b3J5IjpbLTMzODIxNjA2Miw1NjkyNTkzODgsLTE3OD
+M2NzAyMDMsMjAxODM2MDkyNywxMjc0NTc3NTQwLDYyODMwNjMy
+OCwxMTA4Nzk1OTUxLC04Nzg4MzAxMDMsMTUxODI1ODQ5NSwtMT
+AwNzg0MjA2NywtMjAxNjQ1NzUyNCwxOTA5MzczNjEyLDU0Nzc1
+NDAzOSwtMjAzMTg3MjU5OSwtMTk0NTU3MjQ5OF19
 -->
