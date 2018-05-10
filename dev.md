@@ -602,7 +602,9 @@ digit_set = {0, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 
 # Both above would create the set and remove the duplicated 1.
 
-# To ch
+# To check membership.
+9 in digit_set # True
+42 in digit_set # False
 ```
 
 
@@ -1282,11 +1284,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0ODM3MDYwNSw4ODkzNDI3NTcsLTE3Mz
-M3MjQ1MDMsLTEyMjAwODY0MDUsMzg0MTMwMDgyLC0yMDc4NzI1
-MzEyLDExMzAzMjgxMDMsLTE3Nzg5MDE0OSwtOTgwNTAwMzI5LC
-0yMTAxNTE5NjkwLC0xMDM3ODY5NTcxLC0xNDM3NDc4MjY2LC05
-ODQ1NTg2ODEsMTY0MDY3NTI1LC03ODkxMDM5NTEsMTIzMTYwMT
-YzNiw1NjkyNTkzODgsLTE3ODM2NzAyMDMsMjAxODM2MDkyNywx
-Mjc0NTc3NTQwXX0=
+eyJoaXN0b3J5IjpbLTExMDc4MTIxMjYsODg5MzQyNzU3LC0xNz
+MzNzI0NTAzLC0xMjIwMDg2NDA1LDM4NDEzMDA4MiwtMjA3ODcy
+NTMxMiwxMTMwMzI4MTAzLC0xNzc4OTAxNDksLTk4MDUwMDMyOS
+wtMjEwMTUxOTY5MCwtMTAzNzg2OTU3MSwtMTQzNzQ3ODI2Niwt
+OTg0NTU4NjgxLDE2NDA2NzUyNSwtNzg5MTAzOTUxLDEyMzE2MD
+E2MzYsNTY5MjU5Mzg4LC0xNzgzNjcwMjAzLDIwMTgzNjA5Mjcs
+MTI3NDU3NzU0MF19
 -->
