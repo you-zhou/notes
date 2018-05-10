@@ -594,7 +594,7 @@ Scenarios to use sets:
 * checking membership, as fast lookup operation even on large sets.
 
 Note:
-
+* Because sets must be able to compute a **hash value** for each item in the set, sets can only contain items that are hashable.
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
@@ -1266,11 +1266,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTMzNjIwMCwtMTczMzcyNDUwMywtMT
-IyMDA4NjQwNSwzODQxMzAwODIsLTIwNzg3MjUzMTIsMTEzMDMy
-ODEwMywtMTc3ODkwMTQ5LC05ODA1MDAzMjksLTIxMDE1MTk2OT
-AsLTEwMzc4Njk1NzEsLTE0Mzc0NzgyNjYsLTk4NDU1ODY4MSwx
-NjQwNjc1MjUsLTc4OTEwMzk1MSwxMjMxNjAxNjM2LDU2OTI1OT
-M4OCwtMTc4MzY3MDIwMywyMDE4MzYwOTI3LDEyNzQ1Nzc1NDAs
-NjI4MzA2MzI4XX0=
+eyJoaXN0b3J5IjpbLTIwNjE0NTkwNzIsLTE3MzM3MjQ1MDMsLT
+EyMjAwODY0MDUsMzg0MTMwMDgyLC0yMDc4NzI1MzEyLDExMzAz
+MjgxMDMsLTE3Nzg5MDE0OSwtOTgwNTAwMzI5LC0yMTAxNTE5Nj
+kwLC0xMDM3ODY5NTcxLC0xNDM3NDc4MjY2LC05ODQ1NTg2ODEs
+MTY0MDY3NTI1LC03ODkxMDM5NTEsMTIzMTYwMTYzNiw1NjkyNT
+kzODgsLTE3ODM2NzAyMDMsMjAxODM2MDkyNywxMjc0NTc3NTQw
+LDYyODMwNjMyOF19
 -->
