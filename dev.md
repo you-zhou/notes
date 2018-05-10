@@ -413,7 +413,7 @@ d, down | Push down a level in the stack
 l, list | List source code around current line
 
 ### is v.s. ==
-`is` check identity, i.e. 
+`is` check identity, i.e. id(obj)
 `==` checks value
 
 ### pip
@@ -1192,10 +1192,10 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY2MTc0Mjk4LDEyMzE2MDE2MzYsNTY5Mj
-U5Mzg4LC0xNzgzNjcwMjAzLDIwMTgzNjA5MjcsMTI3NDU3NzU0
-MCw2MjgzMDYzMjgsMTEwODc5NTk1MSwtODc4ODMwMTAzLDE1MT
-gyNTg0OTUsLTEwMDc4NDIwNjcsLTIwMTY0NTc1MjQsMTkwOTM3
-MzYxMiw1NDc3NTQwMzksLTIwMzE4NzI1OTksLTE5NDU1NzI0OT
-hdfQ==
+eyJoaXN0b3J5IjpbLTc4OTEwMzk1MSwxMjMxNjAxNjM2LDU2OT
+I1OTM4OCwtMTc4MzY3MDIwMywyMDE4MzYwOTI3LDEyNzQ1Nzc1
+NDAsNjI4MzA2MzI4LDExMDg3OTU5NTEsLTg3ODgzMDEwMywxNT
+E4MjU4NDk1LC0xMDA3ODQyMDY3LC0yMDE2NDU3NTI0LDE5MDkz
+NzM2MTIsNTQ3NzU0MDM5LC0yMDMxODcyNTk5LC0xOTQ1NTcyND
+k4XX0=
 -->
