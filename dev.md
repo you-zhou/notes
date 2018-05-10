@@ -542,7 +542,7 @@ Two ways to delete an item from a list:
 ```python
 names = ['George', 'Henry', 'Fred', 'Paul']
 # 1. remove method
-names.remove('Paul')
+names.remove('Paul') # ONLY REMOVE THE FIRST OCCURRENCE
 print(names)
 # ['George', 'Henry', 'Fred']
 
@@ -1222,11 +1222,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzc4Njk1NzEsLTE0Mzc0NzgyNjYsLT
-k4NDU1ODY4MSwxNjQwNjc1MjUsLTc4OTEwMzk1MSwxMjMxNjAx
-NjM2LDU2OTI1OTM4OCwtMTc4MzY3MDIwMywyMDE4MzYwOTI3LD
-EyNzQ1Nzc1NDAsNjI4MzA2MzI4LDExMDg3OTU5NTEsLTg3ODgz
-MDEwMywxNTE4MjU4NDk1LC0xMDA3ODQyMDY3LC0yMDE2NDU3NT
-I0LDE5MDkzNzM2MTIsNTQ3NzU0MDM5LC0yMDMxODcyNTk5LC0x
-OTQ1NTcyNDk4XX0=
+eyJoaXN0b3J5IjpbLTIxMDE1MTk2OTAsLTEwMzc4Njk1NzEsLT
+E0Mzc0NzgyNjYsLTk4NDU1ODY4MSwxNjQwNjc1MjUsLTc4OTEw
+Mzk1MSwxMjMxNjAxNjM2LDU2OTI1OTM4OCwtMTc4MzY3MDIwMy
+wyMDE4MzYwOTI3LDEyNzQ1Nzc1NDAsNjI4MzA2MzI4LDExMDg3
+OTU5NTEsLTg3ODgzMDEwMywxNTE4MjU4NDk1LC0xMDA3ODQyMD
+Y3LC0yMDE2NDU3NTI0LDE5MDkzNzM2MTIsNTQ3NzU0MDM5LC0y
+MDMxODcyNTk5XX0=
 -->
