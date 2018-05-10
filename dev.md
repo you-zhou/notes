@@ -412,6 +412,10 @@ u, up | Pop up a level in the stack
 d, down | Push down a level in the stack
 l, list | List source code around current line
 
+### is v.s. ==
+`is` check identity, i.e. 
+`==` checks value
+
 ### pip
 Upgrading pip.
 * On Linux or macOS:
@@ -1188,9 +1192,10 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMTYwMTYzNiw1NjkyNTkzODgsLTE3OD
-M2NzAyMDMsMjAxODM2MDkyNywxMjc0NTc3NTQwLDYyODMwNjMy
-OCwxMTA4Nzk1OTUxLC04Nzg4MzAxMDMsMTUxODI1ODQ5NSwtMT
-AwNzg0MjA2NywtMjAxNjQ1NzUyNCwxOTA5MzczNjEyLDU0Nzc1
-NDAzOSwtMjAzMTg3MjU5OSwtMTk0NTU3MjQ5OF19
+eyJoaXN0b3J5IjpbODY2MTc0Mjk4LDEyMzE2MDE2MzYsNTY5Mj
+U5Mzg4LC0xNzgzNjcwMjAzLDIwMTgzNjA5MjcsMTI3NDU3NzU0
+MCw2MjgzMDYzMjgsMTEwODc5NTk1MSwtODc4ODMwMTAzLDE1MT
+gyNTg0OTUsLTEwMDc4NDIwNjcsLTIwMTY0NTc1MjQsMTkwOTM3
+MzYxMiw1NDc3NTQwMzksLTIwMzE4NzI1OTksLTE5NDU1NzI0OT
+hdfQ==
 -->
