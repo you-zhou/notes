@@ -597,8 +597,12 @@ Scenarios to use sets:
 digits = [0, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 digit_set = set(digits) # remove extra 1
 
-# The other way to create a set while e
+# The other way to create a set while removing duplicates.
 digit_set = {0, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+
+# Both above would create the set and remove the duplicated 1.
+
+# To ch
 ```
 
 
@@ -1278,11 +1282,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAzMjY5ODIxLDg4OTM0Mjc1NywtMTczMz
-cyNDUwMywtMTIyMDA4NjQwNSwzODQxMzAwODIsLTIwNzg3MjUz
-MTIsMTEzMDMyODEwMywtMTc3ODkwMTQ5LC05ODA1MDAzMjksLT
-IxMDE1MTk2OTAsLTEwMzc4Njk1NzEsLTE0Mzc0NzgyNjYsLTk4
-NDU1ODY4MSwxNjQwNjc1MjUsLTc4OTEwMzk1MSwxMjMxNjAxNj
-M2LDU2OTI1OTM4OCwtMTc4MzY3MDIwMywyMDE4MzYwOTI3LDEy
-NzQ1Nzc1NDBdfQ==
+eyJoaXN0b3J5IjpbMTM0ODM3MDYwNSw4ODkzNDI3NTcsLTE3Mz
+M3MjQ1MDMsLTEyMjAwODY0MDUsMzg0MTMwMDgyLC0yMDc4NzI1
+MzEyLDExMzAzMjgxMDMsLTE3Nzg5MDE0OSwtOTgwNTAwMzI5LC
+0yMTAxNTE5NjkwLC0xMDM3ODY5NTcxLC0xNDM3NDc4MjY2LC05
+ODQ1NTg2ODEsMTY0MDY3NTI1LC03ODkxMDM5NTEsMTIzMTYwMT
+YzNiw1NjkyNTkzODgsLTE3ODM2NzAyMDMsMjAxODM2MDkyNywx
+Mjc0NTc3NTQwXX0=
 -->
