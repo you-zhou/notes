@@ -377,6 +377,7 @@ when **operations** are performed on an object. For example, when you use the + 
 
 ==We only need to define dunder methods when we implement our own classes and want them to react to operations such as + or % ==
 
+
 ### help()
 e.g. `help("FORMATTING")`
 
@@ -1157,8 +1158,8 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjg0NDU1MCwxMTA4Nzk1OTUxLC04Nz
-g4MzAxMDMsMTUxODI1ODQ5NSwtMTAwNzg0MjA2NywtMjAxNjQ1
-NzUyNCwxOTA5MzczNjEyLDU0Nzc1NDAzOSwtMjAzMTg3MjU5OS
-wtMTk0NTU3MjQ5OF19
+eyJoaXN0b3J5IjpbNjI4MzA2MzI4LDExMDg3OTU5NTEsLTg3OD
+gzMDEwMywxNTE4MjU4NDk1LC0xMDA3ODQyMDY3LC0yMDE2NDU3
+NTI0LDE5MDkzNzM2MTIsNTQ3NzU0MDM5LC0yMDMxODcyNTk5LC
+0xOTQ1NTcyNDk4XX0=
 -->
