@@ -534,7 +534,10 @@ Two ways to create an empty list:
 1. first_list = list()
 2. second_list = []
 
-2 ways to create a pre-populated list:
+Two ways to create a pre-populated list:
+1. first_list = list(['Tom', 'Jerry'])
+2. second_list = ['Tom', 'Jerry']
+
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
@@ -1206,10 +1209,10 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0Mzc2MjM5LDE2NDA2NzUyNSwtNzg5MT
-AzOTUxLDEyMzE2MDE2MzYsNTY5MjU5Mzg4LC0xNzgzNjcwMjAz
-LDIwMTgzNjA5MjcsMTI3NDU3NzU0MCw2MjgzMDYzMjgsMTEwOD
-c5NTk1MSwtODc4ODMwMTAzLDE1MTgyNTg0OTUsLTEwMDc4NDIw
-NjcsLTIwMTY0NTc1MjQsMTkwOTM3MzYxMiw1NDc3NTQwMzksLT
-IwMzE4NzI1OTksLTE5NDU1NzI0OThdfQ==
+eyJoaXN0b3J5IjpbLTk4NDU1ODY4MSwxNjQwNjc1MjUsLTc4OT
+EwMzk1MSwxMjMxNjAxNjM2LDU2OTI1OTM4OCwtMTc4MzY3MDIw
+MywyMDE4MzYwOTI3LDEyNzQ1Nzc1NDAsNjI4MzA2MzI4LDExMD
+g3OTU5NTEsLTg3ODgzMDEwMywxNTE4MjU4NDk1LC0xMDA3ODQy
+MDY3LC0yMDE2NDU3NTI0LDE5MDkzNzM2MTIsNTQ3NzU0MDM5LC
+0yMDMxODcyNTk5LC0xOTQ1NTcyNDk4XX0=
 -->
