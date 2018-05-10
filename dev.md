@@ -589,7 +589,7 @@ print(names)
 ### set
 Unordered collection that cannot contain duplicates.
 
-Scenarios to use sets:
+#### Scenarios to use sets
 * Removing duplicates.
 * Checking membership using the `in` operation, as fast lookup operation even on large sets.
 * set operations, such as union (|), intersection (&), difference (-), and xor (^)
@@ -608,8 +608,7 @@ digit_set = {0, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 42 in digit_set # False
 ```
 
-
-Note:
+##### Note:
 * Because sets must be able to compute a **hash value** for each item in the set, sets can only contain items that are hashable.
 * Mutable items are not hashable in Python, which means you cannot hash a
 list or dictionary.
@@ -1286,11 +1285,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNjE2MzI5MCw1MDUwOTU3MjIsODg5Mz
-QyNzU3LC0xNzMzNzI0NTAzLC0xMjIwMDg2NDA1LDM4NDEzMDA4
-MiwtMjA3ODcyNTMxMiwxMTMwMzI4MTAzLC0xNzc4OTAxNDksLT
-k4MDUwMDMyOSwtMjEwMTUxOTY5MCwtMTAzNzg2OTU3MSwtMTQz
-NzQ3ODI2NiwtOTg0NTU4NjgxLDE2NDA2NzUyNSwtNzg5MTAzOT
-UxLDEyMzE2MDE2MzYsNTY5MjU5Mzg4LC0xNzgzNjcwMjAzLDIw
-MTgzNjA5MjddfQ==
+eyJoaXN0b3J5IjpbLTE0MDgyNDU3MSwtMzM2MTYzMjkwLDUwNT
+A5NTcyMiw4ODkzNDI3NTcsLTE3MzM3MjQ1MDMsLTEyMjAwODY0
+MDUsMzg0MTMwMDgyLC0yMDc4NzI1MzEyLDExMzAzMjgxMDMsLT
+E3Nzg5MDE0OSwtOTgwNTAwMzI5LC0yMTAxNTE5NjkwLC0xMDM3
+ODY5NTcxLC0xNDM3NDc4MjY2LC05ODQ1NTg2ODEsMTY0MDY3NT
+I1LC03ODkxMDM5NTEsMTIzMTYwMTYzNiw1NjkyNTkzODgsLTE3
+ODM2NzAyMDNdfQ==
 -->
