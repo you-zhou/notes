@@ -593,9 +593,12 @@ Scenarios to use sets:
 * Removing duplicates.
 * Checking membership using the `in` operation, as fast lookup operation even on large sets.
 ```python
-digits = [0, 1, 1, 2, 3, 4, 5, 6,
-... 7, 8, 9]
->>> digit_set = set(digits) # remove extra 1
+# One way to create a set while remvoing duplicates.
+digits = [0, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+digit_set = set(digits) # remove extra 1
+
+# The other way to create a set while e
+digit_set = {0, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 ```
 
 
@@ -1275,7 +1278,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA1MjM4NDgxLDg4OTM0Mjc1NywtMTczMz
+eyJoaXN0b3J5IjpbOTAzMjY5ODIxLDg4OTM0Mjc1NywtMTczMz
 cyNDUwMywtMTIyMDA4NjQwNSwzODQxMzAwODIsLTIwNzg3MjUz
 MTIsMTEzMDMyODEwMywtMTc3ODkwMTQ5LC05ODA1MDAzMjksLT
 IxMDE1MTk2OTAsLTEwMzc4Njk1NzEsLTE0Mzc0NzgyNjYsLTk4
