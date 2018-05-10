@@ -531,6 +531,8 @@ There are three ways to format  a string.
 	```
 
 ### list
+Lists are MUTABLE.
+
 #### Two ways to create an empty list
 1. first_list = list()
 2. second_list = []
@@ -1227,11 +1229,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMDMyODEwMywtMTc3ODkwMTQ5LC05OD
-A1MDAzMjksLTIxMDE1MTk2OTAsLTEwMzc4Njk1NzEsLTE0Mzc0
-NzgyNjYsLTk4NDU1ODY4MSwxNjQwNjc1MjUsLTc4OTEwMzk1MS
-wxMjMxNjAxNjM2LDU2OTI1OTM4OCwtMTc4MzY3MDIwMywyMDE4
-MzYwOTI3LDEyNzQ1Nzc1NDAsNjI4MzA2MzI4LDExMDg3OTU5NT
-EsLTg3ODgzMDEwMywxNTE4MjU4NDk1LC0xMDA3ODQyMDY3LC0y
-MDE2NDU3NTI0XX0=
+eyJoaXN0b3J5IjpbLTEzNzc3MjExODAsMTEzMDMyODEwMywtMT
+c3ODkwMTQ5LC05ODA1MDAzMjksLTIxMDE1MTk2OTAsLTEwMzc4
+Njk1NzEsLTE0Mzc0NzgyNjYsLTk4NDU1ODY4MSwxNjQwNjc1Mj
+UsLTc4OTEwMzk1MSwxMjMxNjAxNjM2LDU2OTI1OTM4OCwtMTc4
+MzY3MDIwMywyMDE4MzYwOTI3LDEyNzQ1Nzc1NDAsNjI4MzA2Mz
+I4LDExMDg3OTU5NTEsLTg3ODgzMDEwMywxNTE4MjU4NDk1LC0x
+MDA3ODQyMDY3XX0=
 -->
