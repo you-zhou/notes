@@ -533,6 +533,10 @@ There are three ways to format  a string.
 ### tuple
 Tuples are IMMUTABLE.
 
+#### Two ways to create an empty tuple
+1. first_tuple = tuple()
+2. second_tuple = ()
+
 ### list
 Lists are MUTABLE.
 
@@ -1232,11 +1236,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM4Mjg0MDQ4LDExMzAzMjgxMDMsLTE3Nz
-g5MDE0OSwtOTgwNTAwMzI5LC0yMTAxNTE5NjkwLC0xMDM3ODY5
-NTcxLC0xNDM3NDc4MjY2LC05ODQ1NTg2ODEsMTY0MDY3NTI1LC
-03ODkxMDM5NTEsMTIzMTYwMTYzNiw1NjkyNTkzODgsLTE3ODM2
-NzAyMDMsMjAxODM2MDkyNywxMjc0NTc3NTQwLDYyODMwNjMyOC
-wxMTA4Nzk1OTUxLC04Nzg4MzAxMDMsMTUxODI1ODQ5NSwtMTAw
-Nzg0MjA2N119
+eyJoaXN0b3J5IjpbLTIwNzg3MjUzMTIsMTEzMDMyODEwMywtMT
+c3ODkwMTQ5LC05ODA1MDAzMjksLTIxMDE1MTk2OTAsLTEwMzc4
+Njk1NzEsLTE0Mzc0NzgyNjYsLTk4NDU1ODY4MSwxNjQwNjc1Mj
+UsLTc4OTEwMzk1MSwxMjMxNjAxNjM2LDU2OTI1OTM4OCwtMTc4
+MzY3MDIwMywyMDE4MzYwOTI3LDEyNzQ1Nzc1NDAsNjI4MzA2Mz
+I4LDExMDg3OTU5NTEsLTg3ODgzMDEwMywxNTE4MjU4NDk1LC0x
+MDA3ODQyMDY3XX0=
 -->
