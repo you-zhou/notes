@@ -536,7 +536,8 @@ Tuples are IMMUTABLE.
 
 Places to consider using tuples:
 * returning multiple items from a function.
-* hint devel
+* hint developers that this variable is not meant to be modified.
+* conserve memory as it use less than a list.
 
 #### Two ways to create an empty tuple
 1. first_tuple = tuple()
@@ -1255,7 +1256,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NzIzNDE3MSwtMTIyMDA4NjQwNSwzOD
+eyJoaXN0b3J5IjpbLTc4OTk2NDU4MywtMTIyMDA4NjQwNSwzOD
 QxMzAwODIsLTIwNzg3MjUzMTIsMTEzMDMyODEwMywtMTc3ODkw
 MTQ5LC05ODA1MDAzMjksLTIxMDE1MTk2OTAsLTEwMzc4Njk1Nz
 EsLTE0Mzc0NzgyNjYsLTk4NDU1ODY4MSwxNjQwNjc1MjUsLTc4
