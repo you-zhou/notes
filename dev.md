@@ -419,7 +419,9 @@ l, list | List source code around current line
 ### None
 None is a singleton object in Python.
 Two places to use None:
-1. indicate a variable that may be assigned a value in the future.
+1. init a variable that may be assigned a value in the future.
+2. the default result of a function that does not explicitly return a value
+
 ### pip
 Upgrading pip.
 * On Linux or macOS:
@@ -1196,7 +1198,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIyNDQ3OTg3LC03ODkxMDM5NTEsMTIzMT
+eyJoaXN0b3J5IjpbMTY0MDY3NTI1LC03ODkxMDM5NTEsMTIzMT
 YwMTYzNiw1NjkyNTkzODgsLTE3ODM2NzAyMDMsMjAxODM2MDky
 NywxMjc0NTc3NTQwLDYyODMwNjMyOCwxMTA4Nzk1OTUxLC04Nz
 g4MzAxMDMsMTUxODI1ODQ5NSwtMTAwNzg0MjA2NywtMjAxNjQ1
