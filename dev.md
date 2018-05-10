@@ -530,15 +530,15 @@ There are three ways to format  a string.
 	```
 
 ### list
-Two ways to create an empty list:
+#### Two ways to create an empty list:
 1. first_list = list()
 2. second_list = []
 
-Two ways to create a pre-populated list:
+#### Two ways to create a pre-populated list
 1. first_list = list(['Tom', 'Jerry'])
 2. second_list = ['Tom', 'Jerry']
 
-Two ways to delete an item from a list:
+#### Two ways to delete an item from a list
 ```python
 names = ['George', 'Henry', 'Fred', 'Paul']
 # 1. remove method
@@ -551,6 +551,10 @@ del names[1]
 print(names)
 # ['George', 'Fred']
 ```
+
+#### Two ways to sort a list
+
+
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
@@ -1222,11 +1226,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDE1MTk2OTAsLTEwMzc4Njk1NzEsLT
-E0Mzc0NzgyNjYsLTk4NDU1ODY4MSwxNjQwNjc1MjUsLTc4OTEw
-Mzk1MSwxMjMxNjAxNjM2LDU2OTI1OTM4OCwtMTc4MzY3MDIwMy
-wyMDE4MzYwOTI3LDEyNzQ1Nzc1NDAsNjI4MzA2MzI4LDExMDg3
-OTU5NTEsLTg3ODgzMDEwMywxNTE4MjU4NDk1LC0xMDA3ODQyMD
-Y3LC0yMDE2NDU3NTI0LDE5MDkzNzM2MTIsNTQ3NzU0MDM5LC0y
-MDMxODcyNTk5XX0=
+eyJoaXN0b3J5IjpbLTIxMzI1MjczOTIsLTIxMDE1MTk2OTAsLT
+EwMzc4Njk1NzEsLTE0Mzc0NzgyNjYsLTk4NDU1ODY4MSwxNjQw
+Njc1MjUsLTc4OTEwMzk1MSwxMjMxNjAxNjM2LDU2OTI1OTM4OC
+wtMTc4MzY3MDIwMywyMDE4MzYwOTI3LDEyNzQ1Nzc1NDAsNjI4
+MzA2MzI4LDExMDg3OTU5NTEsLTg3ODgzMDEwMywxNTE4MjU4ND
+k1LC0xMDA3ODQyMDY3LC0yMDE2NDU3NTI0LDE5MDkzNzM2MTIs
+NTQ3NzU0MDM5XX0=
 -->
