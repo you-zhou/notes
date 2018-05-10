@@ -541,12 +541,14 @@ Tuples are IMMUTABLE.
 1. first_tuple = tuple([1])
 2. second_tuple = (1,)
 3. third_tuple = 1,
+
 All of them will create a tuple `(1,)`.
 
 #### Three ways to create a tuple with more than one items in it
 1. first_tuple = tuple(['Steph', 'Curry', 'Guard'])
 2. second_tuple = 'Steph', 'Curry', 'Guard'
 3. third_tuple = ('Steph', 'Curry', 'Guard')
+
 All of them will create a tuple `('Steph', 'Curry', 'Guard')`.
 
 ### list
@@ -1248,7 +1250,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODE3MjQyMjksMzg0MTMwMDgyLC0yMD
+eyJoaXN0b3J5IjpbLTEyMjAwODY0MDUsMzg0MTMwMDgyLC0yMD
 c4NzI1MzEyLDExMzAzMjgxMDMsLTE3Nzg5MDE0OSwtOTgwNTAw
 MzI5LC0yMTAxNTE5NjkwLC0xMDM3ODY5NTcxLC0xNDM3NDc4Mj
 Y2LC05ODQ1NTg2ODEsMTY0MDY3NTI1LC03ODkxMDM5NTEsMTIz
