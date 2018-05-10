@@ -384,6 +384,7 @@ upper(...) method of builtins.str instance
 ```
 
 e.g. to find examples for string formatting: `help("FORMATTING")`
+`help("builtins")`
 
 ### dunder methods
 start and end with double underscores (Double UNDERscores). “Dunder add” is one way to say __add__,
@@ -1226,11 +1227,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzg5MDE0OSwtOTgwNTAwMzI5LC0yMT
-AxNTE5NjkwLC0xMDM3ODY5NTcxLC0xNDM3NDc4MjY2LC05ODQ1
-NTg2ODEsMTY0MDY3NTI1LC03ODkxMDM5NTEsMTIzMTYwMTYzNi
-w1NjkyNTkzODgsLTE3ODM2NzAyMDMsMjAxODM2MDkyNywxMjc0
-NTc3NTQwLDYyODMwNjMyOCwxMTA4Nzk1OTUxLC04Nzg4MzAxMD
-MsMTUxODI1ODQ5NSwtMTAwNzg0MjA2NywtMjAxNjQ1NzUyNCwx
-OTA5MzczNjEyXX0=
+eyJoaXN0b3J5IjpbMTEzMDMyODEwMywtMTc3ODkwMTQ5LC05OD
+A1MDAzMjksLTIxMDE1MTk2OTAsLTEwMzc4Njk1NzEsLTE0Mzc0
+NzgyNjYsLTk4NDU1ODY4MSwxNjQwNjc1MjUsLTc4OTEwMzk1MS
+wxMjMxNjAxNjM2LDU2OTI1OTM4OCwtMTc4MzY3MDIwMywyMDE4
+MzYwOTI3LDEyNzQ1Nzc1NDAsNjI4MzA2MzI4LDExMDg3OTU5NT
+EsLTg3ODgzMDEwMywxNTE4MjU4NDk1LC0xMDA3ODQyMDY3LC0y
+MDE2NDU3NTI0XX0=
 -->
