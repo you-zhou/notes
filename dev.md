@@ -616,7 +616,8 @@ list or dictionary.
 * To use the `in` operation, also implements the `__contains__` method.
 
 
-
+### loop
+#### loop with an index
 ```python
 animals = ["cat", "dog", "bird"]
 
@@ -624,7 +625,7 @@ animals = ["cat", "dog", "bird"]
 for index in range(len(animals)):
 	print(index, animals[index])
 
-# A more Pythonic way to loop a list is to use the built-in function enumerate.
+# A preferemore Pythonic way to loop a list is to use the built-in function enumerate.
 for index, value in enumerate(animals):
 	print(index, value)
 ```
@@ -1298,11 +1299,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjU4Mjg3MjcsMTE3MTYxNzkyOSwtMz
-M2MTYzMjkwLDUwNTA5NTcyMiw4ODkzNDI3NTcsLTE3MzM3MjQ1
-MDMsLTEyMjAwODY0MDUsMzg0MTMwMDgyLC0yMDc4NzI1MzEyLD
-ExMzAzMjgxMDMsLTE3Nzg5MDE0OSwtOTgwNTAwMzI5LC0yMTAx
-NTE5NjkwLC0xMDM3ODY5NTcxLC0xNDM3NDc4MjY2LC05ODQ1NT
-g2ODEsMTY0MDY3NTI1LC03ODkxMDM5NTEsMTIzMTYwMTYzNiw1
-NjkyNTkzODhdfQ==
+eyJoaXN0b3J5IjpbLTIwOTMwMDM2NTQsLTEyMjU4Mjg3MjcsMT
+E3MTYxNzkyOSwtMzM2MTYzMjkwLDUwNTA5NTcyMiw4ODkzNDI3
+NTcsLTE3MzM3MjQ1MDMsLTEyMjAwODY0MDUsMzg0MTMwMDgyLC
+0yMDc4NzI1MzEyLDExMzAzMjgxMDMsLTE3Nzg5MDE0OSwtOTgw
+NTAwMzI5LC0yMTAxNTE5NjkwLC0xMDM3ODY5NTcxLC0xNDM3ND
+c4MjY2LC05ODQ1NTg2ODEsMTY0MDY3NTI1LC03ODkxMDM5NTEs
+MTIzMTYwMTYzNl19
 -->
