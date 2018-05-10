@@ -398,6 +398,7 @@ e.g. to find examples for string formatting: `help("FORMATTING")`
 Python also includes a debugger to step through code. It is found in a module named pdb. This library is modelled after the gdb library for C. To drop into the debugger at any point in a Python program, insert the code:
 `import pdb; pdb.set_trace()`
 
+
 ### pip
 Upgrading pip.
 * On Linux or macOS:
@@ -1174,9 +1175,9 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODM2NzAyMDMsMjAxODM2MDkyNywxMj
-c0NTc3NTQwLDYyODMwNjMyOCwxMTA4Nzk1OTUxLC04Nzg4MzAx
-MDMsMTUxODI1ODQ5NSwtMTAwNzg0MjA2NywtMjAxNjQ1NzUyNC
-wxOTA5MzczNjEyLDU0Nzc1NDAzOSwtMjAzMTg3MjU5OSwtMTk0
-NTU3MjQ5OF19
+eyJoaXN0b3J5IjpbMjA3ODczNjE3OSwtMTc4MzY3MDIwMywyMD
+E4MzYwOTI3LDEyNzQ1Nzc1NDAsNjI4MzA2MzI4LDExMDg3OTU5
+NTEsLTg3ODgzMDEwMywxNTE4MjU4NDk1LC0xMDA3ODQyMDY3LC
+0yMDE2NDU3NTI0LDE5MDkzNzM2MTIsNTQ3NzU0MDM5LC0yMDMx
+ODcyNTk5LC0xOTQ1NTcyNDk4XX0=
 -->
