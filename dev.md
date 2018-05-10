@@ -399,14 +399,14 @@ Python also includes a debugger to step through code. It is found in a module na
 `import pdb; pdb.set_trace()`
 
 Command | Purpose
-===
+---|---
 h, help | List the commands available
 n, next | Execute the next line
-c, cont, continue Continue execution until a breakpoint is hit
-w, where, bt Print a stack trace showing where execution is
-u, up Pop up a level in the stack
-d, down Push down a level in the stack
-l, list List source code around current line
+c, cont, continue | Continue execution until a breakpoint is hit
+w, where, bt | Print a stack trace showing where execution is
+u, up | Pop up a level in the stack
+d, down | Push down a level in the stack
+l, list | List source code around current line
 
 ### pip
 Upgrading pip.
@@ -1184,9 +1184,9 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDE2NTM5NTEsLTE3ODM2NzAyMDMsMj
-AxODM2MDkyNywxMjc0NTc3NTQwLDYyODMwNjMyOCwxMTA4Nzk1
-OTUxLC04Nzg4MzAxMDMsMTUxODI1ODQ5NSwtMTAwNzg0MjA2Ny
-wtMjAxNjQ1NzUyNCwxOTA5MzczNjEyLDU0Nzc1NDAzOSwtMjAz
-MTg3MjU5OSwtMTk0NTU3MjQ5OF19
+eyJoaXN0b3J5IjpbNTY5MjU5Mzg4LC0xNzgzNjcwMjAzLDIwMT
+gzNjA5MjcsMTI3NDU3NzU0MCw2MjgzMDYzMjgsMTEwODc5NTk1
+MSwtODc4ODMwMTAzLDE1MTgyNTg0OTUsLTEwMDc4NDIwNjcsLT
+IwMTY0NTc1MjQsMTkwOTM3MzYxMiw1NDc3NTQwMzksLTIwMzE4
+NzI1OTksLTE5NDU1NzI0OThdfQ==
 -->
