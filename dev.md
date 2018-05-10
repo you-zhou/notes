@@ -586,6 +586,9 @@ print(names)
 1. `list.sort()` method sorts the list ==in place==.
 2. `sorted(list)` function returns a new list that is ordered. ==But it reuses all items in the list, instead of creating new items.==
 
+### set
+
+
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 ### open(filename, mode) binary v.s. text mode
@@ -1256,11 +1259,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjYyNjYyNzAsLTEyMjAwODY0MDUsMz
-g0MTMwMDgyLC0yMDc4NzI1MzEyLDExMzAzMjgxMDMsLTE3Nzg5
-MDE0OSwtOTgwNTAwMzI5LC0yMTAxNTE5NjkwLC0xMDM3ODY5NT
-cxLC0xNDM3NDc4MjY2LC05ODQ1NTg2ODEsMTY0MDY3NTI1LC03
-ODkxMDM5NTEsMTIzMTYwMTYzNiw1NjkyNTkzODgsLTE3ODM2Nz
-AyMDMsMjAxODM2MDkyNywxMjc0NTc3NTQwLDYyODMwNjMyOCwx
-MTA4Nzk1OTUxXX0=
+eyJoaXN0b3J5IjpbNTU0MDYzMDY3LC0xMjIwMDg2NDA1LDM4ND
+EzMDA4MiwtMjA3ODcyNTMxMiwxMTMwMzI4MTAzLC0xNzc4OTAx
+NDksLTk4MDUwMDMyOSwtMjEwMTUxOTY5MCwtMTAzNzg2OTU3MS
+wtMTQzNzQ3ODI2NiwtOTg0NTU4NjgxLDE2NDA2NzUyNSwtNzg5
+MTAzOTUxLDEyMzE2MDE2MzYsNTY5MjU5Mzg4LC0xNzgzNjcwMj
+AzLDIwMTgzNjA5MjcsMTI3NDU3NzU0MCw2MjgzMDYzMjgsMTEw
+ODc5NTk1MV19
 -->
