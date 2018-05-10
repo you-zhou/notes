@@ -613,6 +613,7 @@ Note:
 * Mutable items are not hashable in Python, which means you cannot hash a
 list or dictionary.
 * To hash your own user-created classes, you will need to implement `__hash__` and `__eq__`.
+* To use the `in` operation, 
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
@@ -1284,7 +1285,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDc4MTIxMjYsODg5MzQyNzU3LC0xNz
+eyJoaXN0b3J5IjpbLTE5ODQ1ODMzNzMsODg5MzQyNzU3LC0xNz
 MzNzI0NTAzLC0xMjIwMDg2NDA1LDM4NDEzMDA4MiwtMjA3ODcy
 NTMxMiwxMTMwMzI4MTAzLC0xNzc4OTAxNDksLTk4MDUwMDMyOS
 wtMjEwMTUxOTY5MCwtMTAzNzg2OTU3MSwtMTQzNzQ3ODI2Niwt
