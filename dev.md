@@ -589,6 +589,10 @@ print(names)
 ### set
 Unordered collection that cannot contain duplicates.
 
+Scenarios to use sets:
+* removing duplicates
+* checking membership
+
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
@@ -1260,11 +1264,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzM3MjQ1MDMsLTEyMjAwODY0MDUsMz
-g0MTMwMDgyLC0yMDc4NzI1MzEyLDExMzAzMjgxMDMsLTE3Nzg5
-MDE0OSwtOTgwNTAwMzI5LC0yMTAxNTE5NjkwLC0xMDM3ODY5NT
-cxLC0xNDM3NDc4MjY2LC05ODQ1NTg2ODEsMTY0MDY3NTI1LC03
-ODkxMDM5NTEsMTIzMTYwMTYzNiw1NjkyNTkzODgsLTE3ODM2Nz
-AyMDMsMjAxODM2MDkyNywxMjc0NTc3NTQwLDYyODMwNjMyOCwx
-MTA4Nzk1OTUxXX0=
+eyJoaXN0b3J5IjpbMTgyODU1MTU5MiwtMTczMzcyNDUwMywtMT
+IyMDA4NjQwNSwzODQxMzAwODIsLTIwNzg3MjUzMTIsMTEzMDMy
+ODEwMywtMTc3ODkwMTQ5LC05ODA1MDAzMjksLTIxMDE1MTk2OT
+AsLTEwMzc4Njk1NzEsLTE0Mzc0NzgyNjYsLTk4NDU1ODY4MSwx
+NjQwNjc1MjUsLTc4OTEwMzk1MSwxMjMxNjAxNjM2LDU2OTI1OT
+M4OCwtMTc4MzY3MDIwMywyMDE4MzYwOTI3LDEyNzQ1Nzc1NDAs
+NjI4MzA2MzI4XX0=
 -->
