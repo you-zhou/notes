@@ -608,13 +608,26 @@ digit_set = {0, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 42 in digit_set # False
 ```
 
-##### Note:
+#### Note
 * Because sets must be able to compute a **hash value** for each item in the set, sets can only contain items that are hashable.
 * Mutable items are not hashable in Python, which means you cannot hash a
 list or dictionary.
 * To hash your own user-created classes, you will need to implement `__hash__` and `__eq__`.
 * To use the `in` operation, also implements the `__contains__` method.
 
+
+
+```python
+animals = ["cat", "dog", "bird"]
+
+# 
+for index in range(len(animals)):
+	print(index, animals[index])
+
+
+for index, value in enumerate(animals):
+	print(index, value)
+```
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 ### open(filename, mode) binary v.s. text mode
@@ -1285,11 +1298,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDgyNDU3MSwtMzM2MTYzMjkwLDUwNT
-A5NTcyMiw4ODkzNDI3NTcsLTE3MzM3MjQ1MDMsLTEyMjAwODY0
-MDUsMzg0MTMwMDgyLC0yMDc4NzI1MzEyLDExMzAzMjgxMDMsLT
-E3Nzg5MDE0OSwtOTgwNTAwMzI5LC0yMTAxNTE5NjkwLC0xMDM3
-ODY5NTcxLC0xNDM3NDc4MjY2LC05ODQ1NTg2ODEsMTY0MDY3NT
-I1LC03ODkxMDM5NTEsMTIzMTYwMTYzNiw1NjkyNTkzODgsLTE3
-ODM2NzAyMDNdfQ==
+eyJoaXN0b3J5IjpbLTEwNTkwNjc5MzIsLTMzNjE2MzI5MCw1MD
+UwOTU3MjIsODg5MzQyNzU3LC0xNzMzNzI0NTAzLC0xMjIwMDg2
+NDA1LDM4NDEzMDA4MiwtMjA3ODcyNTMxMiwxMTMwMzI4MTAzLC
+0xNzc4OTAxNDksLTk4MDUwMDMyOSwtMjEwMTUxOTY5MCwtMTAz
+Nzg2OTU3MSwtMTQzNzQ3ODI2NiwtOTg0NTU4NjgxLDE2NDA2Nz
+UyNSwtNzg5MTAzOTUxLDEyMzE2MDE2MzYsNTY5MjU5Mzg4LC0x
+NzgzNjcwMjAzXX0=
 -->
