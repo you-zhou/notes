@@ -595,7 +595,9 @@ Scenarios to use sets:
 
 Note:
 * Because sets must be able to compute a **hash value** for each item in the set, sets can only contain items that are hashable.
-* Mutable items are not hashable in Python.
+* Mutable items are not hashable in Python, which means you cannot hash a
+list or dictionary.
+* To hash your own user-created classes, you will need to implement `__hash__` and `__eq__`.
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
@@ -1267,11 +1269,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3Nzk2MjE0MiwtMTczMzcyNDUwMywtMT
-IyMDA4NjQwNSwzODQxMzAwODIsLTIwNzg3MjUzMTIsMTEzMDMy
-ODEwMywtMTc3ODkwMTQ5LC05ODA1MDAzMjksLTIxMDE1MTk2OT
-AsLTEwMzc4Njk1NzEsLTE0Mzc0NzgyNjYsLTk4NDU1ODY4MSwx
-NjQwNjc1MjUsLTc4OTEwMzk1MSwxMjMxNjAxNjM2LDU2OTI1OT
-M4OCwtMTc4MzY3MDIwMywyMDE4MzYwOTI3LDEyNzQ1Nzc1NDAs
-NjI4MzA2MzI4XX0=
+eyJoaXN0b3J5IjpbODg5MzQyNzU3LC0xNzMzNzI0NTAzLC0xMj
+IwMDg2NDA1LDM4NDEzMDA4MiwtMjA3ODcyNTMxMiwxMTMwMzI4
+MTAzLC0xNzc4OTAxNDksLTk4MDUwMDMyOSwtMjEwMTUxOTY5MC
+wtMTAzNzg2OTU3MSwtMTQzNzQ3ODI2NiwtOTg0NTU4NjgxLDE2
+NDA2NzUyNSwtNzg5MTAzOTUxLDEyMzE2MDE2MzYsNTY5MjU5Mz
+g4LC0xNzgzNjcwMjAzLDIwMTgzNjA5MjcsMTI3NDU3NzU0MCw2
+MjgzMDYzMjhdfQ==
 -->
