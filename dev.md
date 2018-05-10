@@ -591,7 +591,7 @@ Unordered collection that cannot contain duplicates.
 
 Scenarios to use sets:
 * Removing duplicates.
-* Checking membership, as fast lookup operation even on large sets.
+* Checking membership using , as fast lookup operation even on large sets.
 
 Note:
 * Because sets must be able to compute a **hash value** for each item in the set, sets can only contain items that are hashable.
@@ -1269,11 +1269,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5MzQyNzU3LC0xNzMzNzI0NTAzLC0xMj
-IwMDg2NDA1LDM4NDEzMDA4MiwtMjA3ODcyNTMxMiwxMTMwMzI4
-MTAzLC0xNzc4OTAxNDksLTk4MDUwMDMyOSwtMjEwMTUxOTY5MC
-wtMTAzNzg2OTU3MSwtMTQzNzQ3ODI2NiwtOTg0NTU4NjgxLDE2
-NDA2NzUyNSwtNzg5MTAzOTUxLDEyMzE2MDE2MzYsNTY5MjU5Mz
-g4LC0xNzgzNjcwMjAzLDIwMTgzNjA5MjcsMTI3NDU3NzU0MCw2
-MjgzMDYzMjhdfQ==
+eyJoaXN0b3J5IjpbLTYxNjk3NzAxNSw4ODkzNDI3NTcsLTE3Mz
+M3MjQ1MDMsLTEyMjAwODY0MDUsMzg0MTMwMDgyLC0yMDc4NzI1
+MzEyLDExMzAzMjgxMDMsLTE3Nzg5MDE0OSwtOTgwNTAwMzI5LC
+0yMTAxNTE5NjkwLC0xMDM3ODY5NTcxLC0xNDM3NDc4MjY2LC05
+ODQ1NTg2ODEsMTY0MDY3NTI1LC03ODkxMDM5NTEsMTIzMTYwMT
+YzNiw1NjkyNTkzODgsLTE3ODM2NzAyMDMsMjAxODM2MDkyNywx
+Mjc0NTc3NTQwXX0=
 -->
