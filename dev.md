@@ -645,7 +645,9 @@ you use the brackets without assignment:
 `info['age']` will get 20
 
 2. Use the `.get` method to retrieve a value for a key, which accepts an optional parameter to return a **default** value if the key is not found.
-`infor.get('gender`
+`infor.get('gender', 'N/A')` will get 'N/A' as gender is not a key in dictionary.
+
+
 ### loop
 #### for loops with an index
 Use the `in` statement in a `for` loop.
@@ -1338,7 +1340,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NDA1NDU2MSwtMTU5OTkzMjUyMyw0OD
+eyJoaXN0b3J5IjpbMTQzMjEwMTgyNCwtMTU5OTkzMjUyMyw0OD
 kxNjE0NTYsMTM4NjkyNjMwOCwtMTA5NTMwMTczMywyMDk1MzE3
 ODI0LC0xNDgxMjM1NzYsLTcwNzg3Mzk5NSwtMjExNTIwMDc0Mi
 wtMTIyNTgyODcyNywxMTcxNjE3OTI5LC0zMzYxNjMyOTAsNTA1
