@@ -612,7 +612,8 @@ Note:
 Python uses the ==half-open== interval convention. The list goes up to but
 does not include the end index.
 
-* The first index is optional. If the first index is missing, the slice defaults to starting from the first item of the list (the zeroth item):
+* The first index is optional. Be defaustarting from the first item of the list (the zeroth item):
+* The final index is optional. By default, it is the end of the list:
 `my_pets = ["dog", "cat", "bird"]`
 `print(my_pets[:2])`
 ['dog', 'cat']
@@ -1433,7 +1434,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NTI1MjQ0MywtMTk2ODUyODQ5OCwtMT
+eyJoaXN0b3J5IjpbMTYzNDc4MTYzMSwtMTk2ODUyODQ5OCwtMT
 E4NjcwMjkzNCwxODgyNTA4NTUzLC0xMTkxNjUxNDI0LC0yMTM0
 ODY3OTYzLDE5NzIyODM0NTQsMTIxODUwODc5MiwtMTE1NDExMj
 A2Myw4MDg4Njc1NzUsLTEzNDQ5MjM1NTYsMTE2NjA0OTU4Mywt
