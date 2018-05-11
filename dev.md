@@ -615,6 +615,7 @@ does not include the end index.
 * The first index is optional. Be default, it is the first item of the list (the zeroth item). e.g. `my_pets[:1]`
 * The final index is optional. By default, it is the end of the list. e.g. `my_pets[1:]`
 * Default both start/first and final/end indices, the slice will return from the start to the end, which means a copy of the whole list. e.g. `my_pets[:]`
+* The default stride is 1. e.g. `my_pets[0:3:2]`
 
 
 ['dog', 'cat']
@@ -1435,11 +1436,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNjU3NDEwLC0xOTY4NTI4NDk4LC0xMT
-g2NzAyOTM0LDE4ODI1MDg1NTMsLTExOTE2NTE0MjQsLTIxMzQ4
-Njc5NjMsMTk3MjI4MzQ1NCwxMjE4NTA4NzkyLC0xMTU0MTEyMD
-YzLDgwODg2NzU3NSwtMTM0NDkyMzU1NiwxMTY2MDQ5NTgzLC0x
-NTk5OTMyNTIzLDQ4OTE2MTQ1NiwxMzg2OTI2MzA4LC0xMDk1Mz
-AxNzMzLDIwOTUzMTc4MjQsLTE0ODEyMzU3NiwtNzA3ODczOTk1
-LC0yMTE1MjAwNzQyXX0=
+eyJoaXN0b3J5IjpbLTIwNjYyOTU4MTIsLTkzNjU3NDEwLC0xOT
+Y4NTI4NDk4LC0xMTg2NzAyOTM0LDE4ODI1MDg1NTMsLTExOTE2
+NTE0MjQsLTIxMzQ4Njc5NjMsMTk3MjI4MzQ1NCwxMjE4NTA4Nz
+kyLC0xMTU0MTEyMDYzLDgwODg2NzU3NSwtMTM0NDkyMzU1Niwx
+MTY2MDQ5NTgzLC0xNTk5OTMyNTIzLDQ4OTE2MTQ1NiwxMzg2OT
+I2MzA4LC0xMDk1MzAxNzMzLDIwOTUzMTc4MjQsLTE0ODEyMzU3
+NiwtNzA3ODczOTk1XX0=
 -->
