@@ -595,11 +595,14 @@ Below ==`[:]`== will create a new list object with a different identity. But the
 `id(names[0]) is id(names2[0])`
 
 ### indexing & slicing
-Python provides two constructs to pull data out of sequence-like types (lists, tuples, and even strings). These are the indexing and slicing constructs. Indexing allows you to access single items out of a sequence, while slicing allows you to pull out a sub-sequence from a sequence.
+Python provides two constructs to pull data out of sequence-like types (**lists, tuples, and even strings**). These are the indexing and slicing constructs. Indexing allows you to access single items out of a sequence, while slicing allows you to pull out a sub-sequence from a sequence.
 
 Remember that in Python indices start at 0. If you want to pull out the first item you reference it by 0, not 1. This is called zero-based indexing.
 
-
+> Guido van Rossum, the creator of Python, tweeted to explain how to understand negative index values:
+[The] proper way to think of [negative indexing] is to reinterpret a[-X] as
+a[len(a)-X]
+@gvanrossum
 
 ### set
 Unordered collection that cannot contain duplicates.
@@ -1416,11 +1419,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjM5MjMwMCwtMTE4NjcwMjkzNCwxOD
-gyNTA4NTUzLC0xMTkxNjUxNDI0LC0yMTM0ODY3OTYzLDE5NzIy
-ODM0NTQsMTIxODUwODc5MiwtMTE1NDExMjA2Myw4MDg4Njc1Nz
-UsLTEzNDQ5MjM1NTYsMTE2NjA0OTU4MywtMTU5OTkzMjUyMyw0
-ODkxNjE0NTYsMTM4NjkyNjMwOCwtMTA5NTMwMTczMywyMDk1Mz
-E3ODI0LC0xNDgxMjM1NzYsLTcwNzg3Mzk5NSwtMjExNTIwMDc0
-MiwtMTIyNTgyODcyN119
+eyJoaXN0b3J5IjpbLTE5Njg1Mjg0OTgsLTExODY3MDI5MzQsMT
+g4MjUwODU1MywtMTE5MTY1MTQyNCwtMjEzNDg2Nzk2MywxOTcy
+MjgzNDU0LDEyMTg1MDg3OTIsLTExNTQxMTIwNjMsODA4ODY3NT
+c1LC0xMzQ0OTIzNTU2LDExNjYwNDk1ODMsLTE1OTk5MzI1MjMs
+NDg5MTYxNDU2LDEzODY5MjYzMDgsLTEwOTUzMDE3MzMsMjA5NT
+MxNzgyNCwtMTQ4MTIzNTc2LC03MDc4NzM5OTUsLTIxMTUyMDA3
+NDIsLTEyMjU4Mjg3MjddfQ==
 -->
