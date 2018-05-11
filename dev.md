@@ -598,7 +598,7 @@ Below ==`[:]`== will create a new list object with a different identity. But the
 Python provides two constructs to pull data out of sequence-like types (**lists, tuples, and even strings**). These are the indexing and slicing constructs. Indexing allows you to access single items out of a sequence, while slicing allows you to pull out a sub-sequence from a sequence.
 Note: 
 * sets don't support index operations.
-* implement `.__getitem__` method if a
+* implement `.__getitem__` method if a self-defined class needs to support index operations.
 
 Remember that in Python indices start at 0. If you want to pull out the first item you reference it by 0, not 1. This is called zero-based indexing.
 
@@ -1422,7 +1422,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNjYwNzQwNywtMTk2ODUyODQ5OCwtMT
+eyJoaXN0b3J5IjpbLTk3Nzk5NjQzMiwtMTk2ODUyODQ5OCwtMT
 E4NjcwMjkzNCwxODgyNTA4NTUzLC0xMTkxNjUxNDI0LC0yMTM0
 ODY3OTYzLDE5NzIyODM0NTQsMTIxODUwODc5MiwtMTE1NDExMj
 A2Myw4MDg4Njc1NzUsLTEzNDQ5MjM1NTYsMTE2NjA0OTU4Mywt
