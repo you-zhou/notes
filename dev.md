@@ -715,7 +715,7 @@ You can define your own classes that respond to the `for` statement, by implemen
 
 ### function
 A function  implicitly returns ==None== if the function ends without return being called.
-Do not use mutable types (lists, dictionaries) for default parameters unless you know what you are doing. Because of the way Python works, the default parameters are created only once—at function definition time, not at function execution time. If you use a mutable default value, you will end up re-using the same instance of the default parameter during each function invocation:
+Do not use mutable types (lists, dictionaries) for default parameters unless you know what you are doing. Because of the way Python works, **the default parameters are created only once—at function definition time, not at function execution time**. If you use a mutable default value, you will end up re-using the same instance of the default parameter during each function invocation:
 ```python
 # BAD! Used mutable list as a default argument.
 def to_list(value, default=[]):
@@ -725,7 +725,7 @@ def to_list(value, default=[]):
 to_list(4) # [4]
 to_list('hello') # [4, 'hello'], which means the same 'default' is reused.
 
-# GOOD! Use 
+# GOOD! Use an immutable default argument and then initiate it at execution time.
 def to_list2(value, default=None):
 	if default is None:
 		default = []
@@ -1409,7 +1409,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTAxMTU0NTEsMTg4MjUwODU1MywtMT
+eyJoaXN0b3J5IjpbLTExODY3MDI5MzQsMTg4MjUwODU1MywtMT
 E5MTY1MTQyNCwtMjEzNDg2Nzk2MywxOTcyMjgzNDU0LDEyMTg1
 MDg3OTIsLTExNTQxMTIwNjMsODA4ODY3NTc1LC0xMzQ0OTIzNT
 U2LDExNjYwNDk1ODMsLTE1OTk5MzI1MjMsNDg5MTYxNDU2LDEz
