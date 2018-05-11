@@ -639,6 +639,10 @@ for index, value in enumerate(animals):
 	print(index, value)
 ```
 
+Note: 
+You can define your own classes that respond to the `for` statement, by implementing the `.__iter__` method.
+
+
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 ### open(filename, mode) binary v.s. text mode
@@ -1309,11 +1313,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTMxNzgyNCwtMTQ4MTIzNTc2LC03MD
-c4NzM5OTUsLTIxMTUyMDA3NDIsLTEyMjU4Mjg3MjcsMTE3MTYx
-NzkyOSwtMzM2MTYzMjkwLDUwNTA5NTcyMiw4ODkzNDI3NTcsLT
-E3MzM3MjQ1MDMsLTEyMjAwODY0MDUsMzg0MTMwMDgyLC0yMDc4
-NzI1MzEyLDExMzAzMjgxMDMsLTE3Nzg5MDE0OSwtOTgwNTAwMz
-I5LC0yMTAxNTE5NjkwLC0xMDM3ODY5NTcxLC0xNDM3NDc4MjY2
-LC05ODQ1NTg2ODFdfQ==
+eyJoaXN0b3J5IjpbNzQyNTk2MzgxLDIwOTUzMTc4MjQsLTE0OD
+EyMzU3NiwtNzA3ODczOTk1LC0yMTE1MjAwNzQyLC0xMjI1ODI4
+NzI3LDExNzE2MTc5MjksLTMzNjE2MzI5MCw1MDUwOTU3MjIsOD
+g5MzQyNzU3LC0xNzMzNzI0NTAzLC0xMjIwMDg2NDA1LDM4NDEz
+MDA4MiwtMjA3ODcyNTMxMiwxMTMwMzI4MTAzLC0xNzc4OTAxND
+ksLTk4MDUwMDMyOSwtMjEwMTUxOTY5MCwtMTAzNzg2OTU3MSwt
+MTQzNzQ3ODI2Nl19
 -->
