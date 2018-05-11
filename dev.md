@@ -625,6 +625,7 @@ list or dictionary.
 
 
 ### dictionary
+It is a building block in Python. Classes, namespaces, and modules in Python are all implemented using a dictionary under the covers.
 From Python 3.6, dictionary items are ordered based on key insertion order.
 
 #### Two way to create a dictionary
@@ -1380,11 +1381,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxODUwODc5MiwtMTE1NDExMjA2Myw4MD
-g4Njc1NzUsLTEzNDQ5MjM1NTYsMTE2NjA0OTU4MywtMTU5OTkz
-MjUyMyw0ODkxNjE0NTYsMTM4NjkyNjMwOCwtMTA5NTMwMTczMy
-wyMDk1MzE3ODI0LC0xNDgxMjM1NzYsLTcwNzg3Mzk5NSwtMjEx
-NTIwMDc0MiwtMTIyNTgyODcyNywxMTcxNjE3OTI5LC0zMzYxNj
-MyOTAsNTA1MDk1NzIyLDg4OTM0Mjc1NywtMTczMzcyNDUwMywt
-MTIyMDA4NjQwNV19
+eyJoaXN0b3J5IjpbMTk3MjI4MzQ1NCwxMjE4NTA4NzkyLC0xMT
+U0MTEyMDYzLDgwODg2NzU3NSwtMTM0NDkyMzU1NiwxMTY2MDQ5
+NTgzLC0xNTk5OTMyNTIzLDQ4OTE2MTQ1NiwxMzg2OTI2MzA4LC
+0xMDk1MzAxNzMzLDIwOTUzMTc4MjQsLTE0ODEyMzU3NiwtNzA3
+ODczOTk1LC0yMTE1MjAwNzQyLC0xMjI1ODI4NzI3LDExNzE2MT
+c5MjksLTMzNjE2MzI5MCw1MDUwOTU3MjIsODg5MzQyNzU3LC0x
+NzMzNzI0NTAzXX0=
 -->
