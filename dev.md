@@ -728,6 +728,8 @@ to_list('hello') # [4, 'hello'], which means the same 'default' is reused.
 def to_list2(value, default=None):
 	if default is None:
 		default = []
+	# also be written as a single line using a conditional expression
+	# default = default if default is not None else []
 	default.append(value)
 return default
 
@@ -1406,7 +1408,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODcwNzgyNCwxODgyNTA4NTUzLC0xMT
+eyJoaXN0b3J5IjpbMTcyNzE3NzEwOCwxODgyNTA4NTUzLC0xMT
 kxNjUxNDI0LC0yMTM0ODY3OTYzLDE5NzIyODM0NTQsMTIxODUw
 ODc5MiwtMTE1NDExMjA2Myw4MDg4Njc1NzUsLTEzNDQ5MjM1NT
 YsMTE2NjA0OTU4MywtMTU5OTkzMjUyMyw0ODkxNjE0NTYsMTM4
