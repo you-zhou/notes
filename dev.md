@@ -639,6 +639,9 @@ for index, value in enumerate(animals):
 	print(index, value)
 ```
 
+The `enumerate` function returns a sequence of tuples of
+index, item pairs for the sequence passed into it.
+
 Note: 
 You can define your own classes that respond to the `for` statement, by implementing the `.__iter__` method.
 
@@ -1313,7 +1316,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyNTk2MzgxLDIwOTUzMTc4MjQsLTE0OD
+eyJoaXN0b3J5IjpbOTk2ODE5MjE0LDIwOTUzMTc4MjQsLTE0OD
 EyMzU3NiwtNzA3ODczOTk1LC0yMTE1MjAwNzQyLC0xMjI1ODI4
 NzI3LDExNzE2MTc5MjksLTMzNjE2MzI5MCw1MDUwOTU3MjIsOD
 g5MzQyNzU3LC0xNzMzNzI0NTAzLC0xMjIwMDg2NDA1LDM4NDEz
