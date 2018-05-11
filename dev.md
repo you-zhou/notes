@@ -625,7 +625,11 @@ list or dictionary.
 
 
 ### dictionary
+#### Two way to create a dictionary
+```python
+info = {'first': 'Pete', 'last': 'Best'}
 
+```
 
 ### loop
 #### for loops with an index
@@ -1319,11 +1323,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NjkyNjMwOCwtMTA5NTMwMTczMywyMD
-k1MzE3ODI0LC0xNDgxMjM1NzYsLTcwNzg3Mzk5NSwtMjExNTIw
-MDc0MiwtMTIyNTgyODcyNywxMTcxNjE3OTI5LC0zMzYxNjMyOT
-AsNTA1MDk1NzIyLDg4OTM0Mjc1NywtMTczMzcyNDUwMywtMTIy
-MDA4NjQwNSwzODQxMzAwODIsLTIwNzg3MjUzMTIsMTEzMDMyOD
-EwMywtMTc3ODkwMTQ5LC05ODA1MDAzMjksLTIxMDE1MTk2OTAs
-LTEwMzc4Njk1NzFdfQ==
+eyJoaXN0b3J5IjpbLTIwNDY3MTg1MTIsMTM4NjkyNjMwOCwtMT
+A5NTMwMTczMywyMDk1MzE3ODI0LC0xNDgxMjM1NzYsLTcwNzg3
+Mzk5NSwtMjExNTIwMDc0MiwtMTIyNTgyODcyNywxMTcxNjE3OT
+I5LC0zMzYxNjMyOTAsNTA1MDk1NzIyLDg4OTM0Mjc1NywtMTcz
+MzcyNDUwMywtMTIyMDA4NjQwNSwzODQxMzAwODIsLTIwNzg3Mj
+UzMTIsMTEzMDMyODEwMywtMTc3ODkwMTQ5LC05ODA1MDAzMjks
+LTIxMDE1MTk2OTBdfQ==
 -->
