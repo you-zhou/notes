@@ -721,7 +721,7 @@ def to_list(value, default=[]):
 	default.append(value)
 	return default
 to_list(4) # [4]
-to_list('hello') # [4, 'hello'], which means the default is reused.
+to_list('hello') # [4, 'hello'], which means the same 'default' is reused.
 
 
 
@@ -1395,11 +1395,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTM1MzIyMTUsLTExOTE2NTE0MjQsLT
-IxMzQ4Njc5NjMsMTk3MjI4MzQ1NCwxMjE4NTA4NzkyLC0xMTU0
-MTEyMDYzLDgwODg2NzU3NSwtMTM0NDkyMzU1NiwxMTY2MDQ5NT
-gzLC0xNTk5OTMyNTIzLDQ4OTE2MTQ1NiwxMzg2OTI2MzA4LC0x
-MDk1MzAxNzMzLDIwOTUzMTc4MjQsLTE0ODEyMzU3NiwtNzA3OD
-czOTk1LC0yMTE1MjAwNzQyLC0xMjI1ODI4NzI3LDExNzE2MTc5
-MjksLTMzNjE2MzI5MF19
+eyJoaXN0b3J5IjpbMTEzMjA3OTcxNSwtMTE5MTY1MTQyNCwtMj
+EzNDg2Nzk2MywxOTcyMjgzNDU0LDEyMTg1MDg3OTIsLTExNTQx
+MTIwNjMsODA4ODY3NTc1LC0xMzQ0OTIzNTU2LDExNjYwNDk1OD
+MsLTE1OTk5MzI1MjMsNDg5MTYxNDU2LDEzODY5MjYzMDgsLTEw
+OTUzMDE3MzMsMjA5NTMxNzgyNCwtMTQ4MTIzNTc2LC03MDc4Nz
+M5OTUsLTIxMTUyMDA3NDIsLTEyMjU4Mjg3MjcsMTE3MTYxNzky
+OSwtMzM2MTYzMjkwXX0=
 -->
