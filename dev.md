@@ -612,8 +612,9 @@ Note:
 Python uses the ==half-open== interval convention. The list goes up to but
 does not include the end index.
 
-* The first index is optional. Be defaustarting from the first item of the list (the zeroth item):
-* The final index is optional. By default, it is the end of the list:
+* The first index is optional. Be default, it is the first item of the list (the zeroth item).
+* The final index is optional. By default, it is the end of the list.
+* Default both start/first and final/end indices
 `my_pets = ["dog", "cat", "bird"]`
 `print(my_pets[:2])`
 ['dog', 'cat']
@@ -1434,11 +1435,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNDc4MTYzMSwtMTk2ODUyODQ5OCwtMT
-E4NjcwMjkzNCwxODgyNTA4NTUzLC0xMTkxNjUxNDI0LC0yMTM0
-ODY3OTYzLDE5NzIyODM0NTQsMTIxODUwODc5MiwtMTE1NDExMj
-A2Myw4MDg4Njc1NzUsLTEzNDQ5MjM1NTYsMTE2NjA0OTU4Mywt
-MTU5OTkzMjUyMyw0ODkxNjE0NTYsMTM4NjkyNjMwOCwtMTA5NT
-MwMTczMywyMDk1MzE3ODI0LC0xNDgxMjM1NzYsLTcwNzg3Mzk5
-NSwtMjExNTIwMDc0Ml19
+eyJoaXN0b3J5IjpbNjQ3NDY4MjY5LC0xOTY4NTI4NDk4LC0xMT
+g2NzAyOTM0LDE4ODI1MDg1NTMsLTExOTE2NTE0MjQsLTIxMzQ4
+Njc5NjMsMTk3MjI4MzQ1NCwxMjE4NTA4NzkyLC0xMTU0MTEyMD
+YzLDgwODg2NzU3NSwtMTM0NDkyMzU1NiwxMTY2MDQ5NTgzLC0x
+NTk5OTMyNTIzLDQ4OTE2MTQ1NiwxMzg2OTI2MzA4LC0xMDk1Mz
+AxNzMzLDIwOTUzMTc4MjQsLTE0ODEyMzU3NiwtNzA3ODczOTk1
+LC0yMTE1MjAwNzQyXX0=
 -->
