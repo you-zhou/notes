@@ -640,9 +640,11 @@ Use index operations (square brackets) to insert values into a dictionary.
 `info['occupation'] = 'Drummer'`
 
 #### Retrieve values from a dictionary
-Use the square bracket literal syntax can pull a value out of a dictionary when
+1. Use the square bracket literal syntax can pull a value out of a dictionary when
 you use the brackets without assignment:
 `info['age']` will get 20
+
+2. Use the `.get` method to retrive a value for a key, which accepts an optional parameter 
 
 ### loop
 #### for loops with an index
@@ -1336,11 +1338,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTk5MzI1MjMsNDg5MTYxNDU2LDEzOD
-Y5MjYzMDgsLTEwOTUzMDE3MzMsMjA5NTMxNzgyNCwtMTQ4MTIz
-NTc2LC03MDc4NzM5OTUsLTIxMTUyMDA3NDIsLTEyMjU4Mjg3Mj
-csMTE3MTYxNzkyOSwtMzM2MTYzMjkwLDUwNTA5NTcyMiw4ODkz
-NDI3NTcsLTE3MzM3MjQ1MDMsLTEyMjAwODY0MDUsMzg0MTMwMD
-gyLC0yMDc4NzI1MzEyLDExMzAzMjgxMDMsLTE3Nzg5MDE0OSwt
-OTgwNTAwMzI5XX0=
+eyJoaXN0b3J5IjpbLTUwMzM5NjY3NCwtMTU5OTkzMjUyMyw0OD
+kxNjE0NTYsMTM4NjkyNjMwOCwtMTA5NTMwMTczMywyMDk1MzE3
+ODI0LC0xNDgxMjM1NzYsLTcwNzg3Mzk5NSwtMjExNTIwMDc0Mi
+wtMTIyNTgyODcyNywxMTcxNjE3OTI5LC0zMzYxNjMyOTAsNTA1
+MDk1NzIyLDg4OTM0Mjc1NywtMTczMzcyNDUwMywtMTIyMDA4Nj
+QwNSwzODQxMzAwODIsLTIwNzg3MjUzMTIsMTEzMDMyODEwMywt
+MTc3ODkwMTQ5XX0=
 -->
