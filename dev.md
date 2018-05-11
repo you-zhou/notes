@@ -651,7 +651,23 @@ This is a way to get around the **KeyError** when trying to pull out a key that 
 
 3. `.setdefault` method.
 The method has the same signature as `.get` and initially behaves like it, returning a default value if the key does not exist. In addition to that, it also **sets** the value of the key to the default value if the key is not found.
+```python
 
+names = ['Ringo', 'Paul', 'John', 'Ringo']
+count = {}
+
+for name in names:
+... if name not in count:
+104
+16.5. setdefault
+... count[name] = 1
+... else:
+... count[name] += 1
+
+for name in names:
+	count.setdefault(name, 0)
+	count[name] += 1
+```
 
 ### loop
 #### for loops with an index
@@ -1345,11 +1361,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyMjE5MDA1LDExNjYwNDk1ODMsLTE1OT
-k5MzI1MjMsNDg5MTYxNDU2LDEzODY5MjYzMDgsLTEwOTUzMDE3
-MzMsMjA5NTMxNzgyNCwtMTQ4MTIzNTc2LC03MDc4NzM5OTUsLT
-IxMTUyMDA3NDIsLTEyMjU4Mjg3MjcsMTE3MTYxNzkyOSwtMzM2
-MTYzMjkwLDUwNTA5NTcyMiw4ODkzNDI3NTcsLTE3MzM3MjQ1MD
-MsLTEyMjAwODY0MDUsMzg0MTMwMDgyLC0yMDc4NzI1MzEyLDEx
-MzAzMjgxMDNdfQ==
+eyJoaXN0b3J5IjpbMjA5MzI2OTQ3NSwxMTY2MDQ5NTgzLC0xNT
+k5OTMyNTIzLDQ4OTE2MTQ1NiwxMzg2OTI2MzA4LC0xMDk1MzAx
+NzMzLDIwOTUzMTc4MjQsLTE0ODEyMzU3NiwtNzA3ODczOTk1LC
+0yMTE1MjAwNzQyLC0xMjI1ODI4NzI3LDExNzE2MTc5MjksLTMz
+NjE2MzI5MCw1MDUwOTU3MjIsODg5MzQyNzU3LC0xNzMzNzI0NT
+AzLC0xMjIwMDg2NDA1LDM4NDEzMDA4MiwtMjA3ODcyNTMxMiwx
+MTMwMzI4MTAzXX0=
 -->
