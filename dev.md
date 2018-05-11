@@ -651,6 +651,7 @@ This is a way to get around the **KeyError** when trying to pull out a key that 
 
 3. `.setdefault` method.
 The method has the same signature as `.get` and initially behaves like it, returning a default value if the key does not exist. In addition to that, it also **sets** the value of the key to the default value if the key is not found.
+So, it is usually used to provide an accumulator or counter for a key.
 ```python
 # count the number of people with same name
 names = ['Ringo', 'Paul', 'John', 'Ringo']
@@ -1360,7 +1361,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgxNTE2OTg2LDExNjYwNDk1ODMsLTE1OT
+eyJoaXN0b3J5IjpbMzA2NjkwMzE2LDExNjYwNDk1ODMsLTE1OT
 k5MzI1MjMsNDg5MTYxNDU2LDEzODY5MjYzMDgsLTEwOTUzMDE3
 MzMsMjA5NTMxNzgyNCwtMTQ4MTIzNTc2LC03MDc4NzM5OTUsLT
 IxMTUyMDA3NDIsLTEyMjU4Mjg3MjcsMTE3MTYxNzkyOSwtMzM2
