@@ -714,7 +714,7 @@ You can define your own classes that respond to the `for` statement, by implemen
 
 
 ### function
-A function  implicitly returns
+A function  implicitly returns ==None== if the function ends without return being called.
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
@@ -1386,7 +1386,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDUzNTUzNDYsLTIxMzQ4Njc5NjMsMT
+eyJoaXN0b3J5IjpbLTExOTE2NTE0MjQsLTIxMzQ4Njc5NjMsMT
 k3MjI4MzQ1NCwxMjE4NTA4NzkyLC0xMTU0MTEyMDYzLDgwODg2
 NzU3NSwtMTM0NDkyMzU1NiwxMTY2MDQ5NTgzLC0xNTk5OTMyNT
 IzLDQ4OTE2MTQ1NiwxMzg2OTI2MzA4LC0xMDk1MzAxNzMzLDIw
