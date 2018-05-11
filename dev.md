@@ -770,6 +770,11 @@ to_list('hello') # ['hello']
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
+Note: 
+Windows paths use \ as a separator, which can be problematic. Python strings also use \ as an escape character. If you had a directory named ”test” and wrote "C:\test", Python would treat \t as a tab character.
+The remedy for this is to use raw strings to represent Windows paths. Put an ==r== in
+front of the string: `r"C:\test"`
+
 ### open(filename, mode) binary v.s. text mode
 * text mode
 The default mode. Data strings are converted to files while reading and writing with a specific encoding (platform dependent).
@@ -1438,11 +1443,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MTI1Nzc5NCwtOTM2NTc0MTAsLTE5Nj
-g1Mjg0OTgsLTExODY3MDI5MzQsMTg4MjUwODU1MywtMTE5MTY1
-MTQyNCwtMjEzNDg2Nzk2MywxOTcyMjgzNDU0LDEyMTg1MDg3OT
-IsLTExNTQxMTIwNjMsODA4ODY3NTc1LC0xMzQ0OTIzNTU2LDEx
-NjYwNDk1ODMsLTE1OTk5MzI1MjMsNDg5MTYxNDU2LDEzODY5Mj
-YzMDgsLTEwOTUzMDE3MzMsMjA5NTMxNzgyNCwtMTQ4MTIzNTc2
-LC03MDc4NzM5OTVdfQ==
+eyJoaXN0b3J5IjpbLTM2MzI5MDQ2LC02NzEyNTc3OTQsLTkzNj
+U3NDEwLC0xOTY4NTI4NDk4LC0xMTg2NzAyOTM0LDE4ODI1MDg1
+NTMsLTExOTE2NTE0MjQsLTIxMzQ4Njc5NjMsMTk3MjI4MzQ1NC
+wxMjE4NTA4NzkyLC0xMTU0MTEyMDYzLDgwODg2NzU3NSwtMTM0
+NDkyMzU1NiwxMTY2MDQ5NTgzLC0xNTk5OTMyNTIzLDQ4OTE2MT
+Q1NiwxMzg2OTI2MzA4LC0xMDk1MzAxNzMzLDIwOTUzMTc4MjQs
+LTE0ODEyMzU3Nl19
 -->
