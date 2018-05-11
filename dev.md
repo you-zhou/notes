@@ -722,7 +722,7 @@ def to_list(value, default=[]):
 	return default
 to_list(4) # [4]
 to_list('hello') # [4, 'hello'], which means the same 'default' is reused.
-
+```
 
 
 ## Reading & Writing Files
@@ -1395,7 +1395,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjA3OTcxNSwtMTE5MTY1MTQyNCwtMj
+eyJoaXN0b3J5IjpbMTg4MjUwODU1MywtMTE5MTY1MTQyNCwtMj
 EzNDg2Nzk2MywxOTcyMjgzNDU0LDEyMTg1MDg3OTIsLTExNTQx
 MTIwNjMsODA4ODY3NTc1LC0xMzQ0OTIzNTU2LDExNjYwNDk1OD
 MsLTE1OTk5MzI1MjMsNDg5MTYxNDU2LDEzODY5MjYzMDgsLTEw
