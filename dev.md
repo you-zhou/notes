@@ -640,13 +640,17 @@ Use index operations (square brackets) to insert values into a dictionary.
 `info['occupation'] = 'Drummer'`
 
 #### Retrieve values from a dictionary
-1. Use the square bracket literal syntax can pull a value out of a dictionary when
-you use the brackets without assignment:
+1. Square bracket [].
+This literal syntax can pull a value out of a dictionary when you use the brackets without assignment:
 `info['age']` will get 20
 
-2. Use the `.get` method to retrieve a value for a key, which accepts an optional parameter to return a **default** value if the key is not found.
+2. `.get` method.
+It is used to retrieve a value for a key, which accepts an optional parameter to return a **default** value if the key is not found.
 `infor.get('gender', 'N/A')` will get 'N/A' as gender is not a key in dictionary.
 This is a way to get around the **KeyError** when trying to pull out a key that does not exist in a dictionary.
+
+3. `.setdefault` method.
+
 
 
 ### loop
@@ -1341,11 +1345,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NjA0OTU4MywtMTU5OTkzMjUyMyw0OD
-kxNjE0NTYsMTM4NjkyNjMwOCwtMTA5NTMwMTczMywyMDk1MzE3
-ODI0LC0xNDgxMjM1NzYsLTcwNzg3Mzk5NSwtMjExNTIwMDc0Mi
-wtMTIyNTgyODcyNywxMTcxNjE3OTI5LC0zMzYxNjMyOTAsNTA1
-MDk1NzIyLDg4OTM0Mjc1NywtMTczMzcyNDUwMywtMTIyMDA4Nj
-QwNSwzODQxMzAwODIsLTIwNzg3MjUzMTIsMTEzMDMyODEwMywt
-MTc3ODkwMTQ5XX0=
+eyJoaXN0b3J5IjpbOTI3MjQ3OTMwLDExNjYwNDk1ODMsLTE1OT
+k5MzI1MjMsNDg5MTYxNDU2LDEzODY5MjYzMDgsLTEwOTUzMDE3
+MzMsMjA5NTMxNzgyNCwtMTQ4MTIzNTc2LC03MDc4NzM5OTUsLT
+IxMTUyMDA3NDIsLTEyMjU4Mjg3MjcsMTE3MTYxNzkyOSwtMzM2
+MTYzMjkwLDUwNTA5NTcyMiw4ODkzNDI3NTcsLTE3MzM3MjQ1MD
+MsLTEyMjAwODY0MDUsMzg0MTMwMDgyLC0yMDc4NzI1MzEyLDEx
+MzAzMjgxMDNdfQ==
 -->
