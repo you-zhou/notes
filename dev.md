@@ -675,6 +675,7 @@ So, it is usually used to provide an accumulator or counter for a key.
 	count['Ringo'] # 1
 	```
 #### `.keys()`, `.values()` and `.items()`
+Dictionary methods keys, values and items all return views of the dictionary, which reflects the current state.
 
 ### loop
 #### for loops with an index
@@ -1368,11 +1369,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTQxMTIwNjMsODA4ODY3NTc1LC0xMz
-Q0OTIzNTU2LDExNjYwNDk1ODMsLTE1OTk5MzI1MjMsNDg5MTYx
-NDU2LDEzODY5MjYzMDgsLTEwOTUzMDE3MzMsMjA5NTMxNzgyNC
-wtMTQ4MTIzNTc2LC03MDc4NzM5OTUsLTIxMTUyMDA3NDIsLTEy
-MjU4Mjg3MjcsMTE3MTYxNzkyOSwtMzM2MTYzMjkwLDUwNTA5NT
-cyMiw4ODkzNDI3NTcsLTE3MzM3MjQ1MDMsLTEyMjAwODY0MDUs
-Mzg0MTMwMDgyXX0=
+eyJoaXN0b3J5IjpbLTU1MTc4MDc2NywtMTE1NDExMjA2Myw4MD
+g4Njc1NzUsLTEzNDQ5MjM1NTYsMTE2NjA0OTU4MywtMTU5OTkz
+MjUyMyw0ODkxNjE0NTYsMTM4NjkyNjMwOCwtMTA5NTMwMTczMy
+wyMDk1MzE3ODI0LC0xNDgxMjM1NzYsLTcwNzg3Mzk5NSwtMjEx
+NTIwMDc0MiwtMTIyNTgyODcyNywxMTcxNjE3OTI5LC0zMzYxNj
+MyOTAsNTA1MDk1NzIyLDg4OTM0Mjc1NywtMTczMzcyNDUwMywt
+MTIyMDA4NjQwNV19
 -->
