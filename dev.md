@@ -588,7 +588,7 @@ print(names)
 
 #### Copy of a list
 `names = ['John', 'Paul', 'George', 'Ringo']`
-B
+Below `[:]` will duplicate names 
 `names2 = names[:]`
 
 
@@ -1307,7 +1307,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTQ4MTI5MSwtNzA3ODczOTk1LC0yMT
+eyJoaXN0b3J5IjpbMTcwODkzMzYwMSwtNzA3ODczOTk1LC0yMT
 E1MjAwNzQyLC0xMjI1ODI4NzI3LDExNzE2MTc5MjksLTMzNjE2
 MzI5MCw1MDUwOTU3MjIsODg5MzQyNzU3LC0xNzMzNzI0NTAzLC
 0xMjIwMDg2NDA1LDM4NDEzMDA4MiwtMjA3ODcyNTMxMiwxMTMw
