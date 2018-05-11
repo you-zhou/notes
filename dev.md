@@ -629,7 +629,8 @@ list or dictionary.
 Use the `in` statement in a `for` loop.
 ```python
 animals = ["cat", "dog", "bird"]
-# 1. Loop a list using the combination of built-in functions range and len.
+# 1. C-styled loop with index.
+# Loop a list using the combination of built-in functions range and len.
 for index in range(len(animals)):
 	print(index, animals[index])
 
@@ -639,8 +640,7 @@ for index, value in enumerate(animals):
 	print(index, value)
 ```
 
-The `enumerate` function returns a sequence of tuples of
-index, item pairs for the sequence passed into it.
+The `enumerate` function returns a sequence of **tuples** of (index, item) pairs for the sequence passed into it.
 
 Note: 
 You can define your own classes that respond to the `for` statement, by implementing the `.__iter__` method.
@@ -1316,11 +1316,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk2ODE5MjE0LDIwOTUzMTc4MjQsLTE0OD
-EyMzU3NiwtNzA3ODczOTk1LC0yMTE1MjAwNzQyLC0xMjI1ODI4
-NzI3LDExNzE2MTc5MjksLTMzNjE2MzI5MCw1MDUwOTU3MjIsOD
-g5MzQyNzU3LC0xNzMzNzI0NTAzLC0xMjIwMDg2NDA1LDM4NDEz
-MDA4MiwtMjA3ODcyNTMxMiwxMTMwMzI4MTAzLC0xNzc4OTAxND
-ksLTk4MDUwMDMyOSwtMjEwMTUxOTY5MCwtMTAzNzg2OTU3MSwt
-MTQzNzQ3ODI2Nl19
+eyJoaXN0b3J5IjpbLTEwOTUzMDE3MzMsMjA5NTMxNzgyNCwtMT
+Q4MTIzNTc2LC03MDc4NzM5OTUsLTIxMTUyMDA3NDIsLTEyMjU4
+Mjg3MjcsMTE3MTYxNzkyOSwtMzM2MTYzMjkwLDUwNTA5NTcyMi
+w4ODkzNDI3NTcsLTE3MzM3MjQ1MDMsLTEyMjAwODY0MDUsMzg0
+MTMwMDgyLC0yMDc4NzI1MzEyLDExMzAzMjgxMDMsLTE3Nzg5MD
+E0OSwtOTgwNTAwMzI5LC0yMTAxNTE5NjkwLC0xMDM3ODY5NTcx
+LC0xNDM3NDc4MjY2XX0=
 -->
