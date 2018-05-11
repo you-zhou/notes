@@ -779,13 +779,19 @@ front of the string: `r"C:\test"`
 * text mode 
 	* 'r' read text file (default)
 	* 'w' Write text file (overwrites if exists)
-	'x' Write text file, throw FileExistsError if exists.
-'a' Append to text file (write to end)
-The default mode. Data strings are converted to files while reading and writing with a specific encoding (platform dependent).
+	* 'x' Write text file, throw FileExistsError if exists.
+	* 'a' Append to text file (write to end)
+
+	The default mode. Data strings are converted to files while reading and writing with a specific encoding (platform dependent).
 In text mode, the default when reading is to convert platform-specific line endings (`\n` on Unix, `\r\n` on Windows) to just `\n`. When writing in text mode, the default is to convert occurrences of `\n` back to platform-specific line endings. This behind-the-scenes modification to file data is fine for text files, but will **corrupt** binary data like that in `JPEG` or `EXE` files.
 
-* binary mode 'rb' read binary file
-Data is read and written in the form of bytes objects. This mode should be used for all files that don't contain text.
+* binary mode 
+	* 'rb' read binary file
+	* 'w+b' Open binary file for reading and writing
+	* 'xb' Write binary file, throw FileExistsError if exists.
+	* 'ab' Append to binary file (write to end)
+
+	Data is read and written in the form of bytes objects. This mode should be used for all files that don't contain text.
 
 
 ## Exceptions and Error Handlings
@@ -1447,11 +1453,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDQ3NTg3MDMsLTY3MTI1Nzc5NCwtOT
-M2NTc0MTAsLTE5Njg1Mjg0OTgsLTExODY3MDI5MzQsMTg4MjUw
-ODU1MywtMTE5MTY1MTQyNCwtMjEzNDg2Nzk2MywxOTcyMjgzND
-U0LDEyMTg1MDg3OTIsLTExNTQxMTIwNjMsODA4ODY3NTc1LC0x
-MzQ0OTIzNTU2LDExNjYwNDk1ODMsLTE1OTk5MzI1MjMsNDg5MT
-YxNDU2LDEzODY5MjYzMDgsLTEwOTUzMDE3MzMsMjA5NTMxNzgy
-NCwtMTQ4MTIzNTc2XX0=
+eyJoaXN0b3J5IjpbMTUwOTM2NTUwLC02NzEyNTc3OTQsLTkzNj
+U3NDEwLC0xOTY4NTI4NDk4LC0xMTg2NzAyOTM0LDE4ODI1MDg1
+NTMsLTExOTE2NTE0MjQsLTIxMzQ4Njc5NjMsMTk3MjI4MzQ1NC
+wxMjE4NTA4NzkyLC0xMTU0MTEyMDYzLDgwODg2NzU3NSwtMTM0
+NDkyMzU1NiwxMTY2MDQ5NTgzLC0xNTk5OTMyNTIzLDQ4OTE2MT
+Q1NiwxMzg2OTI2MzA4LC0xMDk1MzAxNzMzLDIwOTUzMTc4MjQs
+LTE0ODEyMzU3Nl19
 -->
