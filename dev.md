@@ -776,11 +776,11 @@ The remedy for this is to use raw strings to represent Windows paths. Put an ==r
 front of the string: `r"C:\test"`
 
 ### open(filename, mode) binary v.s. text mode
-* text mode
+* text mode 'r' read text file (default)
 The default mode. Data strings are converted to files while reading and writing with a specific encoding (platform dependent).
 In text mode, the default when reading is to convert platform-specific line endings (`\n` on Unix, `\r\n` on Windows) to just `\n`. When writing in text mode, the default is to convert occurrences of `\n` back to platform-specific line endings. This behind-the-scenes modification to file data is fine for text files, but will **corrupt** binary data like that in `JPEG` or `EXE` files.
 
-* binary mode
+* binary mode 'rb' read binary file
 Data is read and written in the form of bytes objects. This mode should be used for all files that don't contain text.
 
 
@@ -1443,7 +1443,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MzI5MDQ2LC02NzEyNTc3OTQsLTkzNj
+eyJoaXN0b3J5IjpbODk5NzY5NjQ0LC02NzEyNTc3OTQsLTkzNj
 U3NDEwLC0xOTY4NTI4NDk4LC0xMTg2NzAyOTM0LDE4ODI1MDg1
 NTMsLTExOTE2NTE0MjQsLTIxMzQ4Njc5NjMsMTk3MjI4MzQ1NC
 wxMjE4NTA4NzkyLC0xMTU0MTEyMDYzLDgwODg2NzU3NSwtMTM0
