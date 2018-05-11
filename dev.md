@@ -652,22 +652,22 @@ This is a way to get around the **KeyError** when trying to pull out a key that 
 3. `.setdefault` method.
 The method has the same signature as `.get` and initially behaves like it, returning a default value if the key does not exist. In addition to that, it also **sets** the value of the key to the default value if the key is not found.
 So, it is usually used to provide an accumulator or counter for a key.
-```python
-# count the number of people with same name
-names = ['Ringo', 'Paul', 'John', 'Ringo']
-count = {}
-# without using the .setdefault method
-for name in names:
-	if name not in count:
-		count[name] = 1
-	else:
+	```python
+	# count the number of people with same name
+	names = ['Ringo', 'Paul', 'John', 'Ringo']
+	count = {}
+	# without using the .setdefault method
+	for name in names:
+		if name not in count:
+			count[name] = 1
+		else:
+			count[name] += 1
+			
+	# using .setdefault method saved a bit of code
+	for name in names:
+		count.setdefault(name, 0)
 		count[name] += 1
-		
-# using .setdefault method saved a bit of code
-for name in names:
-	count.setdefault(name, 0)
-	count[name] += 1
-```
+	```
 
 ### loop
 #### for loops with an index
@@ -1361,11 +1361,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA2NjkwMzE2LDExNjYwNDk1ODMsLTE1OT
-k5MzI1MjMsNDg5MTYxNDU2LDEzODY5MjYzMDgsLTEwOTUzMDE3
-MzMsMjA5NTMxNzgyNCwtMTQ4MTIzNTc2LC03MDc4NzM5OTUsLT
-IxMTUyMDA3NDIsLTEyMjU4Mjg3MjcsMTE3MTYxNzkyOSwtMzM2
-MTYzMjkwLDUwNTA5NTcyMiw4ODkzNDI3NTcsLTE3MzM3MjQ1MD
-MsLTEyMjAwODY0MDUsMzg0MTMwMDgyLC0yMDc4NzI1MzEyLDEx
-MzAzMjgxMDNdfQ==
+eyJoaXN0b3J5IjpbLTEzNDQ5MjM1NTYsMTE2NjA0OTU4MywtMT
+U5OTkzMjUyMyw0ODkxNjE0NTYsMTM4NjkyNjMwOCwtMTA5NTMw
+MTczMywyMDk1MzE3ODI0LC0xNDgxMjM1NzYsLTcwNzg3Mzk5NS
+wtMjExNTIwMDc0MiwtMTIyNTgyODcyNywxMTcxNjE3OTI5LC0z
+MzYxNjMyOTAsNTA1MDk1NzIyLDg4OTM0Mjc1NywtMTczMzcyND
+UwMywtMTIyMDA4NjQwNSwzODQxMzAwODIsLTIwNzg3MjUzMTIs
+MTEzMDMyODEwM119
 -->
