@@ -591,7 +591,8 @@ print(names)
 Below `[:]` will create a new list object with a different identity. But the items' identity remains the same with `names`. 
 `names2 = names[:]`
 
-`id(names) is not id`
+`id(names) is not id(names2)`
+`id(names[0]) is id(names2[0])`
 
 ### set
 Unordered collection that cannot contain duplicates.
@@ -1308,11 +1309,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDMwMTUyNzMsLTcwNzg3Mzk5NSwtMj
-ExNTIwMDc0MiwtMTIyNTgyODcyNywxMTcxNjE3OTI5LC0zMzYx
-NjMyOTAsNTA1MDk1NzIyLDg4OTM0Mjc1NywtMTczMzcyNDUwMy
-wtMTIyMDA4NjQwNSwzODQxMzAwODIsLTIwNzg3MjUzMTIsMTEz
-MDMyODEwMywtMTc3ODkwMTQ5LC05ODA1MDAzMjksLTIxMDE1MT
-k2OTAsLTEwMzc4Njk1NzEsLTE0Mzc0NzgyNjYsLTk4NDU1ODY4
-MSwxNjQwNjc1MjVdfQ==
+eyJoaXN0b3J5IjpbLTU1MTE1OTYwOCwtNzA3ODczOTk1LC0yMT
+E1MjAwNzQyLC0xMjI1ODI4NzI3LDExNzE2MTc5MjksLTMzNjE2
+MzI5MCw1MDUwOTU3MjIsODg5MzQyNzU3LC0xNzMzNzI0NTAzLC
+0xMjIwMDg2NDA1LDM4NDEzMDA4MiwtMjA3ODcyNTMxMiwxMTMw
+MzI4MTAzLC0xNzc4OTAxNDksLTk4MDUwMDMyOSwtMjEwMTUxOT
+Y5MCwtMTAzNzg2OTU3MSwtMTQzNzQ3ODI2NiwtOTg0NTU4Njgx
+LDE2NDA2NzUyNV19
 -->
