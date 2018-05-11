@@ -643,7 +643,7 @@ Use index operations (square brackets) to insert values into a dictionary.
 `info['occupation'] = 'Drummer'`
 
 #### Retrieve values from a dictionary
-First of all, you can still use the `in` statement to check membership of a key.
+You can still use the `in` statement to check membership of a key.
 To retrieve it:
 1. Square bracket [].
 This literal syntax can pull a value out of a dictionary when you use the brackets without assignment:
@@ -1383,7 +1383,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDI5Nzk4MzksMTk3MjI4MzQ1NCwxMj
+eyJoaXN0b3J5IjpbLTIxMzQ4Njc5NjMsMTk3MjI4MzQ1NCwxMj
 E4NTA4NzkyLC0xMTU0MTEyMDYzLDgwODg2NzU3NSwtMTM0NDky
 MzU1NiwxMTY2MDQ5NTgzLC0xNTk5OTMyNTIzLDQ4OTE2MTQ1Ni
 wxMzg2OTI2MzA4LC0xMDk1MzAxNzMzLDIwOTUzMTc4MjQsLTE0
