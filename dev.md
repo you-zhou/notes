@@ -596,10 +596,7 @@ Below ==`[:]`== will create a new list object with a different identity. But the
 
 ### indexing & slicing
 Python provides two constructs to pull data out of sequence-like types (**lists, tuples, and even strings**). These are the indexing and slicing constructs. Indexing allows you to access single items out of a sequence, while slicing allows you to pull out a sub-sequence from a sequence.
-Note: 
-* sets don't support index operations.
-* implement `.__getitem__` method if a self-defined class needs to support index operations.
-
+#### index
 Remember that in Python indices start at 0. If you want to pull out the first item you reference it by 0, not 1. This is called ==zero-based indexing==.
 
 > Guido van Rossum, the creator of Python, tweeted to explain how to understand negative index values:
@@ -607,7 +604,12 @@ Remember that in Python indices start at 0. If you want to pull out the first it
 a[len(a)-X]
 @gvanrossum
 
-Python uses the half-open interval convention. The list goes up to but
+Note: 
+* sets don't support index operations.
+* implement `.__getitem__` method if a self-defined class needs to support index operations.
+
+#### slice
+Python uses the ==half-open== interval convention. The list goes up to but
 does not include the end index.
 
 ### set
@@ -1425,7 +1427,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU0MDYzODYxLC0xOTY4NTI4NDk4LC0xMT
+eyJoaXN0b3J5IjpbNDUwMjMxODkzLC0xOTY4NTI4NDk4LC0xMT
 g2NzAyOTM0LDE4ODI1MDg1NTMsLTExOTE2NTE0MjQsLTIxMzQ4
 Njc5NjMsMTk3MjI4MzQ1NCwxMjE4NTA4NzkyLC0xMTU0MTEyMD
 YzLDgwODg2NzU3NSwtMTM0NDkyMzU1NiwxMTY2MDQ5NTgzLC0x
