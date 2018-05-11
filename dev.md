@@ -616,7 +616,7 @@ does not include the end index.
 * The final index is optional. By default, it is the end of the list. e.g. `my_pets[1:]`
 * Default both start/first and final/end indices, the slice will return from the start to the end, which means a copy of the whole list. e.g. `my_pets[:]`
 * The default stride is 1, which can be set as negative for reverse strides. e.g. `my_pets[::-1]` would reverse the whole sequence. 
-	`'hello'[::-1]` wil
+	`'hello'[::-1]` would get 'olleh'.
 	> the range function has a similar third parameter that specifies stride:
 	list(range(0, 7, 3)) will get you [0, 3, 6]
 
@@ -1438,7 +1438,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NzE5MzE0NSwtOTM2NTc0MTAsLTE5Nj
+eyJoaXN0b3J5IjpbLTY3MTI1Nzc5NCwtOTM2NTc0MTAsLTE5Nj
 g1Mjg0OTgsLTExODY3MDI5MzQsMTg4MjUwODU1MywtMTE5MTY1
 MTQyNCwtMjEzNDg2Nzk2MywxOTcyMjgzNDU0LDEyMTg1MDg3OT
 IsLTExNTQxMTIwNjMsODA4ODY3NTc1LC0xMzQ0OTIzNTU2LDEx
