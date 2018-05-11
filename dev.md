@@ -671,7 +671,8 @@ So, it is usually used to provide an accumulator or counter for a key.
 	import collections
 	count = collections.Counter(names)
 	
-	# all above methods will produce the same results.
+	# all above methods will produce the same results
+	count['Ringo'] # 1
 	```
 
 ### loop
@@ -1366,11 +1367,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDkyMTQyMywtMTM0NDkyMzU1NiwxMT
-Y2MDQ5NTgzLC0xNTk5OTMyNTIzLDQ4OTE2MTQ1NiwxMzg2OTI2
-MzA4LC0xMDk1MzAxNzMzLDIwOTUzMTc4MjQsLTE0ODEyMzU3Ni
-wtNzA3ODczOTk1LC0yMTE1MjAwNzQyLC0xMjI1ODI4NzI3LDEx
-NzE2MTc5MjksLTMzNjE2MzI5MCw1MDUwOTU3MjIsODg5MzQyNz
-U3LC0xNzMzNzI0NTAzLC0xMjIwMDg2NDA1LDM4NDEzMDA4Miwt
-MjA3ODcyNTMxMl19
+eyJoaXN0b3J5IjpbODA4ODY3NTc1LC0xMzQ0OTIzNTU2LDExNj
+YwNDk1ODMsLTE1OTk5MzI1MjMsNDg5MTYxNDU2LDEzODY5MjYz
+MDgsLTEwOTUzMDE3MzMsMjA5NTMxNzgyNCwtMTQ4MTIzNTc2LC
+03MDc4NzM5OTUsLTIxMTUyMDA3NDIsLTEyMjU4Mjg3MjcsMTE3
+MTYxNzkyOSwtMzM2MTYzMjkwLDUwNTA5NTcyMiw4ODkzNDI3NT
+csLTE3MzM3MjQ1MDMsLTEyMjAwODY0MDUsMzg0MTMwMDgyLC0y
+MDc4NzI1MzEyXX0=
 -->
