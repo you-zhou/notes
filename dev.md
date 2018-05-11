@@ -627,6 +627,7 @@ list or dictionary.
 ### dictionary
 #### Two way to create a dictionary
 ```python
+# 1. use the literal syntax {key: value, ...}
 info = {'first': 'Pete', 'last': 'Best'}
 
 # 2. use the built-in dict class with a list of tuple pairs.
@@ -1326,11 +1327,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxOTk4MzY0OCwxMzg2OTI2MzA4LC0xMD
-k1MzAxNzMzLDIwOTUzMTc4MjQsLTE0ODEyMzU3NiwtNzA3ODcz
-OTk1LC0yMTE1MjAwNzQyLC0xMjI1ODI4NzI3LDExNzE2MTc5Mj
-ksLTMzNjE2MzI5MCw1MDUwOTU3MjIsODg5MzQyNzU3LC0xNzMz
-NzI0NTAzLC0xMjIwMDg2NDA1LDM4NDEzMDA4MiwtMjA3ODcyNT
-MxMiwxMTMwMzI4MTAzLC0xNzc4OTAxNDksLTk4MDUwMDMyOSwt
-MjEwMTUxOTY5MF19
+eyJoaXN0b3J5IjpbNDg5MTYxNDU2LDEzODY5MjYzMDgsLTEwOT
+UzMDE3MzMsMjA5NTMxNzgyNCwtMTQ4MTIzNTc2LC03MDc4NzM5
+OTUsLTIxMTUyMDA3NDIsLTEyMjU4Mjg3MjcsMTE3MTYxNzkyOS
+wtMzM2MTYzMjkwLDUwNTA5NTcyMiw4ODkzNDI3NTcsLTE3MzM3
+MjQ1MDMsLTEyMjAwODY0MDUsMzg0MTMwMDgyLC0yMDc4NzI1Mz
+EyLDExMzAzMjgxMDMsLTE3Nzg5MDE0OSwtOTgwNTAwMzI5LC0y
+MTAxNTE5NjkwXX0=
 -->
