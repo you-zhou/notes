@@ -717,6 +717,7 @@ You can define your own classes that respond to the `for` statement, by implemen
 A function  implicitly returns ==None== if the function ends without return being called.
 Do not use mutable types (lists, dictionaries) for default parameters unless you know what you are doing. Because of the way Python works, the default parameters are created only once—at function definition time, not at function execution time. If you use a mutable default value, you will end up re-using the same instance of the default parameter during each function invocation:
 ```python
+# BAD! Used mutable list as a default argument.
 def to_list(value, default=[]):
 	default.append(value)
 	return default
@@ -724,11 +725,11 @@ def to_list(value, default=[]):
 to_list(4) # [4]
 to_list('hello') # [4, 'hello'], which means the same 'default' is reused.
 
-
+# GOOD! Use 
 def to_list2(value, default=None):
 	if default is None:
 		default = []
-	# also be written as a single line using a conditional expression
+	# above if can also be written as a single line using a conditional expression
 	# default = default if default is not None else []
 	default.append(value)
 return default
@@ -1408,11 +1409,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNzE3NzEwOCwxODgyNTA4NTUzLC0xMT
-kxNjUxNDI0LC0yMTM0ODY3OTYzLDE5NzIyODM0NTQsMTIxODUw
-ODc5MiwtMTE1NDExMjA2Myw4MDg4Njc1NzUsLTEzNDQ5MjM1NT
-YsMTE2NjA0OTU4MywtMTU5OTkzMjUyMyw0ODkxNjE0NTYsMTM4
-NjkyNjMwOCwtMTA5NTMwMTczMywyMDk1MzE3ODI0LC0xNDgxMj
-M1NzYsLTcwNzg3Mzk5NSwtMjExNTIwMDc0MiwtMTIyNTgyODcy
-NywxMTcxNjE3OTI5XX0=
+eyJoaXN0b3J5IjpbLTEyOTAxMTU0NTEsMTg4MjUwODU1MywtMT
+E5MTY1MTQyNCwtMjEzNDg2Nzk2MywxOTcyMjgzNDU0LDEyMTg1
+MDg3OTIsLTExNTQxMTIwNjMsODA4ODY3NTc1LC0xMzQ0OTIzNT
+U2LDExNjYwNDk1ODMsLTE1OTk5MzI1MjMsNDg5MTYxNDU2LDEz
+ODY5MjYzMDgsLTEwOTUzMDE3MzMsMjA5NTMxNzgyNCwtMTQ4MT
+IzNTc2LC03MDc4NzM5OTUsLTIxMTUyMDA3NDIsLTEyMjU4Mjg3
+MjcsMTE3MTYxNzkyOV19
 -->
