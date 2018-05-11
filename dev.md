@@ -716,6 +716,9 @@ You can define your own classes that respond to the `for` statement, by implemen
 ### function
 A function  implicitly returns ==None== if the function ends without return being called.
 
+
+
+
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 ### open(filename, mode) binary v.s. text mode
@@ -1386,11 +1389,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTE2NTE0MjQsLTIxMzQ4Njc5NjMsMT
-k3MjI4MzQ1NCwxMjE4NTA4NzkyLC0xMTU0MTEyMDYzLDgwODg2
-NzU3NSwtMTM0NDkyMzU1NiwxMTY2MDQ5NTgzLC0xNTk5OTMyNT
-IzLDQ4OTE2MTQ1NiwxMzg2OTI2MzA4LC0xMDk1MzAxNzMzLDIw
-OTUzMTc4MjQsLTE0ODEyMzU3NiwtNzA3ODczOTk1LC0yMTE1Mj
-AwNzQyLC0xMjI1ODI4NzI3LDExNzE2MTc5MjksLTMzNjE2MzI5
-MCw1MDUwOTU3MjJdfQ==
+eyJoaXN0b3J5IjpbLTExMDMwMTI2OTQsLTExOTE2NTE0MjQsLT
+IxMzQ4Njc5NjMsMTk3MjI4MzQ1NCwxMjE4NTA4NzkyLC0xMTU0
+MTEyMDYzLDgwODg2NzU3NSwtMTM0NDkyMzU1NiwxMTY2MDQ5NT
+gzLC0xNTk5OTMyNTIzLDQ4OTE2MTQ1NiwxMzg2OTI2MzA4LC0x
+MDk1MzAxNzMzLDIwOTUzMTc4MjQsLTE0ODEyMzU3NiwtNzA3OD
+czOTk1LC0yMTE1MjAwNzQyLC0xMjI1ODI4NzI3LDExNzE2MTc5
+MjksLTMzNjE2MzI5MF19
 -->
