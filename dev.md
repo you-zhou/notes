@@ -624,6 +624,9 @@ list or dictionary.
 * To use the `in` operation, also implements the `__contains__` method.
 
 
+### dictionary
+
+
 ### loop
 #### for loops with an index
 Use the `in` statement in a `for` loop.
@@ -1316,11 +1319,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTUzMDE3MzMsMjA5NTMxNzgyNCwtMT
-Q4MTIzNTc2LC03MDc4NzM5OTUsLTIxMTUyMDA3NDIsLTEyMjU4
-Mjg3MjcsMTE3MTYxNzkyOSwtMzM2MTYzMjkwLDUwNTA5NTcyMi
-w4ODkzNDI3NTcsLTE3MzM3MjQ1MDMsLTEyMjAwODY0MDUsMzg0
-MTMwMDgyLC0yMDc4NzI1MzEyLDExMzAzMjgxMDMsLTE3Nzg5MD
-E0OSwtOTgwNTAwMzI5LC0yMTAxNTE5NjkwLC0xMDM3ODY5NTcx
-LC0xNDM3NDc4MjY2XX0=
+eyJoaXN0b3J5IjpbMTM4NjkyNjMwOCwtMTA5NTMwMTczMywyMD
+k1MzE3ODI0LC0xNDgxMjM1NzYsLTcwNzg3Mzk5NSwtMjExNTIw
+MDc0MiwtMTIyNTgyODcyNywxMTcxNjE3OTI5LC0zMzYxNjMyOT
+AsNTA1MDk1NzIyLDg4OTM0Mjc1NywtMTczMzcyNDUwMywtMTIy
+MDA4NjQwNSwzODQxMzAwODIsLTIwNzg3MjUzMTIsMTEzMDMyOD
+EwMywtMTc3ODkwMTQ5LC05ODA1MDAzMjksLTIxMDE1MTk2OTAs
+LTEwMzc4Njk1NzFdfQ==
 -->
