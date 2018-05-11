@@ -656,17 +656,18 @@ So, it is usually used to provide an accumulator or counter for a key.
 	# count the number of people with same name
 	names = ['Ringo', 'Paul', 'John', 'Ringo']
 	count = {}
-	# without using the .setdefault method
+	# 1. without using the .setdefault method
 	for name in names:
 		if name not in count:
 			count[name] = 1
 		else:
 			count[name] += 1
 			
-	# using .setdefault method saved a bit of code
+	# 2. using .setdefault method saved a bit of code
 	for name in names:
 		count.setdefault(name, 0)
 		count[name] += 1
+
 	```
 
 ### loop
@@ -1361,11 +1362,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQ5MjM1NTYsMTE2NjA0OTU4MywtMT
-U5OTkzMjUyMyw0ODkxNjE0NTYsMTM4NjkyNjMwOCwtMTA5NTMw
-MTczMywyMDk1MzE3ODI0LC0xNDgxMjM1NzYsLTcwNzg3Mzk5NS
-wtMjExNTIwMDc0MiwtMTIyNTgyODcyNywxMTcxNjE3OTI5LC0z
-MzYxNjMyOTAsNTA1MDk1NzIyLDg4OTM0Mjc1NywtMTczMzcyND
-UwMywtMTIyMDA4NjQwNSwzODQxMzAwODIsLTIwNzg3MjUzMTIs
-MTEzMDMyODEwM119
+eyJoaXN0b3J5IjpbLTE2NjQ1MDkxMzksLTEzNDQ5MjM1NTYsMT
+E2NjA0OTU4MywtMTU5OTkzMjUyMyw0ODkxNjE0NTYsMTM4Njky
+NjMwOCwtMTA5NTMwMTczMywyMDk1MzE3ODI0LC0xNDgxMjM1Nz
+YsLTcwNzg3Mzk5NSwtMjExNTIwMDc0MiwtMTIyNTgyODcyNywx
+MTcxNjE3OTI5LC0zMzYxNjMyOTAsNTA1MDk1NzIyLDg4OTM0Mj
+c1NywtMTczMzcyNDUwMywtMTIyMDA4NjQwNSwzODQxMzAwODIs
+LTIwNzg3MjUzMTJdfQ==
 -->
