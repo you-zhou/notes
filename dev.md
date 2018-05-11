@@ -635,7 +635,7 @@ info = dict([('first', 'Pete'),
 			 ('last', 'Best')])
 ```
 #### Insert values to a dictionary
-Use index operations to insert values into a dictionary.
+Use index operations ==[]== to insert values into a dictionary.
 `info['age'] = 20`
 `info['occupation'] = 'Drummer'`
 
@@ -1331,11 +1331,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY3OTY5Mzg3LDQ4OTE2MTQ1NiwxMzg2OT
-I2MzA4LC0xMDk1MzAxNzMzLDIwOTUzMTc4MjQsLTE0ODEyMzU3
-NiwtNzA3ODczOTk1LC0yMTE1MjAwNzQyLC0xMjI1ODI4NzI3LD
-ExNzE2MTc5MjksLTMzNjE2MzI5MCw1MDUwOTU3MjIsODg5MzQy
-NzU3LC0xNzMzNzI0NTAzLC0xMjIwMDg2NDA1LDM4NDEzMDA4Mi
-wtMjA3ODcyNTMxMiwxMTMwMzI4MTAzLC0xNzc4OTAxNDksLTk4
-MDUwMDMyOV19
+eyJoaXN0b3J5IjpbLTE1NTg0NTU2NTUsNDg5MTYxNDU2LDEzOD
+Y5MjYzMDgsLTEwOTUzMDE3MzMsMjA5NTMxNzgyNCwtMTQ4MTIz
+NTc2LC03MDc4NzM5OTUsLTIxMTUyMDA3NDIsLTEyMjU4Mjg3Mj
+csMTE3MTYxNzkyOSwtMzM2MTYzMjkwLDUwNTA5NTcyMiw4ODkz
+NDI3NTcsLTE3MzM3MjQ1MDMsLTEyMjAwODY0MDUsMzg0MTMwMD
+gyLC0yMDc4NzI1MzEyLDExMzAzMjgxMDMsLTE3Nzg5MDE0OSwt
+OTgwNTAwMzI5XX0=
 -->
