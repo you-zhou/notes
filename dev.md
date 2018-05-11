@@ -720,8 +720,19 @@ Do not use mutable types (lists, dictionaries) for default parameters unless you
 def to_list(value, default=[]):
 	default.append(value)
 	return default
+
 to_list(4) # [4]
 to_list('hello') # [4, 'hello'], which means the same 'default' is reused.
+
+
+def to_list2(value, default=None):
+	if default is None:
+		default = []
+	default.append(value)
+return default
+
+to_list(4) # [4]
+to_list('hello') # ['hello']
 ```
 
 
@@ -1395,11 +1406,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MjUwODU1MywtMTE5MTY1MTQyNCwtMj
-EzNDg2Nzk2MywxOTcyMjgzNDU0LDEyMTg1MDg3OTIsLTExNTQx
-MTIwNjMsODA4ODY3NTc1LC0xMzQ0OTIzNTU2LDExNjYwNDk1OD
-MsLTE1OTk5MzI1MjMsNDg5MTYxNDU2LDEzODY5MjYzMDgsLTEw
-OTUzMDE3MzMsMjA5NTMxNzgyNCwtMTQ4MTIzNTc2LC03MDc4Nz
-M5OTUsLTIxMTUyMDA3NDIsLTEyMjU4Mjg3MjcsMTE3MTYxNzky
-OSwtMzM2MTYzMjkwXX0=
+eyJoaXN0b3J5IjpbLTkyODcwNzgyNCwxODgyNTA4NTUzLC0xMT
+kxNjUxNDI0LC0yMTM0ODY3OTYzLDE5NzIyODM0NTQsMTIxODUw
+ODc5MiwtMTE1NDExMjA2Myw4MDg4Njc1NzUsLTEzNDQ5MjM1NT
+YsMTE2NjA0OTU4MywtMTU5OTkzMjUyMyw0ODkxNjE0NTYsMTM4
+NjkyNjMwOCwtMTA5NTMwMTczMywyMDk1MzE3ODI0LC0xNDgxMj
+M1NzYsLTcwNzg3Mzk5NSwtMjExNTIwMDc0MiwtMTIyNTgyODcy
+NywxMTcxNjE3OTI5XX0=
 -->
