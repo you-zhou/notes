@@ -596,7 +596,7 @@ Below ==`[:]`== will create a new list object with a different identity. But the
 
 ### indexing & slicing
 Python provides two constructs to pull data out of sequence-like types (**lists, tuples, and even strings**). These are the indexing and slicing constructs. Indexing allows you to access single items out of a sequence, while slicing allows you to pull out a sub-sequence from a sequence.
-#### index 
+#### index with []
 Remember that in Python indices start at 0. If you want to pull out the first item you reference it by 0, not 1. This is called ==zero-based indexing==.
 
 > Guido van Rossum, the creator of Python, tweeted to explain how to understand negative index values:
@@ -608,9 +608,13 @@ Note:
 * sets don't support index operations.
 * implement `.__getitem__` method if a self-defined class needs to support index operations.
 
-#### slice
+#### slice with :
 Python uses the ==half-open== interval convention. The list goes up to but
 does not include the end index.
+
+* The first index is optional. If the first index is missing, the slice defaults to starting from the first item of the list (the zeroth item):
+`print(my_pets[:2])`
+['dog', 'cat']
 
 ### set
 Unordered collection that cannot contain duplicates.
@@ -1427,11 +1431,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyMTc4MjAzLC0xOTY4NTI4NDk4LC0xMT
-g2NzAyOTM0LDE4ODI1MDg1NTMsLTExOTE2NTE0MjQsLTIxMzQ4
-Njc5NjMsMTk3MjI4MzQ1NCwxMjE4NTA4NzkyLC0xMTU0MTEyMD
-YzLDgwODg2NzU3NSwtMTM0NDkyMzU1NiwxMTY2MDQ5NTgzLC0x
-NTk5OTMyNTIzLDQ4OTE2MTQ1NiwxMzg2OTI2MzA4LC0xMDk1Mz
-AxNzMzLDIwOTUzMTc4MjQsLTE0ODEyMzU3NiwtNzA3ODczOTk1
-LC0yMTE1MjAwNzQyXX0=
+eyJoaXN0b3J5IjpbMTk2OTM5NjgyOCwtMTk2ODUyODQ5OCwtMT
+E4NjcwMjkzNCwxODgyNTA4NTUzLC0xMTkxNjUxNDI0LC0yMTM0
+ODY3OTYzLDE5NzIyODM0NTQsMTIxODUwODc5MiwtMTE1NDExMj
+A2Myw4MDg4Njc1NzUsLTEzNDQ5MjM1NTYsMTE2NjA0OTU4Mywt
+MTU5OTkzMjUyMyw0ODkxNjE0NTYsMTM4NjkyNjMwOCwtMTA5NT
+MwMTczMywyMDk1MzE3ODI0LC0xNDgxMjM1NzYsLTcwNzg3Mzk5
+NSwtMjExNTIwMDc0Ml19
 -->
