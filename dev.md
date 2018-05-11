@@ -650,7 +650,7 @@ It is used to retrieve a value for a key, which accepts an optional parameter to
 This is a way to get around the **KeyError** when trying to pull out a key that does not exist in a dictionary.
 
 3. `.setdefault` method.
-
+The method has the same signature as `.get` and initially behaves like it, returning a default value if the key does not exist. In addition to that, it also **sets** the value of the key to the default value if the key is not found.
 
 
 ### loop
@@ -1345,7 +1345,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI3MjQ3OTMwLDExNjYwNDk1ODMsLTE1OT
+eyJoaXN0b3J5IjpbNzcyMjE5MDA1LDExNjYwNDk1ODMsLTE1OT
 k5MzI1MjMsNDg5MTYxNDU2LDEzODY5MjYzMDgsLTEwOTUzMDE3
 MzMsMjA5NTMxNzgyNCwtMTQ4MTIzNTc2LC03MDc4NzM5OTUsLT
 IxMTUyMDA3NDIsLTEyMjU4Mjg3MjcsMTE3MTYxNzkyOSwtMzM2
