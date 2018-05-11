@@ -646,6 +646,7 @@ you use the brackets without assignment:
 
 2. Use the `.get` method to retrieve a value for a key, which accepts an optional parameter to return a **default** value if the key is not found.
 `infor.get('gender', 'N/A')` will get 'N/A' as gender is not a key in dictionary.
+This is a way to get around the **KeyError** when trying to pull out a key that does not exist in a dictionary.
 
 
 ### loop
@@ -1340,7 +1341,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMjEwMTgyNCwtMTU5OTkzMjUyMyw0OD
+eyJoaXN0b3J5IjpbMTE2NjA0OTU4MywtMTU5OTkzMjUyMyw0OD
 kxNjE0NTYsMTM4NjkyNjMwOCwtMTA5NTMwMTczMywyMDk1MzE3
 ODI0LC0xNDgxMjM1NzYsLTcwNzg3Mzk5NSwtMjExNTIwMDc0Mi
 wtMTIyNTgyODcyNywxMTcxNjE3OTI5LC0zMzYxNjMyOTAsNTA1
