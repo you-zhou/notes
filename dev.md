@@ -588,7 +588,7 @@ print(names)
 
 #### Copy of a list
 `names = ['John', 'Paul', 'George', 'Ringo']`
-Below `[:]` will create a new list object with a different identity. But the items' identity remains the same with `names`. 
+Below ==`[:]`== will create a new list object with a different identity. But the items' identity remains the same with `names`. 
 `names2 = names[:]`
 
 `id(names) is not id(names2)`
@@ -1309,7 +1309,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTE1OTYwOCwtNzA3ODczOTk1LC0yMT
+eyJoaXN0b3J5IjpbLTE0ODEyMzU3NiwtNzA3ODczOTk1LC0yMT
 E1MjAwNzQyLC0xMjI1ODI4NzI3LDExNzE2MTc5MjksLTMzNjE2
 MzI5MCw1MDUwOTU3MjIsODg5MzQyNzU3LC0xNzMzNzI0NTAzLC
 0xMjIwMDg2NDA1LDM4NDEzMDA4MiwtMjA3ODcyNTMxMiwxMTMw
