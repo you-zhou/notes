@@ -680,7 +680,13 @@ So, it is usually used to provide an accumulator or counter for a key.
 Dictionary methods keys, values and items all return views of the dictionary, which reflects the current state. It is not a **copy** of keys, values or items.
 
 #### sort / order
-Sort the sequence of the iteration if a different order is desided
+Sort the sequence of the iteration if a different order is desided.
+```python
+# sorted() function will return a NEW sorted list
+for name in sorted(data.keys()):
+	print(name)
+
+```
 
 ### loop
 #### for loops with an index
@@ -1374,11 +1380,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIxMDIxMDY0LC0xMTU0MTEyMDYzLDgwOD
-g2NzU3NSwtMTM0NDkyMzU1NiwxMTY2MDQ5NTgzLC0xNTk5OTMy
-NTIzLDQ4OTE2MTQ1NiwxMzg2OTI2MzA4LC0xMDk1MzAxNzMzLD
-IwOTUzMTc4MjQsLTE0ODEyMzU3NiwtNzA3ODczOTk1LC0yMTE1
-MjAwNzQyLC0xMjI1ODI4NzI3LDExNzE2MTc5MjksLTMzNjE2Mz
-I5MCw1MDUwOTU3MjIsODg5MzQyNzU3LC0xNzMzNzI0NTAzLC0x
-MjIwMDg2NDA1XX0=
+eyJoaXN0b3J5IjpbMTIxODUwODc5MiwtMTE1NDExMjA2Myw4MD
+g4Njc1NzUsLTEzNDQ5MjM1NTYsMTE2NjA0OTU4MywtMTU5OTkz
+MjUyMyw0ODkxNjE0NTYsMTM4NjkyNjMwOCwtMTA5NTMwMTczMy
+wyMDk1MzE3ODI0LC0xNDgxMjM1NzYsLTcwNzg3Mzk5NSwtMjEx
+NTIwMDc0MiwtMTIyNTgyODcyNywxMTcxNjE3OTI5LC0zMzYxNj
+MyOTAsNTA1MDk1NzIyLDg4OTM0Mjc1NywtMTczMzcyNDUwMywt
+MTIyMDA4NjQwNV19
 -->
