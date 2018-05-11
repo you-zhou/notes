@@ -674,6 +674,7 @@ So, it is usually used to provide an accumulator or counter for a key.
 	# all above methods will produce the same results
 	count['Ringo'] # 1
 	```
+#### `.keys()`, `.values()` and `.items()`
 
 ### loop
 #### for loops with an index
@@ -1367,11 +1368,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA4ODY3NTc1LC0xMzQ0OTIzNTU2LDExNj
-YwNDk1ODMsLTE1OTk5MzI1MjMsNDg5MTYxNDU2LDEzODY5MjYz
-MDgsLTEwOTUzMDE3MzMsMjA5NTMxNzgyNCwtMTQ4MTIzNTc2LC
-03MDc4NzM5OTUsLTIxMTUyMDA3NDIsLTEyMjU4Mjg3MjcsMTE3
-MTYxNzkyOSwtMzM2MTYzMjkwLDUwNTA5NTcyMiw4ODkzNDI3NT
-csLTE3MzM3MjQ1MDMsLTEyMjAwODY0MDUsMzg0MTMwMDgyLC0y
-MDc4NzI1MzEyXX0=
+eyJoaXN0b3J5IjpbLTExNTQxMTIwNjMsODA4ODY3NTc1LC0xMz
+Q0OTIzNTU2LDExNjYwNDk1ODMsLTE1OTk5MzI1MjMsNDg5MTYx
+NDU2LDEzODY5MjYzMDgsLTEwOTUzMDE3MzMsMjA5NTMxNzgyNC
+wtMTQ4MTIzNTc2LC03MDc4NzM5OTUsLTIxMTUyMDA3NDIsLTEy
+MjU4Mjg3MjcsMTE3MTYxNzkyOSwtMzM2MTYzMjkwLDUwNTA5NT
+cyMiw4ODkzNDI3NTcsLTE3MzM3MjQ1MDMsLTEyMjAwODY0MDUs
+Mzg0MTMwMDgyXX0=
 -->
