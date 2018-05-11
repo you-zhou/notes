@@ -625,7 +625,7 @@ list or dictionary.
 
 
 ### loop
-#### loop with an index
+#### for loops with an index
 Use the `in` statement in a `for` loop.
 ```python
 animals = ["cat", "dog", "bird"]
@@ -1309,11 +1309,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODEyMzU3NiwtNzA3ODczOTk1LC0yMT
-E1MjAwNzQyLC0xMjI1ODI4NzI3LDExNzE2MTc5MjksLTMzNjE2
-MzI5MCw1MDUwOTU3MjIsODg5MzQyNzU3LC0xNzMzNzI0NTAzLC
-0xMjIwMDg2NDA1LDM4NDEzMDA4MiwtMjA3ODcyNTMxMiwxMTMw
-MzI4MTAzLC0xNzc4OTAxNDksLTk4MDUwMDMyOSwtMjEwMTUxOT
-Y5MCwtMTAzNzg2OTU3MSwtMTQzNzQ3ODI2NiwtOTg0NTU4Njgx
-LDE2NDA2NzUyNV19
+eyJoaXN0b3J5IjpbMjA5NTMxNzgyNCwtMTQ4MTIzNTc2LC03MD
+c4NzM5OTUsLTIxMTUyMDA3NDIsLTEyMjU4Mjg3MjcsMTE3MTYx
+NzkyOSwtMzM2MTYzMjkwLDUwNTA5NTcyMiw4ODkzNDI3NTcsLT
+E3MzM3MjQ1MDMsLTEyMjAwODY0MDUsMzg0MTMwMDgyLC0yMDc4
+NzI1MzEyLDExMzAzMjgxMDMsLTE3Nzg5MDE0OSwtOTgwNTAwMz
+I5LC0yMTAxNTE5NjkwLC0xMDM3ODY5NTcxLC0xNDM3NDc4MjY2
+LC05ODQ1NTg2ODFdfQ==
 -->
