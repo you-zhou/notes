@@ -586,6 +586,9 @@ print(names)
 1. `list.sort()` method sorts the list ==in place==.
 2. `sorted(list)` function returns a new list that is ordered. ==But it reuses all items in the list, instead of creating new items.==
 
+#### Copy of a list
+
+
 ### set
 Unordered collection that cannot contain duplicates.
 
@@ -1301,11 +1304,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzg3Mzk5NSwtMjExNTIwMDc0MiwtMT
-IyNTgyODcyNywxMTcxNjE3OTI5LC0zMzYxNjMyOTAsNTA1MDk1
-NzIyLDg4OTM0Mjc1NywtMTczMzcyNDUwMywtMTIyMDA4NjQwNS
-wzODQxMzAwODIsLTIwNzg3MjUzMTIsMTEzMDMyODEwMywtMTc3
-ODkwMTQ5LC05ODA1MDAzMjksLTIxMDE1MTk2OTAsLTEwMzc4Nj
-k1NzEsLTE0Mzc0NzgyNjYsLTk4NDU1ODY4MSwxNjQwNjc1MjUs
-LTc4OTEwMzk1MV19
+eyJoaXN0b3J5IjpbMTY2MzQwNDY3MiwtNzA3ODczOTk1LC0yMT
+E1MjAwNzQyLC0xMjI1ODI4NzI3LDExNzE2MTc5MjksLTMzNjE2
+MzI5MCw1MDUwOTU3MjIsODg5MzQyNzU3LC0xNzMzNzI0NTAzLC
+0xMjIwMDg2NDA1LDM4NDEzMDA4MiwtMjA3ODcyNTMxMiwxMTMw
+MzI4MTAzLC0xNzc4OTAxNDksLTk4MDUwMDMyOSwtMjEwMTUxOT
+Y5MCwtMTAzNzg2OTU3MSwtMTQzNzQ3ODI2NiwtOTg0NTU4Njgx
+LDE2NDA2NzUyNV19
 -->
