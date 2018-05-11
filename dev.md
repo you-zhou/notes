@@ -629,6 +629,9 @@ list or dictionary.
 ```python
 info = {'first': 'Pete', 'last': 'Best'}
 
+# 2. use the built-in dict class with a list of tuple pairs.
+info = dict([('first', 'Pete'),
+			 ('last', 'Best')])
 ```
 
 ### loop
@@ -1323,11 +1326,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDY3MTg1MTIsMTM4NjkyNjMwOCwtMT
-A5NTMwMTczMywyMDk1MzE3ODI0LC0xNDgxMjM1NzYsLTcwNzg3
-Mzk5NSwtMjExNTIwMDc0MiwtMTIyNTgyODcyNywxMTcxNjE3OT
-I5LC0zMzYxNjMyOTAsNTA1MDk1NzIyLDg4OTM0Mjc1NywtMTcz
-MzcyNDUwMywtMTIyMDA4NjQwNSwzODQxMzAwODIsLTIwNzg3Mj
-UzMTIsMTEzMDMyODEwMywtMTc3ODkwMTQ5LC05ODA1MDAzMjks
-LTIxMDE1MTk2OTBdfQ==
+eyJoaXN0b3J5IjpbMTIxOTk4MzY0OCwxMzg2OTI2MzA4LC0xMD
+k1MzAxNzMzLDIwOTUzMTc4MjQsLTE0ODEyMzU3NiwtNzA3ODcz
+OTk1LC0yMTE1MjAwNzQyLC0xMjI1ODI4NzI3LDExNzE2MTc5Mj
+ksLTMzNjE2MzI5MCw1MDUwOTU3MjIsODg5MzQyNzU3LC0xNzMz
+NzI0NTAzLC0xMjIwMDg2NDA1LDM4NDEzMDA4MiwtMjA3ODcyNT
+MxMiwxMTMwMzI4MTAzLC0xNzc4OTAxNDksLTk4MDUwMDMyOSwt
+MjEwMTUxOTY5MF19
 -->
