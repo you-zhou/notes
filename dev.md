@@ -655,13 +655,14 @@ The method has the same signature as `.get` and initially behaves like it, retur
 # count the number of people with same name
 names = ['Ringo', 'Paul', 'John', 'Ringo']
 count = {}
-# wit
+# without using the .setdefault method
 for name in names:
 	if name not in count:
 		count[name] = 1
 	else:
 		count[name] += 1
-
+		
+# using .setdefault method saved a bit of code
 for name in names:
 	count.setdefault(name, 0)
 	count[name] += 1
@@ -1359,11 +1360,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwODM3ODc3MywxMTY2MDQ5NTgzLC0xNT
-k5OTMyNTIzLDQ4OTE2MTQ1NiwxMzg2OTI2MzA4LC0xMDk1MzAx
-NzMzLDIwOTUzMTc4MjQsLTE0ODEyMzU3NiwtNzA3ODczOTk1LC
-0yMTE1MjAwNzQyLC0xMjI1ODI4NzI3LDExNzE2MTc5MjksLTMz
-NjE2MzI5MCw1MDUwOTU3MjIsODg5MzQyNzU3LC0xNzMzNzI0NT
-AzLC0xMjIwMDg2NDA1LDM4NDEzMDA4MiwtMjA3ODcyNTMxMiwx
-MTMwMzI4MTAzXX0=
+eyJoaXN0b3J5IjpbMzgxNTE2OTg2LDExNjYwNDk1ODMsLTE1OT
+k5MzI1MjMsNDg5MTYxNDU2LDEzODY5MjYzMDgsLTEwOTUzMDE3
+MzMsMjA5NTMxNzgyNCwtMTQ4MTIzNTc2LC03MDc4NzM5OTUsLT
+IxMTUyMDA3NDIsLTEyMjU4Mjg3MjcsMTE3MTYxNzkyOSwtMzM2
+MTYzMjkwLDUwNTA5NTcyMiw4ODkzNDI3NTcsLTE3MzM3MjQ1MD
+MsLTEyMjAwODY0MDUsMzg0MTMwMDgyLC0yMDc4NzI1MzEyLDEx
+MzAzMjgxMDNdfQ==
 -->
