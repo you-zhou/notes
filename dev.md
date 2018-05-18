@@ -562,6 +562,7 @@ With  `str.format()`, the replacement fields are marked by curly braces:
 	```
 #### Multi-lines
 1. triple-quotes
+	It may contains unwanted `\n` and `\t`
 	```python
 	s = """This string has
 		many
@@ -570,7 +571,7 @@ With  `str.format()`, the replacement fields are marked by curly braces:
 	# 'This string has\n\t\tmany\n\t\tmany\n\t\tlines.'
 	```
 
-2. space + backslash
+3. space + backslash
 	```python
 	s = "This string has " \
 		"many " \
@@ -579,7 +580,7 @@ With  `str.format()`, the replacement fields are marked by curly braces:
 	# 'This string has many many lines.'
 	```
 
-3. braces
+4. braces
 	```python
 	s = (
 		"This string has "
@@ -1512,11 +1513,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTc2MzY2NSwxODY3ODc5NzksOTY4MD
-M0ODE1LDM3NzI4ODk5OCwzNTM0MDQxMzAsLTIwNTQyNDc3Mzks
-NjI3NzY2ODMyLDE0ODc5NjMyNDIsODEzODI3MTg4LDE1MDkzNj
-U1MCwtNjcxMjU3Nzk0LC05MzY1NzQxMCwtMTk2ODUyODQ5OCwt
-MTE4NjcwMjkzNCwxODgyNTA4NTUzLC0xMTkxNjUxNDI0LC0yMT
-M0ODY3OTYzLDE5NzIyODM0NTQsMTIxODUwODc5MiwtMTE1NDEx
-MjA2M119
+eyJoaXN0b3J5IjpbNTg4MjEzNDk1LC0xNTE3NjM2NjUsMTg2Nz
+g3OTc5LDk2ODAzNDgxNSwzNzcyODg5OTgsMzUzNDA0MTMwLC0y
+MDU0MjQ3NzM5LDYyNzc2NjgzMiwxNDg3OTYzMjQyLDgxMzgyNz
+E4OCwxNTA5MzY1NTAsLTY3MTI1Nzc5NCwtOTM2NTc0MTAsLTE5
+Njg1Mjg0OTgsLTExODY3MDI5MzQsMTg4MjUwODU1MywtMTE5MT
+Y1MTQyNCwtMjEzNDg2Nzk2MywxOTcyMjgzNDU0LDEyMTg1MDg3
+OTJdfQ==
 -->
