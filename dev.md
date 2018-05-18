@@ -562,8 +562,14 @@ With  `str.format()`, the replacement fields are marked by curly braces:
 	```
 #### Multi-lines
 1. triple-quotes
-2. space + backslash
-
+	```python
+	s = """This string has
+		many
+		many
+		lines.
+	```
+3. space + backslash
+	
 ### tuple
 Tuples are ordered sequences that are IMMUTABLE. 
 ==Tuples can be used as keys in dictionaries. But not lists.==
@@ -1487,7 +1493,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzMjkzOTM4LDE4Njc4Nzk3OSw5NjgwMz
+eyJoaXN0b3J5IjpbMjg4NzYxNTAzLDE4Njc4Nzk3OSw5NjgwMz
 Q4MTUsMzc3Mjg4OTk4LDM1MzQwNDEzMCwtMjA1NDI0NzczOSw2
 Mjc3NjY4MzIsMTQ4Nzk2MzI0Miw4MTM4MjcxODgsMTUwOTM2NT
 UwLC02NzEyNTc3OTQsLTkzNjU3NDEwLC0xOTY4NTI4NDk4LC0x
