@@ -849,7 +849,7 @@ chair.__class__
 
 It is important that an instance know what its class is because ==the class stores the methods and class attributes==.
 
-#### self
+#### the `self` parameter inside methods
 `self` parameter represents the current instance of the class.
 ```python
 class Chair:
@@ -1584,11 +1584,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjAzNDgwNTUsLTE5OTgwODA0MjgsLT
-YwOTgyMTE1MywtOTYwODg4NjczLC0xOTE5NTEyNzA5LDM0NzU4
-OTQ1MiwtMTgxMTE3OTk1NywxODMxMzAxNDgwLC01MjY0MTMxMj
-IsMTcwNTg3OTQ5NSwxNjE4NjQ4Niw1ODgyMTM0OTUsLTE1MTc2
-MzY2NSwxODY3ODc5NzksOTY4MDM0ODE1LDM3NzI4ODk5OCwzNT
-M0MDQxMzAsLTIwNTQyNDc3MzksNjI3NzY2ODMyLDE0ODc5NjMy
-NDJdfQ==
+eyJoaXN0b3J5IjpbLTIzMjc1NjQ5OSwtMTk5ODA4MDQyOCwtNj
+A5ODIxMTUzLC05NjA4ODg2NzMsLTE5MTk1MTI3MDksMzQ3NTg5
+NDUyLC0xODExMTc5OTU3LDE4MzEzMDE0ODAsLTUyNjQxMzEyMi
+wxNzA1ODc5NDk1LDE2MTg2NDg2LDU4ODIxMzQ5NSwtMTUxNzYz
+NjY1LDE4Njc4Nzk3OSw5NjgwMzQ4MTUsMzc3Mjg4OTk4LDM1Mz
+QwNDEzMCwtMjA1NDI0NzczOSw2Mjc3NjY4MzIsMTQ4Nzk2MzI0
+Ml19
 -->
