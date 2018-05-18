@@ -537,6 +537,7 @@ With  `str.format()`, the replacement fields are marked by curly braces:
 	```
 	
 * f-string from Python 3.6 [PEP 498](https://www.python.org/dev/peps/pep-0498/)
+	Because f-strings are evaluated at runtime, you can put any and all valid Python expressions in them.
 	```python
 	name = 'matt'
 	f"My name is {name.capitalize()}"
@@ -1469,11 +1470,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc3Mjg4OTk4LDM1MzQwNDEzMCwtMjA1ND
-I0NzczOSw2Mjc3NjY4MzIsMTQ4Nzk2MzI0Miw4MTM4MjcxODgs
-MTUwOTM2NTUwLC02NzEyNTc3OTQsLTkzNjU3NDEwLC0xOTY4NT
-I4NDk4LC0xMTg2NzAyOTM0LDE4ODI1MDg1NTMsLTExOTE2NTE0
-MjQsLTIxMzQ4Njc5NjMsMTk3MjI4MzQ1NCwxMjE4NTA4NzkyLC
-0xMTU0MTEyMDYzLDgwODg2NzU3NSwtMTM0NDkyMzU1NiwxMTY2
-MDQ5NTgzXX0=
+eyJoaXN0b3J5IjpbLTYzMTQwMjkzNywzNzcyODg5OTgsMzUzND
+A0MTMwLC0yMDU0MjQ3NzM5LDYyNzc2NjgzMiwxNDg3OTYzMjQy
+LDgxMzgyNzE4OCwxNTA5MzY1NTAsLTY3MTI1Nzc5NCwtOTM2NT
+c0MTAsLTE5Njg1Mjg0OTgsLTExODY3MDI5MzQsMTg4MjUwODU1
+MywtMTE5MTY1MTQyNCwtMjEzNDg2Nzk2MywxOTcyMjgzNDU0LD
+EyMTg1MDg3OTIsLTExNTQxMTIwNjMsODA4ODY3NTc1LC0xMzQ0
+OTIzNTU2XX0=
 -->
