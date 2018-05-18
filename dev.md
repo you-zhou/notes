@@ -877,7 +877,17 @@ Python will call the `.load` method by inserting `chair` as the 	`self` paramete
 Some languages have the notion of private attributes or methods. These are methods that are meant to be implementation details and end users can’t call them. But, Python does not make an effort to prevent users from doing much of anything. Rather, it takes the attitude that you are an adult and you should take responsibility for your actions. If you want to access something, you can do it. But you should be willing to accept the consequences.
 ```python
 Class Chair:
-	def _check(self, number):
+
+''' A Chair on a chairlift '''
+... max_occupants = 4
+...
+... def __init__(self, id):
+... self.id = id
+... self.count = 0
+...
+... def load(self, number):
+... new_val = self._check(self.count + number)
+	def _check(self, number): # considered private
 		if number < 0 or number > self.max_occupants:
 			raise ValueError('Invalid count:{}'.format(number))
 		return number
@@ -1568,11 +1578,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg1OTU5MDE1LC02MDk4MjExNTMsLTk2MD
-g4ODY3MywtMTkxOTUxMjcwOSwzNDc1ODk0NTIsLTE4MTExNzk5
-NTcsMTgzMTMwMTQ4MCwtNTI2NDEzMTIyLDE3MDU4Nzk0OTUsMT
-YxODY0ODYsNTg4MjEzNDk1LC0xNTE3NjM2NjUsMTg2Nzg3OTc5
-LDk2ODAzNDgxNSwzNzcyODg5OTgsMzUzNDA0MTMwLC0yMDU0Mj
-Q3NzM5LDYyNzc2NjgzMiwxNDg3OTYzMjQyLDgxMzgyNzE4OF19
-
+eyJoaXN0b3J5IjpbLTE5OTI2NzY3NDQsLTYwOTgyMTE1MywtOT
+YwODg4NjczLC0xOTE5NTEyNzA5LDM0NzU4OTQ1MiwtMTgxMTE3
+OTk1NywxODMxMzAxNDgwLC01MjY0MTMxMjIsMTcwNTg3OTQ5NS
+wxNjE4NjQ4Niw1ODgyMTM0OTUsLTE1MTc2MzY2NSwxODY3ODc5
+NzksOTY4MDM0ODE1LDM3NzI4ODk5OCwzNTM0MDQxMzAsLTIwNT
+QyNDc3MzksNjI3NzY2ODMyLDE0ODc5NjMyNDIsODEzODI3MTg4
+XX0=
 -->
