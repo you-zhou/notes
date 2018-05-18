@@ -897,9 +897,7 @@ Class Chair:
 			raise ValueError('Invalid count:{}'.format(number))
 		return number
 ```
-The ._check method is considered private, only the instance should access it inside the class. In the class, the .load and .unload methods call the private method. If wanted,you could call it from outside the class. But you shouldn’t, as anything with an underscore
-should be considered an implementation detail that might not exist in future versions of the
-class.
+The ._check method is considered private, only the instance should access it inside the class. In the class, the .load and .unload methods call the private method. If wanted, you could call it from outside the class. But you shouldn’t, as anything with an underscore should be ==considered an implementation detail== that might not exist in future versions of the class.
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
@@ -1585,7 +1583,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODE1MTMxMDAsLTYwOTgyMTE1MywtOT
+eyJoaXN0b3J5IjpbLTE5OTgwODA0MjgsLTYwOTgyMTE1MywtOT
 YwODg4NjczLC0xOTE5NTEyNzA5LDM0NzU4OTQ1MiwtMTgxMTE3
 OTk1NywxODMxMzAxNDgwLC01MjY0MTMxMjIsMTcwNTg3OTQ5NS
 wxNjE4NjQ4Niw1ODgyMTM0OTUsLTE1MTc2MzY2NSwxODY3ODc5
