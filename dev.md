@@ -495,7 +495,7 @@ TODO
 [great examples for string format](https://pyformat.info/)
 
 There are three ways to format  a string.
-* % operator - similar to C's printf (not recommended by the docs)
+* % operator - similar to C's printf (not recommended by the docs due to poor support to display tuples and dictionaries correctly)
 	```python
 	"Num: %d Hex: %x" % (12, 13)
 	# 'Num: 12 Hex: d'
@@ -1453,11 +1453,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzOTU0OTgsMTUwOTM2NTUwLC02NzEyNT
-c3OTQsLTkzNjU3NDEwLC0xOTY4NTI4NDk4LC0xMTg2NzAyOTM0
-LDE4ODI1MDg1NTMsLTExOTE2NTE0MjQsLTIxMzQ4Njc5NjMsMT
-k3MjI4MzQ1NCwxMjE4NTA4NzkyLC0xMTU0MTEyMDYzLDgwODg2
-NzU3NSwtMTM0NDkyMzU1NiwxMTY2MDQ5NTgzLC0xNTk5OTMyNT
-IzLDQ4OTE2MTQ1NiwxMzg2OTI2MzA4LC0xMDk1MzAxNzMzLDIw
-OTUzMTc4MjRdfQ==
+eyJoaXN0b3J5IjpbLTcyNDA2NDg4NCwxNTA5MzY1NTAsLTY3MT
+I1Nzc5NCwtOTM2NTc0MTAsLTE5Njg1Mjg0OTgsLTExODY3MDI5
+MzQsMTg4MjUwODU1MywtMTE5MTY1MTQyNCwtMjEzNDg2Nzk2My
+wxOTcyMjgzNDU0LDEyMTg1MDg3OTIsLTExNTQxMTIwNjMsODA4
+ODY3NTc1LC0xMzQ0OTIzNTU2LDExNjYwNDk1ODMsLTE1OTk5Mz
+I1MjMsNDg5MTYxNDU2LDEzODY5MjYzMDgsLTEwOTUzMDE3MzMs
+MjA5NTMxNzgyNF19
 -->
