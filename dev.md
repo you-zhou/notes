@@ -844,8 +844,12 @@ Attribute lookup occurs first on the instance, then the class, then the parent c
 `self` parameter represents the current instance of the class.
 ```python
 class Chair:
-	def __init__(self,
-
+	def __init__(self, id)
+		id = id
+		count = 0
+		
+	def load(self, number):
+		self.count += number
 ```
 
 ## Reading & Writing Files
@@ -1532,7 +1536,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTM4OTc2OCwxODMxMzAxNDgwLC01Mj
+eyJoaXN0b3J5IjpbMTgwNzI1NDE2NiwxODMxMzAxNDgwLC01Mj
 Y0MTMxMjIsMTcwNTg3OTQ5NSwxNjE4NjQ4Niw1ODgyMTM0OTUs
 LTE1MTc2MzY2NSwxODY3ODc5NzksOTY4MDM0ODE1LDM3NzI4OD
 k5OCwzNTM0MDQxMzAsLTIwNTQyNDc3MzksNjI3NzY2ODMyLDE0
