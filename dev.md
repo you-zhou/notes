@@ -536,7 +536,7 @@ With  `str.format()`, the replacement fields are marked by curly braces:
 	# 'Percent: - 44.0%'
 	```
 	
-* f-string from Python 3.6
+* f-string from Python 3.6 [PEP 498](https://www.python.org/dev/peps/pep-0498/)
 	```python
 	name = 'matt'
 	f"My name is {name.capitalize()}"
@@ -1469,11 +1469,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzNDA0MTMwLC0yMDU0MjQ3NzM5LDYyNz
-c2NjgzMiwxNDg3OTYzMjQyLDgxMzgyNzE4OCwxNTA5MzY1NTAs
-LTY3MTI1Nzc5NCwtOTM2NTc0MTAsLTE5Njg1Mjg0OTgsLTExOD
-Y3MDI5MzQsMTg4MjUwODU1MywtMTE5MTY1MTQyNCwtMjEzNDg2
-Nzk2MywxOTcyMjgzNDU0LDEyMTg1MDg3OTIsLTExNTQxMTIwNj
-MsODA4ODY3NTc1LC0xMzQ0OTIzNTU2LDExNjYwNDk1ODMsLTE1
-OTk5MzI1MjNdfQ==
+eyJoaXN0b3J5IjpbNjgxMTUwNzkzLDM1MzQwNDEzMCwtMjA1ND
+I0NzczOSw2Mjc3NjY4MzIsMTQ4Nzk2MzI0Miw4MTM4MjcxODgs
+MTUwOTM2NTUwLC02NzEyNTc3OTQsLTkzNjU3NDEwLC0xOTY4NT
+I4NDk4LC0xMTg2NzAyOTM0LDE4ODI1MDg1NTMsLTExOTE2NTE0
+MjQsLTIxMzQ4Njc5NjMsMTk3MjI4MzQ1NCwxMjE4NTA4NzkyLC
+0xMTU0MTEyMDYzLDgwODg2NzU3NSwtMTM0NDkyMzU1NiwxMTY2
+MDQ5NTgzXX0=
 -->
