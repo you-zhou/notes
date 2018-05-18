@@ -505,6 +505,9 @@ There are three ways to format  a string.
 	```
 	
 * str.format() from Python 2.6
+It uses normal function call syntax and is  [extensible through the  `__format__()`  method](https://www.python.org/dev/peps/pep-3101/#controlling-formatting-on-a-per-type-basis)  on the object being converted to a string.
+
+With  `str.format()`, the replacement fields are marked by curly braces:
 	```python
 	name = 'Matt'
 	print('Hello {}'.format(name))
@@ -1453,11 +1456,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4Nzk2MzI0Miw4MTM4MjcxODgsMTUwOT
-M2NTUwLC02NzEyNTc3OTQsLTkzNjU3NDEwLC0xOTY4NTI4NDk4
-LC0xMTg2NzAyOTM0LDE4ODI1MDg1NTMsLTExOTE2NTE0MjQsLT
-IxMzQ4Njc5NjMsMTk3MjI4MzQ1NCwxMjE4NTA4NzkyLC0xMTU0
-MTEyMDYzLDgwODg2NzU3NSwtMTM0NDkyMzU1NiwxMTY2MDQ5NT
-gzLC0xNTk5OTMyNTIzLDQ4OTE2MTQ1NiwxMzg2OTI2MzA4LC0x
-MDk1MzAxNzMzXX0=
+eyJoaXN0b3J5IjpbLTExNjgyMjcwNjUsMTQ4Nzk2MzI0Miw4MT
+M4MjcxODgsMTUwOTM2NTUwLC02NzEyNTc3OTQsLTkzNjU3NDEw
+LC0xOTY4NTI4NDk4LC0xMTg2NzAyOTM0LDE4ODI1MDg1NTMsLT
+ExOTE2NTE0MjQsLTIxMzQ4Njc5NjMsMTk3MjI4MzQ1NCwxMjE4
+NTA4NzkyLC0xMTU0MTEyMDYzLDgwODg2NzU3NSwtMTM0NDkyMz
+U1NiwxMTY2MDQ5NTgzLC0xNTk5OTMyNTIzLDQ4OTE2MTQ1Niwx
+Mzg2OTI2MzA4XX0=
 -->
