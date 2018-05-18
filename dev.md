@@ -857,6 +857,8 @@ class Chair:
 		self.count -= number
 ```
 
+`chiar.load(3)`will be converted to `Chair.load(chair, 3)`
+
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 Note: 
@@ -1541,7 +1543,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NzE5ODUzMywxODMxMzAxNDgwLC01Mj
+eyJoaXN0b3J5IjpbLTcwMDcxOTUyNiwxODMxMzAxNDgwLC01Mj
 Y0MTMxMjIsMTcwNTg3OTQ5NSwxNjE4NjQ4Niw1ODgyMTM0OTUs
 LTE1MTc2MzY2NSwxODY3ODc5NzksOTY4MDM0ODE1LDM3NzI4OD
 k5OCwzNTM0MDQxMzAsLTIwNTQyNDc3MzksNjI3NzY2ODMyLDE0
