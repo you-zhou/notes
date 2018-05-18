@@ -489,8 +489,6 @@ If we `import` the module, then `__name__` is the module's filename, without a d
 If we run the module not by `importing` it but running it directly as a standalone program,  `__name__` will be a special default value: `__main__.
 
 
-### self
-TODO
 
 
 
@@ -840,6 +838,10 @@ to_list('hello') # ['hello']
 
 Python has a hierarchy for looking up attributes. 
 Attribute lookup occurs first on the instance, then the class, then the parent classes, and will raise a `AttributeError` if the attribute was not found.
+
+
+#### self
+
 
 
 ## Reading & Writing Files
@@ -1526,11 +1528,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMTMwMTQ4MCwtNTI2NDEzMTIyLDE3MD
-U4Nzk0OTUsMTYxODY0ODYsNTg4MjEzNDk1LC0xNTE3NjM2NjUs
-MTg2Nzg3OTc5LDk2ODAzNDgxNSwzNzcyODg5OTgsMzUzNDA0MT
-MwLC0yMDU0MjQ3NzM5LDYyNzc2NjgzMiwxNDg3OTYzMjQyLDgx
-MzgyNzE4OCwxNTA5MzY1NTAsLTY3MTI1Nzc5NCwtOTM2NTc0MT
-AsLTE5Njg1Mjg0OTgsLTExODY3MDI5MzQsMTg4MjUwODU1M119
+eyJoaXN0b3J5IjpbNTQ3MjU5OTEzLDE4MzEzMDE0ODAsLTUyNj
+QxMzEyMiwxNzA1ODc5NDk1LDE2MTg2NDg2LDU4ODIxMzQ5NSwt
+MTUxNzYzNjY1LDE4Njc4Nzk3OSw5NjgwMzQ4MTUsMzc3Mjg4OT
+k4LDM1MzQwNDEzMCwtMjA1NDI0NzczOSw2Mjc3NjY4MzIsMTQ4
+Nzk2MzI0Miw4MTM4MjcxODgsMTUwOTM2NTUwLC02NzEyNTc3OT
+QsLTkzNjU3NDEwLC0xOTY4NTI4NDk4LC0xMTg2NzAyOTM0XX0=
 
 -->
