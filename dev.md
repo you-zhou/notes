@@ -835,7 +835,8 @@ to_list('hello') # ['hello']
 	Attributes that are constant i.e. shared among all instances of a class, are put inside the class definition.
 
 2. instance attributes
-	Attributes that are unique to each instance, are put in the constructor. e.g. `__init__(self, id)`.
+	Attributes that are unique to each instance, are put in the constructor method `__init__`.
+	e.g. `__init__(self, id)`.
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
@@ -1522,11 +1523,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk0Mzc5MzkxLDE3MDU4Nzk0OTUsMTYxOD
-Y0ODYsNTg4MjEzNDk1LC0xNTE3NjM2NjUsMTg2Nzg3OTc5LDk2
-ODAzNDgxNSwzNzcyODg5OTgsMzUzNDA0MTMwLC0yMDU0MjQ3Nz
-M5LDYyNzc2NjgzMiwxNDg3OTYzMjQyLDgxMzgyNzE4OCwxNTA5
-MzY1NTAsLTY3MTI1Nzc5NCwtOTM2NTc0MTAsLTE5Njg1Mjg0OT
-gsLTExODY3MDI5MzQsMTg4MjUwODU1MywtMTE5MTY1MTQyNF19
-
+eyJoaXN0b3J5IjpbLTUyNjQxMzEyMiwxNzA1ODc5NDk1LDE2MT
+g2NDg2LDU4ODIxMzQ5NSwtMTUxNzYzNjY1LDE4Njc4Nzk3OSw5
+NjgwMzQ4MTUsMzc3Mjg4OTk4LDM1MzQwNDEzMCwtMjA1NDI0Nz
+czOSw2Mjc3NjY4MzIsMTQ4Nzk2MzI0Miw4MTM4MjcxODgsMTUw
+OTM2NTUwLC02NzEyNTc3OTQsLTkzNjU3NDEwLC0xOTY4NTI4ND
+k4LC0xMTg2NzAyOTM0LDE4ODI1MDg1NTMsLTExOTE2NTE0MjRd
+fQ==
 -->
