@@ -847,7 +847,7 @@ chair.__class__
 # <class '__main__.Chair'>
 ```
 
-It is important that an instance know what its class is because the class stores the methods and class attributes.
+It is important that an instance know what its class is because ==the class stores the methods and class attributes==.
 
 #### self
 `self` parameter represents the current instance of the class.
@@ -1557,11 +1557,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDg4ODY3MywtMTkxOTUxMjcwOSwzND
-c1ODk0NTIsLTE4MTExNzk5NTcsMTgzMTMwMTQ4MCwtNTI2NDEz
-MTIyLDE3MDU4Nzk0OTUsMTYxODY0ODYsNTg4MjEzNDk1LC0xNT
-E3NjM2NjUsMTg2Nzg3OTc5LDk2ODAzNDgxNSwzNzcyODg5OTgs
-MzUzNDA0MTMwLC0yMDU0MjQ3NzM5LDYyNzc2NjgzMiwxNDg3OT
-YzMjQyLDgxMzgyNzE4OCwxNTA5MzY1NTAsLTY3MTI1Nzc5NF19
+eyJoaXN0b3J5IjpbLTYwOTgyMTE1MywtOTYwODg4NjczLC0xOT
+E5NTEyNzA5LDM0NzU4OTQ1MiwtMTgxMTE3OTk1NywxODMxMzAx
+NDgwLC01MjY0MTMxMjIsMTcwNTg3OTQ5NSwxNjE4NjQ4Niw1OD
+gyMTM0OTUsLTE1MTc2MzY2NSwxODY3ODc5NzksOTY4MDM0ODE1
+LDM3NzI4ODk5OCwzNTM0MDQxMzAsLTIwNTQyNDc3MzksNjI3Nz
+Y2ODMyLDE0ODc5NjMyNDIsODEzODI3MTg4LDE1MDkzNjU1MF19
 
 -->
