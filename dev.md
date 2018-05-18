@@ -402,12 +402,13 @@ The  `__str__()`  and  `__repr__()`  methods deal with how objects are presented
 * Calling  `str()`  and  `repr()`  is preferable to using  `__str__()`  and  `__repr__()`  directly.
 
 By default, f-strings will use  `__str__()`, but you can make sure they use  `__repr__()`if you include the conversion flag  `!r`:
-```p
->>> f"{new_comedian}"
-'Eric Idle is 74.'
->>> f"{new_comedian!r}"
-'Eric Idle is 74. Surprise!'
+```python
+f"{new_comedian}"
+# 'Eric Idle is 74.'
 
+f"{new_comedian!r}"
+# 'Eric Idle is 74. Surprise!'
+```
 
 ### pdb
 Python also includes a debugger to step through code. It is found in a module named pdb. This library is modelled after the gdb library for C. To drop into the debugger at any point in a Python program, insert the code:
@@ -1483,11 +1484,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDM2NjQ5ODMsOTY4MDM0ODE1LDM3Nz
-I4ODk5OCwzNTM0MDQxMzAsLTIwNTQyNDc3MzksNjI3NzY2ODMy
-LDE0ODc5NjMyNDIsODEzODI3MTg4LDE1MDkzNjU1MCwtNjcxMj
-U3Nzk0LC05MzY1NzQxMCwtMTk2ODUyODQ5OCwtMTE4NjcwMjkz
-NCwxODgyNTA4NTUzLC0xMTkxNjUxNDI0LC0yMTM0ODY3OTYzLD
-E5NzIyODM0NTQsMTIxODUwODc5MiwtMTE1NDExMjA2Myw4MDg4
-Njc1NzVdfQ==
+eyJoaXN0b3J5IjpbLTI2OTc0NTAyNyw5NjgwMzQ4MTUsMzc3Mj
+g4OTk4LDM1MzQwNDEzMCwtMjA1NDI0NzczOSw2Mjc3NjY4MzIs
+MTQ4Nzk2MzI0Miw4MTM4MjcxODgsMTUwOTM2NTUwLC02NzEyNT
+c3OTQsLTkzNjU3NDEwLC0xOTY4NTI4NDk4LC0xMTg2NzAyOTM0
+LDE4ODI1MDg1NTMsLTExOTE2NTE0MjQsLTIxMzQ4Njc5NjMsMT
+k3MjI4MzQ1NCwxMjE4NTA4NzkyLC0xMTU0MTEyMDYzLDgwODg2
+NzU3NV19
 -->
