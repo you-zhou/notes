@@ -828,7 +828,7 @@ to_list('hello') # ['hello']
 
 ### class
 #### dir
-You can always use the built-in `dir` function to list attributes of an 
+You can always use the built-in `dir` function to list attributes of an object.
 
 #### attribute types
 1. class attributes
@@ -1550,11 +1550,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODc3MDg2MSwtMTgxMTE3OTk1NywxOD
-MxMzAxNDgwLC01MjY0MTMxMjIsMTcwNTg3OTQ5NSwxNjE4NjQ4
-Niw1ODgyMTM0OTUsLTE1MTc2MzY2NSwxODY3ODc5NzksOTY4MD
-M0ODE1LDM3NzI4ODk5OCwzNTM0MDQxMzAsLTIwNTQyNDc3Mzks
-NjI3NzY2ODMyLDE0ODc5NjMyNDIsODEzODI3MTg4LDE1MDkzNj
-U1MCwtNjcxMjU3Nzk0LC05MzY1NzQxMCwtMTk2ODUyODQ5OF19
+eyJoaXN0b3J5IjpbMzQ3NTg5NDUyLC0xODExMTc5OTU3LDE4Mz
+EzMDE0ODAsLTUyNjQxMzEyMiwxNzA1ODc5NDk1LDE2MTg2NDg2
+LDU4ODIxMzQ5NSwtMTUxNzYzNjY1LDE4Njc4Nzk3OSw5NjgwMz
+Q4MTUsMzc3Mjg4OTk4LDM1MzQwNDEzMCwtMjA1NDI0NzczOSw2
+Mjc3NjY4MzIsMTQ4Nzk2MzI0Miw4MTM4MjcxODgsMTUwOTM2NT
+UwLC02NzEyNTc3OTQsLTkzNjU3NDEwLC0xOTY4NTI4NDk4XX0=
 
 -->
