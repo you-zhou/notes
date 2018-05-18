@@ -832,10 +832,10 @@ You can always use the built-in `dir` function to list attributes of an object.
 
 #### attribute types
 1. class attributes
-	Attributes that are constant i.e. shared among all instances of a class, are put inside the class definition.
+	Attributes that are **constant**, which are shared among all instances of a class, are put inside the class definition.
 
 2. instance attributes
-	Attributes that are unique to each instance, are put in the constructor method `__init__`.
+	Attributes that are **unique** to each instance, are put in the constructor method `__init__`.
 	e.g. `__init__(self, id)`.
 
 Python has a hierarchy for looking up attributes. 
@@ -1584,11 +1584,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjc1NjQ5OSwtMTk5ODA4MDQyOCwtNj
-A5ODIxMTUzLC05NjA4ODg2NzMsLTE5MTk1MTI3MDksMzQ3NTg5
-NDUyLC0xODExMTc5OTU3LDE4MzEzMDE0ODAsLTUyNjQxMzEyMi
-wxNzA1ODc5NDk1LDE2MTg2NDg2LDU4ODIxMzQ5NSwtMTUxNzYz
-NjY1LDE4Njc4Nzk3OSw5NjgwMzQ4MTUsMzc3Mjg4OTk4LDM1Mz
-QwNDEzMCwtMjA1NDI0NzczOSw2Mjc3NjY4MzIsMTQ4Nzk2MzI0
-Ml19
+eyJoaXN0b3J5IjpbNTA4NDA3MzIsLTIzMjc1NjQ5OSwtMTk5OD
+A4MDQyOCwtNjA5ODIxMTUzLC05NjA4ODg2NzMsLTE5MTk1MTI3
+MDksMzQ3NTg5NDUyLC0xODExMTc5OTU3LDE4MzEzMDE0ODAsLT
+UyNjQxMzEyMiwxNzA1ODc5NDk1LDE2MTg2NDg2LDU4ODIxMzQ5
+NSwtMTUxNzYzNjY1LDE4Njc4Nzk3OSw5NjgwMzQ4MTUsMzc3Mj
+g4OTk4LDM1MzQwNDEzMCwtMjA1NDI0NzczOSw2Mjc3NjY4MzJd
+fQ==
 -->
