@@ -832,7 +832,7 @@ to_list('hello') # ['hello']
 
 #### attribute types
 1. class attributes
-	They are used to hold status that is shared among all instances of a class.
+	Attributes that are constant i.e. shared among all instances of a class are.
 	They are defined outside of init
 2. instance attributes
 
@@ -1522,11 +1522,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxODY0ODYsNTg4MjEzNDk1LC0xNTE3Nj
-M2NjUsMTg2Nzg3OTc5LDk2ODAzNDgxNSwzNzcyODg5OTgsMzUz
-NDA0MTMwLC0yMDU0MjQ3NzM5LDYyNzc2NjgzMiwxNDg3OTYzMj
-QyLDgxMzgyNzE4OCwxNTA5MzY1NTAsLTY3MTI1Nzc5NCwtOTM2
-NTc0MTAsLTE5Njg1Mjg0OTgsLTExODY3MDI5MzQsMTg4MjUwOD
-U1MywtMTE5MTY1MTQyNCwtMjEzNDg2Nzk2MywxOTcyMjgzNDU0
-XX0=
+eyJoaXN0b3J5IjpbMTc2NzE2ODIsMTYxODY0ODYsNTg4MjEzND
+k1LC0xNTE3NjM2NjUsMTg2Nzg3OTc5LDk2ODAzNDgxNSwzNzcy
+ODg5OTgsMzUzNDA0MTMwLC0yMDU0MjQ3NzM5LDYyNzc2NjgzMi
+wxNDg3OTYzMjQyLDgxMzgyNzE4OCwxNTA5MzY1NTAsLTY3MTI1
+Nzc5NCwtOTM2NTc0MTAsLTE5Njg1Mjg0OTgsLTExODY3MDI5Mz
+QsMTg4MjUwODU1MywtMTE5MTY1MTQyNCwtMjEzNDg2Nzk2M119
+
 -->
