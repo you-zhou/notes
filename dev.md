@@ -856,8 +856,13 @@ class Chair:
 	def unload(self, number):
 		self.count -= number
 ```
+Python handles passing around the `self` parameter automatically.
+e.g.
+When you call:
+`chiar.load(3)`
+What happens under the covers is similar to this:
+`Chair.load(chair, 3)`
 
-`chiar.load(3)`will be converted to `Chair.load(chair, 3)`
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
@@ -1543,11 +1548,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDcxOTUyNiwxODMxMzAxNDgwLC01Mj
-Y0MTMxMjIsMTcwNTg3OTQ5NSwxNjE4NjQ4Niw1ODgyMTM0OTUs
-LTE1MTc2MzY2NSwxODY3ODc5NzksOTY4MDM0ODE1LDM3NzI4OD
-k5OCwzNTM0MDQxMzAsLTIwNTQyNDc3MzksNjI3NzY2ODMyLDE0
-ODc5NjMyNDIsODEzODI3MTg4LDE1MDkzNjU1MCwtNjcxMjU3Nz
-k0LC05MzY1NzQxMCwtMTk2ODUyODQ5OCwtMTE4NjcwMjkzNF19
-
+eyJoaXN0b3J5IjpbLTE4MTExNzk5NTcsMTgzMTMwMTQ4MCwtNT
+I2NDEzMTIyLDE3MDU4Nzk0OTUsMTYxODY0ODYsNTg4MjEzNDk1
+LC0xNTE3NjM2NjUsMTg2Nzg3OTc5LDk2ODAzNDgxNSwzNzcyOD
+g5OTgsMzUzNDA0MTMwLC0yMDU0MjQ3NzM5LDYyNzc2NjgzMiwx
+NDg3OTYzMjQyLDgxMzgyNzE4OCwxNTA5MzY1NTAsLTY3MTI1Nz
+c5NCwtOTM2NTc0MTAsLTE5Njg1Mjg0OTgsLTExODY3MDI5MzRd
+fQ==
 -->
