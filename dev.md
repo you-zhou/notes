@@ -567,6 +567,7 @@ With  `str.format()`, the replacement fields are marked by curly braces:
 		many
 		many
 		lines."""
+	# 'This string has\n\t\tmany\n\t\tmany\n\t\tlines.'
 	```
 2. space + backslash
 	```python
@@ -574,6 +575,7 @@ With  `str.format()`, the replacement fields are marked by curly braces:
 		"many " \
 		"many " \
 		"lines."
+	# 'This string has many many lines.'
 	```
 ### tuple
 Tuples are ordered sequences that are IMMUTABLE. 
@@ -1498,11 +1500,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjI5ODQyMzQsMTg2Nzg3OTc5LDk2OD
-AzNDgxNSwzNzcyODg5OTgsMzUzNDA0MTMwLC0yMDU0MjQ3NzM5
-LDYyNzc2NjgzMiwxNDg3OTYzMjQyLDgxMzgyNzE4OCwxNTA5Mz
-Y1NTAsLTY3MTI1Nzc5NCwtOTM2NTc0MTAsLTE5Njg1Mjg0OTgs
-LTExODY3MDI5MzQsMTg4MjUwODU1MywtMTE5MTY1MTQyNCwtMj
-EzNDg2Nzk2MywxOTcyMjgzNDU0LDEyMTg1MDg3OTIsLTExNTQx
-MTIwNjNdfQ==
+eyJoaXN0b3J5IjpbOTAxMTg4NzEyLDE4Njc4Nzk3OSw5NjgwMz
+Q4MTUsMzc3Mjg4OTk4LDM1MzQwNDEzMCwtMjA1NDI0NzczOSw2
+Mjc3NjY4MzIsMTQ4Nzk2MzI0Miw4MTM4MjcxODgsMTUwOTM2NT
+UwLC02NzEyNTc3OTQsLTkzNjU3NDEwLC0xOTY4NTI4NDk4LC0x
+MTg2NzAyOTM0LDE4ODI1MDg1NTMsLTExOTE2NTE0MjQsLTIxMz
+Q4Njc5NjMsMTk3MjI4MzQ1NCwxMjE4NTA4NzkyLC0xMTU0MTEy
+MDYzXX0=
 -->
