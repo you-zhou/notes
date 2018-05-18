@@ -838,6 +838,11 @@ to_list('hello') # ['hello']
 	Attributes that are unique to each instance, are put in the constructor method `__init__`.
 	e.g. `__init__(self, id)`.
 
+Python has a hierarchy for looking up attributes. First, Python will look for the attribute
+on the instance. If that fails, Python will try to find the attribute on the class. Because
+instances know about their class, Python will look there next. If that fails Python will raise
+an AttributeError, an apt error for a missing attribute.
+
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 Note: 
@@ -1523,11 +1528,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjQxMzEyMiwxNzA1ODc5NDk1LDE2MT
-g2NDg2LDU4ODIxMzQ5NSwtMTUxNzYzNjY1LDE4Njc4Nzk3OSw5
-NjgwMzQ4MTUsMzc3Mjg4OTk4LDM1MzQwNDEzMCwtMjA1NDI0Nz
-czOSw2Mjc3NjY4MzIsMTQ4Nzk2MzI0Miw4MTM4MjcxODgsMTUw
-OTM2NTUwLC02NzEyNTc3OTQsLTkzNjU3NDEwLC0xOTY4NTI4ND
-k4LC0xMTg2NzAyOTM0LDE4ODI1MDg1NTMsLTExOTE2NTE0MjRd
-fQ==
+eyJoaXN0b3J5IjpbMTA0MDY5OTk5NSwtNTI2NDEzMTIyLDE3MD
+U4Nzk0OTUsMTYxODY0ODYsNTg4MjEzNDk1LC0xNTE3NjM2NjUs
+MTg2Nzg3OTc5LDk2ODAzNDgxNSwzNzcyODg5OTgsMzUzNDA0MT
+MwLC0yMDU0MjQ3NzM5LDYyNzc2NjgzMiwxNDg3OTYzMjQyLDgx
+MzgyNzE4OCwxNTA5MzY1NTAsLTY3MTI1Nzc5NCwtOTM2NTc0MT
+AsLTE5Njg1Mjg0OTgsLTExODY3MDI5MzQsMTg4MjUwODU1M119
+
 -->
