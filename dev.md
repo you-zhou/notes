@@ -877,16 +877,20 @@ Python will call the `.load` method by inserting `chair` as the 	`self` paramete
 Some languages have the notion of private attributes or methods. These are methods that are meant to be implementation details and end users can’t call them. But, Python does not make an effort to prevent users from doing much of anything. Rather, it takes the attitude that you are an adult and you should take responsibility for your actions. If you want to access something, you can do it. But you should be willing to accept the consequences.
 ```python
 Class Chair:
+	''' A Chair on a chairlift '''
+	max_occupants = 4
 
-''' A Chair on a chairlift '''
-... max_occupants = 4
-...
-... def __init__(self, id):
-... self.id = id
-... self.count = 0
+	def __init__(self, id):
+	self.id = id
+	self.count = 0
 ...
 ... def load(self, number):
 ... new_val = self._check(self.count + number)
+self.count = new_val
+...
+... def unload(self, number):
+... new_val = self._check(self.count - number)
+... self.count = new_val
 	def _check(self, number): # considered private
 		if number < 0 or number > self.max_occupants:
 			raise ValueError('Invalid count:{}'.format(number))
@@ -1578,11 +1582,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTI2NzY3NDQsLTYwOTgyMTE1MywtOT
-YwODg4NjczLC0xOTE5NTEyNzA5LDM0NzU4OTQ1MiwtMTgxMTE3
-OTk1NywxODMxMzAxNDgwLC01MjY0MTMxMjIsMTcwNTg3OTQ5NS
-wxNjE4NjQ4Niw1ODgyMTM0OTUsLTE1MTc2MzY2NSwxODY3ODc5
-NzksOTY4MDM0ODE1LDM3NzI4ODk5OCwzNTM0MDQxMzAsLTIwNT
-QyNDc3MzksNjI3NzY2ODMyLDE0ODc5NjMyNDIsODEzODI3MTg4
-XX0=
+eyJoaXN0b3J5IjpbMTU5MjU0MjczOCwtNjA5ODIxMTUzLC05Nj
+A4ODg2NzMsLTE5MTk1MTI3MDksMzQ3NTg5NDUyLC0xODExMTc5
+OTU3LDE4MzEzMDE0ODAsLTUyNjQxMzEyMiwxNzA1ODc5NDk1LD
+E2MTg2NDg2LDU4ODIxMzQ5NSwtMTUxNzYzNjY1LDE4Njc4Nzk3
+OSw5NjgwMzQ4MTUsMzc3Mjg4OTk4LDM1MzQwNDEzMCwtMjA1ND
+I0NzczOSw2Mjc3NjY4MzIsMTQ4Nzk2MzI0Miw4MTM4MjcxODhd
+fQ==
 -->
