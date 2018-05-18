@@ -838,14 +838,15 @@ to_list('hello') # ['hello']
 	Attributes that are unique to each instance, are put in the constructor method `__init__`.
 	e.g. `__init__(self, id)`.
 
-Python has a hierarchy for looking up attributes. First, Python will look for the attribute on the instance. If that fails, Python will try to find the attribute on the class. Because instances know about their class, Python will look there next. If that fails Python will raise an AttributeError, an apt error for a missing attribute.
+Python has a hierarchy for looking up attributes. 
+Attribute lookup occurs first on the instance, then the class, then the parent classes, and will raise a `AttributeError if the attribute was not found.
+First, Python will look for the attribute on the instance. If that fails, Python will try to find the attribute on the class. Because instances know about their class, Python will look there next. If that fails Python will raise an AttributeError, an apt error for a missing attribute.
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 Note: 
 Windows paths use \ as a separator, which can be problematic. Python strings also use \ as an escape character. If you had a directory named ”test” and wrote "C:\test", Python would treat \t as a tab character.
-The remedy for this is to use raw strings to represent Windows paths. Put an ==r== in
-front of the string: `r"C:\test"`
+The remedy for this is to use raw strings to represent Windows paths. Put an ==r== in front of the string: `r"C:\test"`
 
 ### open(filename, mode) binary v.s. text mode
 * text mode 
@@ -1525,11 +1526,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MTY3ODczNywtNTI2NDEzMTIyLDE3MD
-U4Nzk0OTUsMTYxODY0ODYsNTg4MjEzNDk1LC0xNTE3NjM2NjUs
-MTg2Nzg3OTc5LDk2ODAzNDgxNSwzNzcyODg5OTgsMzUzNDA0MT
-MwLC0yMDU0MjQ3NzM5LDYyNzc2NjgzMiwxNDg3OTYzMjQyLDgx
-MzgyNzE4OCwxNTA5MzY1NTAsLTY3MTI1Nzc5NCwtOTM2NTc0MT
-AsLTE5Njg1Mjg0OTgsLTExODY3MDI5MzQsMTg4MjUwODU1M119
-
+eyJoaXN0b3J5IjpbLTEwNjIyNDg3ODEsLTUyNjQxMzEyMiwxNz
+A1ODc5NDk1LDE2MTg2NDg2LDU4ODIxMzQ5NSwtMTUxNzYzNjY1
+LDE4Njc4Nzk3OSw5NjgwMzQ4MTUsMzc3Mjg4OTk4LDM1MzQwND
+EzMCwtMjA1NDI0NzczOSw2Mjc3NjY4MzIsMTQ4Nzk2MzI0Miw4
+MTM4MjcxODgsMTUwOTM2NTUwLC02NzEyNTc3OTQsLTkzNjU3ND
+EwLC0xOTY4NTI4NDk4LC0xMTg2NzAyOTM0LDE4ODI1MDg1NTNd
+fQ==
 -->
