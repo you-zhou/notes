@@ -394,7 +394,7 @@ when **operations** are performed on an object. For example, when you use the + 
 
 ==We only need to define dunder methods when we implement our own classes and want them to react to operations such as + or % ==
 
-
+#### `__str__()` & `__repr__()`
 
 
 
@@ -1473,11 +1473,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY4MDM0ODE1LDM3NzI4ODk5OCwzNTM0MD
-QxMzAsLTIwNTQyNDc3MzksNjI3NzY2ODMyLDE0ODc5NjMyNDIs
-ODEzODI3MTg4LDE1MDkzNjU1MCwtNjcxMjU3Nzk0LC05MzY1Nz
-QxMCwtMTk2ODUyODQ5OCwtMTE4NjcwMjkzNCwxODgyNTA4NTUz
-LC0xMTkxNjUxNDI0LC0yMTM0ODY3OTYzLDE5NzIyODM0NTQsMT
-IxODUwODc5MiwtMTE1NDExMjA2Myw4MDg4Njc1NzUsLTEzNDQ5
-MjM1NTZdfQ==
+eyJoaXN0b3J5IjpbLTg1NTAxMjUxNSw5NjgwMzQ4MTUsMzc3Mj
+g4OTk4LDM1MzQwNDEzMCwtMjA1NDI0NzczOSw2Mjc3NjY4MzIs
+MTQ4Nzk2MzI0Miw4MTM4MjcxODgsMTUwOTM2NTUwLC02NzEyNT
+c3OTQsLTkzNjU3NDEwLC0xOTY4NTI4NDk4LC0xMTg2NzAyOTM0
+LDE4ODI1MDg1NTMsLTExOTE2NTE0MjQsLTIxMzQ4Njc5NjMsMT
+k3MjI4MzQ1NCwxMjE4NTA4NzkyLC0xMTU0MTEyMDYzLDgwODg2
+NzU3NV19
 -->
