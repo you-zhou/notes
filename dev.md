@@ -842,6 +842,11 @@ Python has a hierarchy for looking up attributes.
 Attribute lookup occurs first on the instance, then the class, then the parent classes, and will raise a `AttributeError` if the attribute was not found.
 
 #### `__class__` attribute
+```python
+chair.__class__
+# <class '__main__.Chair'>
+```
+
 It is important that an instance know what its class is because the class stores the methods and class attributes.
 
 #### self
@@ -1552,11 +1557,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTk1MTI3MDksMzQ3NTg5NDUyLC0xOD
-ExMTc5OTU3LDE4MzEzMDE0ODAsLTUyNjQxMzEyMiwxNzA1ODc5
-NDk1LDE2MTg2NDg2LDU4ODIxMzQ5NSwtMTUxNzYzNjY1LDE4Nj
-c4Nzk3OSw5NjgwMzQ4MTUsMzc3Mjg4OTk4LDM1MzQwNDEzMCwt
-MjA1NDI0NzczOSw2Mjc3NjY4MzIsMTQ4Nzk2MzI0Miw4MTM4Mj
-cxODgsMTUwOTM2NTUwLC02NzEyNTc3OTQsLTkzNjU3NDEwXX0=
+eyJoaXN0b3J5IjpbLTk2MDg4ODY3MywtMTkxOTUxMjcwOSwzND
+c1ODk0NTIsLTE4MTExNzk5NTcsMTgzMTMwMTQ4MCwtNTI2NDEz
+MTIyLDE3MDU4Nzk0OTUsMTYxODY0ODYsNTg4MjEzNDk1LC0xNT
+E3NjM2NjUsMTg2Nzg3OTc5LDk2ODAzNDgxNSwzNzcyODg5OTgs
+MzUzNDA0MTMwLC0yMDU0MjQ3NzM5LDYyNzc2NjgzMiwxNDg3OT
+YzMjQyLDgxMzgyNzE4OCwxNTA5MzY1NTAsLTY3MTI1Nzc5NF19
 
 -->
