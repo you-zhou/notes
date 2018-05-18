@@ -828,6 +828,14 @@ to_list('hello') # ['hello']
 ```
 
 
+### class
+
+#### attribute types
+1. class attributes
+
+2. instance attributes
+
+
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 Note: 
@@ -1513,11 +1521,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg4MjEzNDk1LC0xNTE3NjM2NjUsMTg2Nz
-g3OTc5LDk2ODAzNDgxNSwzNzcyODg5OTgsMzUzNDA0MTMwLC0y
-MDU0MjQ3NzM5LDYyNzc2NjgzMiwxNDg3OTYzMjQyLDgxMzgyNz
-E4OCwxNTA5MzY1NTAsLTY3MTI1Nzc5NCwtOTM2NTc0MTAsLTE5
-Njg1Mjg0OTgsLTExODY3MDI5MzQsMTg4MjUwODU1MywtMTE5MT
-Y1MTQyNCwtMjEzNDg2Nzk2MywxOTcyMjgzNDU0LDEyMTg1MDg3
-OTJdfQ==
+eyJoaXN0b3J5IjpbLTY3MjMzNTQyMSw1ODgyMTM0OTUsLTE1MT
+c2MzY2NSwxODY3ODc5NzksOTY4MDM0ODE1LDM3NzI4ODk5OCwz
+NTM0MDQxMzAsLTIwNTQyNDc3MzksNjI3NzY2ODMyLDE0ODc5Nj
+MyNDIsODEzODI3MTg4LDE1MDkzNjU1MCwtNjcxMjU3Nzk0LC05
+MzY1NzQxMCwtMTk2ODUyODQ5OCwtMTE4NjcwMjkzNCwxODgyNT
+A4NTUzLC0xMTkxNjUxNDI0LC0yMTM0ODY3OTYzLDE5NzIyODM0
+NTRdfQ==
 -->
