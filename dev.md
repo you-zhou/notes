@@ -838,10 +838,7 @@ to_list('hello') # ['hello']
 	Attributes that are unique to each instance, are put in the constructor method `__init__`.
 	e.g. `__init__(self, id)`.
 
-Python has a hierarchy for looking up attributes. First, Python will look for the attribute
-on the instance. If that fails, Python will try to find the attribute on the class. Because
-instances know about their class, Python will look there next. If that fails Python will raise
-an AttributeError, an apt error for a missing attribute.
+Python has a hierarchy for looking up attributes. First, Python will look for the attribute on the instance. If that fails, Python will try to find the attribute on the class. Because instances know about their class, Python will look there next. If that fails Python will raise an AttributeError, an apt error for a missing attribute.
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
@@ -1528,7 +1525,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDY5OTk5NSwtNTI2NDEzMTIyLDE3MD
+eyJoaXN0b3J5IjpbMTU4MTY3ODczNywtNTI2NDEzMTIyLDE3MD
 U4Nzk0OTUsMTYxODY0ODYsNTg4MjEzNDk1LC0xNTE3NjM2NjUs
 MTg2Nzg3OTc5LDk2ODAzNDgxNSwzNzcyODg5OTgsMzUzNDA0MT
 MwLC0yMDU0MjQ3NzM5LDYyNzc2NjgzMiwxNDg3OTYzMjQyLDgx
