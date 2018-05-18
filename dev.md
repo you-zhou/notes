@@ -395,8 +395,18 @@ when **operations** are performed on an object. For example, when you use the + 
 ==We only need to define dunder methods when we implement our own classes and want them to react to operations such as + or % ==
 
 #### `__str__()` & `__repr__()`
+The  `__str__()`  and  `__repr__()`  methods deal with how objects are presented as strings, so you’ll need to make sure you include at least one of those methods in your class definition. If you have to pick one, go with  `__repr__()`  because it can be used in place of  `__str__()`.
 
+* The string returned by  `__str__()`  is the informal string representation of an object and should be readable. 
+* The string returned by  `__repr__()`  is the official representation and should be unambiguous. 
+* Calling  `str()`  and  `repr()`  is preferable to using  `__str__()`  and  `__repr__()`  directly.
 
+By default, f-strings will use  `__str__()`, but you can make sure they use  `__repr__()`if you include the conversion flag  `!r`:
+```p
+>>> f"{new_comedian}"
+'Eric Idle is 74.'
+>>> f"{new_comedian!r}"
+'Eric Idle is 74. Surprise!'
 
 
 ### pdb
@@ -1473,11 +1483,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NTAxMjUxNSw5NjgwMzQ4MTUsMzc3Mj
-g4OTk4LDM1MzQwNDEzMCwtMjA1NDI0NzczOSw2Mjc3NjY4MzIs
-MTQ4Nzk2MzI0Miw4MTM4MjcxODgsMTUwOTM2NTUwLC02NzEyNT
-c3OTQsLTkzNjU3NDEwLC0xOTY4NTI4NDk4LC0xMTg2NzAyOTM0
-LDE4ODI1MDg1NTMsLTExOTE2NTE0MjQsLTIxMzQ4Njc5NjMsMT
-k3MjI4MzQ1NCwxMjE4NTA4NzkyLC0xMTU0MTEyMDYzLDgwODg2
-NzU3NV19
+eyJoaXN0b3J5IjpbLTE3MDM2NjQ5ODMsOTY4MDM0ODE1LDM3Nz
+I4ODk5OCwzNTM0MDQxMzAsLTIwNTQyNDc3MzksNjI3NzY2ODMy
+LDE0ODc5NjMyNDIsODEzODI3MTg4LDE1MDkzNjU1MCwtNjcxMj
+U3Nzk0LC05MzY1NzQxMCwtMTk2ODUyODQ5OCwtMTE4NjcwMjkz
+NCwxODgyNTA4NTUzLC0xMTkxNjUxNDI0LC0yMTM0ODY3OTYzLD
+E5NzIyODM0NTQsMTIxODUwODc5MiwtMTE1NDExMjA2Myw4MDg4
+Njc1NzVdfQ==
 -->
