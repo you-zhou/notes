@@ -874,6 +874,8 @@ What happens under the covers is similar to this:
 Python will call the `.load` method by inserting `chair` as the 	`self` parameter and 3 as the `number` parameter.
 
 #### private & protected
+Some languages have the notion of private attributes or methods. These are methods that are meant to be implementation details and end users can’t call them. But, Python does not make an effort to prevent users from doing much of anything. Rather, it takes the attitude that you are an adult and you should take responsibility for your actions. If you want to access something, you can do it. But you should be willing to accept the consequences.
+
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
@@ -1559,7 +1561,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NzYwMjI0NiwtNjA5ODIxMTUzLC05Nj
+eyJoaXN0b3J5IjpbLTM1MzU4MzMwNSwtNjA5ODIxMTUzLC05Nj
 A4ODg2NzMsLTE5MTk1MTI3MDksMzQ3NTg5NDUyLC0xODExMTc5
 OTU3LDE4MzEzMDE0ODAsLTUyNjQxMzEyMiwxNzA1ODc5NDk1LD
 E2MTg2NDg2LDU4ODIxMzQ5NSwtMTUxNzYzNjY1LDE4Njc4Nzk3
