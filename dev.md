@@ -570,9 +570,9 @@ With  `str.format()`, the replacement fields are marked by curly braces:
 	```
 2. space + backslash
 	```python
-	s = "This string has" \
-		"many" \
-		"many" \
+	s = "This string has " \
+		"many " \
+		"many " \
 		"lines."
 	```
 ### tuple
@@ -1498,7 +1498,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzczOTc5ODYsMTg2Nzg3OTc5LDk2OD
+eyJoaXN0b3J5IjpbLTEwNjI5ODQyMzQsMTg2Nzg3OTc5LDk2OD
 AzNDgxNSwzNzcyODg5OTgsMzUzNDA0MTMwLC0yMDU0MjQ3NzM5
 LDYyNzc2NjgzMiwxNDg3OTYzMjQyLDgxMzgyNzE4OCwxNTA5Mz
 Y1NTAsLTY3MTI1Nzc5NCwtOTM2NTc0MTAsLTE5Njg1Mjg0OTgs
