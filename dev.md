@@ -832,10 +832,10 @@ to_list('hello') # ['hello']
 
 #### attribute types
 1. class attributes
-	Attributes that are constant i.e. shared among all instances of a class are.
-	They are defined outside of init
-2. instance attributes
+	Attributes that are constant i.e. shared among all instances of a class, are put inside the class definition.
 
+2. instance attributes
+	Attributes that are unique to each instance, are put in the constructor `__init__()`.
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
@@ -1522,11 +1522,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NzE2ODIsMTYxODY0ODYsNTg4MjEzND
-k1LC0xNTE3NjM2NjUsMTg2Nzg3OTc5LDk2ODAzNDgxNSwzNzcy
-ODg5OTgsMzUzNDA0MTMwLC0yMDU0MjQ3NzM5LDYyNzc2NjgzMi
-wxNDg3OTYzMjQyLDgxMzgyNzE4OCwxNTA5MzY1NTAsLTY3MTI1
-Nzc5NCwtOTM2NTc0MTAsLTE5Njg1Mjg0OTgsLTExODY3MDI5Mz
-QsMTg4MjUwODU1MywtMTE5MTY1MTQyNCwtMjEzNDg2Nzk2M119
-
+eyJoaXN0b3J5IjpbMTIxMjE0MjA1NCwxNjE4NjQ4Niw1ODgyMT
+M0OTUsLTE1MTc2MzY2NSwxODY3ODc5NzksOTY4MDM0ODE1LDM3
+NzI4ODk5OCwzNTM0MDQxMzAsLTIwNTQyNDc3MzksNjI3NzY2OD
+MyLDE0ODc5NjMyNDIsODEzODI3MTg4LDE1MDkzNjU1MCwtNjcx
+MjU3Nzk0LC05MzY1NzQxMCwtMTk2ODUyODQ5OCwtMTE4NjcwMj
+kzNCwxODgyNTA4NTUzLC0xMTkxNjUxNDI0LC0yMTM0ODY3OTYz
+XX0=
 -->
