@@ -502,7 +502,7 @@ TODO
 * 26 // 7 == 3 (you will get divisor only integer value) )
 
 
-### Strings
+### strings
 [great examples for string format](https://pyformat.info/)
 
 There are three ways to format  a string.
@@ -1484,11 +1484,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2OTc0NTAyNyw5NjgwMzQ4MTUsMzc3Mj
-g4OTk4LDM1MzQwNDEzMCwtMjA1NDI0NzczOSw2Mjc3NjY4MzIs
-MTQ4Nzk2MzI0Miw4MTM4MjcxODgsMTUwOTM2NTUwLC02NzEyNT
-c3OTQsLTkzNjU3NDEwLC0xOTY4NTI4NDk4LC0xMTg2NzAyOTM0
-LDE4ODI1MDg1NTMsLTExOTE2NTE0MjQsLTIxMzQ4Njc5NjMsMT
-k3MjI4MzQ1NCwxMjE4NTA4NzkyLC0xMTU0MTEyMDYzLDgwODg2
-NzU3NV19
+eyJoaXN0b3J5IjpbLTE5MzIxMjcwNzUsOTY4MDM0ODE1LDM3Nz
+I4ODk5OCwzNTM0MDQxMzAsLTIwNTQyNDc3MzksNjI3NzY2ODMy
+LDE0ODc5NjMyNDIsODEzODI3MTg4LDE1MDkzNjU1MCwtNjcxMj
+U3Nzk0LC05MzY1NzQxMCwtMTk2ODUyODQ5OCwtMTE4NjcwMjkz
+NCwxODgyNTA4NTUzLC0xMTkxNjUxNDI0LC0yMTM0ODY3OTYzLD
+E5NzIyODM0NTQsMTIxODUwODc5MiwtMTE1NDExMjA2Myw4MDg4
+Njc1NzVdfQ==
 -->
