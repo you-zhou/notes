@@ -847,8 +847,8 @@ class Chair:
 	max_occupants = 4 # class attribute
 
 	def __init__(self, id)
-		self.id = id
-		count = 0
+		self.id = id # instance attribute
+		count = 0 # instance attribute
 		
 	def load(self, number):
 		self.count += number
@@ -1541,7 +1541,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3ODY1MDgzNSwxODMxMzAxNDgwLC01Mj
+eyJoaXN0b3J5IjpbMjA2NzE5ODUzMywxODMxMzAxNDgwLC01Mj
 Y0MTMxMjIsMTcwNTg3OTQ5NSwxNjE4NjQ4Niw1ODgyMTM0OTUs
 LTE1MTc2MzY2NSwxODY3ODc5NzksOTY4MDM0ODE1LDM3NzI4OD
 k5OCwzNTM0MDQxMzAsLTIwNTQyNDc3MzksNjI3NzY2ODMyLDE0
