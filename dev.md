@@ -873,6 +873,8 @@ What happens under the covers is similar to this:
 `Chair.load(chair, 3)`
 Python will call the `.load` method by inserting `chair` as the 	`self` parameter and 3 as the `number` parameter.
 
+#### private & protected
+
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 Note: 
@@ -1557,11 +1559,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwOTgyMTE1MywtOTYwODg4NjczLC0xOT
-E5NTEyNzA5LDM0NzU4OTQ1MiwtMTgxMTE3OTk1NywxODMxMzAx
-NDgwLC01MjY0MTMxMjIsMTcwNTg3OTQ5NSwxNjE4NjQ4Niw1OD
-gyMTM0OTUsLTE1MTc2MzY2NSwxODY3ODc5NzksOTY4MDM0ODE1
-LDM3NzI4ODk5OCwzNTM0MDQxMzAsLTIwNTQyNDc3MzksNjI3Nz
-Y2ODMyLDE0ODc5NjMyNDIsODEzODI3MTg4LDE1MDkzNjU1MF19
-
+eyJoaXN0b3J5IjpbLTQ5NzYwMjI0NiwtNjA5ODIxMTUzLC05Nj
+A4ODg2NzMsLTE5MTk1MTI3MDksMzQ3NTg5NDUyLC0xODExMTc5
+OTU3LDE4MzEzMDE0ODAsLTUyNjQxMzEyMiwxNzA1ODc5NDk1LD
+E2MTg2NDg2LDU4ODIxMzQ5NSwtMTUxNzYzNjY1LDE4Njc4Nzk3
+OSw5NjgwMzQ4MTUsMzc3Mjg4OTk4LDM1MzQwNDEzMCwtMjA1ND
+I0NzczOSw2Mjc3NjY4MzIsMTQ4Nzk2MzI0Miw4MTM4MjcxODhd
+fQ==
 -->
