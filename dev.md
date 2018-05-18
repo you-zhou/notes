@@ -505,8 +505,8 @@ TODO
 ### strings
 [great examples for string format](https://pyformat.info/)
 
-There are three ways to format  a string.
-* built-in operator `%` - similar to C's printf (not recommended by the docs due to poor support to display tuples and dictionaries correctly) [Python docs](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
+#### There are three ways to format  a string.
+1. built-in operator `%` - similar to C's printf (not recommended by the docs due to poor support to display tuples and dictionaries correctly) [Python docs](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
 	```python
 	"Num: %d Hex: %x" % (12, 13)
 	# 'Num: 12 Hex: d'
@@ -515,7 +515,7 @@ There are three ways to format  a string.
 	# 'hello world'
 	```
 	
-* str.format() from Python 2.6 (much improved from the % operator) [Python docs](https://docs.python.org/3/library/stdtypes.html#str.format)
+2. str.format() from Python 2.6 (much improved from the % operator) [Python docs](https://docs.python.org/3/library/stdtypes.html#str.format)
 	It uses normal function call syntax and is  [extensible through the  `__format__()`  method](https://www.python.org/dev/peps/pep-3101/#controlling-formatting-on-a-per-type-basis)  on the object being converted to a string.
 With  `str.format()`, the replacement fields are marked by curly braces:
 	```python
@@ -547,7 +547,7 @@ With  `str.format()`, the replacement fields are marked by curly braces:
 	# 'Percent: - 44.0%'
 	```
 	
-* f-string from Python 3.6 [PEP 498](https://www.python.org/dev/peps/pep-0498/)
+3. f-string from Python 3.6 [PEP 498](https://www.python.org/dev/peps/pep-0498/)
 	Because f-strings are evaluated at **runtime**, you can put any and all valid Python expressions in them.
 	```python
 	f"{2 * 37}"
@@ -1484,11 +1484,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzIxMjcwNzUsOTY4MDM0ODE1LDM3Nz
-I4ODk5OCwzNTM0MDQxMzAsLTIwNTQyNDc3MzksNjI3NzY2ODMy
-LDE0ODc5NjMyNDIsODEzODI3MTg4LDE1MDkzNjU1MCwtNjcxMj
-U3Nzk0LC05MzY1NzQxMCwtMTk2ODUyODQ5OCwtMTE4NjcwMjkz
-NCwxODgyNTA4NTUzLC0xMTkxNjUxNDI0LC0yMTM0ODY3OTYzLD
-E5NzIyODM0NTQsMTIxODUwODc5MiwtMTE1NDExMjA2Myw4MDg4
-Njc1NzVdfQ==
+eyJoaXN0b3J5IjpbMTg2Nzg3OTc5LDk2ODAzNDgxNSwzNzcyOD
+g5OTgsMzUzNDA0MTMwLC0yMDU0MjQ3NzM5LDYyNzc2NjgzMiwx
+NDg3OTYzMjQyLDgxMzgyNzE4OCwxNTA5MzY1NTAsLTY3MTI1Nz
+c5NCwtOTM2NTc0MTAsLTE5Njg1Mjg0OTgsLTExODY3MDI5MzQs
+MTg4MjUwODU1MywtMTE5MTY1MTQyNCwtMjEzNDg2Nzk2MywxOT
+cyMjgzNDU0LDEyMTg1MDg3OTIsLTExNTQxMTIwNjMsODA4ODY3
+NTc1XX0=
 -->
