@@ -541,6 +541,7 @@ With  `str.format()`, the replacement fields are marked by curly braces:
 	```python
 	f"{2 * 37}"
 	# '74'
+	
 	name = 'matt'
 	f"My name is {name.capitalize()}"
 	# 'My name is Matt'
@@ -1472,11 +1473,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODc4NDEwNSwzNzcyODg5OTgsMzUzND
-A0MTMwLC0yMDU0MjQ3NzM5LDYyNzc2NjgzMiwxNDg3OTYzMjQy
-LDgxMzgyNzE4OCwxNTA5MzY1NTAsLTY3MTI1Nzc5NCwtOTM2NT
-c0MTAsLTE5Njg1Mjg0OTgsLTExODY3MDI5MzQsMTg4MjUwODU1
-MywtMTE5MTY1MTQyNCwtMjEzNDg2Nzk2MywxOTcyMjgzNDU0LD
-EyMTg1MDg3OTIsLTExNTQxMTIwNjMsODA4ODY3NTc1LC0xMzQ0
-OTIzNTU2XX0=
+eyJoaXN0b3J5IjpbOTY4MDM0ODE1LDM3NzI4ODk5OCwzNTM0MD
+QxMzAsLTIwNTQyNDc3MzksNjI3NzY2ODMyLDE0ODc5NjMyNDIs
+ODEzODI3MTg4LDE1MDkzNjU1MCwtNjcxMjU3Nzk0LC05MzY1Nz
+QxMCwtMTk2ODUyODQ5OCwtMTE4NjcwMjkzNCwxODgyNTA4NTUz
+LC0xMTkxNjUxNDI0LC0yMTM0ODY3OTYzLDE5NzIyODM0NTQsMT
+IxODUwODc5MiwtMTE1NDExMjA2Myw4MDg4Njc1NzUsLTEzNDQ5
+MjM1NTZdfQ==
 -->
