@@ -839,8 +839,8 @@ to_list('hello') # ['hello']
 	e.g. `__init__(self, id)`.
 
 Python has a hierarchy for looking up attributes. 
-Attribute lookup occurs first on the instance, then the class, then the parent classes, and will raise a `AttributeError if the attribute was not found.
-First, Python will look for the attribute on the instance. If that fails, Python will try to find the attribute on the class. Because instances know about their class, Python will look there next. If that fails Python will raise an AttributeError, an apt error for a missing attribute.
+Attribute lookup occurs first on the instance, then the class, then the parent classes, and will raise a `AttributeError` if the attribute was not found.
+
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
@@ -1526,11 +1526,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjIyNDg3ODEsLTUyNjQxMzEyMiwxNz
-A1ODc5NDk1LDE2MTg2NDg2LDU4ODIxMzQ5NSwtMTUxNzYzNjY1
-LDE4Njc4Nzk3OSw5NjgwMzQ4MTUsMzc3Mjg4OTk4LDM1MzQwND
-EzMCwtMjA1NDI0NzczOSw2Mjc3NjY4MzIsMTQ4Nzk2MzI0Miw4
-MTM4MjcxODgsMTUwOTM2NTUwLC02NzEyNTc3OTQsLTkzNjU3ND
-EwLC0xOTY4NTI4NDk4LC0xMTg2NzAyOTM0LDE4ODI1MDg1NTNd
-fQ==
+eyJoaXN0b3J5IjpbMTgzMTMwMTQ4MCwtNTI2NDEzMTIyLDE3MD
+U4Nzk0OTUsMTYxODY0ODYsNTg4MjEzNDk1LC0xNTE3NjM2NjUs
+MTg2Nzg3OTc5LDk2ODAzNDgxNSwzNzcyODg5OTgsMzUzNDA0MT
+MwLC0yMDU0MjQ3NzM5LDYyNzc2NjgzMiwxNDg3OTYzMjQyLDgx
+MzgyNzE4OCwxNTA5MzY1NTAsLTY3MTI1Nzc5NCwtOTM2NTc0MT
+AsLTE5Njg1Mjg0OTgsLTExODY3MDI5MzQsMTg4MjUwODU1M119
+
 -->
