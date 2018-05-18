@@ -504,7 +504,7 @@ There are three ways to format  a string.
 	# 'hello world'
 	```
 	
-* format
+* str.format() from Python 2.6
 	```python
 	name = 'Matt'
 	print('Hello {}'.format(name))
@@ -1453,11 +1453,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEzODI3MTg4LDE1MDkzNjU1MCwtNjcxMj
-U3Nzk0LC05MzY1NzQxMCwtMTk2ODUyODQ5OCwtMTE4NjcwMjkz
-NCwxODgyNTA4NTUzLC0xMTkxNjUxNDI0LC0yMTM0ODY3OTYzLD
-E5NzIyODM0NTQsMTIxODUwODc5MiwtMTE1NDExMjA2Myw4MDg4
-Njc1NzUsLTEzNDQ5MjM1NTYsMTE2NjA0OTU4MywtMTU5OTkzMj
-UyMyw0ODkxNjE0NTYsMTM4NjkyNjMwOCwtMTA5NTMwMTczMywy
-MDk1MzE3ODI0XX0=
+eyJoaXN0b3J5IjpbMTQ4Nzk2MzI0Miw4MTM4MjcxODgsMTUwOT
+M2NTUwLC02NzEyNTc3OTQsLTkzNjU3NDEwLC0xOTY4NTI4NDk4
+LC0xMTg2NzAyOTM0LDE4ODI1MDg1NTMsLTExOTE2NTE0MjQsLT
+IxMzQ4Njc5NjMsMTk3MjI4MzQ1NCwxMjE4NTA4NzkyLC0xMTU0
+MTEyMDYzLDgwODg2NzU3NSwtMTM0NDkyMzU1NiwxMTY2MDQ5NT
+gzLC0xNTk5OTMyNTIzLDQ4OTE2MTQ1NiwxMzg2OTI2MzA4LC0x
+MDk1MzAxNzMzXX0=
 -->
