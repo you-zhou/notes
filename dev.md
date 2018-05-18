@@ -883,20 +883,23 @@ Class Chair:
 	def __init__(self, id):
 	self.id = id
 	self.count = 0
-...
-... def load(self, number):
-... new_val = self._check(self.count + number)
-self.count = new_val
-...
-... def unload(self, number):
-... new_val = self._check(self.count - number)
-... self.count = new_val
+
+	def load(self, number):
+		new_val = self._check(self.count + number)
+		self.count = new_val
+
+	def unload(self, number):
+		new_val = self._check(self.count - number)
+		self.count = new_val
+
 	def _check(self, number): # considered private
 		if number < 0 or number > self.max_occupants:
 			raise ValueError('Invalid count:{}'.format(number))
 		return number
 ```
-
+The ._check method is considered private, only the instance should access it inside the class. In the class, the .load and .unload methods call the private method. If wanted,you could call it from outside the class. But you shouldn’t, as anything with an underscore
+should be considered an implementation detail that might not exist in future versions of the
+class.
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
@@ -1582,11 +1585,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MjU0MjczOCwtNjA5ODIxMTUzLC05Nj
-A4ODg2NzMsLTE5MTk1MTI3MDksMzQ3NTg5NDUyLC0xODExMTc5
-OTU3LDE4MzEzMDE0ODAsLTUyNjQxMzEyMiwxNzA1ODc5NDk1LD
-E2MTg2NDg2LDU4ODIxMzQ5NSwtMTUxNzYzNjY1LDE4Njc4Nzk3
-OSw5NjgwMzQ4MTUsMzc3Mjg4OTk4LDM1MzQwNDEzMCwtMjA1ND
-I0NzczOSw2Mjc3NjY4MzIsMTQ4Nzk2MzI0Miw4MTM4MjcxODhd
-fQ==
+eyJoaXN0b3J5IjpbLTE1ODE1MTMxMDAsLTYwOTgyMTE1MywtOT
+YwODg4NjczLC0xOTE5NTEyNzA5LDM0NzU4OTQ1MiwtMTgxMTE3
+OTk1NywxODMxMzAxNDgwLC01MjY0MTMxMjIsMTcwNTg3OTQ5NS
+wxNjE4NjQ4Niw1ODgyMTM0OTUsLTE1MTc2MzY2NSwxODY3ODc5
+NzksOTY4MDM0ODE1LDM3NzI4ODk5OCwzNTM0MDQxMzAsLTIwNT
+QyNDc3MzksNjI3NzY2ODMyLDE0ODc5NjMyNDIsODEzODI3MTg4
+XX0=
 -->
