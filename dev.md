@@ -495,7 +495,7 @@ TODO
 [great examples for string format](https://pyformat.info/)
 
 There are three ways to format  a string.
-* built-in operator `%` - similar to C's printf (not recommended by the docs due to poor support to display tuples and dictionaries correctly)
+* built-in operator `%` - similar to C's printf (not recommended by the docs due to poor support to display tuples and dictionaries correctly) [Python docs](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
 	```python
 	"Num: %d Hex: %x" % (12, 13)
 	# 'Num: 12 Hex: d'
@@ -504,7 +504,7 @@ There are three ways to format  a string.
 	# 'hello world'
 	```
 	
-* str.format() from Python 2.6 (much improved from the % operator)
+* str.format() from Python 2.6 (much improved from the % operator) [Python docs](https://docs.python.org/3/library/stdtypes.html#str.format)
 	It uses normal function call syntax and is  [extensible through the  `__format__()`  method](https://www.python.org/dev/peps/pep-3101/#controlling-formatting-on-a-per-type-basis)  on the object being converted to a string.
 With  `str.format()`, the replacement fields are marked by curly braces:
 	```python
@@ -1469,7 +1469,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgxMTUwNzkzLDM1MzQwNDEzMCwtMjA1ND
+eyJoaXN0b3J5IjpbMzc3Mjg4OTk4LDM1MzQwNDEzMCwtMjA1ND
 I0NzczOSw2Mjc3NjY4MzIsMTQ4Nzk2MzI0Miw4MTM4MjcxODgs
 MTUwOTM2NTUwLC02NzEyNTc3OTQsLTkzNjU3NDEwLC0xOTY4NT
 I4NDk4LC0xMTg2NzAyOTM0LDE4ODI1MDg1NTMsLTExOTE2NTE0
