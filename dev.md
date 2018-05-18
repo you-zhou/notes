@@ -510,11 +510,11 @@ With  `str.format()`, the replacement fields are marked by curly braces:
 	```python
 	name = 'Eric'
 	age = 74
-	# 1. sequence ordred {}
+	# 1. refer variables in sequence as appeared in format method
 	"Hello, {}. You are {}.".format(name, age)
 	# 'Hello, Eric. You are 74.'
 
-	# 2. reference variables in any 
+	# 2. reference variables in any order with their index
 	"Hello, {1}. You are {0}.".format(age, name)
 	# 'Hello, Eric. You are 74.'
 	
@@ -1458,11 +1458,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNTI4MjczMiwxNDg3OTYzMjQyLDgxMz
-gyNzE4OCwxNTA5MzY1NTAsLTY3MTI1Nzc5NCwtOTM2NTc0MTAs
-LTE5Njg1Mjg0OTgsLTExODY3MDI5MzQsMTg4MjUwODU1MywtMT
-E5MTY1MTQyNCwtMjEzNDg2Nzk2MywxOTcyMjgzNDU0LDEyMTg1
-MDg3OTIsLTExNTQxMTIwNjMsODA4ODY3NTc1LC0xMzQ0OTIzNT
-U2LDExNjYwNDk1ODMsLTE1OTk5MzI1MjMsNDg5MTYxNDU2LDEz
-ODY5MjYzMDhdfQ==
+eyJoaXN0b3J5IjpbNzE5Nzg4MzUzLDE0ODc5NjMyNDIsODEzOD
+I3MTg4LDE1MDkzNjU1MCwtNjcxMjU3Nzk0LC05MzY1NzQxMCwt
+MTk2ODUyODQ5OCwtMTE4NjcwMjkzNCwxODgyNTA4NTUzLC0xMT
+kxNjUxNDI0LC0yMTM0ODY3OTYzLDE5NzIyODM0NTQsMTIxODUw
+ODc5MiwtMTE1NDExMjA2Myw4MDg4Njc1NzUsLTEzNDQ5MjM1NT
+YsMTE2NjA0OTU4MywtMTU5OTkzMjUyMyw0ODkxNjE0NTYsMTM4
+NjkyNjMwOF19
 -->
