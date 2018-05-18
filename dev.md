@@ -841,6 +841,8 @@ You can always use the built-in `dir` function to list attributes of an object.
 Python has a hierarchy for looking up attributes. 
 Attribute lookup occurs first on the instance, then the class, then the parent classes, and will raise a `AttributeError` if the attribute was not found.
 
+#### `__class__` attribute
+It is important that an instance know what its class is because the class stores the methods and class attributes.
 
 #### self
 `self` parameter represents the current instance of the class.
@@ -1550,11 +1552,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ3NTg5NDUyLC0xODExMTc5OTU3LDE4Mz
-EzMDE0ODAsLTUyNjQxMzEyMiwxNzA1ODc5NDk1LDE2MTg2NDg2
-LDU4ODIxMzQ5NSwtMTUxNzYzNjY1LDE4Njc4Nzk3OSw5NjgwMz
-Q4MTUsMzc3Mjg4OTk4LDM1MzQwNDEzMCwtMjA1NDI0NzczOSw2
-Mjc3NjY4MzIsMTQ4Nzk2MzI0Miw4MTM4MjcxODgsMTUwOTM2NT
-UwLC02NzEyNTc3OTQsLTkzNjU3NDEwLC0xOTY4NTI4NDk4XX0=
+eyJoaXN0b3J5IjpbLTE5MTk1MTI3MDksMzQ3NTg5NDUyLC0xOD
+ExMTc5OTU3LDE4MzEzMDE0ODAsLTUyNjQxMzEyMiwxNzA1ODc5
+NDk1LDE2MTg2NDg2LDU4ODIxMzQ5NSwtMTUxNzYzNjY1LDE4Nj
+c4Nzk3OSw5NjgwMzQ4MTUsMzc3Mjg4OTk4LDM1MzQwNDEzMCwt
+MjA1NDI0NzczOSw2Mjc3NjY4MzIsMTQ4Nzk2MzI0Miw4MTM4Mj
+cxODgsMTUwOTM2NTUwLC02NzEyNTc3OTQsLTkzNjU3NDEwXX0=
 
 -->
