@@ -385,6 +385,9 @@ plot.histogram() # found plot
 Note:
 Python packages can be installed via package managers, Windows executables or Python specific tools such as pip.
 
+#### `sys.path`
+The `sys` module has an attribute `path`, that lists the directories that Python searches for libraries.
+
 
 ### dir and help
 ==IMPORTANT: explore Python using dir and help.==
@@ -1683,7 +1686,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1OTk4NTk3NSwtNTg2NTU3NjIzLC02OD
+eyJoaXN0b3J5IjpbMTQ2OTU0MzcyNCwtNTg2NTU3NjIzLC02OD
 Q4Nzg5NzcsLTQ2NjE2ODAwNSw5MTMyODIxMjIsMTI0MDM4NTMw
 LC0xMzU1NzM4MTE2LDUwODQwNzMyLC0yMzI3NTY0OTksLTE5OT
 gwODA0MjgsLTYwOTgyMTE1MywtOTYwODg4NjczLC0xOTE5NTEy
