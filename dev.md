@@ -492,7 +492,7 @@ If we run the module not by `importing` it but running it directly as a standalo
 
 
 
-### Divide Operator
+### divide operator
 * 26 % 7 == 5 (you will get remainder)
 
 * 26 / 7 == 3.7142857142857144 (you will get divisor can be float value )
@@ -1646,7 +1646,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNjkzNTg2Nyw5MTMyODIxMjIsMTI0MD
+eyJoaXN0b3J5IjpbLTQ2NjE2ODAwNSw5MTMyODIxMjIsMTI0MD
 M4NTMwLC0xMzU1NzM4MTE2LDUwODQwNzMyLC0yMzI3NTY0OTks
 LTE5OTgwODA0MjgsLTYwOTgyMTE1MywtOTYwODg4NjczLC0xOT
 E5NTEyNzA5LDM0NzU4OTQ1MiwtMTgxMTE3OTk1NywxODMxMzAx
