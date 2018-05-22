@@ -360,7 +360,7 @@ ax.grid(True, linestyle=':')
 ## PYTHON
 ### REPL
 Read–Eval–Print Loop
-Always test codes with IDLE that comes with Python as part of the installation.
+It is convenient to test codes with IDLE that comes with Python as part of the installation.
 
 ### `PYTHONPATH` and `sys.path`
 #### `PYTHONPATH` environment variable
@@ -1712,11 +1712,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzkzNzUwMjYsMTk0NzY2MDI3NSwtND
-g1MzI1NjYyLDQxMzM3MTE5MCwtNTg2NTU3NjIzLC02ODQ4Nzg5
-NzcsLTQ2NjE2ODAwNSw5MTMyODIxMjIsMTI0MDM4NTMwLC0xMz
-U1NzM4MTE2LDUwODQwNzMyLC0yMzI3NTY0OTksLTE5OTgwODA0
-MjgsLTYwOTgyMTE1MywtOTYwODg4NjczLC0xOTE5NTEyNzA5LD
-M0NzU4OTQ1MiwtMTgxMTE3OTk1NywxODMxMzAxNDgwLC01MjY0
-MTMxMjJdfQ==
+eyJoaXN0b3J5IjpbLTMyOTc3MzEzOCwxOTQ3NjYwMjc1LC00OD
+UzMjU2NjIsNDEzMzcxMTkwLC01ODY1NTc2MjMsLTY4NDg3ODk3
+NywtNDY2MTY4MDA1LDkxMzI4MjEyMiwxMjQwMzg1MzAsLTEzNT
+U3MzgxMTYsNTA4NDA3MzIsLTIzMjc1NjQ5OSwtMTk5ODA4MDQy
+OCwtNjA5ODIxMTUzLC05NjA4ODg2NzMsLTE5MTk1MTI3MDksMz
+Q3NTg5NDUyLC0xODExMTc5OTU3LDE4MzEzMDE0ODAsLTUyNjQx
+MzEyMl19
 -->
