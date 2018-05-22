@@ -967,8 +967,7 @@ The ._check method is considered private, only the instance should access it ins
 
 #### modules
 Modules are Python fiiles that end in `.py`, and have a name that is importable.
-PEP 8 states that module filenames should be short and in lowercase. Underscores may be used for
-readability.
+PEP 8 states that module filenames should be short and in lowercase. Underscores may be used for readability.
 
 
 ## Reading & Writing Files
@@ -1655,7 +1654,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NTkwNjI0NCwtNjg0ODc4OTc3LC00Nj
+eyJoaXN0b3J5IjpbMTMyMDkzNzA5NCwtNjg0ODc4OTc3LC00Nj
 YxNjgwMDUsOTEzMjgyMTIyLDEyNDAzODUzMCwtMTM1NTczODEx
 Niw1MDg0MDczMiwtMjMyNzU2NDk5LC0xOTk4MDgwNDI4LC02MD
 k4MjExNTMsLTk2MDg4ODY3MywtMTkxOTUxMjcwOSwzNDc1ODk0
