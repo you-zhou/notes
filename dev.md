@@ -500,7 +500,21 @@ If we run the module not by `importing` it but running it directly as a standalo
 * 26 // 7 == 3 (you will get divisor only integer value) )
 
 
-### strings
+### namespace and scope
+[a very good ref](https://eli.thegreenplace.net/2015/the-scope-of-index-variables-in-pythons-for-loops/)
+
+In Python, the scoping rules are fairly simple and elegant. A block is either 
+* a module
+* a function body
+* a class body
+
+Within a function body, names are visible from the point of their definition to the end of the block (including nested blocks such as nested functions).
+
+The important point here is: ==the innermost possible scope is a function body.== Not a `if-else block` or `for loop block`. Not a `with block`. Python does not have nested lexical scopes below the level of a function, unlike some other languages (C and its progeny, for example).
+
+P.S. Use the built-in function `locals()` and `globals()` to check variables in the scope.
+
+### string
 [great examples for string format](https://pyformat.info/)
 
 #### There are three ways to format  a string.
@@ -1584,11 +1598,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA4NDA3MzIsLTIzMjc1NjQ5OSwtMTk5OD
-A4MDQyOCwtNjA5ODIxMTUzLC05NjA4ODg2NzMsLTE5MTk1MTI3
-MDksMzQ3NTg5NDUyLC0xODExMTc5OTU3LDE4MzEzMDE0ODAsLT
-UyNjQxMzEyMiwxNzA1ODc5NDk1LDE2MTg2NDg2LDU4ODIxMzQ5
-NSwtMTUxNzYzNjY1LDE4Njc4Nzk3OSw5NjgwMzQ4MTUsMzc3Mj
-g4OTk4LDM1MzQwNDEzMCwtMjA1NDI0NzczOSw2Mjc3NjY4MzJd
-fQ==
+eyJoaXN0b3J5IjpbMTUwOTcyNDI5Niw1MDg0MDczMiwtMjMyNz
+U2NDk5LC0xOTk4MDgwNDI4LC02MDk4MjExNTMsLTk2MDg4ODY3
+MywtMTkxOTUxMjcwOSwzNDc1ODk0NTIsLTE4MTExNzk5NTcsMT
+gzMTMwMTQ4MCwtNTI2NDEzMTIyLDE3MDU4Nzk0OTUsMTYxODY0
+ODYsNTg4MjEzNDk1LC0xNTE3NjM2NjUsMTg2Nzg3OTc5LDk2OD
+AzNDgxNSwzNzcyODg5OTgsMzUzNDA0MTMwLC0yMDU0MjQ3NzM5
+XX0=
 -->
