@@ -387,7 +387,10 @@ Python packages can be installed via package managers, Windows executables or Py
 
 #### `sys.path`
 The `sys` module has an attribute `path`, that lists the directories that Python searches for libraries.
-
+```python
+import sys
+sys.path
+```
 
 ### dir and help
 ==IMPORTANT: explore Python using dir and help.==
@@ -1686,11 +1689,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2OTU0MzcyNCwtNTg2NTU3NjIzLC02OD
-Q4Nzg5NzcsLTQ2NjE2ODAwNSw5MTMyODIxMjIsMTI0MDM4NTMw
-LC0xMzU1NzM4MTE2LDUwODQwNzMyLC0yMzI3NTY0OTksLTE5OT
-gwODA0MjgsLTYwOTgyMTE1MywtOTYwODg4NjczLC0xOTE5NTEy
-NzA5LDM0NzU4OTQ1MiwtMTgxMTE3OTk1NywxODMxMzAxNDgwLC
-01MjY0MTMxMjIsMTcwNTg3OTQ5NSwxNjE4NjQ4Niw1ODgyMTM0
-OTVdfQ==
+eyJoaXN0b3J5IjpbNDEzMzcxMTkwLC01ODY1NTc2MjMsLTY4ND
+g3ODk3NywtNDY2MTY4MDA1LDkxMzI4MjEyMiwxMjQwMzg1MzAs
+LTEzNTU3MzgxMTYsNTA4NDA3MzIsLTIzMjc1NjQ5OSwtMTk5OD
+A4MDQyOCwtNjA5ODIxMTUzLC05NjA4ODg2NzMsLTE5MTk1MTI3
+MDksMzQ3NTg5NDUyLC0xODExMTc5OTU3LDE4MzEzMDE0ODAsLT
+UyNjQxMzEyMiwxNzA1ODc5NDk1LDE2MTg2NDg2LDU4ODIxMzQ5
+NV19
 -->
