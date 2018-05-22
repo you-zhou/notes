@@ -532,6 +532,8 @@ other_sin(0)
 import numpy as np
 import pandas as pd
 ```
+
+
 ### string
 [great examples for string format](https://pyformat.info/)
 
@@ -1616,11 +1618,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MDM4NTMwLC0xMzU1NzM4MTE2LDUwOD
-QwNzMyLC0yMzI3NTY0OTksLTE5OTgwODA0MjgsLTYwOTgyMTE1
-MywtOTYwODg4NjczLC0xOTE5NTEyNzA5LDM0NzU4OTQ1MiwtMT
-gxMTE3OTk1NywxODMxMzAxNDgwLC01MjY0MTMxMjIsMTcwNTg3
-OTQ5NSwxNjE4NjQ4Niw1ODgyMTM0OTUsLTE1MTc2MzY2NSwxOD
-Y3ODc5NzksOTY4MDM0ODE1LDM3NzI4ODk5OCwzNTM0MDQxMzBd
+eyJoaXN0b3J5IjpbNjc1NTM3NTc0LDEyNDAzODUzMCwtMTM1NT
+czODExNiw1MDg0MDczMiwtMjMyNzU2NDk5LC0xOTk4MDgwNDI4
+LC02MDk4MjExNTMsLTk2MDg4ODY3MywtMTkxOTUxMjcwOSwzND
+c1ODk0NTIsLTE4MTExNzk5NTcsMTgzMTMwMTQ4MCwtNTI2NDEz
+MTIyLDE3MDU4Nzk0OTUsMTYxODY0ODYsNTg4MjEzNDk1LC0xNT
+E3NjM2NjUsMTg2Nzg3OTc5LDk2ODAzNDgxNSwzNzcyODg5OThd
 fQ==
 -->
