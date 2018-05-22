@@ -965,6 +965,10 @@ The ._check method is considered private, only the instance should access it ins
 * A python library must be a *module* or a *package*.
 * The library must exist in the **PYTHONPATH** environment variable or `sys.path` Python variable.
 
+#### modules
+Modules are Python fiiles that end in `.py`, and have a name that is importable.
+PEP 8 states that module filenames should be short and in lowercase. Underscores may be used for
+readability.
 
 
 ## Reading & Writing Files
@@ -1651,11 +1655,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NDg3ODk3NywtNDY2MTY4MDA1LDkxMz
-I4MjEyMiwxMjQwMzg1MzAsLTEzNTU3MzgxMTYsNTA4NDA3MzIs
-LTIzMjc1NjQ5OSwtMTk5ODA4MDQyOCwtNjA5ODIxMTUzLC05Nj
-A4ODg2NzMsLTE5MTk1MTI3MDksMzQ3NTg5NDUyLC0xODExMTc5
-OTU3LDE4MzEzMDE0ODAsLTUyNjQxMzEyMiwxNzA1ODc5NDk1LD
-E2MTg2NDg2LDU4ODIxMzQ5NSwtMTUxNzYzNjY1LDE4Njc4Nzk3
-OV19
+eyJoaXN0b3J5IjpbLTU0NTkwNjI0NCwtNjg0ODc4OTc3LC00Nj
+YxNjgwMDUsOTEzMjgyMTIyLDEyNDAzODUzMCwtMTM1NTczODEx
+Niw1MDg0MDczMiwtMjMyNzU2NDk5LC0xOTk4MDgwNDI4LC02MD
+k4MjExNTMsLTk2MDg4ODY3MywtMTkxOTUxMjcwOSwzNDc1ODk0
+NTIsLTE4MTExNzk5NTcsMTgzMTMwMTQ4MCwtNTI2NDEzMTIyLD
+E3MDU4Nzk0OTUsMTYxODY0ODYsNTg4MjEzNDk1LC0xNTE3NjM2
+NjVdfQ==
 -->
