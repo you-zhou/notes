@@ -501,6 +501,8 @@ If we run the module not by `importing` it but running it directly as a standalo
 
 
 ### namespace and scope
+The namespace holds the functions, classes, and variables you have access to.
+
 [a very good ref](https://eli.thegreenplace.net/2015/the-scope-of-index-variables-in-pythons-for-loops/)
 
 In Python, the scoping rules are fairly simple and elegant. A block is either 
@@ -1598,11 +1600,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwOTcyNDI5Niw1MDg0MDczMiwtMjMyNz
-U2NDk5LC0xOTk4MDgwNDI4LC02MDk4MjExNTMsLTk2MDg4ODY3
-MywtMTkxOTUxMjcwOSwzNDc1ODk0NTIsLTE4MTExNzk5NTcsMT
-gzMTMwMTQ4MCwtNTI2NDEzMTIyLDE3MDU4Nzk0OTUsMTYxODY0
-ODYsNTg4MjEzNDk1LC0xNTE3NjM2NjUsMTg2Nzg3OTc5LDk2OD
-AzNDgxNSwzNzcyODg5OTgsMzUzNDA0MTMwLC0yMDU0MjQ3NzM5
-XX0=
+eyJoaXN0b3J5IjpbLTEzNTU3MzgxMTYsNTA4NDA3MzIsLTIzMj
+c1NjQ5OSwtMTk5ODA4MDQyOCwtNjA5ODIxMTUzLC05NjA4ODg2
+NzMsLTE5MTk1MTI3MDksMzQ3NTg5NDUyLC0xODExMTc5OTU3LD
+E4MzEzMDE0ODAsLTUyNjQxMzEyMiwxNzA1ODc5NDk1LDE2MTg2
+NDg2LDU4ODIxMzQ5NSwtMTUxNzYzNjY1LDE4Njc4Nzk3OSw5Nj
+gwMzQ4MTUsMzc3Mjg4OTk4LDM1MzQwNDEzMCwtMjA1NDI0Nzcz
+OV19
 -->
