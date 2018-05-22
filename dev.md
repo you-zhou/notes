@@ -402,8 +402,9 @@ If you want to know the location of the library on the filesystem, you can inspe
 ```python
 import json
 json.__file__
-
+# 'C:\\Program Files\\Python35-32\\lib\\json\\__init__.py'
 ```
+
 
 ### dir and help
 ==IMPORTANT: explore Python using dir and help.==
@@ -1702,7 +1703,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MDY3MTc0OSw0MTMzNzExOTAsLTU4Nj
+eyJoaXN0b3J5IjpbMTA0Mjk5NTkxNiw0MTMzNzExOTAsLTU4Nj
 U1NzYyMywtNjg0ODc4OTc3LC00NjYxNjgwMDUsOTEzMjgyMTIy
 LDEyNDAzODUzMCwtMTM1NTczODExNiw1MDg0MDczMiwtMjMyNz
 U2NDk5LC0xOTk4MDgwNDI4LC02MDk4MjExNTMsLTk2MDg4ODY3
