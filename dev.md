@@ -545,6 +545,8 @@ There should be one import per line and imports should be grouped by:
 2. 3rd party imports
 3. Local package imports
 
+Preferably, imports should be grouped alphabetically.
+
 Example as below:
 ```python
 #!/usr/bin/env python3
@@ -1644,11 +1646,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA3MTE5NDU2LDkxMzI4MjEyMiwxMjQwMz
-g1MzAsLTEzNTU3MzgxMTYsNTA4NDA3MzIsLTIzMjc1NjQ5OSwt
-MTk5ODA4MDQyOCwtNjA5ODIxMTUzLC05NjA4ODg2NzMsLTE5MT
-k1MTI3MDksMzQ3NTg5NDUyLC0xODExMTc5OTU3LDE4MzEzMDE0
-ODAsLTUyNjQxMzEyMiwxNzA1ODc5NDk1LDE2MTg2NDg2LDU4OD
-IxMzQ5NSwtMTUxNzYzNjY1LDE4Njc4Nzk3OSw5NjgwMzQ4MTVd
-fQ==
+eyJoaXN0b3J5IjpbMTcyNjkzNTg2Nyw5MTMyODIxMjIsMTI0MD
+M4NTMwLC0xMzU1NzM4MTE2LDUwODQwNzMyLC0yMzI3NTY0OTks
+LTE5OTgwODA0MjgsLTYwOTgyMTE1MywtOTYwODg4NjczLC0xOT
+E5NTEyNzA5LDM0NzU4OTQ1MiwtMTgxMTE3OTk1NywxODMxMzAx
+NDgwLC01MjY0MTMxMjIsMTcwNTg3OTQ5NSwxNjE4NjQ4Niw1OD
+gyMTM0OTUsLTE1MTc2MzY2NSwxODY3ODc5NzksOTY4MDM0ODE1
+XX0=
 -->
