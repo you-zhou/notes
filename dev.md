@@ -386,7 +386,7 @@ Note:
 Python packages can be installed via package managers, Windows executables or Python specific tools such as pip.
 
 #### `sys.path`
-The `sys` module has an attribute `path`, it is a list of paths that determines where Python l lists the directories that Python searches for libraries.
+The `sys` module has an attribute `path`. It stores a list of paths that determines where Python looks to import libraries.
 ```python
 import sys
 sys.path
@@ -1712,7 +1712,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDYyMTMwNCwtNDg1MzI1NjYyLDQxMz
+eyJoaXN0b3J5IjpbMTk0NzY2MDI3NSwtNDg1MzI1NjYyLDQxMz
 M3MTE5MCwtNTg2NTU3NjIzLC02ODQ4Nzg5NzcsLTQ2NjE2ODAw
 NSw5MTMyODIxMjIsMTI0MDM4NTMwLC0xMzU1NzM4MTE2LDUwOD
 QwNzMyLC0yMzI3NTY0OTksLTE5OTgwODA0MjgsLTYwOTgyMTE1
