@@ -1024,7 +1024,7 @@ Modules are **Python files** that end in `.py`, and have a name that is importab
 > PEP 8 states that module filenames should be short and in lowercase. Underscores may be used for readability.
 
 #### packages
-A Python package is a directory that contains a file named `__init__.py`, which can even be empty.
+A Python package is a **directory** that contains a file named `__init__.py`, which can even be empty.
 In addition, the directory may contain an arbitrary number of modules and sub packages.
 > PEP 8 states that directory names for packages should be short and lowercase. Underscores should ==not== be used.
 
@@ -1712,11 +1712,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTMyNTY2Miw0MTMzNzExOTAsLTU4Nj
-U1NzYyMywtNjg0ODc4OTc3LC00NjYxNjgwMDUsOTEzMjgyMTIy
-LDEyNDAzODUzMCwtMTM1NTczODExNiw1MDg0MDczMiwtMjMyNz
-U2NDk5LC0xOTk4MDgwNDI4LC02MDk4MjExNTMsLTk2MDg4ODY3
-MywtMTkxOTUxMjcwOSwzNDc1ODk0NTIsLTE4MTExNzk5NTcsMT
-gzMTMwMTQ4MCwtNTI2NDEzMTIyLDE3MDU4Nzk0OTUsMTYxODY0
-ODZdfQ==
+eyJoaXN0b3J5IjpbLTE3NzAzMDU0MzgsLTQ4NTMyNTY2Miw0MT
+MzNzExOTAsLTU4NjU1NzYyMywtNjg0ODc4OTc3LC00NjYxNjgw
+MDUsOTEzMjgyMTIyLDEyNDAzODUzMCwtMTM1NTczODExNiw1MD
+g0MDczMiwtMjMyNzU2NDk5LC0xOTk4MDgwNDI4LC02MDk4MjEx
+NTMsLTk2MDg4ODY3MywtMTkxOTUxMjcwOSwzNDc1ODk0NTIsLT
+E4MTExNzk5NTcsMTgzMTMwMTQ4MCwtNTI2NDEzMTIyLDE3MDU4
+Nzk0OTVdfQ==
 -->
