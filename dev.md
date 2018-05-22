@@ -962,7 +962,11 @@ Class Chair:
 The ._check method is considered private, only the instance should access it inside the class. In the class, the .load and .unload methods call the private method. If wanted, you could call it from outside the class. But you shouldn’t, as anything with an underscore should be ==considered an implementation detail== that might not exist in future versions of the class.
 
 ### library
-A python library must be a *module* or a *package*.
+* A python library must be a *module* or a *package*.
+* The library must exist in the **PYTHONPATH** environment variable or `sys.path` Python variable.
+
+
+
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 Note: 
@@ -1647,11 +1651,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTI2MDU0MzAsLTQ2NjE2ODAwNSw5MT
-MyODIxMjIsMTI0MDM4NTMwLC0xMzU1NzM4MTE2LDUwODQwNzMy
-LC0yMzI3NTY0OTksLTE5OTgwODA0MjgsLTYwOTgyMTE1MywtOT
-YwODg4NjczLC0xOTE5NTEyNzA5LDM0NzU4OTQ1MiwtMTgxMTE3
-OTk1NywxODMxMzAxNDgwLC01MjY0MTMxMjIsMTcwNTg3OTQ5NS
-wxNjE4NjQ4Niw1ODgyMTM0OTUsLTE1MTc2MzY2NSwxODY3ODc5
-NzldfQ==
+eyJoaXN0b3J5IjpbLTY4NDg3ODk3NywtNDY2MTY4MDA1LDkxMz
+I4MjEyMiwxMjQwMzg1MzAsLTEzNTU3MzgxMTYsNTA4NDA3MzIs
+LTIzMjc1NjQ5OSwtMTk5ODA4MDQyOCwtNjA5ODIxMTUzLC05Nj
+A4ODg2NzMsLTE5MTk1MTI3MDksMzQ3NTg5NDUyLC0xODExMTc5
+OTU3LDE4MzEzMDE0ODAsLTUyNjQxMzEyMiwxNzA1ODc5NDk1LD
+E2MTg2NDg2LDU4ODIxMzQ5NSwtMTUxNzYzNjY1LDE4Njc4Nzk3
+OV19
 -->
