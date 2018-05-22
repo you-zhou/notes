@@ -392,6 +392,10 @@ import sys
 sys.path
 ```
 
+Note:
+Typically you don’t manually set `sys.path or PYTHONPATH, normally you install libraries, and the installer puts them in the correct location.
+
+
 ### dir and help
 ==IMPORTANT: explore Python using dir and help.==
 #### dir()
@@ -1689,11 +1693,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjU2OTA0ODksNDEzMzcxMTkwLC01OD
-Y1NTc2MjMsLTY4NDg3ODk3NywtNDY2MTY4MDA1LDkxMzI4MjEy
-MiwxMjQwMzg1MzAsLTEzNTU3MzgxMTYsNTA4NDA3MzIsLTIzMj
-c1NjQ5OSwtMTk5ODA4MDQyOCwtNjA5ODIxMTUzLC05NjA4ODg2
-NzMsLTE5MTk1MTI3MDksMzQ3NTg5NDUyLC0xODExMTc5OTU3LD
-E4MzEzMDE0ODAsLTUyNjQxMzEyMiwxNzA1ODc5NDk1LDE2MTg2
-NDg2XX0=
+eyJoaXN0b3J5IjpbMTI2MjY1NDQxMiw0MTMzNzExOTAsLTU4Nj
+U1NzYyMywtNjg0ODc4OTc3LC00NjYxNjgwMDUsOTEzMjgyMTIy
+LDEyNDAzODUzMCwtMTM1NTczODExNiw1MDg0MDczMiwtMjMyNz
+U2NDk5LC0xOTk4MDgwNDI4LC02MDk4MjExNTMsLTk2MDg4ODY3
+MywtMTkxOTUxMjcwOSwzNDc1ODk0NTIsLTE4MTExNzk5NTcsMT
+gzMTMwMTQ4MCwtNTI2NDEzMTIyLDE3MDU4Nzk0OTUsMTYxODY0
+ODZdfQ==
 -->
