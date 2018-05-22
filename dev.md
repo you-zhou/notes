@@ -375,7 +375,7 @@ Traceback (most recent call last):
 File "<stdin>", line 1, in <module>
 ImportError: No module named plot
 ```
-If you start Python by setting the PYTHONPATH, it indicates to Python where to look for libraries:
+You can start Python by setting the PYTHONPATH to a directory, it indicates to Python where to look for libraries:
 `$ PYTHONPATH=/home/test/a python3`
 ```python
 import plot
@@ -1689,11 +1689,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEzMzcxMTkwLC01ODY1NTc2MjMsLTY4ND
-g3ODk3NywtNDY2MTY4MDA1LDkxMzI4MjEyMiwxMjQwMzg1MzAs
-LTEzNTU3MzgxMTYsNTA4NDA3MzIsLTIzMjc1NjQ5OSwtMTk5OD
-A4MDQyOCwtNjA5ODIxMTUzLC05NjA4ODg2NzMsLTE5MTk1MTI3
-MDksMzQ3NTg5NDUyLC0xODExMTc5OTU3LDE4MzEzMDE0ODAsLT
-UyNjQxMzEyMiwxNzA1ODc5NDk1LDE2MTg2NDg2LDU4ODIxMzQ5
-NV19
+eyJoaXN0b3J5IjpbMTUwMzMwNzMzNiw0MTMzNzExOTAsLTU4Nj
+U1NzYyMywtNjg0ODc4OTc3LC00NjYxNjgwMDUsOTEzMjgyMTIy
+LDEyNDAzODUzMCwtMTM1NTczODExNiw1MDg0MDczMiwtMjMyNz
+U2NDk5LC0xOTk4MDgwNDI4LC02MDk4MjExNTMsLTk2MDg4ODY3
+MywtMTkxOTUxMjcwOSwzNDc1ODk0NTIsLTE4MTExNzk5NTcsMT
+gzMTMwMTQ4MCwtNTI2NDEzMTIyLDE3MDU4Nzk0OTUsMTYxODY0
+ODZdfQ==
 -->
