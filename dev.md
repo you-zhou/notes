@@ -362,7 +362,7 @@ ax.grid(True, linestyle=':')
 Read–Eval–Print Loop
 
 
-### PYTHONPATH
+### PYTHONPATH and `sys.path`
 PYTHONPATH is an environment variable listing non-standard directories that Python looks for **modules** or **packages** in.
 
 This variable is usually empty. It is not necessary to change PYTHONPATH unless you are developing code and want to use libraries that have not been installed.
@@ -1682,7 +1682,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTE4OTU0NTIsLTU4NjU1NzYyMywtNj
+eyJoaXN0b3J5IjpbLTE5MzQzMTAzODMsLTU4NjU1NzYyMywtNj
 g0ODc4OTc3LC00NjYxNjgwMDUsOTEzMjgyMTIyLDEyNDAzODUz
 MCwtMTM1NTczODExNiw1MDg0MDczMiwtMjMyNzU2NDk5LC0xOT
 k4MDgwNDI4LC02MDk4MjExNTMsLTk2MDg4ODY3MywtMTkxOTUx
