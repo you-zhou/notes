@@ -533,6 +533,9 @@ import numpy as np
 import pandas as pd
 ```
 
+Note: 
+>Do not use star imports! Star imports make debugging harder because it is not explicit where code comes from.
+Even worse are star imports from multiple libraries. Subsequent library imports might override something defined in an earlier library. As such, star imports are discouraged and frowned upon.
 
 ### string
 [great examples for string format](https://pyformat.info/)
@@ -1618,7 +1621,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc1NTM3NTc0LDEyNDAzODUzMCwtMTM1NT
+eyJoaXN0b3J5IjpbOTEzMjgyMTIyLDEyNDAzODUzMCwtMTM1NT
 czODExNiw1MDg0MDczMiwtMjMyNzU2NDk5LC0xOTk4MDgwNDI4
 LC02MDk4MjExNTMsLTk2MDg4ODY3MywtMTkxOTUxMjcwOSwzND
 c1ODk0NTIsLTE4MTExNzk5NTcsMTgzMTMwMTQ4MCwtNTI2NDEz
