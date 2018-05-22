@@ -519,8 +519,13 @@ P.S. Use the built-in function `locals()` and `globals()` to check variables in 
 ### `import` and `as`
 There are two scenarios to use `import x as y` or `from x import y as z`:
 1. To avoid conflicting import names.
+Below are two ways to 
 ```python
-import math as other_
+import math as other_math
+other_math.sin(0)
+
+from math import sin as other_sin
+other_sin(0)
 ```
 3. To reduce keystrokes.
 ```python
@@ -1611,7 +1616,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTE4NDA2ODMsLTEzNTU3MzgxMTYsNT
+eyJoaXN0b3J5IjpbLTE0OTU4NjgzMjUsLTEzNTU3MzgxMTYsNT
 A4NDA3MzIsLTIzMjc1NjQ5OSwtMTk5ODA4MDQyOCwtNjA5ODIx
 MTUzLC05NjA4ODg2NzMsLTE5MTk1MTI3MDksMzQ3NTg5NDUyLC
 0xODExMTc5OTU3LDE4MzEzMDE0ODAsLTUyNjQxMzEyMiwxNzA1
