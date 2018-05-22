@@ -363,6 +363,7 @@ Read–Eval–Print Loop
 
 
 ### PYTHONPATH and `sys.path`
+#### PYTHONPATH environment variable
 PYTHONPATH is an environment variable listing non-standard directories that Python looks for **modules** or **packages** in.
 
 This variable is usually empty. It is not necessary to change PYTHONPATH unless you are developing code and want to use libraries that have not been installed.
@@ -1682,11 +1683,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzQzMTAzODMsLTU4NjU1NzYyMywtNj
-g0ODc4OTc3LC00NjYxNjgwMDUsOTEzMjgyMTIyLDEyNDAzODUz
-MCwtMTM1NTczODExNiw1MDg0MDczMiwtMjMyNzU2NDk5LC0xOT
-k4MDgwNDI4LC02MDk4MjExNTMsLTk2MDg4ODY3MywtMTkxOTUx
-MjcwOSwzNDc1ODk0NTIsLTE4MTExNzk5NTcsMTgzMTMwMTQ4MC
-wtNTI2NDEzMTIyLDE3MDU4Nzk0OTUsMTYxODY0ODYsNTg4MjEz
-NDk1XX0=
+eyJoaXN0b3J5IjpbMTY1OTk4NTk3NSwtNTg2NTU3NjIzLC02OD
+Q4Nzg5NzcsLTQ2NjE2ODAwNSw5MTMyODIxMjIsMTI0MDM4NTMw
+LC0xMzU1NzM4MTE2LDUwODQwNzMyLC0yMzI3NTY0OTksLTE5OT
+gwODA0MjgsLTYwOTgyMTE1MywtOTYwODg4NjczLC0xOTE5NTEy
+NzA5LDM0NzU4OTQ1MiwtMTgxMTE3OTk1NywxODMxMzAxNDgwLC
+01MjY0MTMxMjIsMTcwNTg3OTQ5NSwxNjE4NjQ4Niw1ODgyMTM0
+OTVdfQ==
 -->
