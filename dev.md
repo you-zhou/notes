@@ -516,6 +516,9 @@ The important point here is: ==the innermost possible scope is a function body.=
 
 P.S. Use the built-in function `locals()` and `globals()` to check variables in the scope.
 
+### `import` and `as`
+
+
 ### string
 [great examples for string format](https://pyformat.info/)
 
@@ -1600,11 +1603,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTU3MzgxMTYsNTA4NDA3MzIsLTIzMj
-c1NjQ5OSwtMTk5ODA4MDQyOCwtNjA5ODIxMTUzLC05NjA4ODg2
-NzMsLTE5MTk1MTI3MDksMzQ3NTg5NDUyLC0xODExMTc5OTU3LD
-E4MzEzMDE0ODAsLTUyNjQxMzEyMiwxNzA1ODc5NDk1LDE2MTg2
-NDg2LDU4ODIxMzQ5NSwtMTUxNzYzNjY1LDE4Njc4Nzk3OSw5Nj
-gwMzQ4MTUsMzc3Mjg4OTk4LDM1MzQwNDEzMCwtMjA1NDI0Nzcz
-OV19
+eyJoaXN0b3J5IjpbLTcwNTYzMDg0OSwtMTM1NTczODExNiw1MD
+g0MDczMiwtMjMyNzU2NDk5LC0xOTk4MDgwNDI4LC02MDk4MjEx
+NTMsLTk2MDg4ODY3MywtMTkxOTUxMjcwOSwzNDc1ODk0NTIsLT
+E4MTExNzk5NTcsMTgzMTMwMTQ4MCwtNTI2NDEzMTIyLDE3MDU4
+Nzk0OTUsMTYxODY0ODYsNTg4MjEzNDk1LC0xNTE3NjM2NjUsMT
+g2Nzg3OTc5LDk2ODAzNDgxNSwzNzcyODg5OTgsMzUzNDA0MTMw
+XX0=
 -->
