@@ -519,7 +519,7 @@ P.S. Use the built-in function `locals()` and `globals()` to check variables in 
 ### `import` and `as`
 There are two scenarios to use `import x as y` or `from x import y as z`:
 1. To avoid conflicting import names.
-Assuming there is already a user de
+Assuming there is already a user defined `sin()` in the current namespace, below are the ways to get around 
 ```python
 import math as other_math
 other_math.sin(0)
@@ -1616,11 +1616,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyMDU3NTI2LC0xMzU1NzM4MTE2LDUwOD
-QwNzMyLC0yMzI3NTY0OTksLTE5OTgwODA0MjgsLTYwOTgyMTE1
-MywtOTYwODg4NjczLC0xOTE5NTEyNzA5LDM0NzU4OTQ1MiwtMT
-gxMTE3OTk1NywxODMxMzAxNDgwLC01MjY0MTMxMjIsMTcwNTg3
-OTQ5NSwxNjE4NjQ4Niw1ODgyMTM0OTUsLTE1MTc2MzY2NSwxOD
-Y3ODc5NzksOTY4MDM0ODE1LDM3NzI4ODk5OCwzNTM0MDQxMzBd
-fQ==
+eyJoaXN0b3J5IjpbLTY4MjkyOTYzMywtMTM1NTczODExNiw1MD
+g0MDczMiwtMjMyNzU2NDk5LC0xOTk4MDgwNDI4LC02MDk4MjEx
+NTMsLTk2MDg4ODY3MywtMTkxOTUxMjcwOSwzNDc1ODk0NTIsLT
+E4MTExNzk5NTcsMTgzMTMwMTQ4MCwtNTI2NDEzMTIyLDE3MDU4
+Nzk0OTUsMTYxODY0ODYsNTg4MjEzNDk1LC0xNTE3NjM2NjUsMT
+g2Nzg3OTc5LDk2ODAzNDgxNSwzNzcyODg5OTgsMzUzNDA0MTMw
+XX0=
 -->
