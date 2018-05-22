@@ -366,7 +366,7 @@ It is convenient to test codes with IDLE that comes with Python as part of the i
 #### `PYTHONPATH` environment variable
 `PYTHONPATH` is an environment variable listing non-standard directories that Python looks for **modules** or **packages** in.
 
-This variable is usually ==empty==. Leave it empty unless you are developing code and want to use libraries that have not been installed. Otherwise, changing `PYTHONPATH` can be confusing to others trying to debug your code who forget that `PYTHONPATH` has been changed.
+This variable is usually left ==empty==. Leave it empty unless you are developing code and want to use libraries that have not been installed. Otherwise, changing `PYTHONPATH` can be confusing to others trying to debug your code who forget that `PYTHONPATH` has been changed.
 
 If you had some code in `/home/test/a/plot.py`, but were working out of `/home/test/b/`, using `PYTHONPATH` allows access to that code. Otherwise, if `plot.py` was not installed using system or Python tools, trying to import it would raise an `ImportError`:
 ```python
@@ -1712,11 +1712,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyOTc3MzEzOCwxOTQ3NjYwMjc1LC00OD
-UzMjU2NjIsNDEzMzcxMTkwLC01ODY1NTc2MjMsLTY4NDg3ODk3
-NywtNDY2MTY4MDA1LDkxMzI4MjEyMiwxMjQwMzg1MzAsLTEzNT
-U3MzgxMTYsNTA4NDA3MzIsLTIzMjc1NjQ5OSwtMTk5ODA4MDQy
-OCwtNjA5ODIxMTUzLC05NjA4ODg2NzMsLTE5MTk1MTI3MDksMz
-Q3NTg5NDUyLC0xODExMTc5OTU3LDE4MzEzMDE0ODAsLTUyNjQx
-MzEyMl19
+eyJoaXN0b3J5IjpbMTIxMTcyODMsLTMyOTc3MzEzOCwxOTQ3Nj
+YwMjc1LC00ODUzMjU2NjIsNDEzMzcxMTkwLC01ODY1NTc2MjMs
+LTY4NDg3ODk3NywtNDY2MTY4MDA1LDkxMzI4MjEyMiwxMjQwMz
+g1MzAsLTEzNTU3MzgxMTYsNTA4NDA3MzIsLTIzMjc1NjQ5OSwt
+MTk5ODA4MDQyOCwtNjA5ODIxMTUzLC05NjA4ODg2NzMsLTE5MT
+k1MTI3MDksMzQ3NTg5NDUyLC0xODExMTc5OTU3LDE4MzEzMDE0
+ODBdfQ==
 -->
