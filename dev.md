@@ -970,7 +970,8 @@ Modules are **Python files** that end in `.py`, and have a name that is importab
 PEP 8 states that module filenames should be short and in lowercase. Underscores may be used for readability.
 
 #### packages
-A Python package is a directory that contains a file named `__init__.py`, which can even be a empty f
+A Python package is a directory that contains a file named `__init__.py`, which can even be empty.
+In addition, the directory may contain an arbitrary number of modules and sub packages.
 
 ## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
@@ -1656,11 +1657,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMzIxMDYwNiwtNjg0ODc4OTc3LC00Nj
-YxNjgwMDUsOTEzMjgyMTIyLDEyNDAzODUzMCwtMTM1NTczODEx
-Niw1MDg0MDczMiwtMjMyNzU2NDk5LC0xOTk4MDgwNDI4LC02MD
-k4MjExNTMsLTk2MDg4ODY3MywtMTkxOTUxMjcwOSwzNDc1ODk0
-NTIsLTE4MTExNzk5NTcsMTgzMTMwMTQ4MCwtNTI2NDEzMTIyLD
-E3MDU4Nzk0OTUsMTYxODY0ODYsNTg4MjEzNDk1LC0xNTE3NjM2
-NjVdfQ==
+eyJoaXN0b3J5IjpbNTg1NDUxMTQzLC02ODQ4Nzg5NzcsLTQ2Nj
+E2ODAwNSw5MTMyODIxMjIsMTI0MDM4NTMwLC0xMzU1NzM4MTE2
+LDUwODQwNzMyLC0yMzI3NTY0OTksLTE5OTgwODA0MjgsLTYwOT
+gyMTE1MywtOTYwODg4NjczLC0xOTE5NTEyNzA5LDM0NzU4OTQ1
+MiwtMTgxMTE3OTk1NywxODMxMzAxNDgwLC01MjY0MTMxMjIsMT
+cwNTg3OTQ5NSwxNjE4NjQ4Niw1ODgyMTM0OTUsLTE1MTc2MzY2
+NV19
 -->
