@@ -519,7 +519,7 @@ P.S. Use the built-in function `locals()` and `globals()` to check variables in 
 ### `import` and `as`
 There are two scenarios to use `import x as y` or `from x import y as z`:
 1. To avoid conflicting import names.
-Below are two ways to 
+Assuming there is already a user de
 ```python
 import math as other_math
 other_math.sin(0)
@@ -527,7 +527,7 @@ other_math.sin(0)
 from math import sin as other_sin
 other_sin(0)
 ```
-3. To reduce keystrokes.
+2. To reduce keystrokes.
 ```python
 import numpy as np
 import pandas as pd
@@ -1616,11 +1616,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTU4NjgzMjUsLTEzNTU3MzgxMTYsNT
-A4NDA3MzIsLTIzMjc1NjQ5OSwtMTk5ODA4MDQyOCwtNjA5ODIx
-MTUzLC05NjA4ODg2NzMsLTE5MTk1MTI3MDksMzQ3NTg5NDUyLC
-0xODExMTc5OTU3LDE4MzEzMDE0ODAsLTUyNjQxMzEyMiwxNzA1
-ODc5NDk1LDE2MTg2NDg2LDU4ODIxMzQ5NSwtMTUxNzYzNjY1LD
-E4Njc4Nzk3OSw5NjgwMzQ4MTUsMzc3Mjg4OTk4LDM1MzQwNDEz
-MF19
+eyJoaXN0b3J5IjpbNjYyMDU3NTI2LC0xMzU1NzM4MTE2LDUwOD
+QwNzMyLC0yMzI3NTY0OTksLTE5OTgwODA0MjgsLTYwOTgyMTE1
+MywtOTYwODg4NjczLC0xOTE5NTEyNzA5LDM0NzU4OTQ1MiwtMT
+gxMTE3OTk1NywxODMxMzAxNDgwLC01MjY0MTMxMjIsMTcwNTg3
+OTQ5NSwxNjE4NjQ4Niw1ODgyMTM0OTUsLTE1MTc2MzY2NSwxOD
+Y3ODc5NzksOTY4MDM0ODE1LDM3NzI4ODk5OCwzNTM0MDQxMzBd
+fQ==
 -->
