@@ -366,7 +366,7 @@ Read–Eval–Print Loop
 #### `PYTHONPATH` environment variable
 `PYTHONPATH` is an environment variable listing non-standard directories that Python looks for **modules** or **packages** in.
 
-This variable is usually ==empty==. It is not necessary to change `PYTHONPATH` unless you are developing code and want to use libraries that have not been installed.
+This variable is usually ==empty==. Leave it empty unless you are developing code and want to use libraries that have not been installed. Otherwise, changing `PYTHONPATH` can be confusing to others trying to debug your code who forget that `PYTHONPATH` has been changed.
 
 If you had some code in `/home/test/a/plot.py`, but were working out of `/home/test/b/`, using `PYTHONPATH` allows access to that code. Otherwise, if `plot.py` was not installed using system or Python tools, trying to import it would raise an `ImportError`:
 ```python
@@ -1712,11 +1712,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzY2MDI3NSwtNDg1MzI1NjYyLDQxMz
-M3MTE5MCwtNTg2NTU3NjIzLC02ODQ4Nzg5NzcsLTQ2NjE2ODAw
-NSw5MTMyODIxMjIsMTI0MDM4NTMwLC0xMzU1NzM4MTE2LDUwOD
-QwNzMyLC0yMzI3NTY0OTksLTE5OTgwODA0MjgsLTYwOTgyMTE1
-MywtOTYwODg4NjczLC0xOTE5NTEyNzA5LDM0NzU4OTQ1MiwtMT
-gxMTE3OTk1NywxODMxMzAxNDgwLC01MjY0MTMxMjIsMTcwNTg3
-OTQ5NV19
+eyJoaXN0b3J5IjpbMTE3NTU0Nzk3NiwxOTQ3NjYwMjc1LC00OD
+UzMjU2NjIsNDEzMzcxMTkwLC01ODY1NTc2MjMsLTY4NDg3ODk3
+NywtNDY2MTY4MDA1LDkxMzI4MjEyMiwxMjQwMzg1MzAsLTEzNT
+U3MzgxMTYsNTA4NDA3MzIsLTIzMjc1NjQ5OSwtMTk5ODA4MDQy
+OCwtNjA5ODIxMTUzLC05NjA4ODg2NzMsLTE5MTk1MTI3MDksMz
+Q3NTg5NDUyLC0xODExMTc5OTU3LDE4MzEzMDE0ODAsLTUyNjQx
+MzEyMl19
 -->
