@@ -517,7 +517,9 @@ The important point here is: ==the innermost possible scope is a function body.=
 P.S. Use the built-in function `locals()` and `globals()` to check variables in the scope.
 
 ### `import` and `as`
-There are two scenarios to use `import x as y` or `from xxx import xxx as y`
+There are two scenarios to use `import x as y` or `from x import y as z`:
+1. To avoid conflicting import names.
+2. To eliminate typ
 
 ### string
 [great examples for string format](https://pyformat.info/)
@@ -1603,7 +1605,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjEyODE5NTksLTEzNTU3MzgxMTYsNT
+eyJoaXN0b3J5IjpbLTE4MzIwMTM5OTMsLTEzNTU3MzgxMTYsNT
 A4NDA3MzIsLTIzMjc1NjQ5OSwtMTk5ODA4MDQyOCwtNjA5ODIx
 MTUzLC05NjA4ODg2NzMsLTE5MTk1MTI3MDksMzQ3NTg5NDUyLC
 0xODExMTc5OTU3LDE4MzEzMDE0ODAsLTUyNjQxMzEyMiwxNzA1
