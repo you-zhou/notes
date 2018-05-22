@@ -367,6 +367,14 @@ PYTHONPATH is an environment variable listing non-standard directories that Pyth
 
 This variable is usually empty. It is not necessary to change PYTHONPATH unless you are developing code and want to use libraries that have not been installed.
 
+If you had some code in /home/test/a/plot.py, but were working out of /home/test/b/,
+using PYTHONPATH allows access to that code. Otherwise, if plot.py was not installed using
+system or Python tools, trying to import it would raise an ImportError:
+>>> import plot
+Traceback (most recent call last):
+File "<stdin>", line 1, in <module>
+ImportError: No module named plot
+
 ### dir and help
 ==IMPORTANT: explore Python using dir and help.==
 #### dir()
@@ -1664,11 +1672,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjY4MDY4MTYsLTU4NjU1NzYyMywtNj
-g0ODc4OTc3LC00NjYxNjgwMDUsOTEzMjgyMTIyLDEyNDAzODUz
-MCwtMTM1NTczODExNiw1MDg0MDczMiwtMjMyNzU2NDk5LC0xOT
-k4MDgwNDI4LC02MDk4MjExNTMsLTk2MDg4ODY3MywtMTkxOTUx
-MjcwOSwzNDc1ODk0NTIsLTE4MTExNzk5NTcsMTgzMTMwMTQ4MC
-wtNTI2NDEzMTIyLDE3MDU4Nzk0OTUsMTYxODY0ODYsNTg4MjEz
-NDk1XX0=
+eyJoaXN0b3J5IjpbMzY4OTU4MzIwLC01ODY1NTc2MjMsLTY4ND
+g3ODk3NywtNDY2MTY4MDA1LDkxMzI4MjEyMiwxMjQwMzg1MzAs
+LTEzNTU3MzgxMTYsNTA4NDA3MzIsLTIzMjc1NjQ5OSwtMTk5OD
+A4MDQyOCwtNjA5ODIxMTUzLC05NjA4ODg2NzMsLTE5MTk1MTI3
+MDksMzQ3NTg5NDUyLC0xODExMTc5OTU3LDE4MzEzMDE0ODAsLT
+UyNjQxMzEyMiwxNzA1ODc5NDk1LDE2MTg2NDg2LDU4ODIxMzQ5
+NV19
 -->
