@@ -362,11 +362,11 @@ ax.grid(True, linestyle=':')
 Read–Eval–Print Loop
 
 
-### PYTHONPATH and `sys.path`
-#### PYTHONPATH environment variable
-PYTHONPATH is an environment variable listing non-standard directories that Python looks for **modules** or **packages** in.
+### `PYTHONPATH` and `sys.path`
+#### `PYTHONPATH` environment variable
+`PYTHONPATH` is an environment variable listing non-standard directories that Python looks for **modules** or **packages** in.
 
-This variable is usually empty. It is not necessary to change PYTHONPATH unless you are developing code and want to use libraries that have not been installed.
+This variable is usually ==empty. It is not necessary to change PYTHONPATH unless you are developing code and want to use libraries that have not been installed.
 
 If you had some code in `/home/test/a/plot.py`, but were working out of `/home/test/b/`, using PYTHONPATH allows access to that code. Otherwise, if `plot.py` was not installed using system or Python tools, trying to import it would raise an `ImportError`:
 ```python
@@ -393,7 +393,7 @@ sys.path
 ```
 
 Note:
-Typically you don’t manually set `sys.path or PYTHONPATH, normally you install libraries, and the installer puts them in the correct location.
+Typically you don’t manually set `sys.path` or `PYTHONPATH`, normally you install libraries, and the installer puts them in the correct location.
 
 
 ### dir and help
@@ -1693,7 +1693,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MjY1NDQxMiw0MTMzNzExOTAsLTU4Nj
+eyJoaXN0b3J5IjpbMjEwMjE4NDkxNCw0MTMzNzExOTAsLTU4Nj
 U1NzYyMywtNjg0ODc4OTc3LC00NjYxNjgwMDUsOTEzMjgyMTIy
 LDEyNDAzODUzMCwtMTM1NTczODExNiw1MDg0MDczMiwtMjMyNz
 U2NDk5LC0xOTk4MDgwNDI4LC02MDk4MjExNTMsLTk2MDg4ODY3
