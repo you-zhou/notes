@@ -517,7 +517,7 @@ The important point here is: ==the innermost possible scope is a function body.=
 P.S. Use the built-in function `locals()` and `globals()` to check variables in the scope.
 
 ### `import` and `as`
-There are two scenarios to use `import x as y` or `from x import y as z`:
+#### Two scenarios to use `import x as y` or `from x import y as z`:
 1. To avoid conflicting import names.
 Assuming there is already a user defined `sin()` in the current namespace, below are the ways to get around conflicted names and use the `math` library.
 ```python
@@ -536,6 +536,14 @@ import pandas as pd
 Note: 
 >Do not use star imports! Star imports make debugging harder because it is not explicit where code comes from.
 Even worse are star imports from multiple libraries. Subsequent library imports might override something defined in an earlier library. As such, star imports are discouraged and frowned upon.
+
+
+#### organise imports
+According to PEP 8, import statements should be located at the top of the file following the
+module docstring. There should be one import per line and imports should be grouped by:
+* Standard library imports
+• 3rd party imports
+• Local package imports
 
 ### string
 [great examples for string format](https://pyformat.info/)
@@ -1621,11 +1629,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzMjgyMTIyLDEyNDAzODUzMCwtMTM1NT
-czODExNiw1MDg0MDczMiwtMjMyNzU2NDk5LC0xOTk4MDgwNDI4
-LC02MDk4MjExNTMsLTk2MDg4ODY3MywtMTkxOTUxMjcwOSwzND
-c1ODk0NTIsLTE4MTExNzk5NTcsMTgzMTMwMTQ4MCwtNTI2NDEz
-MTIyLDE3MDU4Nzk0OTUsMTYxODY0ODYsNTg4MjEzNDk1LC0xNT
-E3NjM2NjUsMTg2Nzg3OTc5LDk2ODAzNDgxNSwzNzcyODg5OThd
+eyJoaXN0b3J5IjpbMzc2NzkxODA1LDkxMzI4MjEyMiwxMjQwMz
+g1MzAsLTEzNTU3MzgxMTYsNTA4NDA3MzIsLTIzMjc1NjQ5OSwt
+MTk5ODA4MDQyOCwtNjA5ODIxMTUzLC05NjA4ODg2NzMsLTE5MT
+k1MTI3MDksMzQ3NTg5NDUyLC0xODExMTc5OTU3LDE4MzEzMDE0
+ODAsLTUyNjQxMzEyMiwxNzA1ODc5NDk1LDE2MTg2NDg2LDU4OD
+IxMzQ5NSwtMTUxNzYzNjY1LDE4Njc4Nzk3OSw5NjgwMzQ4MTVd
 fQ==
 -->
