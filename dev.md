@@ -1699,7 +1699,8 @@ chrome://net-internals/#proxy
 
 # System
 ## UNIX/Linux
-### hierarchy
+### file system hierarchy
+[# Filesystem Hierarchy Standard](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)
 `$ man hier`
 [hier - description of the file system hierarchy](https://linux.die.net/man/7/hier)
 
@@ -1721,11 +1722,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MzkzODc0OSwtMTE1NzA2MTI4Miw2Nj
-QzNTUwODcsMTE2ODMzNDA3MywxNTU0NTQxMzE3LC0zMjk3NzMx
-MzgsMTk0NzY2MDI3NSwtNDg1MzI1NjYyLDQxMzM3MTE5MCwtNT
-g2NTU3NjIzLC02ODQ4Nzg5NzcsLTQ2NjE2ODAwNSw5MTMyODIx
-MjIsMTI0MDM4NTMwLC0xMzU1NzM4MTE2LDUwODQwNzMyLC0yMz
-I3NTY0OTksLTE5OTgwODA0MjgsLTYwOTgyMTE1MywtOTYwODg4
-NjczXX0=
+eyJoaXN0b3J5IjpbMzg0OTIwMTUzLC00NDM5Mzg3NDksLTExNT
+cwNjEyODIsNjY0MzU1MDg3LDExNjgzMzQwNzMsMTU1NDU0MTMx
+NywtMzI5NzczMTM4LDE5NDc2NjAyNzUsLTQ4NTMyNTY2Miw0MT
+MzNzExOTAsLTU4NjU1NzYyMywtNjg0ODc4OTc3LC00NjYxNjgw
+MDUsOTEzMjgyMTIyLDEyNDAzODUzMCwtMTM1NTczODExNiw1MD
+g0MDczMiwtMjMyNzU2NDk5LC0xOTk4MDgwNDI4LC02MDk4MjEx
+NTNdfQ==
 -->
