@@ -1703,6 +1703,8 @@ chrome://net-internals/#proxy
 `$ man hier`
 [hier - description of the file system hierarchy](https://linux.die.net/man/7/hier)
 
+[some history/background with /bin vs /sbin vs /usr/bin vs /usr/sbin](http://lists.busybox.net/pipermail/busybox/2010-December/074114.html)
+
 
 ## tar/tar.gz
 TAR is short for "Tape Archive".
@@ -1719,11 +1721,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTcwNjEyODIsNjY0MzU1MDg3LDExNj
-gzMzQwNzMsMTU1NDU0MTMxNywtMzI5NzczMTM4LDE5NDc2NjAy
-NzUsLTQ4NTMyNTY2Miw0MTMzNzExOTAsLTU4NjU1NzYyMywtNj
-g0ODc4OTc3LC00NjYxNjgwMDUsOTEzMjgyMTIyLDEyNDAzODUz
-MCwtMTM1NTczODExNiw1MDg0MDczMiwtMjMyNzU2NDk5LC0xOT
-k4MDgwNDI4LC02MDk4MjExNTMsLTk2MDg4ODY3MywtMTkxOTUx
-MjcwOV19
+eyJoaXN0b3J5IjpbLTQ0MzkzODc0OSwtMTE1NzA2MTI4Miw2Nj
+QzNTUwODcsMTE2ODMzNDA3MywxNTU0NTQxMzE3LC0zMjk3NzMx
+MzgsMTk0NzY2MDI3NSwtNDg1MzI1NjYyLDQxMzM3MTE5MCwtNT
+g2NTU3NjIzLC02ODQ4Nzg5NzcsLTQ2NjE2ODAwNSw5MTMyODIx
+MjIsMTI0MDM4NTMwLC0xMzU1NzM4MTE2LDUwODQwNzMyLC0yMz
+I3NTY0OTksLTE5OTgwODA0MjgsLTYwOTgyMTE1MywtOTYwODg4
+NjczXX0=
 -->
