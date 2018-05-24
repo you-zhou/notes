@@ -391,7 +391,7 @@ The `sys` module has an attribute `path`. It stores a list of paths that determi
 import sys
 sys.path
 ```
-`sys` module is NOT implemented in Python, but CPython. Check `sys.implementation`.
+`sys` module is NOT implemented in Python, but C (CPython). Check `sys.implementation`.
 
 Note:
 Typically you don’t manually set `sys.path` or `PYTHONPATH`, normally you install libraries, and the installer puts them in the correct location.
@@ -1713,11 +1713,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2ODMzNDA3MywxNTU0NTQxMzE3LC0zMj
-k3NzMxMzgsMTk0NzY2MDI3NSwtNDg1MzI1NjYyLDQxMzM3MTE5
-MCwtNTg2NTU3NjIzLC02ODQ4Nzg5NzcsLTQ2NjE2ODAwNSw5MT
-MyODIxMjIsMTI0MDM4NTMwLC0xMzU1NzM4MTE2LDUwODQwNzMy
-LC0yMzI3NTY0OTksLTE5OTgwODA0MjgsLTYwOTgyMTE1MywtOT
-YwODg4NjczLC0xOTE5NTEyNzA5LDM0NzU4OTQ1MiwtMTgxMTE3
-OTk1N119
+eyJoaXN0b3J5IjpbNjY0MzU1MDg3LDExNjgzMzQwNzMsMTU1ND
+U0MTMxNywtMzI5NzczMTM4LDE5NDc2NjAyNzUsLTQ4NTMyNTY2
+Miw0MTMzNzExOTAsLTU4NjU1NzYyMywtNjg0ODc4OTc3LC00Nj
+YxNjgwMDUsOTEzMjgyMTIyLDEyNDAzODUzMCwtMTM1NTczODEx
+Niw1MDg0MDczMiwtMjMyNzU2NDk5LC0xOTk4MDgwNDI4LC02MD
+k4MjExNTMsLTk2MDg4ODY3MywtMTkxOTUxMjcwOSwzNDc1ODk0
+NTJdfQ==
 -->
