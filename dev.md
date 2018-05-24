@@ -1698,6 +1698,11 @@ chrome://net-internals/#proxy
 
 
 # System
+## UNIX/Linux
+### hierarchy
+`$ man hier`
+hier - description of the file system hierarchy
+
 ## tar/tar.gz
 TAR is short for "Tape Archive".
 It is used to store multiple files in one single file. But it is **only** for storing data, **not** compressing it.
@@ -1713,11 +1718,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY0MzU1MDg3LDExNjgzMzQwNzMsMTU1ND
-U0MTMxNywtMzI5NzczMTM4LDE5NDc2NjAyNzUsLTQ4NTMyNTY2
-Miw0MTMzNzExOTAsLTU4NjU1NzYyMywtNjg0ODc4OTc3LC00Nj
-YxNjgwMDUsOTEzMjgyMTIyLDEyNDAzODUzMCwtMTM1NTczODEx
-Niw1MDg0MDczMiwtMjMyNzU2NDk5LC0xOTk4MDgwNDI4LC02MD
-k4MjExNTMsLTk2MDg4ODY3MywtMTkxOTUxMjcwOSwzNDc1ODk0
-NTJdfQ==
+eyJoaXN0b3J5IjpbMTA1MDg4MjE2Myw2NjQzNTUwODcsMTE2OD
+MzNDA3MywxNTU0NTQxMzE3LC0zMjk3NzMxMzgsMTk0NzY2MDI3
+NSwtNDg1MzI1NjYyLDQxMzM3MTE5MCwtNTg2NTU3NjIzLC02OD
+Q4Nzg5NzcsLTQ2NjE2ODAwNSw5MTMyODIxMjIsMTI0MDM4NTMw
+LC0xMzU1NzM4MTE2LDUwODQwNzMyLC0yMzI3NTY0OTksLTE5OT
+gwODA0MjgsLTYwOTgyMTE1MywtOTYwODg4NjczLC0xOTE5NTEy
+NzA5XX0=
 -->
