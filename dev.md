@@ -9,6 +9,8 @@ windows
 `pip install -U virtualenvwrapper-win`
 
 In Windows, the default path for `WORKON_HOME` is `%USERPROFILE%Envs`
+
+
 Linux
 Installing apps with different profiles will have different default package destinations.
 user | directory
@@ -1738,11 +1740,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjAzNzQ3NzksOTQ1NTA0Mjg1LC03Mz
-c0NDMwNTQsLTEyODAxMzgyMTQsLTE4MzA4MTcyMTksLTcxMjI1
-MzEyNCwtNDQzOTM4NzQ5LC0xMTU3MDYxMjgyLDY2NDM1NTA4Ny
-wxMTY4MzM0MDczLDE1NTQ1NDEzMTcsLTMyOTc3MzEzOCwxOTQ3
-NjYwMjc1LC00ODUzMjU2NjIsNDEzMzcxMTkwLC01ODY1NTc2Mj
-MsLTY4NDg3ODk3NywtNDY2MTY4MDA1LDkxMzI4MjEyMiwxMjQw
-Mzg1MzBdfQ==
+eyJoaXN0b3J5IjpbMTIwOTQ3OTk3Nyw5NDU1MDQyODUsLTczNz
+Q0MzA1NCwtMTI4MDEzODIxNCwtMTgzMDgxNzIxOSwtNzEyMjUz
+MTI0LC00NDM5Mzg3NDksLTExNTcwNjEyODIsNjY0MzU1MDg3LD
+ExNjgzMzQwNzMsMTU1NDU0MTMxNywtMzI5NzczMTM4LDE5NDc2
+NjAyNzUsLTQ4NTMyNTY2Miw0MTMzNzExOTAsLTU4NjU1NzYyMy
+wtNjg0ODc4OTc3LC00NjYxNjgwMDUsOTEzMjgyMTIyLDEyNDAz
+ODUzMF19
 -->
