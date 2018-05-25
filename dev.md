@@ -515,8 +515,9 @@ To UNINSTALL all packages in the current environment.
 * Method 3 (with  `virtualenv`)
 	`virtualenv --clear MYENV`
 	
-
-User is
+#### pip install --user `<package>`
+This does a ==user installation== to prevent breaking any system-wide packages.
+`$ pip install --user pipenv`
 
 ### Why ```if __name__ == '__main__'```?
 
@@ -1727,11 +1728,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM2MDYxMzgsLTE4MzA4MTcyMTksLT
-cxMjI1MzEyNCwtNDQzOTM4NzQ5LC0xMTU3MDYxMjgyLDY2NDM1
-NTA4NywxMTY4MzM0MDczLDE1NTQ1NDEzMTcsLTMyOTc3MzEzOC
-wxOTQ3NjYwMjc1LC00ODUzMjU2NjIsNDEzMzcxMTkwLC01ODY1
-NTc2MjMsLTY4NDg3ODk3NywtNDY2MTY4MDA1LDkxMzI4MjEyMi
-wxMjQwMzg1MzAsLTEzNTU3MzgxMTYsNTA4NDA3MzIsLTIzMjc1
-NjQ5OV19
+eyJoaXN0b3J5IjpbLTU4MTIwMDQwOCwtMTgzMDgxNzIxOSwtNz
+EyMjUzMTI0LC00NDM5Mzg3NDksLTExNTcwNjEyODIsNjY0MzU1
+MDg3LDExNjgzMzQwNzMsMTU1NDU0MTMxNywtMzI5NzczMTM4LD
+E5NDc2NjAyNzUsLTQ4NTMyNTY2Miw0MTMzNzExOTAsLTU4NjU1
+NzYyMywtNjg0ODc4OTc3LC00NjYxNjgwMDUsOTEzMjgyMTIyLD
+EyNDAzODUzMCwtMTM1NTczODExNiw1MDg0MDczMiwtMjMyNzU2
+NDk5XX0=
 -->
