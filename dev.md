@@ -516,6 +516,8 @@ To UNINSTALL all packages in the current environment.
 	`virtualenv --clear MYENV`
 	
 
+User is
+
 ### Why ```if __name__ == '__main__'```?
 
 It checks if a module is being `imported` or ran `directly`. Refer to [Python Docs](https://docs.python.org/3/library/__main__.html).
@@ -1725,11 +1727,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzA4MTcyMTksLTcxMjI1MzEyNCwtND
-QzOTM4NzQ5LC0xMTU3MDYxMjgyLDY2NDM1NTA4NywxMTY4MzM0
-MDczLDE1NTQ1NDEzMTcsLTMyOTc3MzEzOCwxOTQ3NjYwMjc1LC
-00ODUzMjU2NjIsNDEzMzcxMTkwLC01ODY1NTc2MjMsLTY4NDg3
-ODk3NywtNDY2MTY4MDA1LDkxMzI4MjEyMiwxMjQwMzg1MzAsLT
-EzNTU3MzgxMTYsNTA4NDA3MzIsLTIzMjc1NjQ5OSwtMTk5ODA4
-MDQyOF19
+eyJoaXN0b3J5IjpbLTEzMzM2MDYxMzgsLTE4MzA4MTcyMTksLT
+cxMjI1MzEyNCwtNDQzOTM4NzQ5LC0xMTU3MDYxMjgyLDY2NDM1
+NTA4NywxMTY4MzM0MDczLDE1NTQ1NDEzMTcsLTMyOTc3MzEzOC
+wxOTQ3NjYwMjc1LC00ODUzMjU2NjIsNDEzMzcxMTkwLC01ODY1
+NTc2MjMsLTY4NDg3ODk3NywtNDY2MTY4MDA1LDkxMzI4MjEyMi
+wxMjQwMzg1MzAsLTEzNTU3MzgxMTYsNTA4NDA3MzIsLTIzMjc1
+NjQ5OV19
 -->
