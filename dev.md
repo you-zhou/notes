@@ -362,6 +362,9 @@ ax.grid(True, linestyle=':')
 Read–Eval–Print Loop
 It is convenient to test codes with IDLE that comes with Python as part of the installation.
 
+### python --version
+If you still see 2.7 ensure in PATH `/usr/local/bin/` takes pecedence over `/usr/bin/`.
+
 ### `PYTHONPATH` and `sys.path`
 #### `PYTHONPATH` environment variable
 `PYTHONPATH` is an environment variable listing non-standard directories that Python looks for **modules** or **packages** in.
@@ -1722,11 +1725,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjI1MzEyNCwtNDQzOTM4NzQ5LC0xMT
-U3MDYxMjgyLDY2NDM1NTA4NywxMTY4MzM0MDczLDE1NTQ1NDEz
-MTcsLTMyOTc3MzEzOCwxOTQ3NjYwMjc1LC00ODUzMjU2NjIsND
-EzMzcxMTkwLC01ODY1NTc2MjMsLTY4NDg3ODk3NywtNDY2MTY4
-MDA1LDkxMzI4MjEyMiwxMjQwMzg1MzAsLTEzNTU3MzgxMTYsNT
-A4NDA3MzIsLTIzMjc1NjQ5OSwtMTk5ODA4MDQyOCwtNjA5ODIx
-MTUzXX0=
+eyJoaXN0b3J5IjpbLTE4MzA4MTcyMTksLTcxMjI1MzEyNCwtND
+QzOTM4NzQ5LC0xMTU3MDYxMjgyLDY2NDM1NTA4NywxMTY4MzM0
+MDczLDE1NTQ1NDEzMTcsLTMyOTc3MzEzOCwxOTQ3NjYwMjc1LC
+00ODUzMjU2NjIsNDEzMzcxMTkwLC01ODY1NTc2MjMsLTY4NDg3
+ODk3NywtNDY2MTY4MDA1LDkxMzI4MjEyMiwxMjQwMzg1MzAsLT
+EzNTU3MzgxMTYsNTA4NDA3MzIsLTIzMjc1NjQ5OSwtMTk5ODA4
+MDQyOF19
 -->
