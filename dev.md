@@ -18,7 +18,7 @@ user | directory
 regular user (none root)| ~/.local/bin
 root | /usr/bin
 
-`$ export PATH=$PATH:~/.local/bin`
+`$ export PATH=~/.local/bin:$PATH`
 
 Installing packages with pip.
 user | directory
@@ -1740,7 +1740,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTQ3OTk3Nyw5NDU1MDQyODUsLTczNz
+eyJoaXN0b3J5IjpbLTc5NDMzODUxNyw5NDU1MDQyODUsLTczNz
 Q0MzA1NCwtMTI4MDEzODIxNCwtMTgzMDgxNzIxOSwtNzEyMjUz
 MTI0LC00NDM5Mzg3NDksLTExNTcwNjEyODIsNjY0MzU1MDg3LD
 ExNjgzMzQwNzMsMTU1NDU0MTMxNywtMzI5NzczMTM4LDE5NDc2
