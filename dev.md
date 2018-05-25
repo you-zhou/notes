@@ -519,6 +519,8 @@ To UNINSTALL all packages in the current environment.
 This does a ==user installation== to prevent breaking any system-wide packages.
 `$ pip install --user pipenv`
 
+After this, if pipenv isn’t available in your shell after installation, you’ll need to add the user base‘s binary directory to your PATH.
+
 NOTE: 
 * On Linux and macOS you can find the user base binary directory by running `python -m site --user-base` and adding bin to the end. For example, this will typically print ~/.local (with ~ expanded to the absolute path to your home directory) so you’ll need to add ~/.local/bin to your PATH. You can set your PATH permanently by modifying ~/.profile.
 
@@ -1734,7 +1736,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3Njc2ODY5MiwtMTI4MDEzODIxNCwtMT
+eyJoaXN0b3J5IjpbLTYyMzU0Nzc1OCwtMTI4MDEzODIxNCwtMT
 gzMDgxNzIxOSwtNzEyMjUzMTI0LC00NDM5Mzg3NDksLTExNTcw
 NjEyODIsNjY0MzU1MDg3LDExNjgzMzQwNzMsMTU1NDU0MTMxNy
 wtMzI5NzczMTM4LDE5NDc2NjAyNzUsLTQ4NTMyNTY2Miw0MTMz
