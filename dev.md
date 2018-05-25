@@ -519,6 +519,17 @@ To UNINSTALL all packages in the current environment.
 This does a ==user installation== to prevent breaking any system-wide packages.
 `$ pip install --user pipenv`
 
+NOTE: On Linux and macOS you can find the user base binary directory by running python -m site
+--user-base and adding bin to the end. For example, this will typically print ~/.local (with
+~ expanded to the absolute path to your home directory) so you’ll need to add ~/.local/bin to your
+PATH. You can set your PATH permanently by modifying ~/.profile.
+On Windows you can find the user base binary directory by running py -m site
+--user-site and replacing site-packages with Scripts. For example, this could return
+C:\Users\Username\AppData\Roaming\Python36\site-packages so you would need
+to set your PATH to include C:\Users\Username\AppData\Roaming\Python36\Scripts.
+You can set your user PATH permanently in the Control Panel. You may need to log out for the PATH
+changes to take effect.
+
 ### Why ```if __name__ == '__main__'```?
 
 It checks if a module is being `imported` or ran `directly`. Refer to [Python Docs](https://docs.python.org/3/library/__main__.html).
@@ -1728,7 +1739,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MTIwMDQwOCwtMTgzMDgxNzIxOSwtNz
+eyJoaXN0b3J5IjpbMjA5MzI4NTg2OSwtMTgzMDgxNzIxOSwtNz
 EyMjUzMTI0LC00NDM5Mzg3NDksLTExNTcwNjEyODIsNjY0MzU1
 MDg3LDExNjgzMzQwNzMsMTU1NDU0MTMxNywtMzI5NzczMTM4LD
 E5NDc2NjAyNzUsLTQ4NTMyNTY2Miw0MTMzNzExOTAsLTU4NjU1
