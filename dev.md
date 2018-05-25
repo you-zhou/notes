@@ -538,10 +538,10 @@ if __name__ == "__main__":
     main()
 ```
 
-* direct run: __name__ = __main__
+* direct run: `__name__` = `'__main__'`
 > if statement == True, and the script in __main__ will be executed
 
-* imported: __name__ = module's filename 
+* imported: `__name__` = module's filename 
 > if statement == False, and the script in __main__ will not be executed
 
 With this behavior any py file can exhibit dual behavior - it is a script as well as module. 
@@ -1737,11 +1737,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDY1MzUyMSwtNzM3NDQzMDU0LC0xMj
-gwMTM4MjE0LC0xODMwODE3MjE5LC03MTIyNTMxMjQsLTQ0Mzkz
-ODc0OSwtMTE1NzA2MTI4Miw2NjQzNTUwODcsMTE2ODMzNDA3My
-wxNTU0NTQxMzE3LC0zMjk3NzMxMzgsMTk0NzY2MDI3NSwtNDg1
-MzI1NjYyLDQxMzM3MTE5MCwtNTg2NTU3NjIzLC02ODQ4Nzg5Nz
-csLTQ2NjE2ODAwNSw5MTMyODIxMjIsMTI0MDM4NTMwLC0xMzU1
-NzM4MTE2XX0=
+eyJoaXN0b3J5IjpbOTQ1NTA0Mjg1LC03Mzc0NDMwNTQsLTEyOD
+AxMzgyMTQsLTE4MzA4MTcyMTksLTcxMjI1MzEyNCwtNDQzOTM4
+NzQ5LC0xMTU3MDYxMjgyLDY2NDM1NTA4NywxMTY4MzM0MDczLD
+E1NTQ1NDEzMTcsLTMyOTc3MzEzOCwxOTQ3NjYwMjc1LC00ODUz
+MjU2NjIsNDEzMzcxMTkwLC01ODY1NTc2MjMsLTY4NDg3ODk3Ny
+wtNDY2MTY4MDA1LDkxMzI4MjEyMiwxMjQwMzg1MzAsLTEzNTU3
+MzgxMTZdfQ==
 -->
