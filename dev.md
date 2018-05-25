@@ -529,7 +529,8 @@ You can set your user PATH permanently in the Control Panel. You may need to log
 
 ### Why ```if __name__ == '__main__'```?
 
-In a nutshell, it checks if a module is being `imported` or ran `directly`. Refer to [Python Docs](https://docs.python.org/3/library/__main__.html).
+In a nutshell, it checks if the current module is being `imported` or ran `directly`. 
+[Ref to Python Docs](https://docs.python.org/3/library/__main__.html).
 
 ```python
 if __name__ == "__main__":
@@ -1736,11 +1737,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTUxNzc1NywtNzM3NDQzMDU0LC0xMj
-gwMTM4MjE0LC0xODMwODE3MjE5LC03MTIyNTMxMjQsLTQ0Mzkz
-ODc0OSwtMTE1NzA2MTI4Miw2NjQzNTUwODcsMTE2ODMzNDA3My
-wxNTU0NTQxMzE3LC0zMjk3NzMxMzgsMTk0NzY2MDI3NSwtNDg1
-MzI1NjYyLDQxMzM3MTE5MCwtNTg2NTU3NjIzLC02ODQ4Nzg5Nz
-csLTQ2NjE2ODAwNSw5MTMyODIxMjIsMTI0MDM4NTMwLC0xMzU1
-NzM4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE2MDUwMjAwNTEsLTczNzQ0MzA1NCwtMT
+I4MDEzODIxNCwtMTgzMDgxNzIxOSwtNzEyMjUzMTI0LC00NDM5
+Mzg3NDksLTExNTcwNjEyODIsNjY0MzU1MDg3LDExNjgzMzQwNz
+MsMTU1NDU0MTMxNywtMzI5NzczMTM4LDE5NDc2NjAyNzUsLTQ4
+NTMyNTY2Miw0MTMzNzExOTAsLTU4NjU1NzYyMywtNjg0ODc4OT
+c3LC00NjYxNjgwMDUsOTEzMjgyMTIyLDEyNDAzODUzMCwtMTM1
+NTczODExNl19
 -->
