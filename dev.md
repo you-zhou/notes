@@ -1,6 +1,15 @@
 Dev Notes
 
 # System Setup
+## editors
+### sublime text
+Add this line `127.0.0.1 license.sublimehq.com` to: 
+Linux/Mac:
+`/etc/hosts` 
+
+Windows: >`C:\Windows\System32\drivers\etc\hosts` 
+
+
 ## python, pip, virtualenv & pipenv
 windows
 `python -V`
@@ -1746,11 +1755,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MDkwNDkxOSw5NDU1MDQyODUsLTczNz
-Q0MzA1NCwtMTI4MDEzODIxNCwtMTgzMDgxNzIxOSwtNzEyMjUz
-MTI0LC00NDM5Mzg3NDksLTExNTcwNjEyODIsNjY0MzU1MDg3LD
-ExNjgzMzQwNzMsMTU1NDU0MTMxNywtMzI5NzczMTM4LDE5NDc2
-NjAyNzUsLTQ4NTMyNTY2Miw0MTMzNzExOTAsLTU4NjU1NzYyMy
-wtNjg0ODc4OTc3LC00NjYxNjgwMDUsOTEzMjgyMTIyLDEyNDAz
-ODUzMF19
+eyJoaXN0b3J5IjpbMTYwMzYwODYwOSwtNTgwOTA0OTE5LDk0NT
+UwNDI4NSwtNzM3NDQzMDU0LC0xMjgwMTM4MjE0LC0xODMwODE3
+MjE5LC03MTIyNTMxMjQsLTQ0MzkzODc0OSwtMTE1NzA2MTI4Mi
+w2NjQzNTUwODcsMTE2ODMzNDA3MywxNTU0NTQxMzE3LC0zMjk3
+NzMxMzgsMTk0NzY2MDI3NSwtNDg1MzI1NjYyLDQxMzM3MTE5MC
+wtNTg2NTU3NjIzLC02ODQ4Nzg5NzcsLTQ2NjE2ODAwNSw5MTMy
+ODIxMjJdfQ==
 -->
