@@ -1116,6 +1116,12 @@ In a nut shell, modules are **Python files** that end in `.py`, and have a name 
 
 ##### executing modules as scripts
 
+```python
+if __name__ == "__main__":
+	import sys
+	f(int(sys.argv[1]))
+```
+
 #### packages
 Packages are a way of structuring Python’s module namespace by using “dotted module names”. For example, the module name `A.B` designates a submodule named `B` in a package named `A`. Just like the use of modules saves the authors of different modules from having to worry about each other’s global variable names, the use of dotted module names saves the authors of multi-module packages like NumPy or Pillow from having to worry about each other’s module names. 
 
@@ -1818,11 +1824,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjE3OTc3NywtNzg1OTMwNjIzLDE5Mj
-E4MTM0NjEsMTkyMTgxMzQ2MSw5NDk4MDAzNzIsMTEwOTI4MDM1
-MSwxNjAzNjA4NjA5LC01ODA5MDQ5MTksOTQ1NTA0Mjg1LC03Mz
-c0NDMwNTQsLTEyODAxMzgyMTQsLTE4MzA4MTcyMTksLTcxMjI1
-MzEyNCwtNDQzOTM4NzQ5LC0xMTU3MDYxMjgyLDY2NDM1NTA4Ny
-wxMTY4MzM0MDczLDE1NTQ1NDEzMTcsLTMyOTc3MzEzOCwxOTQ3
-NjYwMjc1XX0=
+eyJoaXN0b3J5IjpbLTIxNDIxMDQzMjcsLTQzNjE3OTc3NywtNz
+g1OTMwNjIzLDE5MjE4MTM0NjEsMTkyMTgxMzQ2MSw5NDk4MDAz
+NzIsMTEwOTI4MDM1MSwxNjAzNjA4NjA5LC01ODA5MDQ5MTksOT
+Q1NTA0Mjg1LC03Mzc0NDMwNTQsLTEyODAxMzgyMTQsLTE4MzA4
+MTcyMTksLTcxMjI1MzEyNCwtNDQzOTM4NzQ5LC0xMTU3MDYxMj
+gyLDY2NDM1NTA4NywxMTY4MzM0MDczLDE1NTQ1NDEzMTcsLTMy
+OTc3MzEzOF19
 -->
