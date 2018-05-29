@@ -1107,6 +1107,8 @@ Modules are **Python files** that end in `.py`, and have a name that is importab
 > PEP 8 states that module filenames should be short and in lowercase. Underscores may be used for readability.
 
 #### packages
+Packages are a way of structuring Python’s module namespace by using “dotted module names”. For example, the module name `A.B` designates a submodule named `B` in a package named `A`. Just like the use of modules saves the authors of different modules from having to worry about each other’s global variable names, the use of dotted module names saves the authors of multi-module packages like NumPy or Pillow from having to worry about each other’s module names. [python doc ref](https://docs.python.org/3/tutorial/modules.html#packages)
+
 A Python package is a **directory** that contains a file named `__init__.py`, which can even be empty.
 In addition, the directory may contain an arbitrary number of modules and sub packages.
 > PEP 8 states that directory names for packages should be short and lowercase. Underscores should ==not== be used.
@@ -1804,11 +1806,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMTgxMzQ2MSwxOTIxODEzNDYxLDk0OT
-gwMDM3MiwxMTA5MjgwMzUxLDE2MDM2MDg2MDksLTU4MDkwNDkx
-OSw5NDU1MDQyODUsLTczNzQ0MzA1NCwtMTI4MDEzODIxNCwtMT
-gzMDgxNzIxOSwtNzEyMjUzMTI0LC00NDM5Mzg3NDksLTExNTcw
-NjEyODIsNjY0MzU1MDg3LDExNjgzMzQwNzMsMTU1NDU0MTMxNy
-wtMzI5NzczMTM4LDE5NDc2NjAyNzUsLTQ4NTMyNTY2Miw0MTMz
-NzExOTBdfQ==
+eyJoaXN0b3J5IjpbLTc4NTkzMDYyMywxOTIxODEzNDYxLDE5Mj
+E4MTM0NjEsOTQ5ODAwMzcyLDExMDkyODAzNTEsMTYwMzYwODYw
+OSwtNTgwOTA0OTE5LDk0NTUwNDI4NSwtNzM3NDQzMDU0LC0xMj
+gwMTM4MjE0LC0xODMwODE3MjE5LC03MTIyNTMxMjQsLTQ0Mzkz
+ODc0OSwtMTE1NzA2MTI4Miw2NjQzNTUwODcsMTE2ODMzNDA3My
+wxNTU0NTQxMzE3LC0zMjk3NzMxMzgsMTk0NzY2MDI3NSwtNDg1
+MzI1NjYyXX0=
 -->
