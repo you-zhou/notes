@@ -213,6 +213,7 @@ bug/
 hotfix/
 test/
 
+With nam
 
 ### node.js & npm
 `$ sudo apt-get install nodejs`
@@ -1784,11 +1785,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTUwMjgwNSwxMTA5MjgwMzUxLDE2MD
-M2MDg2MDksLTU4MDkwNDkxOSw5NDU1MDQyODUsLTczNzQ0MzA1
-NCwtMTI4MDEzODIxNCwtMTgzMDgxNzIxOSwtNzEyMjUzMTI0LC
-00NDM5Mzg3NDksLTExNTcwNjEyODIsNjY0MzU1MDg3LDExNjgz
-MzQwNzMsMTU1NDU0MTMxNywtMzI5NzczMTM4LDE5NDc2NjAyNz
-UsLTQ4NTMyNTY2Miw0MTMzNzExOTAsLTU4NjU1NzYyMywtNjg0
-ODc4OTc3XX0=
+eyJoaXN0b3J5IjpbLTE2NzU2NjQ2OTcsMTEwOTI4MDM1MSwxNj
+AzNjA4NjA5LC01ODA5MDQ5MTksOTQ1NTA0Mjg1LC03Mzc0NDMw
+NTQsLTEyODAxMzgyMTQsLTE4MzA4MTcyMTksLTcxMjI1MzEyNC
+wtNDQzOTM4NzQ5LC0xMTU3MDYxMjgyLDY2NDM1NTA4NywxMTY4
+MzM0MDczLDE1NTQ1NDEzMTcsLTMyOTc3MzEzOCwxOTQ3NjYwMj
+c1LC00ODUzMjU2NjIsNDEzMzcxMTkwLC01ODY1NTc2MjMsLTY4
+NDg3ODk3N119
 -->
