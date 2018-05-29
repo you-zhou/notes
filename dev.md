@@ -1114,6 +1114,8 @@ A module is a file containing Python definitions and statements. The file name i
 In a nut shell, modules are **Python files** that end in `.py`, and have a name that is importable.
 > PEP 8 states that module filenames should be short and in lowercase. Underscores may be used for readability.
 
+##### executing modules as scripts
+
 #### packages
 Packages are a way of structuring Python’s module namespace by using “dotted module names”. For example, the module name `A.B` designates a submodule named `B` in a package named `A`. Just like the use of modules saves the authors of different modules from having to worry about each other’s global variable names, the use of dotted module names saves the authors of multi-module packages like NumPy or Pillow from having to worry about each other’s module names. 
 
@@ -1816,11 +1818,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTYxNzk5NjcsLTc4NTkzMDYyMywxOT
-IxODEzNDYxLDE5MjE4MTM0NjEsOTQ5ODAwMzcyLDExMDkyODAz
-NTEsMTYwMzYwODYwOSwtNTgwOTA0OTE5LDk0NTUwNDI4NSwtNz
-M3NDQzMDU0LC0xMjgwMTM4MjE0LC0xODMwODE3MjE5LC03MTIy
-NTMxMjQsLTQ0MzkzODc0OSwtMTE1NzA2MTI4Miw2NjQzNTUwOD
-csMTE2ODMzNDA3MywxNTU0NTQxMzE3LC0zMjk3NzMxMzgsMTk0
-NzY2MDI3NV19
+eyJoaXN0b3J5IjpbLTQzNjE3OTc3NywtNzg1OTMwNjIzLDE5Mj
+E4MTM0NjEsMTkyMTgxMzQ2MSw5NDk4MDAzNzIsMTEwOTI4MDM1
+MSwxNjAzNjA4NjA5LC01ODA5MDQ5MTksOTQ1NTA0Mjg1LC03Mz
+c0NDMwNTQsLTEyODAxMzgyMTQsLTE4MzA4MTcyMTksLTcxMjI1
+MzEyNCwtNDQzOTM4NzQ5LC0xMTU3MDYxMjgyLDY2NDM1NTA4Ny
+wxMTY4MzM0MDczLDE1NTQ1NDEzMTcsLTMyOTc3MzEzOCwxOTQ3
+NjYwMjc1XX0=
 -->
