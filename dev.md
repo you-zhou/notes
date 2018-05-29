@@ -207,10 +207,10 @@ These branch name rules are enforced by the `git check-ref-format`  plumbing com
 5.  Avoid long descriptive names for long-lived branches.
 
 #### a few well-defined group names
-release/
-feature/
-bug/
-hotfix/
+* release/
+* feature/
+* bug/
+* hotfix/
 test/
 
 ##### With group structure in place, you can use git's pattern matching options:
@@ -1804,11 +1804,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4MDIzMDY2LDk0OTgwMDM3MiwxMTA5Mj
-gwMzUxLDE2MDM2MDg2MDksLTU4MDkwNDkxOSw5NDU1MDQyODUs
-LTczNzQ0MzA1NCwtMTI4MDEzODIxNCwtMTgzMDgxNzIxOSwtNz
-EyMjUzMTI0LC00NDM5Mzg3NDksLTExNTcwNjEyODIsNjY0MzU1
-MDg3LDExNjgzMzQwNzMsMTU1NDU0MTMxNywtMzI5NzczMTM4LD
-E5NDc2NjAyNzUsLTQ4NTMyNTY2Miw0MTMzNzExOTAsLTU4NjU1
-NzYyM119
+eyJoaXN0b3J5IjpbLTEyNjUzMDc5ODIsOTQ5ODAwMzcyLDExMD
+kyODAzNTEsMTYwMzYwODYwOSwtNTgwOTA0OTE5LDk0NTUwNDI4
+NSwtNzM3NDQzMDU0LC0xMjgwMTM4MjE0LC0xODMwODE3MjE5LC
+03MTIyNTMxMjQsLTQ0MzkzODc0OSwtMTE1NzA2MTI4Miw2NjQz
+NTUwODcsMTE2ODMzNDA3MywxNTU0NTQxMzE3LC0zMjk3NzMxMz
+gsMTk0NzY2MDI3NSwtNDg1MzI1NjYyLDQxMzM3MTE5MCwtNTg2
+NTU3NjIzXX0=
 -->
