@@ -1103,6 +1103,12 @@ The ._check method is considered private, only the instance should access it ins
 * The library must exist in the **PYTHONPATH** environment variable or **`sys.path`** Python variable.
 
 #### modules
+If you quit from the Python interpreter and enter it again, the definitions you have made (functions and variables) are lost. Therefore, if you want to write a somewhat longer program, you are better off using a text editor to prepare the input for the interpreter and running it with that file as input instead. This is known as creating a  _script_. As your program gets longer, you may want to split it into several files for easier maintenance. You may also want to use a handy function that you’ve written in several programs without copying its definition into each program.
+
+To support this, Python has a way to put definitions in a file and use them in a script or in an interactive instance of the interpreter. Such a file is called a  _module_; definitions from a module can be  _imported_  into other modules or into the  _main_  module (the collection of variables that you have access to in a script executed at the top level and in calculator mode).
+
+A module is a file containing Python definitions and statements. The file name is the module name with the suffix  `.py`  appended. Within a module, the module’s name (as a string) is available as the value of the global variable  `__name__`.
+
 Modules are **Python files** that end in `.py`, and have a name that is importable.
 > PEP 8 states that module filenames should be short and in lowercase. Underscores may be used for readability.
 
@@ -1806,11 +1812,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NTkzMDYyMywxOTIxODEzNDYxLDE5Mj
-E4MTM0NjEsOTQ5ODAwMzcyLDExMDkyODAzNTEsMTYwMzYwODYw
-OSwtNTgwOTA0OTE5LDk0NTUwNDI4NSwtNzM3NDQzMDU0LC0xMj
-gwMTM4MjE0LC0xODMwODE3MjE5LC03MTIyNTMxMjQsLTQ0Mzkz
-ODc0OSwtMTE1NzA2MTI4Miw2NjQzNTUwODcsMTE2ODMzNDA3My
-wxNTU0NTQxMzE3LC0zMjk3NzMxMzgsMTk0NzY2MDI3NSwtNDg1
-MzI1NjYyXX0=
+eyJoaXN0b3J5IjpbLTEyMTE5NTk1NjMsLTc4NTkzMDYyMywxOT
+IxODEzNDYxLDE5MjE4MTM0NjEsOTQ5ODAwMzcyLDExMDkyODAz
+NTEsMTYwMzYwODYwOSwtNTgwOTA0OTE5LDk0NTUwNDI4NSwtNz
+M3NDQzMDU0LC0xMjgwMTM4MjE0LC0xODMwODE3MjE5LC03MTIy
+NTMxMjQsLTQ0MzkzODc0OSwtMTE1NzA2MTI4Miw2NjQzNTUwOD
+csMTE2ODMzNDA3MywxNTU0NTQxMzE3LC0zMjk3NzMxMzgsMTk0
+NzY2MDI3NV19
 -->
