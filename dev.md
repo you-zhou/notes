@@ -185,6 +185,21 @@ $ git commit --amend  # Reword the last commit message
 	$ git commit --amend
 ```
 
+### git branch naming convention
+**Dos and Don’ts in Branch Names**
+Branch names must conform to a few simple rules.
+
+-   You can use the forward slash (/) to create a hierarchical name scheme. However, the name cannot end with a slash.
+-   The name cannot start with a minus sign (-).
+-   No slash-separated component can begin with a dot (.). A branch name such as  _feature/.new_  is invalid.
+-   The name cannot contain two consecutive dots (..) anywhere.
+-   Further, the name cannot contain:
+    -   Any space or other whitespace character
+    -   A character that has special meaning to Git, including the tilde (~), caret (^), colon (:), question mark (?), asterisk (*), and open bracket ([).
+    -   An ASCII control character, which is any byte with a value lower than \040 octal, or the DEL character (\177 octal)
+
+These branch name rules are enforced by the  _git check-ref-format_  plumbing command, and they are designed to ensure that each branch name is both easily typed and usable as a filename within the .git directory and scripts.
+
 ### node.js & npm
 `$ sudo apt-get install nodejs`
 `$ sudo apt-get install npm`
@@ -1755,11 +1770,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDQ5NzkwODcsMTYwMzYwODYwOSwtNT
-gwOTA0OTE5LDk0NTUwNDI4NSwtNzM3NDQzMDU0LC0xMjgwMTM4
-MjE0LC0xODMwODE3MjE5LC03MTIyNTMxMjQsLTQ0MzkzODc0OS
-wtMTE1NzA2MTI4Miw2NjQzNTUwODcsMTE2ODMzNDA3MywxNTU0
-NTQxMzE3LC0zMjk3NzMxMzgsMTk0NzY2MDI3NSwtNDg1MzI1Nj
-YyLDQxMzM3MTE5MCwtNTg2NTU3NjIzLC02ODQ4Nzg5NzcsLTQ2
-NjE2ODAwNV19
+eyJoaXN0b3J5IjpbMTI5NDAwMzQyMCwxNjAzNjA4NjA5LC01OD
+A5MDQ5MTksOTQ1NTA0Mjg1LC03Mzc0NDMwNTQsLTEyODAxMzgy
+MTQsLTE4MzA4MTcyMTksLTcxMjI1MzEyNCwtNDQzOTM4NzQ5LC
+0xMTU3MDYxMjgyLDY2NDM1NTA4NywxMTY4MzM0MDczLDE1NTQ1
+NDEzMTcsLTMyOTc3MzEzOCwxOTQ3NjYwMjc1LC00ODUzMjU2Nj
+IsNDEzMzcxMTkwLC01ODY1NTc2MjMsLTY4NDg3ODk3NywtNDY2
+MTY4MDA1XX0=
 -->
