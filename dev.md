@@ -213,7 +213,7 @@ bug/
 hotfix/
 test/
 
-With group structure in place, you can use git's pattern matching options:
+##### With group structure in place, you can use git's pattern matching options:
 ```bash
 $ git branch --list "test/*"
 test/foo
@@ -225,6 +225,7 @@ test/foo
 ver/foo
 ```
 
+##### tab expansion/command completion with slash
 
 ### node.js & npm
 `$ sudo apt-get install nodejs`
@@ -1796,11 +1797,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5ODAwMzcyLDExMDkyODAzNTEsMTYwMz
-YwODYwOSwtNTgwOTA0OTE5LDk0NTUwNDI4NSwtNzM3NDQzMDU0
-LC0xMjgwMTM4MjE0LC0xODMwODE3MjE5LC03MTIyNTMxMjQsLT
-Q0MzkzODc0OSwtMTE1NzA2MTI4Miw2NjQzNTUwODcsMTE2ODMz
-NDA3MywxNTU0NTQxMzE3LC0zMjk3NzMxMzgsMTk0NzY2MDI3NS
-wtNDg1MzI1NjYyLDQxMzM3MTE5MCwtNTg2NTU3NjIzLC02ODQ4
-Nzg5NzddfQ==
+eyJoaXN0b3J5IjpbMTk0OTIzMjczMyw5NDk4MDAzNzIsMTEwOT
+I4MDM1MSwxNjAzNjA4NjA5LC01ODA5MDQ5MTksOTQ1NTA0Mjg1
+LC03Mzc0NDMwNTQsLTEyODAxMzgyMTQsLTE4MzA4MTcyMTksLT
+cxMjI1MzEyNCwtNDQzOTM4NzQ5LC0xMTU3MDYxMjgyLDY2NDM1
+NTA4NywxMTY4MzM0MDczLDE1NTQ1NDEzMTcsLTMyOTc3MzEzOC
+wxOTQ3NjYwMjc1LC00ODUzMjU2NjIsNDEzMzcxMTkwLC01ODY1
+NTc2MjNdfQ==
 -->
