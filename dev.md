@@ -1114,6 +1114,9 @@ A module is a file containing Python definitions and statements. The file name i
 In a nut shell, modules are **Python files** that end in `.py`, and have a name that is importable.
 > PEP 8 states that module filenames should be short and in lowercase. Underscores may be used for readability.
 
+Note:
+Even though it is allowed to have underscore `_`  in module names, it is not 
+
 ##### executing modules as scripts
 Put execution statements inside `if __name__ == "__main__":`.
 Then it will ONLY be executed when the module is ran as a script.
@@ -1825,11 +1828,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MzQ3MzE3MywtNDM2MTc5Nzc3LC03OD
-U5MzA2MjMsMTkyMTgxMzQ2MSwxOTIxODEzNDYxLDk0OTgwMDM3
-MiwxMTA5MjgwMzUxLDE2MDM2MDg2MDksLTU4MDkwNDkxOSw5ND
-U1MDQyODUsLTczNzQ0MzA1NCwtMTI4MDEzODIxNCwtMTgzMDgx
-NzIxOSwtNzEyMjUzMTI0LC00NDM5Mzg3NDksLTExNTcwNjEyOD
-IsNjY0MzU1MDg3LDExNjgzMzQwNzMsMTU1NDU0MTMxNywtMzI5
-NzczMTM4XX0=
+eyJoaXN0b3J5IjpbLTEyNzYwNjIxMzQsMTk4MzQ3MzE3MywtND
+M2MTc5Nzc3LC03ODU5MzA2MjMsMTkyMTgxMzQ2MSwxOTIxODEz
+NDYxLDk0OTgwMDM3MiwxMTA5MjgwMzUxLDE2MDM2MDg2MDksLT
+U4MDkwNDkxOSw5NDU1MDQyODUsLTczNzQ0MzA1NCwtMTI4MDEz
+ODIxNCwtMTgzMDgxNzIxOSwtNzEyMjUzMTI0LC00NDM5Mzg3ND
+ksLTExNTcwNjEyODIsNjY0MzU1MDg3LDExNjgzMzQwNzMsMTU1
+NDU0MTMxN119
 -->
