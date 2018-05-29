@@ -209,6 +209,8 @@ These branch name rules are enforced by the `git check-ref-format`  plumbing com
 #### a few well-defined group names
 release/
 feature/
+bug/
+hotfix/
 test/
 
 
@@ -1782,7 +1784,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjUxNDc1NSwxMTA5MjgwMzUxLDE2MD
+eyJoaXN0b3J5IjpbMTM2NTUwMjgwNSwxMTA5MjgwMzUxLDE2MD
 M2MDg2MDksLTU4MDkwNDkxOSw5NDU1MDQyODUsLTczNzQ0MzA1
 NCwtMTI4MDEzODIxNCwtMTgzMDgxNzIxOSwtNzEyMjUzMTI0LC
 00NDM5Mzg3NDksLTExNTcwNjEyODIsNjY0MzU1MDg3LDExNjgz
