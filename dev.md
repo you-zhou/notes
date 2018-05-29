@@ -199,6 +199,9 @@ Branch names must conform to a few simple rules.
 
 These branch name rules are enforced by the `git check-ref-format`  plumbing command, and they are designed to ensure that each branch name is both easily typed and usable as a filename within the .git directory and scripts.
 
+#### recommended branch naming style
+
+
 ### node.js & npm
 `$ sudo apt-get install nodejs`
 `$ sudo apt-get install npm`
@@ -1769,7 +1772,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MzQ2ODMzMiwxNjAzNjA4NjA5LC01OD
+eyJoaXN0b3J5IjpbMTE4MTg4NTY1MiwxNjAzNjA4NjA5LC01OD
 A5MDQ5MTksOTQ1NTA0Mjg1LC03Mzc0NDMwNTQsLTEyODAxMzgy
 MTQsLTE4MzA4MTcyMTksLTcxMjI1MzEyNCwtNDQzOTM4NzQ5LC
 0xMTU3MDYxMjgyLDY2NDM1NTA4NywxMTY4MzM0MDczLDE1NTQ1
