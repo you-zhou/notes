@@ -207,7 +207,9 @@ These branch name rules are enforced by the `git check-ref-format`  plumbing com
 5.  Avoid long descriptive names for long-lived branches.
 
 #### a few well-defined group names
-
+release/
+feature/
+test/
 
 
 ### node.js & npm
@@ -1780,11 +1782,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUyMjg3MjMxLDExMDkyODAzNTEsMTYwMz
-YwODYwOSwtNTgwOTA0OTE5LDk0NTUwNDI4NSwtNzM3NDQzMDU0
-LC0xMjgwMTM4MjE0LC0xODMwODE3MjE5LC03MTIyNTMxMjQsLT
-Q0MzkzODc0OSwtMTE1NzA2MTI4Miw2NjQzNTUwODcsMTE2ODMz
-NDA3MywxNTU0NTQxMzE3LC0zMjk3NzMxMzgsMTk0NzY2MDI3NS
-wtNDg1MzI1NjYyLDQxMzM3MTE5MCwtNTg2NTU3NjIzLC02ODQ4
-Nzg5NzddfQ==
+eyJoaXN0b3J5IjpbMTMxNjUxNDc1NSwxMTA5MjgwMzUxLDE2MD
+M2MDg2MDksLTU4MDkwNDkxOSw5NDU1MDQyODUsLTczNzQ0MzA1
+NCwtMTI4MDEzODIxNCwtMTgzMDgxNzIxOSwtNzEyMjUzMTI0LC
+00NDM5Mzg3NDksLTExNTcwNjEyODIsNjY0MzU1MDg3LDExNjgz
+MzQwNzMsMTU1NDU0MTMxNywtMzI5NzczMTM4LDE5NDc2NjAyNz
+UsLTQ4NTMyNTY2Miw0MTMzNzExOTAsLTU4NjU1NzYyMywtNjg0
+ODc4OTc3XX0=
 -->
