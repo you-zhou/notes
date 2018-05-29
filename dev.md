@@ -185,7 +185,7 @@ $ git commit --amend  # Reword the last commit message
 	$ git commit --amend
 ```
 
-### git branch naming convention
+### git branch names
 **Dos and Don’ts in Branch Names**
 Branch names must conform to a few simple rules.
 -   You can use the forward slash (/) to create a hierarchical name scheme. However, the name cannot end with a slash.
@@ -199,8 +199,12 @@ Branch names must conform to a few simple rules.
 
 These branch name rules are enforced by the `git check-ref-format`  plumbing command, and they are designed to ensure that each branch name is both easily typed and usable as a filename within the .git directory and scripts.
 
-#### recommended branch naming style
-
+#### recommended branch naming conventions [stackoverflow ref](https://stackoverflow.com/questions/273695/git-branch-naming-best-practices)
+1.  Use grouping tokens (words) at the beginning of your branch names.
+2.  Define and use short lead tokens to differentiate branches in a way that is meaningful to your workflow.
+3.  Use slashes to separate parts of your branch names.
+4.  Do not use bare numbers as leading parts.
+5.  Avoid long descriptive names for long-lived branches.
 
 ### node.js & npm
 `$ sudo apt-get install nodejs`
@@ -1772,7 +1776,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTg4NTY1MiwxNjAzNjA4NjA5LC01OD
+eyJoaXN0b3J5IjpbMTEwOTI4MDM1MSwxNjAzNjA4NjA5LC01OD
 A5MDQ5MTksOTQ1NTA0Mjg1LC03Mzc0NDMwNTQsLTEyODAxMzgy
 MTQsLTE4MzA4MTcyMTksLTcxMjI1MzEyNCwtNDQzOTM4NzQ5LC
 0xMTU3MDYxMjgyLDY2NDM1NTA4NywxMTY4MzM0MDczLDE1NTQ1
