@@ -206,6 +206,8 @@ These branch name rules are enforced by the `git check-ref-format`  plumbing com
 4.  Do not use bare numbers as leading parts.
 5.  Avoid long descriptive names for long-lived branches.
 
+#### a few well-defined group
+
 ### node.js & npm
 `$ sudo apt-get install nodejs`
 `$ sudo apt-get install npm`
@@ -1776,11 +1778,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwOTI4MDM1MSwxNjAzNjA4NjA5LC01OD
-A5MDQ5MTksOTQ1NTA0Mjg1LC03Mzc0NDMwNTQsLTEyODAxMzgy
-MTQsLTE4MzA4MTcyMTksLTcxMjI1MzEyNCwtNDQzOTM4NzQ5LC
-0xMTU3MDYxMjgyLDY2NDM1NTA4NywxMTY4MzM0MDczLDE1NTQ1
-NDEzMTcsLTMyOTc3MzEzOCwxOTQ3NjYwMjc1LC00ODUzMjU2Nj
-IsNDEzMzcxMTkwLC01ODY1NTc2MjMsLTY4NDg3ODk3NywtNDY2
-MTY4MDA1XX0=
+eyJoaXN0b3J5IjpbMjA1MTExNDgwMywxMTA5MjgwMzUxLDE2MD
+M2MDg2MDksLTU4MDkwNDkxOSw5NDU1MDQyODUsLTczNzQ0MzA1
+NCwtMTI4MDEzODIxNCwtMTgzMDgxNzIxOSwtNzEyMjUzMTI0LC
+00NDM5Mzg3NDksLTExNTcwNjEyODIsNjY0MzU1MDg3LDExNjgz
+MzQwNzMsMTU1NDU0MTMxNywtMzI5NzczMTM4LDE5NDc2NjAyNz
+UsLTQ4NTMyNTY2Miw0MTMzNzExOTAsLTU4NjU1NzYyMywtNjg0
+ODc4OTc3XX0=
 -->
