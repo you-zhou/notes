@@ -1115,7 +1115,8 @@ In a nut shell, modules are **Python files** that end in `.py`, and have a name 
 > PEP 8 states that module filenames should be short and in lowercase. Underscores may be used for readability.
 
 ##### executing modules as scripts
-
+Put execution statements inside `if __name__ == "__main__":`.
+Then it will ONLY be executed when 
 ```python
 if __name__ == "__main__":
 	import sys
@@ -1824,7 +1825,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDIxMDQzMjcsLTQzNjE3OTc3NywtNz
+eyJoaXN0b3J5IjpbLTE4MzE5NjQ1MzEsLTQzNjE3OTc3NywtNz
 g1OTMwNjIzLDE5MjE4MTM0NjEsMTkyMTgxMzQ2MSw5NDk4MDAz
 NzIsMTEwOTI4MDM1MSwxNjAzNjA4NjA5LC01ODA5MDQ5MTksOT
 Q1NTA0Mjg1LC03Mzc0NDMwNTQsLTEyODAxMzgyMTQsLTE4MzA4
