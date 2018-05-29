@@ -1107,13 +1107,17 @@ If you quit from the Python interpreter and enter it again, the definitions you 
 
 To support this, Python has a way to put definitions in a file and use them in a script or in an interactive instance of the interpreter. Such a file is called a  _module_; definitions from a module can be  _imported_  into other modules or into the  _main_  module (the collection of variables that you have access to in a script executed at the top level and in calculator mode).
 
-A module is a file containing Python definitions and statements. The file name is the module name with the suffix  `.py`  appended. Within a module, the module’s name (as a string) is available as the value of the global variable  `__name__`.
+A module is a file containing Python definitions and statements. The file name is the module name with the suffix  `.py`  appended. Within a module, the module’s name (as a string) is available as the value of the global variable  `__name__`. 
 
-Modules are **Python files** that end in `.py`, and have a name that is importable.
+[python doc ref](https://docs.python.org/3/tutorial/modules.html#)
+
+In a nut shell, modules are **Python files** that end in `.py`, and have a name that is importable.
 > PEP 8 states that module filenames should be short and in lowercase. Underscores may be used for readability.
 
 #### packages
-Packages are a way of structuring Python’s module namespace by using “dotted module names”. For example, the module name `A.B` designates a submodule named `B` in a package named `A`. Just like the use of modules saves the authors of different modules from having to worry about each other’s global variable names, the use of dotted module names saves the authors of multi-module packages like NumPy or Pillow from having to worry about each other’s module names. [python doc ref](https://docs.python.org/3/tutorial/modules.html#packages)
+Packages are a way of structuring Python’s module namespace by using “dotted module names”. For example, the module name `A.B` designates a submodule named `B` in a package named `A`. Just like the use of modules saves the authors of different modules from having to worry about each other’s global variable names, the use of dotted module names saves the authors of multi-module packages like NumPy or Pillow from having to worry about each other’s module names. 
+
+[python doc ref](https://docs.python.org/3/tutorial/modules.html#packages)
 
 A Python package is a **directory** that contains a file named `__init__.py`, which can even be empty.
 In addition, the directory may contain an arbitrary number of modules and sub packages.
@@ -1812,7 +1816,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTE5NTk1NjMsLTc4NTkzMDYyMywxOT
+eyJoaXN0b3J5IjpbLTE0OTYxNzk5NjcsLTc4NTkzMDYyMywxOT
 IxODEzNDYxLDE5MjE4MTM0NjEsOTQ5ODAwMzcyLDExMDkyODAz
 NTEsMTYwMzYwODYwOSwtNTgwOTA0OTE5LDk0NTUwNDI4NSwtNz
 M3NDQzMDU0LC0xMjgwMTM4MjE0LC0xODMwODE3MjE5LC03MTIy
