@@ -1116,7 +1116,7 @@ In a nut shell, modules are **Python files** that end in `.py`, and have a name 
 
 ##### executing modules as scripts
 Put execution statements inside `if __name__ == "__main__":`.
-Then it will ONLY be executed when 
+Then it will ONLY be executed when the module is ran as a script.
 ```python
 if __name__ == "__main__":
 	import sys
@@ -1825,11 +1825,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzE5NjQ1MzEsLTQzNjE3OTc3NywtNz
-g1OTMwNjIzLDE5MjE4MTM0NjEsMTkyMTgxMzQ2MSw5NDk4MDAz
-NzIsMTEwOTI4MDM1MSwxNjAzNjA4NjA5LC01ODA5MDQ5MTksOT
-Q1NTA0Mjg1LC03Mzc0NDMwNTQsLTEyODAxMzgyMTQsLTE4MzA4
-MTcyMTksLTcxMjI1MzEyNCwtNDQzOTM4NzQ5LC0xMTU3MDYxMj
-gyLDY2NDM1NTA4NywxMTY4MzM0MDczLDE1NTQ1NDEzMTcsLTMy
-OTc3MzEzOF19
+eyJoaXN0b3J5IjpbMTk4MzQ3MzE3MywtNDM2MTc5Nzc3LC03OD
+U5MzA2MjMsMTkyMTgxMzQ2MSwxOTIxODEzNDYxLDk0OTgwMDM3
+MiwxMTA5MjgwMzUxLDE2MDM2MDg2MDksLTU4MDkwNDkxOSw5ND
+U1MDQyODUsLTczNzQ0MzA1NCwtMTI4MDEzODIxNCwtMTgzMDgx
+NzIxOSwtNzEyMjUzMTI0LC00NDM5Mzg3NDksLTExNTcwNjEyOD
+IsNjY0MzU1MDg3LDExNjgzMzQwNzMsMTU1NDU0MTMxNywtMzI5
+NzczMTM4XX0=
 -->
