@@ -188,7 +188,6 @@ $ git commit --amend  # Reword the last commit message
 ### git branch naming convention
 **Dos and Don’ts in Branch Names**
 Branch names must conform to a few simple rules.
-
 -   You can use the forward slash (/) to create a hierarchical name scheme. However, the name cannot end with a slash.
 -   The name cannot start with a minus sign (-).
 -   No slash-separated component can begin with a dot (.). A branch name such as  _feature/.new_  is invalid.
@@ -198,7 +197,7 @@ Branch names must conform to a few simple rules.
     -   A character that has special meaning to Git, including the tilde (~), caret (^), colon (:), question mark (?), asterisk (*), and open bracket ([).
     -   An ASCII control character, which is any byte with a value lower than \040 octal, or the DEL character (\177 octal)
 
-These branch name rules are enforced by the  _git check-ref-format_  plumbing command, and they are designed to ensure that each branch name is both easily typed and usable as a filename within the .git directory and scripts.
+These branch name rules are enforced by the `git check-ref-format`  plumbing command, and they are designed to ensure that each branch name is both easily typed and usable as a filename within the .git directory and scripts.
 
 ### node.js & npm
 `$ sudo apt-get install nodejs`
@@ -1770,7 +1769,7 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NDAwMzQyMCwxNjAzNjA4NjA5LC01OD
+eyJoaXN0b3J5IjpbMTg4MzQ2ODMzMiwxNjAzNjA4NjA5LC01OD
 A5MDQ5MTksOTQ1NTA0Mjg1LC03Mzc0NDMwNTQsLTEyODAxMzgy
 MTQsLTE4MzA4MTcyMTksLTcxMjI1MzEyNCwtNDQzOTM4NzQ5LC
 0xMTU3MDYxMjgyLDY2NDM1NTA4NywxMTY4MzM0MDczLDE1NTQ1
