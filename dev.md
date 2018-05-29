@@ -1115,7 +1115,7 @@ In a nut shell, modules are **Python files** that end in `.py`, and have a name 
 > PEP 8 states that module filenames should be short and in lowercase. Underscores may be used for readability.
 
 Note:
-Even though it is allowed to have underscore `_`  in module names, it is not preferred. e.g. `clean_filenames.py`And should be always avoided. Use submodule 
+Even though it is allowed to have underscore `_`  in module names, it is not preferred. e.g. `clean_filenames.py`And should be always avoided. Use submodules instead of underscores if possible.
 
 ##### executing modules as scripts
 Put execution statements inside `if __name__ == "__main__":`.
@@ -1828,11 +1828,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQyNTM1MzUsMTk4MzQ3MzE3MywtND
-M2MTc5Nzc3LC03ODU5MzA2MjMsMTkyMTgxMzQ2MSwxOTIxODEz
-NDYxLDk0OTgwMDM3MiwxMTA5MjgwMzUxLDE2MDM2MDg2MDksLT
-U4MDkwNDkxOSw5NDU1MDQyODUsLTczNzQ0MzA1NCwtMTI4MDEz
-ODIxNCwtMTgzMDgxNzIxOSwtNzEyMjUzMTI0LC00NDM5Mzg3ND
-ksLTExNTcwNjEyODIsNjY0MzU1MDg3LDExNjgzMzQwNzMsMTU1
-NDU0MTMxN119
+eyJoaXN0b3J5IjpbNDEzNzQ0ODMyLDE5ODM0NzMxNzMsLTQzNj
+E3OTc3NywtNzg1OTMwNjIzLDE5MjE4MTM0NjEsMTkyMTgxMzQ2
+MSw5NDk4MDAzNzIsMTEwOTI4MDM1MSwxNjAzNjA4NjA5LC01OD
+A5MDQ5MTksOTQ1NTA0Mjg1LC03Mzc0NDMwNTQsLTEyODAxMzgy
+MTQsLTE4MzA4MTcyMTksLTcxMjI1MzEyNCwtNDQzOTM4NzQ5LC
+0xMTU3MDYxMjgyLDY2NDM1NTA4NywxMTY4MzM0MDczLDE1NTQ1
+NDEzMTddfQ==
 -->
