@@ -225,7 +225,14 @@ test/foo
 ver/foo
 ```
 
-##### tab expansion/command completion with slash
+##### tab expansion/command completion with slashs
+```bash
+$ git checkout new<TAB>
+Menu:  new/frabnotz   new/foo   new/bar
+
+$ git checkout foo<TAB>
+Menu:  new/foo   test/foo   ver/foo
+```
 
 ### node.js & npm
 `$ sudo apt-get install nodejs`
@@ -1797,11 +1804,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0OTIzMjczMyw5NDk4MDAzNzIsMTEwOT
-I4MDM1MSwxNjAzNjA4NjA5LC01ODA5MDQ5MTksOTQ1NTA0Mjg1
-LC03Mzc0NDMwNTQsLTEyODAxMzgyMTQsLTE4MzA4MTcyMTksLT
-cxMjI1MzEyNCwtNDQzOTM4NzQ5LC0xMTU3MDYxMjgyLDY2NDM1
-NTA4NywxMTY4MzM0MDczLDE1NTQ1NDEzMTcsLTMyOTc3MzEzOC
-wxOTQ3NjYwMjc1LC00ODUzMjU2NjIsNDEzMzcxMTkwLC01ODY1
-NTc2MjNdfQ==
+eyJoaXN0b3J5IjpbMzg4MDIzMDY2LDk0OTgwMDM3MiwxMTA5Mj
+gwMzUxLDE2MDM2MDg2MDksLTU4MDkwNDkxOSw5NDU1MDQyODUs
+LTczNzQ0MzA1NCwtMTI4MDEzODIxNCwtMTgzMDgxNzIxOSwtNz
+EyMjUzMTI0LC00NDM5Mzg3NDksLTExNTcwNjEyODIsNjY0MzU1
+MDg3LDExNjgzMzQwNzMsMTU1NDU0MTMxNywtMzI5NzczMTM4LD
+E5NDc2NjAyNzUsLTQ4NTMyNTY2Miw0MTMzNzExOTAsLTU4NjU1
+NzYyM119
 -->
