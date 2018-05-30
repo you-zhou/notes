@@ -961,7 +961,9 @@ They are often used for **optional parameters** sent to the function. When a fun
 difficult to remember and using keyword arguments with **default values** is helpful. For instance, a more complete send function could be defined as `send(message, to, cc=None, bcc=None)`. Here `cc` and `bcc` are
 optional, and evaluate to `None` when they are not passed another value.
 
+#### 3. arbitrary argument list
 
+#### 4. arbitrary keyword argument dictionary
 
 
 ## class
@@ -1953,11 +1955,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjM3OTkzMDYsLTg5MjU2NjE0MiwyOT
-A4MTU3NDAsOTgxNDE1MjE2LDE2OTAyMDY3MTksLTE4NTcxMTEy
-NjQsLTEwODk4NjMyNjMsLTEyNjM5MzA4OTEsLTgzMjc3NTE4NS
-wxOTc2NTUxNDczLDE5ODM0NzMxNzMsLTQzNjE3OTc3NywtNzg1
-OTMwNjIzLDE5MjE4MTM0NjEsMTkyMTgxMzQ2MSw5NDk4MDAzNz
-IsMTEwOTI4MDM1MSwxNjAzNjA4NjA5LC01ODA5MDQ5MTksOTQ1
-NTA0Mjg1XX0=
+eyJoaXN0b3J5IjpbLTEzNTUwMDkwOTQsLTIxMjM3OTkzMDYsLT
+g5MjU2NjE0MiwyOTA4MTU3NDAsOTgxNDE1MjE2LDE2OTAyMDY3
+MTksLTE4NTcxMTEyNjQsLTEwODk4NjMyNjMsLTEyNjM5MzA4OT
+EsLTgzMjc3NTE4NSwxOTc2NTUxNDczLDE5ODM0NzMxNzMsLTQz
+NjE3OTc3NywtNzg1OTMwNjIzLDE5MjE4MTM0NjEsMTkyMTgxMz
+Q2MSw5NDk4MDAzNzIsMTEwOTI4MDM1MSwxNjAzNjA4NjA5LC01
+ODA5MDQ5MTldfQ==
 -->
