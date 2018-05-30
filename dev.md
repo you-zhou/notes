@@ -969,10 +969,16 @@ For example, `send(message, *args)` can be called with each recipient as an argu
 However, this construct has some drawbacks and should be used with caution. If a function receives a list of arguments of the same nature, it is often more clear to define it as a function of one argument, that argument being a list or any sequence. Here, if send has multiple recipients, it is better to define it explicitly: `send(message, recipients)` and call it with `send(’Hello’, [’God’, ’Mom’, ’Cthulhu’])`. This way, the user of the function can manipulate the recipient list as a list beforehand, and it opens the possibility to pass any sequence, including iterators, that cannot be unpacked as other sequences.
 
 #### 4. arbitrary keyword argument dictionary
-The arbitrary keyword argument dictionary is the last way to pass arguments to functions. If the function
-requires an undetermined series of named arguments, it is possible to use the **kwargs construct. In the
-function body, kwargs will be a dictionary of all the passed named arguments that have not been caught by
-other keyword arguments in the function signature.
+The arbitrary keyword argument dictionary is the last way to pass arguments to functions. If the function requires an undetermined series of named arguments, it is possible to use the ==`**kwargs`== construct. In the function body, `kwargs` will be a dictionary of all the passed named arguments that have not been caught by other keyword arguments in the function signature.
+
+The same caution as in the case of arbitrary argument list is necessary, for similar reasons: these powerful techniques are to be used when there is a proven necessity to use them, and they should not be used if the simpler and clearer
+construct is sufficient to express the function’s intention.
+It is up to the programmer writing the function to determine which arguments are positional arguments and which are
+optional keyword arguments, and to decide whether to use the advanced techniques of arbitrary argument passing. If
+the advice above is followed wisely, it is possible and enjoyable to write Python functions that are:
+• easy to read (the name and arguments need no explanations)
+• easy to change (adding a new keyword argument does not break other parts of the code)
+
 
 ## class
 ### dir
@@ -1963,11 +1969,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTA0ODE4ODMsMTAxNjE3MDM3MywtMT
-M1NTAwOTA5NCwtMjEyMzc5OTMwNiwtODkyNTY2MTQyLDI5MDgx
-NTc0MCw5ODE0MTUyMTYsMTY5MDIwNjcxOSwtMTg1NzExMTI2NC
-wtMTA4OTg2MzI2MywtMTI2MzkzMDg5MSwtODMyNzc1MTg1LDE5
-NzY1NTE0NzMsMTk4MzQ3MzE3MywtNDM2MTc5Nzc3LC03ODU5Mz
-A2MjMsMTkyMTgxMzQ2MSwxOTIxODEzNDYxLDk0OTgwMDM3Miwx
-MTA5MjgwMzUxXX0=
+eyJoaXN0b3J5IjpbLTI0NjE3NzYyLDEwMTYxNzAzNzMsLTEzNT
+UwMDkwOTQsLTIxMjM3OTkzMDYsLTg5MjU2NjE0MiwyOTA4MTU3
+NDAsOTgxNDE1MjE2LDE2OTAyMDY3MTksLTE4NTcxMTEyNjQsLT
+EwODk4NjMyNjMsLTEyNjM5MzA4OTEsLTgzMjc3NTE4NSwxOTc2
+NTUxNDczLDE5ODM0NzMxNzMsLTQzNjE3OTc3NywtNzg1OTMwNj
+IzLDE5MjE4MTM0NjEsMTkyMTgxMzQ2MSw5NDk4MDAzNzIsMTEw
+OTI4MDM1MV19
 -->
