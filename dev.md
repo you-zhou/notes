@@ -295,135 +295,6 @@ Note: for the older  csh  (C-shell) and  ksh  (Korn-shell):
 -   Use "`setenv  _varname value_`" and "`unsetenv  _varname_`" to set and unset an environment variable.
 -   Use "`set  _varname_=_value_`" and "`unset  _varname_`" to set and unset a local variable for the current process.
 
-# Matplotlib
-It's a Python plotting library, inspired by MATLAB, meaning that the terms used (**Axis, Figure, Plots**) will be similar to those used in MATLAB. [ref](http://queirozf.com/entries/matplotlib-pylab-pyplot-etc-what-s-the-different-between-these)
-
-## Figure
-`This is the entire window where one or more subplots live. A Figure object (new window) is created with the figure() command.`
-You can use it to configure things like:
-* Image size (set_size_inches())
-* Whether to use tight_layout (set_tight_layout())
-  This adjusts the subplot padding; generally makes things look better.
-
- 
-## Axes
-`This is an object representing a subplot (which you might casually call a “plot”) which contains axes, ticks, lines, points, text, etc.`
-The Axes object has methods to allow you to configure things like:
-* The plot frame (set_frame_on or set_frame_off)
-* X-axis and Y-axis limits (set_xlim() and set_ylim())
-* X-axis and Y-axis Labels (set_xlabel() and set_ylabel())
-* The plot title (set_title())
-
-## pyplot
-`pyplot is a shell-like interface to Matplotlib, to make it easier to use for people who are used to MATLAB.`
-pyplot maintains state across calls.
-Useful for use in Jupyter or IPython notebooks.
-Your can import it via the matplotlib.pyplot namespace.
-```python
-import matplotlib.pyplot as plt
-import numpy as np
-
-x = np.linspace(0,10,9)
-y = np.randn(9)
-
-plt.scatter(x,y)
-plt.show()
-```
-
-### plot()
-This is a command that draws points or lines and returns a list of Line2D objects. One sublety is that plot() will automatically call figure() and/or subplot() if neccesary to create the underlying Figure and Axes objects.
-### subplot()
-This is a command that creates and returns a new subplot (Axes) object which will be used for subsequent plotting commands.
-
-
-### plt.gcf() `gcf: Get Current Figure`
-You can use it to get a reference to the current figure when using pyplot, for example, to change image sizes.
-
-```python
-import matplotlib.pyplot as plt
-import numpy as np
-
-x = np.linspace(0,10,9)
-y = np.randn(9)
-
-# this call creates a figure in the background
-plt.scatter(x,y)
-
-# this allows you to retrieve the figure created
-# by the call to scatter() above
-fig = plt.gcf()
-fig.set_size_inches(6,2)
-
-plt.show()
-```
-### plt.gca() `gca: Get Current Axes`
-Same as with plt.gcf(), you can use plt.gca() to get a reference to the current axes, if you need to change the limits on the y-axis, for example.
-
-```python
-import matplotlib.pyplot as plt
-import numpy as np
-
-x = np.linspace(0,10,9)
-y = np.randn(9)
-
-# this call creates a figure in the background
-plt.scatter(x,y)
-
-# this allows you to retrieve the axis
-# in the figure created 
-# by the call to scatter() above
-axis = plt.gca()
-axis.set_ylim(-3,3)
-
-plt.show()
-```
-
-### plt.cla() / plt.clf() `clear figure/axes`
-These methods are used to clear the current figure `plt.clf()` or the current axes `plt.cla()`.
-
-
-## Plot `numpy.datetime64` values
-`pandas dtype='datetime64[ns]'` -> time series in matplotlib
-
-For Matplotlib to plot dates (or any scalar with units) a **converter to float** needs to be registered with the matplolib.units module. The current best converters for datetime64 values are in pandas. To enable the converter, import it from pandas:
-```python
-from pandas.tseries import converter as pdtc
-pdtc.register()
-```
-
-If you only want to use the pandas converter for datetime64 values
-```python
-from pandas.tseries import converter as pdtc
-import matplotlib.units as munits
-import numpy as np
-
-munits.registry[np.datetime64] = pdtc.DatetimeConverter()
-```
-**workaround**: 
-* plot index as x-ticks (e.g. 0, 1, 2, .., n) 
-* use array/list elements as x-tick labels (e.g. dates[0], dates[1], ..., dates[n]
-```python
-# Convert date series to array of strings.
-xticklabels = df['Period start time'].dt.strftime('%d/%m/%y %I%p').values
-# Use index of date array as the x-tick.
-xticks = [i for i in range(len(xticklabels))]
-
-ax.plot(xticks, y)
-ax.set_xticklabels(xticklabels, rotation=45)
-```
-
-
-## plot vertical lines
-```python
-# Add a vertical line separator.
-ax.axvline(x=5, color='r', linestyle='dashed')
-```
-
-## plot small grid lines
-```python
-ax.grid(True, linestyle=':')
-```
-
 # PYTHON
 ### REPL
 Read–Eval–Print Loop
@@ -1830,12 +1701,143 @@ TAR files are often compressed after being created. And then the extension would
 	* -z: use gzip to **compress** the archive
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
+
+
+# Matplotlib
+It's a Python plotting library, inspired by MATLAB, meaning that the terms used (**Axis, Figure, Plots**) will be similar to those used in MATLAB. [ref](http://queirozf.com/entries/matplotlib-pylab-pyplot-etc-what-s-the-different-between-these)
+
+## Figure
+`This is the entire window where one or more subplots live. A Figure object (new window) is created with the figure() command.`
+You can use it to configure things like:
+* Image size (set_size_inches())
+* Whether to use tight_layout (set_tight_layout())
+  This adjusts the subplot padding; generally makes things look better.
+
+ 
+## Axes
+`This is an object representing a subplot (which you might casually call a “plot”) which contains axes, ticks, lines, points, text, etc.`
+The Axes object has methods to allow you to configure things like:
+* The plot frame (set_frame_on or set_frame_off)
+* X-axis and Y-axis limits (set_xlim() and set_ylim())
+* X-axis and Y-axis Labels (set_xlabel() and set_ylabel())
+* The plot title (set_title())
+
+## pyplot
+`pyplot is a shell-like interface to Matplotlib, to make it easier to use for people who are used to MATLAB.`
+pyplot maintains state across calls.
+Useful for use in Jupyter or IPython notebooks.
+Your can import it via the matplotlib.pyplot namespace.
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0,10,9)
+y = np.randn(9)
+
+plt.scatter(x,y)
+plt.show()
+```
+
+### plot()
+This is a command that draws points or lines and returns a list of Line2D objects. One sublety is that plot() will automatically call figure() and/or subplot() if neccesary to create the underlying Figure and Axes objects.
+### subplot()
+This is a command that creates and returns a new subplot (Axes) object which will be used for subsequent plotting commands.
+
+
+### plt.gcf() `gcf: Get Current Figure`
+You can use it to get a reference to the current figure when using pyplot, for example, to change image sizes.
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0,10,9)
+y = np.randn(9)
+
+# this call creates a figure in the background
+plt.scatter(x,y)
+
+# this allows you to retrieve the figure created
+# by the call to scatter() above
+fig = plt.gcf()
+fig.set_size_inches(6,2)
+
+plt.show()
+```
+### plt.gca() `gca: Get Current Axes`
+Same as with plt.gcf(), you can use plt.gca() to get a reference to the current axes, if you need to change the limits on the y-axis, for example.
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0,10,9)
+y = np.randn(9)
+
+# this call creates a figure in the background
+plt.scatter(x,y)
+
+# this allows you to retrieve the axis
+# in the figure created 
+# by the call to scatter() above
+axis = plt.gca()
+axis.set_ylim(-3,3)
+
+plt.show()
+```
+
+### plt.cla() / plt.clf() `clear figure/axes`
+These methods are used to clear the current figure `plt.clf()` or the current axes `plt.cla()`.
+
+
+## Plot `numpy.datetime64` values
+`pandas dtype='datetime64[ns]'` -> time series in matplotlib
+
+For Matplotlib to plot dates (or any scalar with units) a **converter to float** needs to be registered with the matplolib.units module. The current best converters for datetime64 values are in pandas. To enable the converter, import it from pandas:
+```python
+from pandas.tseries import converter as pdtc
+pdtc.register()
+```
+
+If you only want to use the pandas converter for datetime64 values
+```python
+from pandas.tseries import converter as pdtc
+import matplotlib.units as munits
+import numpy as np
+
+munits.registry[np.datetime64] = pdtc.DatetimeConverter()
+```
+**workaround**: 
+* plot index as x-ticks (e.g. 0, 1, 2, .., n) 
+* use array/list elements as x-tick labels (e.g. dates[0], dates[1], ..., dates[n]
+```python
+# Convert date series to array of strings.
+xticklabels = df['Period start time'].dt.strftime('%d/%m/%y %I%p').values
+# Use index of date array as the x-tick.
+xticks = [i for i in range(len(xticklabels))]
+
+ax.plot(xticks, y)
+ax.set_xticklabels(xticklabels, rotation=45)
+```
+
+
+## plot vertical lines
+```python
+# Add a vertical line separator.
+ax.axvline(x=5, color='r', linestyle='dashed')
+```
+
+## plot small grid lines
+```python
+ax.grid(True, linestyle=':')
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTQwMDg1NzcsMTk3NjU1MTQ3MywxOT
-gzNDczMTczLC00MzYxNzk3NzcsLTc4NTkzMDYyMywxOTIxODEz
-NDYxLDE5MjE4MTM0NjEsOTQ5ODAwMzcyLDExMDkyODAzNTEsMT
-YwMzYwODYwOSwtNTgwOTA0OTE5LDk0NTUwNDI4NSwtNzM3NDQz
-MDU0LC0xMjgwMTM4MjE0LC0xODMwODE3MjE5LC03MTIyNTMxMj
-QsLTQ0MzkzODc0OSwtMTE1NzA2MTI4Miw2NjQzNTUwODcsMTE2
-ODMzNDA3M119
+eyJoaXN0b3J5IjpbMTU5ODI1NjY0MywxOTc2NTUxNDczLDE5OD
+M0NzMxNzMsLTQzNjE3OTc3NywtNzg1OTMwNjIzLDE5MjE4MTM0
+NjEsMTkyMTgxMzQ2MSw5NDk4MDAzNzIsMTEwOTI4MDM1MSwxNj
+AzNjA4NjA5LC01ODA5MDQ5MTksOTQ1NTA0Mjg1LC03Mzc0NDMw
+NTQsLTEyODAxMzgyMTQsLTE4MzA4MTcyMTksLTcxMjI1MzEyNC
+wtNDQzOTM4NzQ5LC0xMTU3MDYxMjgyLDY2NDM1NTA4NywxMTY4
+MzM0MDczXX0=
 -->
