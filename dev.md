@@ -945,9 +945,9 @@ to_list('hello') # ['hello']
 ```
 
 ### arguments
-There are two types of arguments for functions.
+There are four different ways to pass arguments to functions.
 
-#### positional arguments
+#### 1. positional arguments
 Positional arguments are mandatory and have no default values. They are the simplest form of arguments and
 they can be used for the few function arguments that are fully part of the function’s meaning and their order is
 natural. For instance, in send(message, recipient) or point(x, y) the user of the function has no
@@ -957,7 +957,8 @@ switch the order of arguments, calling for instance send(recipient=’World’, 
 point(y=2, x=1) but this reduces readability and is unnecessarily verbose, compared to the more straightforward
 calls to send(’Hello’, ’World’) and point(1, 2).
 
-#### keyword arguments
+#### 2. keyword arguments
+
 
 ## class
 ### dir
@@ -1948,11 +1949,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMDM0Njg5MywyOTA4MTU3NDAsOTgxND
-E1MjE2LDE2OTAyMDY3MTksLTE4NTcxMTEyNjQsLTEwODk4NjMy
-NjMsLTEyNjM5MzA4OTEsLTgzMjc3NTE4NSwxOTc2NTUxNDczLD
-E5ODM0NzMxNzMsLTQzNjE3OTc3NywtNzg1OTMwNjIzLDE5MjE4
-MTM0NjEsMTkyMTgxMzQ2MSw5NDk4MDAzNzIsMTEwOTI4MDM1MS
-wxNjAzNjA4NjA5LC01ODA5MDQ5MTksOTQ1NTA0Mjg1LC03Mzc0
-NDMwNTRdfQ==
+eyJoaXN0b3J5IjpbOTc2MTgwODM3LDI5MDgxNTc0MCw5ODE0MT
+UyMTYsMTY5MDIwNjcxOSwtMTg1NzExMTI2NCwtMTA4OTg2MzI2
+MywtMTI2MzkzMDg5MSwtODMyNzc1MTg1LDE5NzY1NTE0NzMsMT
+k4MzQ3MzE3MywtNDM2MTc5Nzc3LC03ODU5MzA2MjMsMTkyMTgx
+MzQ2MSwxOTIxODEzNDYxLDk0OTgwMDM3MiwxMTA5MjgwMzUxLD
+E2MDM2MDg2MDksLTU4MDkwNDkxOSw5NDU1MDQyODUsLTczNzQ0
+MzA1NF19
 -->
