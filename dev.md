@@ -1071,7 +1071,9 @@ with open('file.txt') as f:
 	contents = f.read()
 ```
 
-Anyone familiar with this pattern knows that invoking open in this fashion ensures that f‘s close method will be called at some point. This reduces a developer’s cognitive load and makes the code easier to read. There are two easy ways to implement this functionality yourself: using a class or using a generator. Let’s implement
+Anyone familiar with this pattern knows that invoking open in this fashion ensures that f‘s close method will be called at some point. This reduces a developer’s cognitive load and makes the code easier to read. 
+
+There are two easy ways to implement this functionality yourself: 1. using a class or using a generator. Let’s implement
 the above functionality ourselves, starting with the class approach:
 ```python
 class CustomOpen(object):
@@ -1086,6 +1088,8 @@ with CustomOpen('file') as f:
 	contents = f.read()
 
 ```
+This is just a regular Python object with two extra methods that are used by the with statement. `CustomOpen` is first instantiated and then its `__enter__` method is called and whatever `__enter__` returns is assigned to f in the as `f` part of the statement. When the contents of the with block is finished executing, the `__exit__` method is then called.
+
 
 
 ## colour coded print
@@ -1857,7 +1861,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzMyMjMwODgsMTk3NjU1MTQ3MywxOT
+eyJoaXN0b3J5IjpbLTIwNzcwNjc2MTYsMTk3NjU1MTQ3MywxOT
 gzNDczMTczLC00MzYxNzk3NzcsLTc4NTkzMDYyMywxOTIxODEz
 NDYxLDE5MjE4MTM0NjEsOTQ5ODAwMzcyLDExMDkyODAzNTEsMT
 YwMzYwODYwOSwtNTgwOTA0OTE5LDk0NTUwNDI4NSwtNzM3NDQz
