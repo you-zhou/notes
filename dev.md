@@ -1107,8 +1107,7 @@ with custom_open('file') as f:
 	contents = f.read()
 ```
 
-This works in exactly the same way as the class example above, albeit it’s more terse. The custom_open function executes until it reaches the yield statement. It then gives control back to the with statement, which assigns
-whatever was yield‘ed to f in the as f portion. The finally clause ensures that close() is called whether or
+This works in exactly the same way as the class example above, albeit it’s more terse. The custom_open function executes until it reaches the yield statement. It then gives control back to the with statement, which assigns whatever was yield‘ed to f in the as f portion. The finally clause ensures that close() is called whether or
 not there was an exception inside the with.
 Since the two approaches appear the same, we should follow the Zen of Python to decide when to use which. The
 class approach might be better if there’s a considerable amount of logic to encapsulate. The function approach might
@@ -1885,11 +1884,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTAyMDg2MywtODMyNzc1MTg1LDE5Nz
-Y1NTE0NzMsMTk4MzQ3MzE3MywtNDM2MTc5Nzc3LC03ODU5MzA2
-MjMsMTkyMTgxMzQ2MSwxOTIxODEzNDYxLDk0OTgwMDM3MiwxMT
-A5MjgwMzUxLDE2MDM2MDg2MDksLTU4MDkwNDkxOSw5NDU1MDQy
-ODUsLTczNzQ0MzA1NCwtMTI4MDEzODIxNCwtMTgzMDgxNzIxOS
-wtNzEyMjUzMTI0LC00NDM5Mzg3NDksLTExNTcwNjEyODIsNjY0
-MzU1MDg3XX0=
+eyJoaXN0b3J5IjpbLTEyNjM5MzA4OTEsLTgzMjc3NTE4NSwxOT
+c2NTUxNDczLDE5ODM0NzMxNzMsLTQzNjE3OTc3NywtNzg1OTMw
+NjIzLDE5MjE4MTM0NjEsMTkyMTgxMzQ2MSw5NDk4MDAzNzIsMT
+EwOTI4MDM1MSwxNjAzNjA4NjA5LC01ODA5MDQ5MTksOTQ1NTA0
+Mjg1LC03Mzc0NDMwNTQsLTEyODAxMzgyMTQsLTE4MzA4MTcyMT
+ksLTcxMjI1MzEyNCwtNDQzOTM4NzQ5LC0xMTU3MDYxMjgyLDY2
+NDM1NTA4N119
 -->
