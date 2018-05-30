@@ -956,7 +956,11 @@ For instance, in `send(message, recipient)` or `point(x, y)` the user of the fun
 
 
 #### 2. keyword arguments
-
+Keyword arguments are not mandatory and have default values. 
+They are often used for **optional** parameters sent to the function. When a function has more than two or three positional parameters, its signature is more
+difficult to remember and using keyword arguments with default values is helpful. For instance, a more complete
+send function could be defined as send(message, to, cc=None, bcc=None). Here cc and bcc are
+optional, and evaluate to None when they are not passed another value.
 
 ## class
 ### dir
@@ -1947,11 +1951,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQwODA2MTMxLDI5MDgxNTc0MCw5ODE0MT
-UyMTYsMTY5MDIwNjcxOSwtMTg1NzExMTI2NCwtMTA4OTg2MzI2
-MywtMTI2MzkzMDg5MSwtODMyNzc1MTg1LDE5NzY1NTE0NzMsMT
-k4MzQ3MzE3MywtNDM2MTc5Nzc3LC03ODU5MzA2MjMsMTkyMTgx
-MzQ2MSwxOTIxODEzNDYxLDk0OTgwMDM3MiwxMTA5MjgwMzUxLD
-E2MDM2MDg2MDksLTU4MDkwNDkxOSw5NDU1MDQyODUsLTczNzQ0
-MzA1NF19
+eyJoaXN0b3J5IjpbLTg5MjU2NjE0MiwyOTA4MTU3NDAsOTgxND
+E1MjE2LDE2OTAyMDY3MTksLTE4NTcxMTEyNjQsLTEwODk4NjMy
+NjMsLTEyNjM5MzA4OTEsLTgzMjc3NTE4NSwxOTc2NTUxNDczLD
+E5ODM0NzMxNzMsLTQzNjE3OTc3NywtNzg1OTMwNjIzLDE5MjE4
+MTM0NjEsMTkyMTgxMzQ2MSw5NDk4MDAzNzIsMTEwOTI4MDM1MS
+wxNjAzNjA4NjA5LC01ODA5MDQ5MTksOTQ1NTA0Mjg1LC03Mzc0
+NDMwNTRdfQ==
 -->
