@@ -578,9 +578,14 @@ This means that when constructing a string from its parts, it is much more effic
 One thing to notice, however, is that list comprehensions are better
 and faster than constructing a list in a loop with calls to append().
 
-[great examples for string format](https://pyformat.info/)
+
+
+
+
 
 ### There are three ways to format  a string.
+[great examples for string format](https://pyformat.info/)
+
 1. built-in operator `%` - similar to C's printf (not recommended by the docs due to poor support to display tuples and dictionaries correctly) [Python docs](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
 	```python
 	"Num: %d Hex: %x" % (12, 13)
@@ -1892,11 +1897,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3OTExMjM1NywtMTA4OTg2MzI2MywtMT
-I2MzkzMDg5MSwtODMyNzc1MTg1LDE5NzY1NTE0NzMsMTk4MzQ3
-MzE3MywtNDM2MTc5Nzc3LC03ODU5MzA2MjMsMTkyMTgxMzQ2MS
-wxOTIxODEzNDYxLDk0OTgwMDM3MiwxMTA5MjgwMzUxLDE2MDM2
-MDg2MDksLTU4MDkwNDkxOSw5NDU1MDQyODUsLTczNzQ0MzA1NC
-wtMTI4MDEzODIxNCwtMTgzMDgxNzIxOSwtNzEyMjUzMTI0LC00
-NDM5Mzg3NDldfQ==
+eyJoaXN0b3J5IjpbMTUxMjg1NzcxLC0xMDg5ODYzMjYzLC0xMj
+YzOTMwODkxLC04MzI3NzUxODUsMTk3NjU1MTQ3MywxOTgzNDcz
+MTczLC00MzYxNzk3NzcsLTc4NTkzMDYyMywxOTIxODEzNDYxLD
+E5MjE4MTM0NjEsOTQ5ODAwMzcyLDExMDkyODAzNTEsMTYwMzYw
+ODYwOSwtNTgwOTA0OTE5LDk0NTUwNDI4NSwtNzM3NDQzMDU0LC
+0xMjgwMTM4MjE0LC0xODMwODE3MjE5LC03MTIyNTMxMjQsLTQ0
+MzkzODc0OV19
 -->
