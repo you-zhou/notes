@@ -1107,6 +1107,14 @@ with custom_open('file') as f:
 	contents = f.read()
 ```
 
+This works in exactly the same way as the class example above, albeit it’s more terse. The custom_open function executes until it reaches the yield statement. It then gives control back to the with statement, which assigns
+whatever was yield‘ed to f in the as f portion. The finally clause ensures that close() is called whether or
+not there was an exception inside the with.
+Since the two approaches appear the same, we should follow the Zen of Python to decide when to use which. The
+class approach might be better if there’s a considerable amount of logic to encapsulate. The function approach might
+be better for situations where we’re dealing with a simple action.
+
+
 
 ## colour coded print
 Print texts  in colour coded fashion can be useful to highlight important messages.
@@ -1877,11 +1885,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxNzY2ODMxLC04MzI3NzUxODUsMTk3Nj
-U1MTQ3MywxOTgzNDczMTczLC00MzYxNzk3NzcsLTc4NTkzMDYy
-MywxOTIxODEzNDYxLDE5MjE4MTM0NjEsOTQ5ODAwMzcyLDExMD
-kyODAzNTEsMTYwMzYwODYwOSwtNTgwOTA0OTE5LDk0NTUwNDI4
-NSwtNzM3NDQzMDU0LC0xMjgwMTM4MjE0LC0xODMwODE3MjE5LC
-03MTIyNTMxMjQsLTQ0MzkzODc0OSwtMTE1NzA2MTI4Miw2NjQz
-NTUwODddfQ==
+eyJoaXN0b3J5IjpbLTE0NTAyMDg2MywtODMyNzc1MTg1LDE5Nz
+Y1NTE0NzMsMTk4MzQ3MzE3MywtNDM2MTc5Nzc3LC03ODU5MzA2
+MjMsMTkyMTgxMzQ2MSwxOTIxODEzNDYxLDk0OTgwMDM3MiwxMT
+A5MjgwMzUxLDE2MDM2MDg2MDksLTU4MDkwNDkxOSw5NDU1MDQy
+ODUsLTczNzQ0MzA1NCwtMTI4MDEzODIxNCwtMTgzMDgxNzIxOS
+wtNzEyMjUzMTI0LC00NDM5Mzg3NDksLTExNTcwNjEyODIsNjY0
+MzU1MDg3XX0=
 -->
