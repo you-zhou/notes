@@ -961,14 +961,14 @@ They are often used for **optional parameters** sent to the function. When a fun
 difficult to remember and using keyword arguments with **default values** is helpful. For instance, a more complete send function could be defined as `send(message, to, cc=None, bcc=None)`. Here `cc` and `bcc` are
 optional, and evaluate to `None` when they are not passed another value.
 
-#### 3. arbitrary argument list
+#### 3. arbitrary argument ==list==
 The arbitrary argument list is the third way to pass arguments to a function. If the function intention is better expressed by a signature with an extensible number of positional arguments, it can be defined with the ==`*args`== constructs. In the function body, `args` will be a **tuple** of all the remaining positional arguments. 
 
 For example, `send(message, *args)` can be called with each recipient as an argument: `send(’Hello’, ’God’, ’Mom’, ’Cthulhu’)`, and in the function body `args` will be equal to `(’God’, ’Mom’, ’Cthulhu’)`.
 
 However, this construct has some drawbacks and should be used with caution. If a function receives a list of arguments of the same nature, it is often more clear to define it as a function of one argument, that argument being a list or any sequence. Here, if send has multiple recipients, it is better to define it explicitly: `send(message, recipients)` and call it with `send(’Hello’, [’God’, ’Mom’, ’Cthulhu’])`. This way, the user of the function can manipulate the recipient list as a list beforehand, and it opens the possibility to pass any sequence, including iterators, that cannot be unpacked as other sequences.
 
-#### 4. arbitrary keyword argument dictionary
+#### 4. arbitrary keyword argument ==dictionary==
 The arbitrary keyword argument dictionary is the last way to pass arguments to functions. If the function requires an undetermined series of named arguments, it is possible to use the ==`**kwargs`== construct. In the function body, `kwargs` will be a dictionary of all the passed named arguments that have not been caught by other keyword arguments in the function signature.
 
 The same caution as in the case of arbitrary argument list is necessary, for similar reasons: these powerful techniques are to be used when there is a proven necessity to use them, and they should not be used if the simpler and clearer
@@ -1969,11 +1969,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NjE3NzYyLDEwMTYxNzAzNzMsLTEzNT
-UwMDkwOTQsLTIxMjM3OTkzMDYsLTg5MjU2NjE0MiwyOTA4MTU3
-NDAsOTgxNDE1MjE2LDE2OTAyMDY3MTksLTE4NTcxMTEyNjQsLT
-EwODk4NjMyNjMsLTEyNjM5MzA4OTEsLTgzMjc3NTE4NSwxOTc2
-NTUxNDczLDE5ODM0NzMxNzMsLTQzNjE3OTc3NywtNzg1OTMwNj
-IzLDE5MjE4MTM0NjEsMTkyMTgxMzQ2MSw5NDk4MDAzNzIsMTEw
-OTI4MDM1MV19
+eyJoaXN0b3J5IjpbNzIwNzkzMjYsMTAxNjE3MDM3MywtMTM1NT
+AwOTA5NCwtMjEyMzc5OTMwNiwtODkyNTY2MTQyLDI5MDgxNTc0
+MCw5ODE0MTUyMTYsMTY5MDIwNjcxOSwtMTg1NzExMTI2NCwtMT
+A4OTg2MzI2MywtMTI2MzkzMDg5MSwtODMyNzc1MTg1LDE5NzY1
+NTE0NzMsMTk4MzQ3MzE3MywtNDM2MTc5Nzc3LC03ODU5MzA2Mj
+MsMTkyMTgxMzQ2MSwxOTIxODEzNDYxLDk0OTgwMDM3MiwxMTA5
+MjgwMzUxXX0=
 -->
