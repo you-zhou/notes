@@ -613,8 +613,6 @@ print "".join(nums)
 
 1. built-in operator `%` - similar to C's printf (not recommended by the docs due to poor support to display tuples and dictionaries correctly) [Python docs](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
 
-
-
 	```python
 	"Num: %d Hex: %x" % (12, 13)
 	# 'Num: 12 Hex: d'
@@ -623,7 +621,10 @@ print "".join(nums)
 	# 'hello world'
 	```
 	
-3. str.format() from Python 2.6 (much improved from the % operator) [Python docs](https://docs.python.org/3/library/stdtypes.html#str.format)
+2. str.format() from Python 2.6 (much improved from the % operator) [Python docs](https://docs.python.org/3/library/stdtypes.html#str.format)
+		
+PEP 3101 discourages the usage of the % operator in favor of the `str.format()` method.
+		
 	It uses normal function call syntax and is  [extensible through the  `__format__()`  method](https://www.python.org/dev/peps/pep-3101/#controlling-formatting-on-a-per-type-basis)  on the object being converted to a string.
 With  `str.format()`, the replacement fields are marked by curly braces:
 	```python
@@ -1925,11 +1926,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0Njc2Njc3MiwxNjkwMjA2NzE5LC0xOD
-U3MTExMjY0LC0xMDg5ODYzMjYzLC0xMjYzOTMwODkxLC04MzI3
-NzUxODUsMTk3NjU1MTQ3MywxOTgzNDczMTczLC00MzYxNzk3Nz
-csLTc4NTkzMDYyMywxOTIxODEzNDYxLDE5MjE4MTM0NjEsOTQ5
-ODAwMzcyLDExMDkyODAzNTEsMTYwMzYwODYwOSwtNTgwOTA0OT
-E5LDk0NTUwNDI4NSwtNzM3NDQzMDU0LC0xMjgwMTM4MjE0LC0x
-ODMwODE3MjE5XX0=
+eyJoaXN0b3J5IjpbOTgxNDE1MjE2LDE2OTAyMDY3MTksLTE4NT
+cxMTEyNjQsLTEwODk4NjMyNjMsLTEyNjM5MzA4OTEsLTgzMjc3
+NTE4NSwxOTc2NTUxNDczLDE5ODM0NzMxNzMsLTQzNjE3OTc3Ny
+wtNzg1OTMwNjIzLDE5MjE4MTM0NjEsMTkyMTgxMzQ2MSw5NDk4
+MDAzNzIsMTEwOTI4MDM1MSwxNjAzNjA4NjA5LC01ODA5MDQ5MT
+ksOTQ1NTA0Mjg1LC03Mzc0NDMwNTQsLTEyODAxMzgyMTQsLTE4
+MzA4MTcyMTldfQ==
 -->
