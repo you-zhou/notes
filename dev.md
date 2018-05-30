@@ -964,7 +964,7 @@ optional, and evaluate to `None` when they are not passed another value.
 #### 3. arbitrary argument list
 The arbitrary argument list is the third way to pass arguments to a function. If the function intention is better expressed by a signature with an extensible number of positional arguments, it can be defined with the ==`*args`== constructs. In the function body, `args` will be a **tuple** of all the remaining positional arguments. 
 
-For example, `send(message, *args)` can be called with each recipient as an argument: `send(’Hello’, ’God’, ’Mom’, ’Cthulhu’)`, and in the function body args will be equal to (’God’, ’Mom’, ’Cthulhu’).
+For example, `send(message, *args)` can be called with each recipient as an argument: `send(’Hello’, ’God’, ’Mom’, ’Cthulhu’)`, and in the function body `args` will be equal to `(’God’, ’Mom’, ’Cthulhu’)`.
 
 
 #### 4. arbitrary keyword argument dictionary
@@ -1959,11 +1959,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYwMDkxMjksLTEzNTUwMDkwOTQsLTIxMj
-M3OTkzMDYsLTg5MjU2NjE0MiwyOTA4MTU3NDAsOTgxNDE1MjE2
-LDE2OTAyMDY3MTksLTE4NTcxMTEyNjQsLTEwODk4NjMyNjMsLT
-EyNjM5MzA4OTEsLTgzMjc3NTE4NSwxOTc2NTUxNDczLDE5ODM0
-NzMxNzMsLTQzNjE3OTc3NywtNzg1OTMwNjIzLDE5MjE4MTM0Nj
-EsMTkyMTgxMzQ2MSw5NDk4MDAzNzIsMTEwOTI4MDM1MSwxNjAz
-NjA4NjA5XX0=
+eyJoaXN0b3J5IjpbMTAxNjE3MDM3MywtMTM1NTAwOTA5NCwtMj
+EyMzc5OTMwNiwtODkyNTY2MTQyLDI5MDgxNTc0MCw5ODE0MTUy
+MTYsMTY5MDIwNjcxOSwtMTg1NzExMTI2NCwtMTA4OTg2MzI2My
+wtMTI2MzkzMDg5MSwtODMyNzc1MTg1LDE5NzY1NTE0NzMsMTk4
+MzQ3MzE3MywtNDM2MTc5Nzc3LC03ODU5MzA2MjMsMTkyMTgxMz
+Q2MSwxOTIxODEzNDYxLDk0OTgwMDM3MiwxMTA5MjgwMzUxLDE2
+MDM2MDg2MDldfQ==
 -->
