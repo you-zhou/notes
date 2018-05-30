@@ -1170,7 +1170,10 @@ It is important to handle Exceptions & Errors when dealing with some functions. 
 
 
 ## Decorator
-Decorator is a good example of closure. Decorator is a function that takes another function and extends the behavior of the latter function  _without_  explicitly modifying it
+Decorator is a good example of closure. Decorator is a function that takes another function and extends the behavior of the latter function  _without_  explicitly modifying it.
+
+This mechanism is useful for separating concerns and avoiding external un-related logic ‘polluting’ the core logic of the function or method. A good example of a piece of functionality that is better handled with decoration is ==memoization or caching==: you want to store the results of an expensive function in a table and use them directly instead of recomputing them when they have already been computed. This is clearly not part of the function logic.
+
 ```python
 def add_stars(some_function):
     def wrapper():
@@ -1828,11 +1831,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NjU1MTQ3MywxOTgzNDczMTczLC00Mz
-YxNzk3NzcsLTc4NTkzMDYyMywxOTIxODEzNDYxLDE5MjE4MTM0
-NjEsOTQ5ODAwMzcyLDExMDkyODAzNTEsMTYwMzYwODYwOSwtNT
-gwOTA0OTE5LDk0NTUwNDI4NSwtNzM3NDQzMDU0LC0xMjgwMTM4
-MjE0LC0xODMwODE3MjE5LC03MTIyNTMxMjQsLTQ0MzkzODc0OS
-wtMTE1NzA2MTI4Miw2NjQzNTUwODcsMTE2ODMzNDA3MywxNTU0
-NTQxMzE3XX0=
+eyJoaXN0b3J5IjpbLTE4NzU4MDAwNjAsMTk3NjU1MTQ3MywxOT
+gzNDczMTczLC00MzYxNzk3NzcsLTc4NTkzMDYyMywxOTIxODEz
+NDYxLDE5MjE4MTM0NjEsOTQ5ODAwMzcyLDExMDkyODAzNTEsMT
+YwMzYwODYwOSwtNTgwOTA0OTE5LDk0NTUwNDI4NSwtNzM3NDQz
+MDU0LC0xMjgwMTM4MjE0LC0xODMwODE3MjE5LC03MTIyNTMxMj
+QsLTQ0MzkzODc0OSwtMTE1NzA2MTI4Miw2NjQzNTUwODcsMTE2
+ODMzNDA3M119
 -->
