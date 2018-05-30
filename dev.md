@@ -1,8 +1,8 @@
 # Dev Notes
 
-## System Setup
-### editors
-### sublime text
+# System Setup
+## editors
+## sublime text
 Add this line `127.0.0.1 license.sublimehq.com` to: 
 Linux/Mac:
 `/etc/hosts` 
@@ -10,7 +10,7 @@ Linux/Mac:
 Windows: >`C:\Windows\System32\drivers\etc\hosts` 
 
 
-### python, pip, virtualenv & pipenv
+## python, pip, virtualenv & pipenv
 windows
 `python -V`
 `pip -V`
@@ -69,7 +69,7 @@ The solution is to uninstall both `virtualenv` and `pipenv`
 and install `pipenv` again, which will install `virtualenv` as a dependency.
 `$ pip install --user pipenv` This does a [user installation](https://pip.pypa.io/en/stable/user_guide/#user-installs) to prevent breaking any system-wide packages.
 
-### environment script
+## environment script
 Below is a customised bash shell script that should be executed at the end of `~/.bashrc` or `~/.bash_profile`.
 e.g. Append  `source ~/.setup_my_env` to `~/.bashrc`
 
@@ -98,7 +98,7 @@ export VIRTUALENVWRAPPER_VIRTUALENV=`which virtualenv`
 source `which virtualenvwrapper.sh`
 ```
 
-### jupyter notebook & lab
+## jupyter notebook & lab
 * It's better to isolate packages related to jupyter to an individual virtual environment.
 `$ mkvirtualenv jupyter`
 
@@ -1831,11 +1831,11 @@ TAR files are often compressed after being created. And then the extension would
 	* -v: enable verbose mode to show the progress of the creation process
 	* -f: let you specify the name of the archive
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzU4MDAwNjAsMTk3NjU1MTQ3MywxOT
-gzNDczMTczLC00MzYxNzk3NzcsLTc4NTkzMDYyMywxOTIxODEz
-NDYxLDE5MjE4MTM0NjEsOTQ5ODAwMzcyLDExMDkyODAzNTEsMT
-YwMzYwODYwOSwtNTgwOTA0OTE5LDk0NTUwNDI4NSwtNzM3NDQz
-MDU0LC0xMjgwMTM4MjE0LC0xODMwODE3MjE5LC03MTIyNTMxMj
-QsLTQ0MzkzODc0OSwtMTE1NzA2MTI4Miw2NjQzNTUwODcsMTE2
-ODMzNDA3M119
+eyJoaXN0b3J5IjpbMTk2NTQxNTA0OCwxOTc2NTUxNDczLDE5OD
+M0NzMxNzMsLTQzNjE3OTc3NywtNzg1OTMwNjIzLDE5MjE4MTM0
+NjEsMTkyMTgxMzQ2MSw5NDk4MDAzNzIsMTEwOTI4MDM1MSwxNj
+AzNjA4NjA5LC01ODA5MDQ5MTksOTQ1NTA0Mjg1LC03Mzc0NDMw
+NTQsLTEyODAxMzgyMTQsLTE4MzA4MTcyMTksLTcxMjI1MzEyNC
+wtNDQzOTM4NzQ5LC0xMTU3MDYxMjgyLDY2NDM1NTA4NywxMTY4
+MzM0MDczXX0=
 -->
