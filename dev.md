@@ -966,15 +966,13 @@ The arbitrary argument list is the third way to pass arguments to a function. If
 
 For example, `send(message, *args)` can be called with each recipient as an argument: `send(’Hello’, ’God’, ’Mom’, ’Cthulhu’)`, and in the function body `args` will be equal to `(’God’, ’Mom’, ’Cthulhu’)`.
 
-However, this construct has some drawbacks and should be used with caution. If a function receives a list of arguments
-of the same nature, it is often more clear to define it as a function of one argument, that argument being a list or any sequence.
-Here, if send has multiple recipients, it is better to define it explicitly: send(message, recipients)
-and call it with send(’Hello’, [’God’, ’Mom’, ’Cthulhu’]). This way, the user of the function can
-manipulate the recipient list as a list beforehand, and it opens the possibility to pass any sequence, including iterators,
-that cannot be unpacked as other sequences.
+However, this construct has some drawbacks and should be used with caution. If a function receives a list of arguments of the same nature, it is often more clear to define it as a function of one argument, that argument being a list or any sequence. Here, if send has multiple recipients, it is better to define it explicitly: `send(message, recipients)` and call it with `send(’Hello’, [’God’, ’Mom’, ’Cthulhu’])`. This way, the user of the function can manipulate the recipient list as a list beforehand, and it opens the possibility to pass any sequence, including iterators, that cannot be unpacked as other sequences.
 
 #### 4. arbitrary keyword argument dictionary
-
+The arbitrary keyword argument dictionary is the last way to pass arguments to functions. If the function
+requires an undetermined series of named arguments, it is possible to use the **kwargs construct. In the
+function body, kwargs will be a dictionary of all the passed named arguments that have not been caught by
+other keyword arguments in the function signature.
 
 ## class
 ### dir
@@ -1965,7 +1963,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzYwNTI0NDYsMTAxNjE3MDM3MywtMT
+eyJoaXN0b3J5IjpbLTExNTA0ODE4ODMsMTAxNjE3MDM3MywtMT
 M1NTAwOTA5NCwtMjEyMzc5OTMwNiwtODkyNTY2MTQyLDI5MDgx
 NTc0MCw5ODE0MTUyMTYsMTY5MDIwNjcxOSwtMTg1NzExMTI2NC
 wtMTA4OTg2MzI2MywtMTI2MzkzMDg5MSwtODMyNzc1MTg1LDE5
