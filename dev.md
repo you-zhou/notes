@@ -296,15 +296,15 @@ Note: for the older  csh  (C-shell) and  ksh  (Korn-shell):
 -   Use "`set  _varname_=_value_`" and "`unset  _varname_`" to set and unset a local variable for the current process.
 
 # PYTHON
-### REPL
+## REPL
 Read–Eval–Print Loop
 It is convenient to test codes with IDLE that comes with Python as part of the installation.
 
-### python --version
+## python --version
 If you still see 2.7 ensure in PATH `/usr/local/bin/` takes pecedence over `/usr/bin/`.
 
-### `PYTHONPATH` and `sys.path`
-#### `PYTHONPATH` environment variable
+## `PYTHONPATH` and `sys.path`
+### `PYTHONPATH` environment variable
 `PYTHONPATH` is an environment variable listing non-standard directories that Python looks for **modules** or **packages** in.
 
 This variable is usually left ==empty==. Leave it empty unless you are developing code and want to use libraries that have not been installed. Otherwise, changing `PYTHONPATH` can be confusing to others trying to debug your code who forget that `PYTHONPATH` has been changed.
@@ -326,7 +326,7 @@ plot.histogram() # found plot
 Note:
 Python packages can be installed via package managers, Windows executables or Python specific tools such as pip.
 
-#### `sys.path`
+### `sys.path`
 The `sys` module has an attribute `path`. It stores a list of paths that determines where Python looks to import libraries.
 ```python
 import sys
@@ -338,7 +338,7 @@ Note:
 Typically you don’t manually set `sys.path` or `PYTHONPATH`, normally you install libraries, and the installer puts them in the correct location.
 
 
-#### look for library locations?
+### look for library locations?
 If you want to know the location of the library on the filesystem, you can inspect the `__file__` attribute.
 
 ```python
@@ -357,16 +357,16 @@ sys.__file__
 # AttributeError: module 'sys' has no attribute '__file__'
 ```
 
-### dir and help
+## dir and help
 ==IMPORTANT: explore Python using dir and help.==
-#### dir()
+### dir()
 The dir function returns the **attributes** of an object. It is used to discover the attributes of any object quickly.
 
 The attribute list is in alphabetical order, and you can normally ignore the first couple of attributes starting with `__`.
 
 e.g. `dir("Jack Bauer")`
 
-#### help()
+### help()
 The built-in help function also provides documentation for a method, module, class, or function if you pass them in as an argument. 
 For example, if you are curious what the attribute upper on a string does, the following gives you the documentation:
 ```python
@@ -382,7 +382,7 @@ upper(...) method of builtins.str instance
 e.g. to find examples for string formatting: `help("FORMATTING")`
 `help("builtins")`
 
-### dunder methods
+## dunder methods
 start and end with double underscores (Double UNDERscores). “Dunder add” is one way to say __add__,
 
 They are used to determine what happens under the covers
@@ -390,7 +390,7 @@ when **operations** are performed on an object. For example, when you use the + 
 
 ==We only need to define dunder methods when we implement our own classes and want them to react to operations such as + or % ==
 
-#### `__str__()` & `__repr__()`
+### `__str__()` & `__repr__()`
 The  `__str__()`  and  `__repr__()`  methods deal with how objects are presented as strings, so you’ll need to make sure you include at least one of those methods in your class definition. If you have to pick one, go with  `__repr__()`  because it can be used in place of  `__str__()`.
 
 * The string returned by  `__str__()`  is the informal string representation of an object and should be readable. 
@@ -406,7 +406,7 @@ f"{new_comedian!r}"
 # 'Eric Idle is 74. Surprise!'
 ```
 
-### pdb
+## pdb
 Python also includes a debugger to step through code. It is found in a module named pdb. This library is modelled after the gdb library for C. To drop into the debugger at any point in a Python program, insert the code:
 `import pdb; pdb.set_trace()`
 
@@ -420,17 +420,17 @@ u, up | Pop up a level in the stack
 d, down | Push down a level in the stack
 l, list | List source code around current line
 
-### is v.s. ==
+## is v.s. ==
 `is` check identity, i.e. id(obj)
 `==` checks value
 
-### None
+## None
 None is a singleton object in Python.
 Two places to use None:
 1. init a variable that may be assigned a value in the future.
 2. the default result of a function and a method that does not explicitly return a value
 
-### pip
+## pip
 Upgrading pip.
 * On Linux or macOS:
 	`pip install -U pip`
@@ -1877,11 +1877,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4MDU5OTM1LDE5NzY1NTE0NzMsMTk4Mz
-Q3MzE3MywtNDM2MTc5Nzc3LC03ODU5MzA2MjMsMTkyMTgxMzQ2
-MSwxOTIxODEzNDYxLDk0OTgwMDM3MiwxMTA5MjgwMzUxLDE2MD
-M2MDg2MDksLTU4MDkwNDkxOSw5NDU1MDQyODUsLTczNzQ0MzA1
-NCwtMTI4MDEzODIxNCwtMTgzMDgxNzIxOSwtNzEyMjUzMTI0LC
-00NDM5Mzg3NDksLTExNTcwNjEyODIsNjY0MzU1MDg3LDExNjgz
-MzQwNzNdfQ==
+eyJoaXN0b3J5IjpbLTgwOTM4NDU0NiwxOTc2NTUxNDczLDE5OD
+M0NzMxNzMsLTQzNjE3OTc3NywtNzg1OTMwNjIzLDE5MjE4MTM0
+NjEsMTkyMTgxMzQ2MSw5NDk4MDAzNzIsMTEwOTI4MDM1MSwxNj
+AzNjA4NjA5LC01ODA5MDQ5MTksOTQ1NTA0Mjg1LC03Mzc0NDMw
+NTQsLTEyODAxMzgyMTQsLTE4MzA4MTcyMTksLTcxMjI1MzEyNC
+wtNDQzOTM4NzQ5LC0xMTU3MDYxMjgyLDY2NDM1NTA4NywxMTY4
+MzM0MDczXX0=
 -->
