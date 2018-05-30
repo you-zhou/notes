@@ -613,8 +613,7 @@ print "".join(nums)
 
 1. built-in operator `%` - similar to C's printf (not recommended by the docs due to poor support to display tuples and dictionaries correctly) [Python docs](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
 
-	PEP 3101, discourages the usage of the % operator in favor of the str.format()
-method.
+	PEP 3101 discourages the usage of the % operator in favor of the `str.format()` method.
 
 	```python
 	"Num: %d Hex: %x" % (12, 13)
@@ -1926,7 +1925,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTY2NzcyMywtMTg1NzExMTI2NCwtMT
+eyJoaXN0b3J5IjpbMTY5MDIwNjcxOSwtMTg1NzExMTI2NCwtMT
 A4OTg2MzI2MywtMTI2MzkzMDg5MSwtODMyNzc1MTg1LDE5NzY1
 NTE0NzMsMTk4MzQ3MzE3MywtNDM2MTc5Nzc3LC03ODU5MzA2Mj
 MsMTkyMTgxMzQ2MSwxOTIxODEzNDYxLDk0OTgwMDM3MiwxMTA5
