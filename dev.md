@@ -1065,8 +1065,11 @@ my_function()
 ```
 
 ## context manager
-asdf
-
+A context manager is a Python object that provides extra contextual information to an action. This extra information takes the form of running a callable upon initiating the context using the `with` statement, as well as running a callable upon completing all the code inside the with block. The most well known example of using a context manager is shown here, opening on a file:
+```python
+with open('file.txt') as f:
+	contents = f.read()
+```
 
 ## colour coded print
 Print texts  in colour coded fashion can be useful to highlight important messages.
@@ -1837,11 +1840,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM2NjEzNjQzLDE5NzY1NTE0NzMsMTk4Mz
-Q3MzE3MywtNDM2MTc5Nzc3LC03ODU5MzA2MjMsMTkyMTgxMzQ2
-MSwxOTIxODEzNDYxLDk0OTgwMDM3MiwxMTA5MjgwMzUxLDE2MD
-M2MDg2MDksLTU4MDkwNDkxOSw5NDU1MDQyODUsLTczNzQ0MzA1
-NCwtMTI4MDEzODIxNCwtMTgzMDgxNzIxOSwtNzEyMjUzMTI0LC
-00NDM5Mzg3NDksLTExNTcwNjEyODIsNjY0MzU1MDg3LDExNjgz
-MzQwNzNdfQ==
+eyJoaXN0b3J5IjpbMjA2MzQwNjk0NiwxOTc2NTUxNDczLDE5OD
+M0NzMxNzMsLTQzNjE3OTc3NywtNzg1OTMwNjIzLDE5MjE4MTM0
+NjEsMTkyMTgxMzQ2MSw5NDk4MDAzNzIsMTEwOTI4MDM1MSwxNj
+AzNjA4NjA5LC01ODA5MDQ5MTksOTQ1NTA0Mjg1LC03Mzc0NDMw
+NTQsLTEyODAxMzgyMTQsLTE4MzA4MTcyMTksLTcxMjI1MzEyNC
+wtNDQzOTM4NzQ5LC0xMTU3MDYxMjgyLDY2NDM1NTA4NywxMTY4
+MzM0MDczXX0=
 -->
