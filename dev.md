@@ -571,6 +571,13 @@ import recordconverter # local library
 ```
 
 ## string
+Strings are ==immutable==.
+
+This means that when constructing a string from its parts, it is much more efficient to accumulate the parts in a list, which is mutable, and then glue (‘join’) the parts together when the full string is needed. 
+
+One thing to notice, however, is that list comprehensions are better
+and faster than constructing a list in a loop with calls to append().
+
 [great examples for string format](https://pyformat.info/)
 
 ### There are three ways to format  a string.
@@ -1885,11 +1892,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODk4NjMyNjMsLTEyNjM5MzA4OTEsLT
-gzMjc3NTE4NSwxOTc2NTUxNDczLDE5ODM0NzMxNzMsLTQzNjE3
-OTc3NywtNzg1OTMwNjIzLDE5MjE4MTM0NjEsMTkyMTgxMzQ2MS
-w5NDk4MDAzNzIsMTEwOTI4MDM1MSwxNjAzNjA4NjA5LC01ODA5
-MDQ5MTksOTQ1NTA0Mjg1LC03Mzc0NDMwNTQsLTEyODAxMzgyMT
-QsLTE4MzA4MTcyMTksLTcxMjI1MzEyNCwtNDQzOTM4NzQ5LC0x
-MTU3MDYxMjgyXX0=
+eyJoaXN0b3J5IjpbMTg3OTExMjM1NywtMTA4OTg2MzI2MywtMT
+I2MzkzMDg5MSwtODMyNzc1MTg1LDE5NzY1NTE0NzMsMTk4MzQ3
+MzE3MywtNDM2MTc5Nzc3LC03ODU5MzA2MjMsMTkyMTgxMzQ2MS
+wxOTIxODEzNDYxLDk0OTgwMDM3MiwxMTA5MjgwMzUxLDE2MDM2
+MDg2MDksLTU4MDkwNDkxOSw5NDU1MDQyODUsLTczNzQ0MzA1NC
+wtMTI4MDEzODIxNCwtMTgzMDgxNzIxOSwtNzEyMjUzMTI0LC00
+NDM5Mzg3NDldfQ==
 -->
