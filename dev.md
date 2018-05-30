@@ -1092,7 +1092,7 @@ with CustomOpen('file') as f:
 ```
 This is just a regular Python object with two extra methods that are used by the with statement. `CustomOpen` is first instantiated and then its `__enter__` method is called and whatever `__enter__` returns is assigned to f in the as `f` part of the statement. When the contents of the with block is finished executing, the `__exit__` method is then called.
 
-2. 
+2. the function approach
 And now the generator approach using Python’s own `contextlib`:
 ```python
 from contextlib import contextmanager
@@ -1885,11 +1885,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjM2MzUzMCwtMTI2MzkzMDg5MSwtOD
-MyNzc1MTg1LDE5NzY1NTE0NzMsMTk4MzQ3MzE3MywtNDM2MTc5
-Nzc3LC03ODU5MzA2MjMsMTkyMTgxMzQ2MSwxOTIxODEzNDYxLD
-k0OTgwMDM3MiwxMTA5MjgwMzUxLDE2MDM2MDg2MDksLTU4MDkw
-NDkxOSw5NDU1MDQyODUsLTczNzQ0MzA1NCwtMTI4MDEzODIxNC
-wtMTgzMDgxNzIxOSwtNzEyMjUzMTI0LC00NDM5Mzg3NDksLTEx
-NTcwNjEyODJdfQ==
+eyJoaXN0b3J5IjpbLTEwODk4NjMyNjMsLTEyNjM5MzA4OTEsLT
+gzMjc3NTE4NSwxOTc2NTUxNDczLDE5ODM0NzMxNzMsLTQzNjE3
+OTc3NywtNzg1OTMwNjIzLDE5MjE4MTM0NjEsMTkyMTgxMzQ2MS
+w5NDk4MDAzNzIsMTEwOTI4MDM1MSwxNjAzNjA4NjA5LC01ODA5
+MDQ5MTksOTQ1NTA0Mjg1LC03Mzc0NDMwNTQsLTEyODAxMzgyMT
+QsLTE4MzA4MTcyMTksLTcxMjI1MzEyNCwtNDQzOTM4NzQ5LC0x
+MTU3MDYxMjgyXX0=
 -->
