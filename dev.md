@@ -773,7 +773,7 @@ digit_set = {0, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 42 in digit_set # False
 ```
 
-### Note
+Note:
 * Because sets must be able to compute a **hash value** for each item in the set, sets can only contain items that are hashable.
 * Mutable items are not hashable in Python, which means you cannot hash a
 list or dictionary.
@@ -781,11 +781,11 @@ list or dictionary.
 * To use the `in` operation, also implements the `__contains__` method.
 
 
-### dictionary
+## dictionary
 It is a building block in Python. Classes, namespaces, and modules in Python are all implemented using a dictionary under the covers.
 From Python 3.6, dictionary items are ordered based on key insertion order.
 
-#### Two way to create a dictionary
+### Two way to create a dictionary
 ```python
 # 1. use the literal syntax {key: value, ...}
 info = {'first': 'Pete', 'last': 'Best'}
@@ -794,12 +794,12 @@ info = {'first': 'Pete', 'last': 'Best'}
 info = dict([('first', 'Pete'),
 			 ('last', 'Best')])
 ```
-#### Insert values to a dictionary
+### Insert values to a dictionary
 Use index operations (square brackets) to insert values into a dictionary.
 `info['age'] = 20`
 `info['occupation'] = 'Drummer'`
 
-#### Retrieve values from a dictionary
+### Retrieve values from a dictionary
 You can still use the `in` statement to check membership of a key.
 To retrieve it:
 1. Square bracket [].
@@ -839,7 +839,7 @@ So, it is usually used to provide an accumulator or counter for a key.
 #### `.keys()`, `.values()` and `.items()`
 Dictionary methods keys, values and items all return views of the dictionary, which reflects the current state. It is not a **copy** of keys, values or items.
 
-#### sort / order
+### sort / order
 Sort the sequence of the iteration if a different order is desided.
 ```python
 # sorted() function will return a NEW sorted list
@@ -848,8 +848,8 @@ for name in sorted(data.keys()):
 
 ```
 
-### loop
-#### for loops with an index
+## loop
+### for loops with an index
 Use the `in` statement in a `for` loop.
 ```python
 animals = ["cat", "dog", "bird"]
@@ -870,7 +870,7 @@ Note:
 You can define your own classes that respond to the `for` statement, by implementing the `.__iter__` method.
 
 
-### function
+## function
 A function  implicitly returns ==None== if the function ends without return being called.
 Do not use mutable types (lists, dictionaries) for default parameters unless you know what you are doing. Because of the way Python works, **the default parameters are created only once—at function definition time, not at function execution time**. If you use a mutable default value, you will end up re-using the same instance of the default parameter during each function invocation:
 ```python
@@ -896,11 +896,11 @@ to_list('hello') # ['hello']
 ```
 
 
-### class
-#### dir
+## class
+### dir
 You can always use the built-in `dir` function to list attributes of an object.
 
-#### attribute types
+### attribute types
 1. class attributes
 	Attributes that are **constant**, which are shared among all instances of a class, are put inside the class definition.
 
@@ -911,7 +911,7 @@ You can always use the built-in `dir` function to list attributes of an object.
 Python has a hierarchy for looking up attributes. 
 Attribute lookup occurs first on the instance, then the class, then the parent classes, and will raise a `AttributeError` if the attribute was not found.
 
-#### `__class__` attribute
+### `__class__` attribute
 ```python
 chair.__class__
 # <class '__main__.Chair'>
@@ -919,7 +919,7 @@ chair.__class__
 
 It is important that an instance know what its class is because ==the class stores the methods and class attributes==.
 
-#### the `self` parameter inside methods
+### the `self` parameter inside methods
 `self` parameter represents the current instance of the class.
 ```python
 class Chair:
@@ -943,7 +943,7 @@ What happens under the covers is similar to this:
 `Chair.load(chair, 3)`
 Python will call the `.load` method by inserting `chair` as the 	`self` parameter and 3 as the `number` parameter.
 
-#### private & protected with a single underscore
+### private & protected with a single underscore
 Some languages have the notion of private attributes or methods. These are methods that are meant to be implementation details and end users can’t call them. But, Python does not make an effort to prevent users from doing much of anything. Rather, it takes the attitude that you are an adult and you should take responsibility for your actions. If you want to access something, you can do it. But you should be willing to accept the consequences.
 ```python
 Class Chair:
@@ -969,11 +969,11 @@ Class Chair:
 ```
 The ._check method is considered private, only the instance should access it inside the class. In the class, the .load and .unload methods call the private method. If wanted, you could call it from outside the class. But you shouldn’t, as anything with an underscore should be ==considered an implementation detail== that might not exist in future versions of the class.
 
-### library
+## library
 * A python library must be a *module* or a *package*.
 * The library must exist in the **PYTHONPATH** environment variable or **`sys.path`** Python variable.
 
-#### modules
+### modules
 If you quit from the Python interpreter and enter it again, the definitions you have made (functions and variables) are lost. Therefore, if you want to write a somewhat longer program, you are better off using a text editor to prepare the input for the interpreter and running it with that file as input instead. This is known as creating a  _script_. As your program gets longer, you may want to split it into several files for easier maintenance. You may also want to use a handy function that you’ve written in several programs without copying its definition into each program.
 
 To support this, Python has a way to put definitions in a file and use them in a script or in an interactive instance of the interpreter. Such a file is called a  _module_; definitions from a module can be  _imported_  into other modules or into the  _main_  module (the collection of variables that you have access to in a script executed at the top level and in calculator mode).
@@ -988,7 +988,7 @@ In a nut shell, modules are **Python files** that end in `.py`, and have a name 
 Note:
 Even though it is allowed to have underscore `_`  in module names, it is not preferred. e.g. `fs/format_names.py`And should be always avoided. Use submodules instead of underscores if possible. e.g. `fs/format/names.py`.
 
-##### executing modules as scripts
+#### executing modules as scripts
 Put execution statements inside `if __name__ == "__main__":`.
 Then it will ONLY be executed when the module is ran as a script.
 ```python
@@ -997,7 +997,7 @@ if __name__ == "__main__":
 	f(int(sys.argv[1]))
 ```
 
-#### packages
+### packages
 Packages are a way of structuring Python’s module namespace by using “dotted module names”. For example, the module name `A.B` designates a submodule named `B` in a package named `A`. Just like the use of modules saves the authors of different modules from having to worry about each other’s global variable names, the use of dotted module names saves the authors of multi-module packages like NumPy or Pillow from having to worry about each other’s module names. 
 
 [python doc ref](https://docs.python.org/3/tutorial/modules.html#packages)
@@ -1877,11 +1877,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU4NDc2Mzg0LDE5NzY1NTE0NzMsMTk4Mz
-Q3MzE3MywtNDM2MTc5Nzc3LC03ODU5MzA2MjMsMTkyMTgxMzQ2
-MSwxOTIxODEzNDYxLDk0OTgwMDM3MiwxMTA5MjgwMzUxLDE2MD
-M2MDg2MDksLTU4MDkwNDkxOSw5NDU1MDQyODUsLTczNzQ0MzA1
-NCwtMTI4MDEzODIxNCwtMTgzMDgxNzIxOSwtNzEyMjUzMTI0LC
-00NDM5Mzg3NDksLTExNTcwNjEyODIsNjY0MzU1MDg3LDExNjgz
-MzQwNzNdfQ==
+eyJoaXN0b3J5IjpbLTgzMjc3NTE4NSwxOTc2NTUxNDczLDE5OD
+M0NzMxNzMsLTQzNjE3OTc3NywtNzg1OTMwNjIzLDE5MjE4MTM0
+NjEsMTkyMTgxMzQ2MSw5NDk4MDAzNzIsMTEwOTI4MDM1MSwxNj
+AzNjA4NjA5LC01ODA5MDQ5MTksOTQ1NTA0Mjg1LC03Mzc0NDMw
+NTQsLTEyODAxMzgyMTQsLTE4MzA4MTcyMTksLTcxMjI1MzEyNC
+wtNDQzOTM4NzQ5LC0xMTU3MDYxMjgyLDY2NDM1NTA4NywxMTY4
+MzM0MDczXX0=
 -->
