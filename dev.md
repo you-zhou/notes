@@ -966,6 +966,12 @@ The arbitrary argument list is the third way to pass arguments to a function. If
 
 For example, `send(message, *args)` can be called with each recipient as an argument: `send(’Hello’, ’God’, ’Mom’, ’Cthulhu’)`, and in the function body `args` will be equal to `(’God’, ’Mom’, ’Cthulhu’)`.
 
+However, this construct has some drawbacks and should be used with caution. If a function receives a list of arguments
+of the same nature, it is often more clear to define it as a function of one argument, that argument being a list or any sequence.
+Here, if send has multiple recipients, it is better to define it explicitly: send(message, recipients)
+and call it with send(’Hello’, [’God’, ’Mom’, ’Cthulhu’]). This way, the user of the function can
+manipulate the recipient list as a list beforehand, and it opens the possibility to pass any sequence, including iterators,
+that cannot be unpacked as other sequences.
 
 #### 4. arbitrary keyword argument dictionary
 
@@ -1959,11 +1965,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjE3MDM3MywtMTM1NTAwOTA5NCwtMj
-EyMzc5OTMwNiwtODkyNTY2MTQyLDI5MDgxNTc0MCw5ODE0MTUy
-MTYsMTY5MDIwNjcxOSwtMTg1NzExMTI2NCwtMTA4OTg2MzI2My
-wtMTI2MzkzMDg5MSwtODMyNzc1MTg1LDE5NzY1NTE0NzMsMTk4
-MzQ3MzE3MywtNDM2MTc5Nzc3LC03ODU5MzA2MjMsMTkyMTgxMz
-Q2MSwxOTIxODEzNDYxLDk0OTgwMDM3MiwxMTA5MjgwMzUxLDE2
-MDM2MDg2MDldfQ==
+eyJoaXN0b3J5IjpbLTE5MzYwNTI0NDYsMTAxNjE3MDM3MywtMT
+M1NTAwOTA5NCwtMjEyMzc5OTMwNiwtODkyNTY2MTQyLDI5MDgx
+NTc0MCw5ODE0MTUyMTYsMTY5MDIwNjcxOSwtMTg1NzExMTI2NC
+wtMTA4OTg2MzI2MywtMTI2MzkzMDg5MSwtODMyNzc1MTg1LDE5
+NzY1NTE0NzMsMTk4MzQ3MzE3MywtNDM2MTc5Nzc3LC03ODU5Mz
+A2MjMsMTkyMTgxMzQ2MSwxOTIxODEzNDYxLDk0OTgwMDM3Miwx
+MTA5MjgwMzUxXX0=
 -->
