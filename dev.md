@@ -608,11 +608,14 @@ print "".join(nums)
 ```
 
 
-
 ### There are three ways to format  a string.
 [great examples for string format](https://pyformat.info/)
 
 1. built-in operator `%` - similar to C's printf (not recommended by the docs due to poor support to display tuples and dictionaries correctly) [Python docs](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
+
+	PEP 3101, discourages the usage of the % operator in favor of the str.format()
+method.
+
 	```python
 	"Num: %d Hex: %x" % (12, 13)
 	# 'Num: 12 Hex: d'
@@ -621,7 +624,7 @@ print "".join(nums)
 	# 'hello world'
 	```
 	
-2. str.format() from Python 2.6 (much improved from the % operator) [Python docs](https://docs.python.org/3/library/stdtypes.html#str.format)
+3. str.format() from Python 2.6 (much improved from the % operator) [Python docs](https://docs.python.org/3/library/stdtypes.html#str.format)
 	It uses normal function call syntax and is  [extensible through the  `__format__()`  method](https://www.python.org/dev/peps/pep-3101/#controlling-formatting-on-a-per-type-basis)  on the object being converted to a string.
 With  `str.format()`, the replacement fields are marked by curly braces:
 	```python
@@ -653,7 +656,7 @@ With  `str.format()`, the replacement fields are marked by curly braces:
 	# 'Percent: - 44.0%'
 	```
 	
-3. f-string from Python 3.6 [PEP 498](https://www.python.org/dev/peps/pep-0498/)
+4. f-string from Python 3.6 [PEP 498](https://www.python.org/dev/peps/pep-0498/)
 	Because f-strings are evaluated at **runtime**, you can put any and all valid Python expressions in them.
 	```python
 	f"{2 * 37}"
@@ -1923,11 +1926,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTc2MjQyLC0xODU3MTExMjY0LC0xMD
-g5ODYzMjYzLC0xMjYzOTMwODkxLC04MzI3NzUxODUsMTk3NjU1
-MTQ3MywxOTgzNDczMTczLC00MzYxNzk3NzcsLTc4NTkzMDYyMy
-wxOTIxODEzNDYxLDE5MjE4MTM0NjEsOTQ5ODAwMzcyLDExMDky
-ODAzNTEsMTYwMzYwODYwOSwtNTgwOTA0OTE5LDk0NTUwNDI4NS
-wtNzM3NDQzMDU0LC0xMjgwMTM4MjE0LC0xODMwODE3MjE5LC03
-MTIyNTMxMjRdfQ==
+eyJoaXN0b3J5IjpbMTEzOTY2NzcyMywtMTg1NzExMTI2NCwtMT
+A4OTg2MzI2MywtMTI2MzkzMDg5MSwtODMyNzc1MTg1LDE5NzY1
+NTE0NzMsMTk4MzQ3MzE3MywtNDM2MTc5Nzc3LC03ODU5MzA2Mj
+MsMTkyMTgxMzQ2MSwxOTIxODEzNDYxLDk0OTgwMDM3MiwxMTA5
+MjgwMzUxLDE2MDM2MDg2MDksLTU4MDkwNDkxOSw5NDU1MDQyOD
+UsLTczNzQ0MzA1NCwtMTI4MDEzODIxNCwtMTgzMDgxNzIxOSwt
+NzEyMjUzMTI0XX0=
 -->
