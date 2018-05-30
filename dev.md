@@ -1075,14 +1075,15 @@ Anyone familiar with this pattern knows that invoking open in this fashion ensur
 the above functionality ourselves, starting with the class approach:
 ```python
 class CustomOpen(object):
-def __init__(self, filename):
-self.file = open(filename)
-def __enter__(self):
-return self.file
-def __exit__(self, ctx_type, ctx_value, ctx_traceback):
-self.file.close()
+	def __init__(self, filename):
+		self.file = open(filename)
+	def __enter__(self):
+		return self.file
+	def __exit__(self, ctx_type, ctx_value, ctx_traceback):
+		self.file.close()
+		
 with CustomOpen('file') as f:
-contents = f.read()
+	contents = f.read()
 
 ```
 
@@ -1856,11 +1857,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0Nzg0MjQ2MiwxOTc2NTUxNDczLDE5OD
-M0NzMxNzMsLTQzNjE3OTc3NywtNzg1OTMwNjIzLDE5MjE4MTM0
-NjEsMTkyMTgxMzQ2MSw5NDk4MDAzNzIsMTEwOTI4MDM1MSwxNj
-AzNjA4NjA5LC01ODA5MDQ5MTksOTQ1NTA0Mjg1LC03Mzc0NDMw
-NTQsLTEyODAxMzgyMTQsLTE4MzA4MTcyMTksLTcxMjI1MzEyNC
-wtNDQzOTM4NzQ5LC0xMTU3MDYxMjgyLDY2NDM1NTA4NywxMTY4
-MzM0MDczXX0=
+eyJoaXN0b3J5IjpbLTEyMzMyMjMwODgsMTk3NjU1MTQ3MywxOT
+gzNDczMTczLC00MzYxNzk3NzcsLTc4NTkzMDYyMywxOTIxODEz
+NDYxLDE5MjE4MTM0NjEsOTQ5ODAwMzcyLDExMDkyODAzNTEsMT
+YwMzYwODYwOSwtNTgwOTA0OTE5LDk0NTUwNDI4NSwtNzM3NDQz
+MDU0LC0xMjgwMTM4MjE0LC0xODMwODE3MjE5LC03MTIyNTMxMj
+QsLTQ0MzkzODc0OSwtMTE1NzA2MTI4Miw2NjQzNTUwODcsMTE2
+ODMzNDA3M119
 -->
