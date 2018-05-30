@@ -465,7 +465,7 @@ NOTE:
 * On Windows you can find the user base binary directory by running `py -m site --user-site` and replacing site-packages with Scripts. For example, this could return C:\Users\Username\AppData\Roaming\Python36\site-packages so you would need to set your PATH to include: \Users\Username\AppData\Roaming\Python36\Scripts.
 You can set your user PATH permanently in the Control Panel. You may need to log out for the PATHchanges to take effect.
 
-## Why ```if __name__ == '__main__'```?
+## why ```if __name__ == '__main__'```?
 
 In a nutshell, it checks if the current module is being `imported` or ran `directly`. 
 [Ref to Python Docs](https://docs.python.org/3/library/__main__.html).
@@ -1031,7 +1031,7 @@ In text mode, the default when reading is to convert platform-specific line endi
 	Data is read and written in the form of bytes objects. This mode should be used for all files that don't contain text.
 
 
-## Exceptions and Error Handlings
+## exceptions and error handlings
 [ref: PYTHON – EXCEPTIONS AND ERROR HANDLINGS](http://devarea.com/python-exceptions-and-error-handlings/)
 
 It is important to handle Exceptions & Errors when dealing with some functions. e.g.
@@ -1184,7 +1184,7 @@ print(highlight("red", (colourise("blue", text))))
 ```
 
 
-## Anonymous Functions (Lambda Expressions)
+## anonymous functions (lambda expressions)
 `lambda` functions are anonymous functions for simple operations. It is very common where we pass a function to another function. For example the builtin map function to map a list to a new list:
 ```python
 ls = [2,4,6]
@@ -1211,7 +1211,7 @@ print( compare(10,20) ) # -1
 ```
 
 
-## Function Annotations (Python 3)
+## function annotations (Python 3)
 You can add documentation to the parameters and the return value:
 ```python
 def add(a:"first number" = 0,
@@ -1226,7 +1226,7 @@ for item in add.__annotations__.items():
 # ('return', 'sum of a and b')
 ```
 
-## Access Environment Variables
+## access environment variables
 This is can be used to access files stored in the dropbox, which would have a different directory in different computers. Set the dropbox directory or database file location inside a common environment variable will make scripts portable across computers.
 
 ### os.environ
@@ -1877,11 +1877,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MjUzNTU2NywtODMyNzc1MTg1LDE5Nz
-Y1NTE0NzMsMTk4MzQ3MzE3MywtNDM2MTc5Nzc3LC03ODU5MzA2
-MjMsMTkyMTgxMzQ2MSwxOTIxODEzNDYxLDk0OTgwMDM3MiwxMT
-A5MjgwMzUxLDE2MDM2MDg2MDksLTU4MDkwNDkxOSw5NDU1MDQy
-ODUsLTczNzQ0MzA1NCwtMTI4MDEzODIxNCwtMTgzMDgxNzIxOS
-wtNzEyMjUzMTI0LC00NDM5Mzg3NDksLTExNTcwNjEyODIsNjY0
-MzU1MDg3XX0=
+eyJoaXN0b3J5IjpbNzkxNzY2ODMxLC04MzI3NzUxODUsMTk3Nj
+U1MTQ3MywxOTgzNDczMTczLC00MzYxNzk3NzcsLTc4NTkzMDYy
+MywxOTIxODEzNDYxLDE5MjE4MTM0NjEsOTQ5ODAwMzcyLDExMD
+kyODAzNTEsMTYwMzYwODYwOSwtNTgwOTA0OTE5LDk0NTUwNDI4
+NSwtNzM3NDQzMDU0LC0xMjgwMTM4MjE0LC0xODMwODE3MjE5LC
+03MTIyNTMxMjQsLTQ0MzkzODc0OSwtMTE1NzA2MTI4Miw2NjQz
+NTUwODddfQ==
 -->
