@@ -1073,7 +1073,8 @@ with open('file.txt') as f:
 
 Anyone familiar with this pattern knows that invoking open in this fashion ensures that f‘s close method will be called at some point. This reduces a developer’s cognitive load and makes the code easier to read. 
 
-There are two easy ways to implement this functionality yourself: 1. using a class or using a generator. Let’s implement
+There are two easy ways to implement this functionality yourself: 
+1. using a class or using a generator. Let’s implement
 the above functionality ourselves, starting with the class approach:
 ```python
 class CustomOpen(object):
@@ -1090,6 +1091,21 @@ with CustomOpen('file') as f:
 ```
 This is just a regular Python object with two extra methods that are used by the with statement. `CustomOpen` is first instantiated and then its `__enter__` method is called and whatever `__enter__` returns is assigned to f in the as `f` part of the statement. When the contents of the with block is finished executing, the `__exit__` method is then called.
 
+2. And now the generator approach using Python’s own `contextlib`:
+```python
+from contextlib import contextmanager
+
+
+@contextmanager
+def custom_open(filename):
+	f = open(filename)
+	try:
+		yield f
+	finally:
+		f.close()
+with custom_open('file') as f:
+contents = f.read()
+```
 
 
 ## colour coded print
@@ -1861,11 +1877,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzcwNjc2MTYsMTk3NjU1MTQ3MywxOT
-gzNDczMTczLC00MzYxNzk3NzcsLTc4NTkzMDYyMywxOTIxODEz
-NDYxLDE5MjE4MTM0NjEsOTQ5ODAwMzcyLDExMDkyODAzNTEsMT
-YwMzYwODYwOSwtNTgwOTA0OTE5LDk0NTUwNDI4NSwtNzM3NDQz
-MDU0LC0xMjgwMTM4MjE0LC0xODMwODE3MjE5LC03MTIyNTMxMj
-QsLTQ0MzkzODc0OSwtMTE1NzA2MTI4Miw2NjQzNTUwODcsMTE2
-ODMzNDA3M119
+eyJoaXN0b3J5IjpbOTQ0NzQzMTk1LDE5NzY1NTE0NzMsMTk4Mz
+Q3MzE3MywtNDM2MTc5Nzc3LC03ODU5MzA2MjMsMTkyMTgxMzQ2
+MSwxOTIxODEzNDYxLDk0OTgwMDM3MiwxMTA5MjgwMzUxLDE2MD
+M2MDg2MDksLTU4MDkwNDkxOSw5NDU1MDQyODUsLTczNzQ0MzA1
+NCwtMTI4MDEzODIxNCwtMTgzMDgxNzIxOSwtNzEyMjUzMTI0LC
+00NDM5Mzg3NDksLTExNTcwNjEyODIsNjY0MzU1MDg3LDExNjgz
+MzQwNzNdfQ==
 -->
