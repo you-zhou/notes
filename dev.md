@@ -453,7 +453,7 @@ To UNINSTALL all packages in the current environment.
 * Method 3 (with  `virtualenv`)
 	`virtualenv --clear MYENV`
 	
-#### pip install --user pipenv
+### pip install --user pipenv
 This does a ==user installation== to prevent breaking any system-wide packages.
 `$ pip install --user pipenv`
 
@@ -465,7 +465,7 @@ NOTE:
 * On Windows you can find the user base binary directory by running `py -m site --user-site` and replacing site-packages with Scripts. For example, this could return C:\Users\Username\AppData\Roaming\Python36\site-packages so you would need to set your PATH to include: \Users\Username\AppData\Roaming\Python36\Scripts.
 You can set your user PATH permanently in the Control Panel. You may need to log out for the PATHchanges to take effect.
 
-### Why ```if __name__ == '__main__'```?
+## Why ```if __name__ == '__main__'```?
 
 In a nutshell, it checks if the current module is being `imported` or ran `directly`. 
 [Ref to Python Docs](https://docs.python.org/3/library/__main__.html).
@@ -500,7 +500,7 @@ If we run the module not by `importing` it but running it directly as a standalo
 
 
 
-### divide operator
+## divide operator
 * 26 % 7 == 5 (you will get remainder)
 
 * 26 / 7 == 3.7142857142857144 (you will get divisor can be float value )
@@ -508,7 +508,7 @@ If we run the module not by `importing` it but running it directly as a standalo
 * 26 // 7 == 3 (you will get divisor only integer value) )
 
 
-### namespace and scope
+## namespace and scope
 The namespace holds the functions, classes, and variables you have access to.
 
 [a very good ref](https://eli.thegreenplace.net/2015/the-scope-of-index-variables-in-pythons-for-loops/)
@@ -524,8 +524,8 @@ The important point here is: ==the innermost possible scope is a function body.=
 
 P.S. Use the built-in function `locals()` and `globals()` to check variables in the scope.
 
-### `import` and `as`
-#### Two scenarios to use `import x as y` or `from x import y as z`:
+## `import` and `as`
+### Two scenarios to use `import x as y` or `from x import y as z`:
 1. To avoid conflicting import names.
 Assuming there is already a user defined `sin()` in the current namespace, below are the ways to get around conflicted names and use the `math` library.
 ```python
@@ -546,7 +546,7 @@ Note:
 Even worse are star imports from multiple libraries. Subsequent library imports might override something defined in an earlier library. As such, star imports are discouraged and frowned upon.
 
 
-#### organise imports
+### organise imports
 According to PEP 8, import statements should be located at the top of the file following the module docstring. 
 There should be one import per line and imports should be grouped by:
 1. Standard library imports
@@ -570,10 +570,10 @@ import psycopg2 # 3rd party lib
 import recordconverter # local library
 ```
 
-### string
+## string
 [great examples for string format](https://pyformat.info/)
 
-#### There are three ways to format  a string.
+### There are three ways to format  a string.
 1. built-in operator `%` - similar to C's printf (not recommended by the docs due to poor support to display tuples and dictionaries correctly) [Python docs](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
 	```python
 	"Num: %d Hex: %x" % (12, 13)
@@ -628,7 +628,7 @@ With  `str.format()`, the replacement fields are marked by curly braces:
 	f'Square root of two: {2**.5:5.3f}
 	# 'Square root of two: 1.414'
 	```
-#### Multi-lines
+### Multi-lines
 1. triple-quotes
 	It may contains unwanted `\n` and `\t`
 	```python
@@ -658,7 +658,7 @@ With  `str.format()`, the replacement fields are marked by curly braces:
 	)
 	# 'This string has many many lines.'
 	```
-### tuple
+## tuple
 Tuples are ordered sequences that are IMMUTABLE. 
 ==Tuples can be used as keys in dictionaries. But not lists.==
 
@@ -667,36 +667,36 @@ Scenarios to consider using tuples:
 * hint developers that this variable is not meant to be modified.
 * conserve memory as it use less than a list.
 
-#### Two ways to create an empty tuple
+### Two ways to create an empty tuple
 1. first_tuple = tuple()
 2. second_tuple = ()
 
-#### Three ways to create a tuple with one item in it
+### Three ways to create a tuple with one item in it
 1. first_tuple = tuple([1])
 2. second_tuple = (1,)
 3. third_tuple = 1,
 
 All of them will create a tuple `(1,)`.
 
-#### Three ways to create a tuple with more than one items in it
+### Three ways to create a tuple with more than one items in it
 1. first_tuple = tuple(['Steph', 'Curry', 'Guard'])
 2. second_tuple = 'Steph', 'Curry', 'Guard'
 3. third_tuple = ('Steph', 'Curry', 'Guard')
 
 All of them will create a tuple `('Steph', 'Curry', 'Guard')`.
 
-### list
+## list
 Lists are ordered sequences that are MUTABLE.
 
-#### Two ways to create an empty list
+### Two ways to create an empty list
 1. first_list = list()
 2. second_list = []
 
-#### Two ways to create a pre-populated list
+### Two ways to create a pre-populated list
 1. first_list = list(['Tom', 'Jerry'])
 2. second_list = ['Tom', 'Jerry']
 
-#### Two ways to delete an item from a list
+### Two ways to delete an item from a list
 ```python
 names = ['George', 'Henry', 'Fred', 'Paul']
 # 1. remove method
@@ -710,11 +710,11 @@ print(names)
 # ['George', 'Fred']
 ```
 
-#### Two ways to sort a list
+### Two ways to sort a list
 1. `list.sort()` method sorts the list ==in place==.
 2. `sorted(list)` function returns a new list that is ordered. ==But it reuses all items in the list, instead of creating new items.==
 
-#### Copy of a list
+### Copy of a list
 `names = ['John', 'Paul', 'George', 'Ringo']`
 Below ==`[:]`== will create a new list object with a different identity. But the items' identity remains the same with `names`. 
 `names2 = names[:]`
@@ -722,9 +722,9 @@ Below ==`[:]`== will create a new list object with a different identity. But the
 `id(names) is not id(names2)`
 `id(names[0]) is id(names2[0])`
 
-### indexing & slicing
+## indexing & slicing
 Python provides two constructs to pull data out of sequence-like types (**lists, tuples, and even strings**). These are the indexing and slicing constructs. Indexing allows you to access single items out of a sequence, while slicing allows you to pull out a sub-sequence from a sequence.
-#### index with []
+### index with []
 Remember that in Python indices start at 0. If you want to pull out the first item you reference it by 0, not 1. This is called ==zero-based indexing==.
 
 > Guido van Rossum, the creator of Python, tweeted to explain how to understand negative index values:
@@ -736,7 +736,7 @@ Note:
 * sets don't support index operations.
 * implement `.__getitem__` method if a self-defined class needs to support index operations.
 
-#### slice with :
+### slice with :
 Python uses the ==half-open== interval convention. The list goes up to but
 does not include the end index.
 `my_pets = ["dog", "cat", "bird"]`
@@ -751,10 +751,10 @@ does not include the end index.
 ['dog', 'cat']
 * A negative index can be used in the start location or ending location. The index -1 represents the last item.
 
-### set
+## set
 Unordered collection that cannot contain duplicates.
 
-#### Scenarios to use sets
+### Scenarios to use sets
 * Removing duplicates.
 * Checking membership using the `in` operation, as fast lookup operation even on large sets.
 * set operations, such as union (|), intersection (&), difference (-), and xor (^)
@@ -773,7 +773,7 @@ digit_set = {0, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 42 in digit_set # False
 ```
 
-#### Note
+### Note
 * Because sets must be able to compute a **hash value** for each item in the set, sets can only contain items that are hashable.
 * Mutable items are not hashable in Python, which means you cannot hash a
 list or dictionary.
@@ -1877,11 +1877,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwOTM4NDU0NiwxOTc2NTUxNDczLDE5OD
-M0NzMxNzMsLTQzNjE3OTc3NywtNzg1OTMwNjIzLDE5MjE4MTM0
-NjEsMTkyMTgxMzQ2MSw5NDk4MDAzNzIsMTEwOTI4MDM1MSwxNj
-AzNjA4NjA5LC01ODA5MDQ5MTksOTQ1NTA0Mjg1LC03Mzc0NDMw
-NTQsLTEyODAxMzgyMTQsLTE4MzA4MTcyMTksLTcxMjI1MzEyNC
-wtNDQzOTM4NzQ5LC0xMTU3MDYxMjgyLDY2NDM1NTA4NywxMTY4
-MzM0MDczXX0=
+eyJoaXN0b3J5IjpbOTU4NDc2Mzg0LDE5NzY1NTE0NzMsMTk4Mz
+Q3MzE3MywtNDM2MTc5Nzc3LC03ODU5MzA2MjMsMTkyMTgxMzQ2
+MSwxOTIxODEzNDYxLDk0OTgwMDM3MiwxMTA5MjgwMzUxLDE2MD
+M2MDg2MDksLTU4MDkwNDkxOSw5NDU1MDQyODUsLTczNzQ0MzA1
+NCwtMTI4MDEzODIxNCwtMTgzMDgxNzIxOSwtNzEyMjUzMTI0LC
+00NDM5Mzg3NDksLTExNTcwNjEyODIsNjY0MzU1MDg3LDExNjgz
+MzQwNzNdfQ==
 -->
