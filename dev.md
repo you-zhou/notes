@@ -1040,7 +1040,7 @@ It is important to handle Exceptions & Errors when dealing with some functions. 
 * process response from a server (which could be down)
 
 
-## Decorator
+## decorator
 Decorator is a good example of closure. Decorator is a function that takes another function and extends the behavior of the latter function  _without_  explicitly modifying it.
 
 This mechanism is useful for separating concerns and avoiding external un-related logic ‘polluting’ the core logic of the function or method. A good example of a piece of functionality that is better handled with decoration is ==memoization or caching==: you want to store the results of an expensive function in a table and use them directly instead of recomputing them when they have already been computed. This is clearly not part of the function logic.
@@ -1065,9 +1065,10 @@ my_function()
 ```
 
 ## context manager
+asdf
 
 
-## Colour Coded Print
+## colour coded print
 Print texts  in colour coded fashion can be useful to highlight important messages.
 Print a string that starts a color/style, then the string, then end the color/style change with  `'\x1b[0m'`:
 ```python
@@ -1836,11 +1837,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTg5MDIzODMsMTk3NjU1MTQ3MywxOT
-gzNDczMTczLC00MzYxNzk3NzcsLTc4NTkzMDYyMywxOTIxODEz
-NDYxLDE5MjE4MTM0NjEsOTQ5ODAwMzcyLDExMDkyODAzNTEsMT
-YwMzYwODYwOSwtNTgwOTA0OTE5LDk0NTUwNDI4NSwtNzM3NDQz
-MDU0LC0xMjgwMTM4MjE0LC0xODMwODE3MjE5LC03MTIyNTMxMj
-QsLTQ0MzkzODc0OSwtMTE1NzA2MTI4Miw2NjQzNTUwODcsMTE2
-ODMzNDA3M119
+eyJoaXN0b3J5IjpbMzM2NjEzNjQzLDE5NzY1NTE0NzMsMTk4Mz
+Q3MzE3MywtNDM2MTc5Nzc3LC03ODU5MzA2MjMsMTkyMTgxMzQ2
+MSwxOTIxODEzNDYxLDk0OTgwMDM3MiwxMTA5MjgwMzUxLDE2MD
+M2MDg2MDksLTU4MDkwNDkxOSw5NDU1MDQyODUsLTczNzQ0MzA1
+NCwtMTI4MDEzODIxNCwtMTgzMDgxNzIxOSwtNzEyMjUzMTI0LC
+00NDM5Mzg3NDksLTExNTcwNjEyODIsNjY0MzU1MDg3LDExNjgz
+MzQwNzNdfQ==
 -->
