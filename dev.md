@@ -578,7 +578,34 @@ This means that when constructing a string from its parts, it is much more effic
 One thing to notice, however, is that list comprehensions are better
 and faster than constructing a list in a loop with calls to append().
 
+```python
+# Bad
+# create a concatenated string from 0 to 19 (e.g. "012..1819")
+nums = ""
+for n in range(20):
+nums += str(n) # slow and inefficient
+print nums
 
+
+# Good
+# create a concatenated string from 0 to 19 (e.g. "012..1819")
+nums = []
+for n in range(20):
+nums.append(str(n))
+print "".join(nums) # much more efficient
+
+
+# Better
+# create a concatenated string from 0 to 19 (e.g. "012..1819")
+nums = [str(n) for n in range(20)]
+print "".join(nums)
+
+
+# Best
+# create a concatenated string from 0 to 19 (e.g. "012..1819")
+nums = map(str, range(20))
+print "".join(nums)
+```
 
 
 
@@ -1897,11 +1924,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMjg1NzcxLC0xMDg5ODYzMjYzLC0xMj
-YzOTMwODkxLC04MzI3NzUxODUsMTk3NjU1MTQ3MywxOTgzNDcz
-MTczLC00MzYxNzk3NzcsLTc4NTkzMDYyMywxOTIxODEzNDYxLD
-E5MjE4MTM0NjEsOTQ5ODAwMzcyLDExMDkyODAzNTEsMTYwMzYw
-ODYwOSwtNTgwOTA0OTE5LDk0NTUwNDI4NSwtNzM3NDQzMDU0LC
-0xMjgwMTM4MjE0LC0xODMwODE3MjE5LC03MTIyNTMxMjQsLTQ0
-MzkzODc0OV19
+eyJoaXN0b3J5IjpbLTE4NTcxMTEyNjQsLTEwODk4NjMyNjMsLT
+EyNjM5MzA4OTEsLTgzMjc3NTE4NSwxOTc2NTUxNDczLDE5ODM0
+NzMxNzMsLTQzNjE3OTc3NywtNzg1OTMwNjIzLDE5MjE4MTM0Nj
+EsMTkyMTgxMzQ2MSw5NDk4MDAzNzIsMTEwOTI4MDM1MSwxNjAz
+NjA4NjA5LC01ODA5MDQ5MTksOTQ1NTA0Mjg1LC03Mzc0NDMwNT
+QsLTEyODAxMzgyMTQsLTE4MzA4MTcyMTksLTcxMjI1MzEyNCwt
+NDQzOTM4NzQ5XX0=
 -->
