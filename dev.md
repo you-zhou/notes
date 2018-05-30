@@ -1071,6 +1071,22 @@ with open('file.txt') as f:
 	contents = f.read()
 ```
 
+Anyone familiar with this pattern knows that invoking open in this fashion ensures that f‘s close method will be called at some point. This reduces a developer’s cognitive load and makes the code easier to read. There are two easy ways to implement this functionality yourself: using a class or using a generator. Let’s implement
+the above functionality ourselves, starting with the class approach:
+```python
+class CustomOpen(object):
+def __init__(self, filename):
+self.file = open(filename)
+def __enter__(self):
+return self.file
+def __exit__(self, ctx_type, ctx_value, ctx_traceback):
+self.file.close()
+with CustomOpen('file') as f:
+contents = f.read()
+
+```
+
+
 ## colour coded print
 Print texts  in colour coded fashion can be useful to highlight important messages.
 Print a string that starts a color/style, then the string, then end the color/style change with  `'\x1b[0m'`:
@@ -1840,7 +1856,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MzQwNjk0NiwxOTc2NTUxNDczLDE5OD
+eyJoaXN0b3J5IjpbMTA0Nzg0MjQ2MiwxOTc2NTUxNDczLDE5OD
 M0NzMxNzMsLTQzNjE3OTc3NywtNzg1OTMwNjIzLDE5MjE4MTM0
 NjEsMTkyMTgxMzQ2MSw5NDk4MDAzNzIsMTEwOTI4MDM1MSwxNj
 AzNjA4NjA5LC01ODA5MDQ5MTksOTQ1NTA0Mjg1LC03Mzc0NDMw
