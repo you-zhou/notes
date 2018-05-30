@@ -1074,7 +1074,8 @@ with open('file.txt') as f:
 Anyone familiar with this pattern knows that invoking open in this fashion ensures that f‘s close method will be called at some point. This reduces a developer’s cognitive load and makes the code easier to read. 
 
 There are two easy ways to implement this functionality yourself: 
-1. using a class or using a generator. Let’s implement
+1. the class approach
+using a class or using a generator. Let’s implement
 the above functionality ourselves, starting with the class approach:
 ```python
 class CustomOpen(object):
@@ -1091,7 +1092,8 @@ with CustomOpen('file') as f:
 ```
 This is just a regular Python object with two extra methods that are used by the with statement. `CustomOpen` is first instantiated and then its `__enter__` method is called and whatever `__enter__` returns is assigned to f in the as `f` part of the statement. When the contents of the with block is finished executing, the `__exit__` method is then called.
 
-2. And now the generator approach using Python’s own `contextlib`:
+2. 
+And now the generator approach using Python’s own `contextlib`:
 ```python
 from contextlib import contextmanager
 
@@ -1883,7 +1885,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NDk2Njk1MywtMTI2MzkzMDg5MSwtOD
+eyJoaXN0b3J5IjpbLTExMjM2MzUzMCwtMTI2MzkzMDg5MSwtOD
 MyNzc1MTg1LDE5NzY1NTE0NzMsMTk4MzQ3MzE3MywtNDM2MTc5
 Nzc3LC03ODU5MzA2MjMsMTkyMTgxMzQ2MSwxOTIxODEzNDYxLD
 k0OTgwMDM3MiwxMTA5MjgwMzUxLDE2MDM2MDg2MDksLTU4MDkw
