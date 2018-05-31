@@ -783,19 +783,30 @@ Below ==`[:]`== will create a **new** list object with a different identity. But
 List comprehensions provide a powerful, concise way to work with lists. Also, the `map()` and `filter()` functions can perform operations on lists using a different, more concise syntax.
 
 ```python
-4:
+# Filter elements greater than 4
 # Bad
-b.append(i)
+a = [3, 4, 5]
+b = []
+for i in a:
+	if i > 4:
+		b.append(i)
+
+
 # Good
 a = [3, 4, 5]
 b = [i for i in a if i > 4]
+
 # Or:
 b = filter(lambda x: x > 4, a)
-Bad:
+
+
 # Add three to all list members.
+Bad:
 a = [3, 4, 5]
 for i in range(len(a)):
-a[i] += 3
+	a[i] += 3
+
+
 Good:
 a = [3, 4, 5]
 a = [i + 3 for i in a]
@@ -2103,11 +2114,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjU3NzEzNDUsLTQ3NDE1OTY2NCwxNj
-czNjMxMzUwLDU3OTM5OTUzOSwtMTkxMDE2MDM3NSwtMTAyNjE5
-NDYwNSwxOTY1ODM2MzU3LDMxODE1NjkwMSwxNzcxODEyNTY2LC
-04NTc0NTg1NzMsLTc2MjM0NzA4NSwxMTE5MDEyNjYsLTExNzIz
-MjkzNDQsMTMwNjA5NzQ1NCwxMDE2MTcwMzczLC0xMzU1MDA5MD
-k0LC0yMTIzNzk5MzA2LC04OTI1NjYxNDIsMjkwODE1NzQwLDk4
-MTQxNTIxNl19
+eyJoaXN0b3J5IjpbMjA3MTc5NTU2MywtNDc0MTU5NjY0LDE2Nz
+M2MzEzNTAsNTc5Mzk5NTM5LC0xOTEwMTYwMzc1LC0xMDI2MTk0
+NjA1LDE5NjU4MzYzNTcsMzE4MTU2OTAxLDE3NzE4MTI1NjYsLT
+g1NzQ1ODU3MywtNzYyMzQ3MDg1LDExMTkwMTI2NiwtMTE3MjMy
+OTM0NCwxMzA2MDk3NDU0LDEwMTYxNzAzNzMsLTEzNTUwMDkwOT
+QsLTIxMjM3OTkzMDYsLTg5MjU2NjE0MiwyOTA4MTU3NDAsOTgx
+NDE1MjE2XX0=
 -->
