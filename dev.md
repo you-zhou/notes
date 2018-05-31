@@ -1288,6 +1288,7 @@ def lookup_list(l):
 * pycodestyle
 ```bash
 $ pip install pycodestyle
+# Then run it on a file or series of files to get a report of any violations.
 $ pycodestyle optparse.py
 optparse.py:69:11: E401 multiple imports on one line
 optparse.py:77:1: E302 expected 2 blank lines, found 1
@@ -1305,6 +1306,9 @@ $ pip install autopep8
 
 $ autopep8 --in-place optparse.py
 ```
+Excluding the --in-place flag will cause the program to output the modified code directly to the console for review.
+The --aggressive flag will perform more substantial changes and can be applied multiple times for greater effect.
+
 
 ## colour coded print
 Print texts  in colour coded fashion can be useful to highlight important messages.
@@ -2075,11 +2079,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzk3MzAzMTEsLTE5MTAxNjAzNzUsLT
-EwMjYxOTQ2MDUsMTk2NTgzNjM1NywzMTgxNTY5MDEsMTc3MTgx
-MjU2NiwtODU3NDU4NTczLC03NjIzNDcwODUsMTExOTAxMjY2LC
-0xMTcyMzI5MzQ0LDEzMDYwOTc0NTQsMTAxNjE3MDM3MywtMTM1
-NTAwOTA5NCwtMjEyMzc5OTMwNiwtODkyNTY2MTQyLDI5MDgxNT
-c0MCw5ODE0MTUyMTYsMTY5MDIwNjcxOSwtMTg1NzExMTI2NCwt
-MTA4OTg2MzI2M119
+eyJoaXN0b3J5IjpbNTc5Mzk5NTM5LC0xOTEwMTYwMzc1LC0xMD
+I2MTk0NjA1LDE5NjU4MzYzNTcsMzE4MTU2OTAxLDE3NzE4MTI1
+NjYsLTg1NzQ1ODU3MywtNzYyMzQ3MDg1LDExMTkwMTI2NiwtMT
+E3MjMyOTM0NCwxMzA2MDk3NDU0LDEwMTYxNzAzNzMsLTEzNTUw
+MDkwOTQsLTIxMjM3OTkzMDYsLTg5MjU2NjE0MiwyOTA4MTU3ND
+AsOTgxNDE1MjE2LDE2OTAyMDY3MTksLTE4NTcxMTEyNjQsLTEw
+ODk4NjMyNjNdfQ==
 -->
