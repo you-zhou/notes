@@ -986,7 +986,7 @@ You can always use the built-in `dir` function to list attributes of an object.
 
 ### attribute types
 1. class attributes
-	Attributes that are **constant**, which are shared among all instances of a class, are put inside the class definition.
+	Attributes that are **constant**, which are **shared** among all instances of a class, are put inside the class definition.
 
 2. instance attributes
 	Attributes that are **unique** to each instance, are put in the constructor method `__init__`.
@@ -1972,11 +1972,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjM3MzM1OCwtMTE3MjMyOTM0NCwxMz
-A2MDk3NDU0LDEwMTYxNzAzNzMsLTEzNTUwMDkwOTQsLTIxMjM3
-OTkzMDYsLTg5MjU2NjE0MiwyOTA4MTU3NDAsOTgxNDE1MjE2LD
-E2OTAyMDY3MTksLTE4NTcxMTEyNjQsLTEwODk4NjMyNjMsLTEy
-NjM5MzA4OTEsLTgzMjc3NTE4NSwxOTc2NTUxNDczLDE5ODM0Nz
-MxNzMsLTQzNjE3OTc3NywtNzg1OTMwNjIzLDE5MjE4MTM0NjEs
-MTkyMTgxMzQ2MV19
+eyJoaXN0b3J5IjpbMTExOTAxMjY2LC0xMTcyMzI5MzQ0LDEzMD
+YwOTc0NTQsMTAxNjE3MDM3MywtMTM1NTAwOTA5NCwtMjEyMzc5
+OTMwNiwtODkyNTY2MTQyLDI5MDgxNTc0MCw5ODE0MTUyMTYsMT
+Y5MDIwNjcxOSwtMTg1NzExMTI2NCwtMTA4OTg2MzI2MywtMTI2
+MzkzMDg5MSwtODMyNzc1MTg1LDE5NzY1NTE0NzMsMTk4MzQ3Mz
+E3MywtNDM2MTc5Nzc3LC03ODU5MzA2MjMsMTkyMTgxMzQ2MSwx
+OTIxODEzNDYxXX0=
 -->
