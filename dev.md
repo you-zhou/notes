@@ -1147,7 +1147,7 @@ A Python package is a **directory** that contains a file named `__init__.py`, wh
 In addition, the directory may contain an arbitrary number of modules and sub packages.
 > PEP 8 states that directory names for packages should be short and lowercase. Underscores should ==not== be used.
 
-## reading & writing files
+## read & write files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 Note: 
 Windows paths use \ as a separator, which can be problematic. Python strings also use \ as an escape character. If you had a directory named ”test” and wrote "C:\test", Python would treat \t as a tab character.
@@ -2125,11 +2125,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc2ODk4MDkwLC00NzQxNTk2NjQsMTY3Mz
-YzMTM1MCw1NzkzOTk1MzksLTE5MTAxNjAzNzUsLTEwMjYxOTQ2
-MDUsMTk2NTgzNjM1NywzMTgxNTY5MDEsMTc3MTgxMjU2NiwtOD
-U3NDU4NTczLC03NjIzNDcwODUsMTExOTAxMjY2LC0xMTcyMzI5
-MzQ0LDEzMDYwOTc0NTQsMTAxNjE3MDM3MywtMTM1NTAwOTA5NC
-wtMjEyMzc5OTMwNiwtODkyNTY2MTQyLDI5MDgxNTc0MCw5ODE0
-MTUyMTZdfQ==
+eyJoaXN0b3J5IjpbLTc3MzM4NzMxNSw0NzY4OTgwOTAsLTQ3ND
+E1OTY2NCwxNjczNjMxMzUwLDU3OTM5OTUzOSwtMTkxMDE2MDM3
+NSwtMTAyNjE5NDYwNSwxOTY1ODM2MzU3LDMxODE1NjkwMSwxNz
+cxODEyNTY2LC04NTc0NTg1NzMsLTc2MjM0NzA4NSwxMTE5MDEy
+NjYsLTExNzIzMjkzNDQsMTMwNjA5NzQ1NCwxMDE2MTcwMzczLC
+0xMzU1MDA5MDk0LC0yMTIzNzk5MzA2LC04OTI1NjYxNDIsMjkw
+ODE1NzQwXX0=
 -->
