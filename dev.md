@@ -1285,7 +1285,7 @@ def lookup_list(l):
 
 
 ### PEP8
-* pycodestyle
+* pycodestyle (previously known as pep8),
 ```bash
 $ pip install pycodestyle
 # Then run it on a file or series of files to get a report of any violations.
@@ -2079,11 +2079,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc5Mzk5NTM5LC0xOTEwMTYwMzc1LC0xMD
-I2MTk0NjA1LDE5NjU4MzYzNTcsMzE4MTU2OTAxLDE3NzE4MTI1
-NjYsLTg1NzQ1ODU3MywtNzYyMzQ3MDg1LDExMTkwMTI2NiwtMT
-E3MjMyOTM0NCwxMzA2MDk3NDU0LDEwMTYxNzAzNzMsLTEzNTUw
-MDkwOTQsLTIxMjM3OTkzMDYsLTg5MjU2NjE0MiwyOTA4MTU3ND
-AsOTgxNDE1MjE2LDE2OTAyMDY3MTksLTE4NTcxMTEyNjQsLTEw
-ODk4NjMyNjNdfQ==
+eyJoaXN0b3J5IjpbMTY3MzYzMTM1MCw1NzkzOTk1MzksLTE5MT
+AxNjAzNzUsLTEwMjYxOTQ2MDUsMTk2NTgzNjM1NywzMTgxNTY5
+MDEsMTc3MTgxMjU2NiwtODU3NDU4NTczLC03NjIzNDcwODUsMT
+ExOTAxMjY2LC0xMTcyMzI5MzQ0LDEzMDYwOTc0NTQsMTAxNjE3
+MDM3MywtMTM1NTAwOTA5NCwtMjEyMzc5OTMwNiwtODkyNTY2MT
+QyLDI5MDgxNTc0MCw5ODE0MTUyMTYsMTY5MDIwNjcxOSwtMTg1
+NzExMTI2NF19
 -->
