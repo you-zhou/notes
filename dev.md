@@ -1266,10 +1266,12 @@ word = ''.join(letters)
 ```
 This will set the value of the variable word to ‘spam’. This idiom can be applied to **lists and tuples**.
 
+
 ### search an item in a collection e.g. list, set or dict
 Search with the operator `in` with a collection.
 Searches can be done much faster with set and dict than list.
-As for set & dict,  it can use hash value of the item to look for it, while list 
+As for set & dict,  it can use hash value of the item to quickly locate it, while for the list, it has to go through each item until it finds a match.
+
 ```python
 s = set(['s', 'p', 'a', 'm'])
 l = ['s', 'p', 'a', 'm']
@@ -2050,7 +2052,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NTYwNzQ4NywtMTAyNjE5NDYwNSwxOT
+eyJoaXN0b3J5IjpbLTc2Nzg0MjcxNSwtMTAyNjE5NDYwNSwxOT
 Y1ODM2MzU3LDMxODE1NjkwMSwxNzcxODEyNTY2LC04NTc0NTg1
 NzMsLTc2MjM0NzA4NSwxMTE5MDEyNjYsLTExNzIzMjkzNDQsMT
 MwNjA5NzQ1NCwxMDE2MTcwMzczLC0xMzU1MDA5MDk0LC0yMTIz
