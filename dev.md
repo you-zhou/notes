@@ -1286,9 +1286,17 @@ def lookup_list(l):
 
 ### PEP8
 * pycodestyle
-```python
+```bash
 pip install pycodestyle
 pycodestyle optparse.py
+optparse.py:69:11: E401 multiple imports on one line
+optparse.py:77:1: E302 expected 2 blank lines, found 1
+optparse.py:88:5: E301 expected 1 blank line, found 0
+optparse.py:222:34: W602 deprecated form of raising exception
+optparse.py:347:31: E211 whitespace before '('
+optparse.py:357:17: E201 whitespace after '{'
+optparse.py:472:29: E221 multiple spaces before operator
+optparse.py:544:21: W601 .has_key() is deprecated, use 'in'
 ```
 * autopep8
 
@@ -2061,11 +2069,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDUzMjgzMywtMTkxMDE2MDM3NSwtMT
-AyNjE5NDYwNSwxOTY1ODM2MzU3LDMxODE1NjkwMSwxNzcxODEy
-NTY2LC04NTc0NTg1NzMsLTc2MjM0NzA4NSwxMTE5MDEyNjYsLT
-ExNzIzMjkzNDQsMTMwNjA5NzQ1NCwxMDE2MTcwMzczLC0xMzU1
-MDA5MDk0LC0yMTIzNzk5MzA2LC04OTI1NjYxNDIsMjkwODE1Nz
-QwLDk4MTQxNTIxNiwxNjkwMjA2NzE5LC0xODU3MTExMjY0LC0x
-MDg5ODYzMjYzXX0=
+eyJoaXN0b3J5IjpbMzUxMDUxNDkzLC0xOTEwMTYwMzc1LC0xMD
+I2MTk0NjA1LDE5NjU4MzYzNTcsMzE4MTU2OTAxLDE3NzE4MTI1
+NjYsLTg1NzQ1ODU3MywtNzYyMzQ3MDg1LDExMTkwMTI2NiwtMT
+E3MjMyOTM0NCwxMzA2MDk3NDU0LDEwMTYxNzAzNzMsLTEzNTUw
+MDkwOTQsLTIxMjM3OTkzMDYsLTg5MjU2NjE0MiwyOTA4MTU3ND
+AsOTgxNDE1MjE2LDE2OTAyMDY3MTksLTE4NTcxMTEyNjQsLTEw
+ODk4NjMyNjNdfQ==
 -->
