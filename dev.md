@@ -1287,8 +1287,8 @@ def lookup_list(l):
 ### PEP8
 * pycodestyle
 ```bash
-pip install pycodestyle
-pycodestyle optparse.py
+$ pip install pycodestyle
+$ pycodestyle optparse.py
 optparse.py:69:11: E401 multiple imports on one line
 optparse.py:77:1: E302 expected 2 blank lines, found 1
 optparse.py:88:5: E301 expected 1 blank line, found 0
@@ -1299,6 +1299,7 @@ optparse.py:472:29: E221 multiple spaces before operator
 optparse.py:544:21: W601 .has_key() is deprecated, use 'in'
 ```
 * autopep8
+* `
 
 ## colour coded print
 Print texts  in colour coded fashion can be useful to highlight important messages.
@@ -2069,7 +2070,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUxMDUxNDkzLC0xOTEwMTYwMzc1LC0xMD
+eyJoaXN0b3J5IjpbNDE1NTEzOTUzLC0xOTEwMTYwMzc1LC0xMD
 I2MTk0NjA1LDE5NjU4MzYzNTcsMzE4MTU2OTAxLDE3NzE4MTI1
 NjYsLTg1NzQ1ODU3MywtNzYyMzQ3MDg1LDExMTkwMTI2NiwtMT
 E3MjMyOTM0NCwxMzA2MDk3NDU0LDEwMTYxNzAzNzMsLTEzNTUw
