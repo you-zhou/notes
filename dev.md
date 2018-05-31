@@ -1634,7 +1634,7 @@ Depending on the project, your documentation might include some or all of the fo
 * A **tutorial** should show some primary use cases in more detail. The reader will follow a step-by-step procedure to set-up a working prototype.
 * An **API reference** is typically generated from the code (see docstrings). It will list all publicly available interfaces, parameters, and return values.
 * **Developer documentation** is intended for potential contributors. This can include code convention and general design strategy of the project.
-* 
+
 
 # Django
 ## how to start a django project properly with cookiecutter
@@ -2211,11 +2211,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzc5NDg0MiwxMDAzMTM5MTgsMjEzMT
-k4Nzk5OSwtMTAwMzEyMDgxNSw0NzY4OTgwOTAsLTQ3NDE1OTY2
-NCwxNjczNjMxMzUwLDU3OTM5OTUzOSwtMTkxMDE2MDM3NSwtMT
-AyNjE5NDYwNSwxOTY1ODM2MzU3LDMxODE1NjkwMSwxNzcxODEy
-NTY2LC04NTc0NTg1NzMsLTc2MjM0NzA4NSwxMTE5MDEyNjYsLT
-ExNzIzMjkzNDQsMTMwNjA5NzQ1NCwxMDE2MTcwMzczLC0xMzU1
-MDA5MDk0XX0=
+eyJoaXN0b3J5IjpbLTE0MjM0Mzk0NTIsMTAwMzEzOTE4LDIxMz
+E5ODc5OTksLTEwMDMxMjA4MTUsNDc2ODk4MDkwLC00NzQxNTk2
+NjQsMTY3MzYzMTM1MCw1NzkzOTk1MzksLTE5MTAxNjAzNzUsLT
+EwMjYxOTQ2MDUsMTk2NTgzNjM1NywzMTgxNTY5MDEsMTc3MTgx
+MjU2NiwtODU3NDU4NTczLC03NjIzNDcwODUsMTExOTAxMjY2LC
+0xMTcyMzI5MzQ0LDEzMDYwOTc0NTQsMTAxNjE3MDM3MywtMTM1
+NTAwOTA5NF19
 -->
