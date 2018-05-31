@@ -813,6 +813,16 @@ a = [i + 3 for i in a]
 
 # Or:
 a = map(lambda i: i + 3, a)
+
+
+# Use enumerate() keep a count of your place in the list.
+a = [3, 4, 5]
+for i, item in enumerate(a):
+	print(i, item)
+# prints
+# 0 3
+# 1 4
+# 2 5
 ```
 
 ## indexing & slicing
@@ -2115,11 +2125,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NzM3NTY0NCwtNDc0MTU5NjY0LDE2Nz
-M2MzEzNTAsNTc5Mzk5NTM5LC0xOTEwMTYwMzc1LC0xMDI2MTk0
-NjA1LDE5NjU4MzYzNTcsMzE4MTU2OTAxLDE3NzE4MTI1NjYsLT
-g1NzQ1ODU3MywtNzYyMzQ3MDg1LDExMTkwMTI2NiwtMTE3MjMy
-OTM0NCwxMzA2MDk3NDU0LDEwMTYxNzAzNzMsLTEzNTUwMDkwOT
-QsLTIxMjM3OTkzMDYsLTg5MjU2NjE0MiwyOTA4MTU3NDAsOTgx
-NDE1MjE2XX0=
+eyJoaXN0b3J5IjpbNDc2ODk4MDkwLC00NzQxNTk2NjQsMTY3Mz
+YzMTM1MCw1NzkzOTk1MzksLTE5MTAxNjAzNzUsLTEwMjYxOTQ2
+MDUsMTk2NTgzNjM1NywzMTgxNTY5MDEsMTc3MTgxMjU2NiwtOD
+U3NDU4NTczLC03NjIzNDcwODUsMTExOTAxMjY2LC0xMTcyMzI5
+MzQ0LDEzMDYwOTc0NTQsMTAxNjE3MDM3MywtMTM1NTAwOTA5NC
+wtMjEyMzc5OTMwNiwtODkyNTY2MTQyLDI5MDgxNTc0MCw5ODE0
+MTUyMTZdfQ==
 -->
