@@ -1254,8 +1254,10 @@ Because lists are mutable, the * operator (as above) will create a list of N ref
 Instead, use a list comprehension:
 ```python
 four_lists = [[] for __ in xrange(4)]
+# [[], [], [], []]
 ```
 Note: Use range() instead of xrange() in Python 3
+
 
 
 ## colour coded print
@@ -2027,7 +2029,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMTA0ODQ1LDE5NjU4MzYzNTcsMzE4MT
+eyJoaXN0b3J5IjpbMjY4ODYzMzQyLDE5NjU4MzYzNTcsMzE4MT
 U2OTAxLDE3NzE4MTI1NjYsLTg1NzQ1ODU3MywtNzYyMzQ3MDg1
 LDExMTkwMTI2NiwtMTE3MjMyOTM0NCwxMzA2MDk3NDU0LDEwMT
 YxNzAzNzMsLTEzNTUwMDkwOTQsLTIxMjM3OTkzMDYsLTg5MjU2
