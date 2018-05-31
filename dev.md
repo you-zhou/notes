@@ -1223,17 +1223,15 @@ a, *middle, c = [1, 2, 3, 4]
 
 
 ### ignored variable
-If you need to assign something (for instance, in Unpacking) but will not need that variable, use __:
+If you need to assign something (for instance, in Unpacking) but will not need that variable, use `__`:
 
 ```python
 filename = 'foobar.txt'
 basename, __, ext = filename.rpartition('.')
 ```
 Note: 
-Many Python style guides recommend the use of a single underscore `_` for throwaway variables rather than the double underscore `__` recommended here. The issue is that “_” is commonly used as an alias for the
-gettext() function, and is also used at the interactive prompt to hold the value of the last operation. Using a
-double underscore instead is just as clear and almost as convenient, and eliminates the risk of accidentally interfering
-with either of these other use cases.
+Many Python style guides recommend the use of a single underscore `_` for throwaway variables rather than the double underscore `__` recommended here. 
+The issue is that `_` is commonly used as an alias for the `gettext()` function, and is also used at the interactive prompt to hold the value of the last operation. Using a double underscore instead is just as clear and almost as convenient, and eliminates the risk of accidentally interfering with either of these other use cases.
 
 
 ## colour coded print
@@ -2005,11 +2003,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MzIwNzQwMiwxNzcxODEyNTY2LC04NT
-c0NTg1NzMsLTc2MjM0NzA4NSwxMTE5MDEyNjYsLTExNzIzMjkz
-NDQsMTMwNjA5NzQ1NCwxMDE2MTcwMzczLC0xMzU1MDA5MDk0LC
-0yMTIzNzk5MzA2LC04OTI1NjYxNDIsMjkwODE1NzQwLDk4MTQx
-NTIxNiwxNjkwMjA2NzE5LC0xODU3MTExMjY0LC0xMDg5ODYzMj
-YzLC0xMjYzOTMwODkxLC04MzI3NzUxODUsMTk3NjU1MTQ3Mywx
-OTgzNDczMTczXX0=
+eyJoaXN0b3J5IjpbMzE4MTU2OTAxLDE3NzE4MTI1NjYsLTg1Nz
+Q1ODU3MywtNzYyMzQ3MDg1LDExMTkwMTI2NiwtMTE3MjMyOTM0
+NCwxMzA2MDk3NDU0LDEwMTYxNzAzNzMsLTEzNTUwMDkwOTQsLT
+IxMjM3OTkzMDYsLTg5MjU2NjE0MiwyOTA4MTU3NDAsOTgxNDE1
+MjE2LDE2OTAyMDY3MTksLTE4NTcxMTEyNjQsLTEwODk4NjMyNj
+MsLTEyNjM5MzA4OTEsLTgzMjc3NTE4NSwxOTc2NTUxNDczLDE5
+ODM0NzMxNzNdfQ==
 -->
