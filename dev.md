@@ -1381,8 +1381,8 @@ A better solution is to use parentheses around your elements. Left with an unclo
 ```python
 # Bad
 my_very_big_string = """For a long time I used to go to bed early. Sometimes, \
-when I had put out my candle, my eyes would close so quickly that I had not even \
-time to say “I’m going to sleep.”"""
+	when I had put out my candle, my eyes would close so quickly that I had not even \
+	time to say “I’m going to sleep.”"""
 
 from some.deep.module.inside.a.module import a_nice_function, another_nice_function, \
 yet_another_nice_function
@@ -1396,7 +1396,8 @@ my_very_big_string = (
 )
 
 from some.deep.module.inside.a.module import (
-	a_nice_function, another_nice_function,yet_another_nice_function)
+	a_nice_function, another_nice_function,
+	yet_another_nice_function)
 
 
 ```
@@ -2171,11 +2172,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMjU5MjY2OSw0NzY4OTgwOTAsLTQ3ND
-E1OTY2NCwxNjczNjMxMzUwLDU3OTM5OTUzOSwtMTkxMDE2MDM3
-NSwtMTAyNjE5NDYwNSwxOTY1ODM2MzU3LDMxODE1NjkwMSwxNz
-cxODEyNTY2LC04NTc0NTg1NzMsLTc2MjM0NzA4NSwxMTE5MDEy
-NjYsLTExNzIzMjkzNDQsMTMwNjA5NzQ1NCwxMDE2MTcwMzczLC
-0xMzU1MDA5MDk0LC0yMTIzNzk5MzA2LC04OTI1NjYxNDIsMjkw
-ODE1NzQwXX0=
+eyJoaXN0b3J5IjpbMzM2MTM1NDMxLDQ3Njg5ODA5MCwtNDc0MT
+U5NjY0LDE2NzM2MzEzNTAsNTc5Mzk5NTM5LC0xOTEwMTYwMzc1
+LC0xMDI2MTk0NjA1LDE5NjU4MzYzNTcsMzE4MTU2OTAxLDE3Nz
+E4MTI1NjYsLTg1NzQ1ODU3MywtNzYyMzQ3MDg1LDExMTkwMTI2
+NiwtMTE3MjMyOTM0NCwxMzA2MDk3NDU0LDEwMTYxNzAzNzMsLT
+EzNTUwMDkwOTQsLTIxMjM3OTkzMDYsLTg5MjU2NjE0MiwyOTA4
+MTU3NDBdfQ==
 -->
