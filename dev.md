@@ -1617,7 +1617,7 @@ public.
 
 ### documentation tool
 * [Sphinx](http://www.sphinx-doc.org/en/master/)
-Sphinx is famous for its **API generation, but it also works well for general project documentation.
+Sphinx is famous for its **API generation**, but it also works well for general project documentation.
 When run, Sphinx will import your code and using Python’s introspection features it will extract all function, method and class signatures. It will also extract the accompanying docstrings, and compile it all into well structured and easily readable documentation for your project.
 
 * [Read The Docs](https://readthedocs.org/)
@@ -2206,11 +2206,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MjU0NTUxNCwyMTMxOTg3OTk5LC0xMD
-AzMTIwODE1LDQ3Njg5ODA5MCwtNDc0MTU5NjY0LDE2NzM2MzEz
-NTAsNTc5Mzk5NTM5LC0xOTEwMTYwMzc1LC0xMDI2MTk0NjA1LD
-E5NjU4MzYzNTcsMzE4MTU2OTAxLDE3NzE4MTI1NjYsLTg1NzQ1
-ODU3MywtNzYyMzQ3MDg1LDExMTkwMTI2NiwtMTE3MjMyOTM0NC
-wxMzA2MDk3NDU0LDEwMTYxNzAzNzMsLTEzNTUwMDkwOTQsLTIx
-MjM3OTkzMDZdfQ==
+eyJoaXN0b3J5IjpbNjg2MDI1MTMwLDIxMzE5ODc5OTksLTEwMD
+MxMjA4MTUsNDc2ODk4MDkwLC00NzQxNTk2NjQsMTY3MzYzMTM1
+MCw1NzkzOTk1MzksLTE5MTAxNjAzNzUsLTEwMjYxOTQ2MDUsMT
+k2NTgzNjM1NywzMTgxNTY5MDEsMTc3MTgxMjU2NiwtODU3NDU4
+NTczLC03NjIzNDcwODUsMTExOTAxMjY2LC0xMTcyMzI5MzQ0LD
+EzMDYwOTc0NTQsMTAxNjE3MDM3MywtMTM1NTAwOTA5NCwtMjEy
+Mzc5OTMwNl19
 -->
