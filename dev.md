@@ -709,7 +709,7 @@ With  `str.format()`, the replacement fields are marked by curly braces:
 	```
 
 ### str.rpartition
-`rpartition` can be quite handy in separate 
+`rpartition` can be quite handy in separate a file name and its extension.
 ```python
 filename = 'foobar.txt'
 basename, __, ext = filename.rpartition('.')
@@ -2011,7 +2011,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MDU1MjU0OSwzMTgxNTY5MDEsMTc3MT
+eyJoaXN0b3J5IjpbMTk2NTgzNjM1NywzMTgxNTY5MDEsMTc3MT
 gxMjU2NiwtODU3NDU4NTczLC03NjIzNDcwODUsMTExOTAxMjY2
 LC0xMTcyMzI5MzQ0LDEzMDYwOTc0NTQsMTAxNjE3MDM3MywtMT
 M1NTAwOTA5NCwtMjEyMzc5OTMwNiwtODkyNTY2MTQyLDI5MDgx
