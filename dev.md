@@ -975,10 +975,9 @@ The same caution as in the case of arbitrary argument list is necessary, for sim
 construct is sufficient to express the function’s intention.
 
 Note:
-It is up to the programmer writing the function to determine which arguments are *positional arguments* and which are *optional keyword arguments*, and to decide whether to use the advanced techniques of arbitrary argument passing. If
-the advice above is followed wisely, it is possible and enjoyable to write Python functions that are:
-• easy to read (the name and arguments need no explanations)
-• easy to change (adding a new keyword argument does not break other parts of the code)
+It is up to the programmer writing the function to determine which arguments are *positional arguments* and which are *optional keyword arguments*, and to decide whether to use the advanced techniques of *arbitrary argument* passing. If the advice above is followed wisely, it is possible and enjoyable to write Python functions that are:
+* easy to read (the name and arguments need no explanations)
+* easy to change (adding a new keyword argument does not break other parts of the code)
 
 
 ## class
@@ -1970,7 +1969,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzg1NDg4NzQsMTMwNjA5NzQ1NCwxMD
+eyJoaXN0b3J5IjpbLTExNzIzMjkzNDQsMTMwNjA5NzQ1NCwxMD
 E2MTcwMzczLC0xMzU1MDA5MDk0LC0yMTIzNzk5MzA2LC04OTI1
 NjYxNDIsMjkwODE1NzQwLDk4MTQxNTIxNiwxNjkwMjA2NzE5LC
 0xODU3MTExMjY0LC0xMDg5ODYzMjYzLC0xMjYzOTMwODkxLC04
