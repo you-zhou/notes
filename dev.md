@@ -1266,8 +1266,9 @@ word = ''.join(letters)
 ```
 This will set the value of the variable word to ‘spam’. This idiom can be applied to **lists and tuples**.
 
-### search an item in a collection e.g. list or set
-Se
+### search an item in a collection e.g. list, set or dict
+Search with the operator `in` with a collection.
+Searches can be done much fa
 ```python
 s = set(['s', 'p', 'a', 'm'])
 l = ['s', 'p', 'a', 'm']
@@ -2048,7 +2049,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODc0NTQwOTMsLTEwMjYxOTQ2MDUsMT
+eyJoaXN0b3J5IjpbLTE5OTY3OTY2NTMsLTEwMjYxOTQ2MDUsMT
 k2NTgzNjM1NywzMTgxNTY5MDEsMTc3MTgxMjU2NiwtODU3NDU4
 NTczLC03NjIzNDcwODUsMTExOTAxMjY2LC0xMTcyMzI5MzQ0LD
 EzMDYwOTc0NTQsMTAxNjE3MDM3MywtMTM1NTAwOTA5NCwtMjEy
