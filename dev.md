@@ -1613,6 +1613,11 @@ public.
 * A ==TODO== file or a TODO section in README should list the planned development for the code.
 * A ==CHANGELOG== file or section in README should compile a short overview of the changes in the code base for the latest versions.
 
+
+## project publication
+
+
+
 # Django
 ## how to start a django project properly with cookiecutter
 ### create a virtual environment for the project
@@ -2188,11 +2193,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg5OTQ4Mjg4LC0xMDAzMTIwODE1LDQ3Nj
-g5ODA5MCwtNDc0MTU5NjY0LDE2NzM2MzEzNTAsNTc5Mzk5NTM5
-LC0xOTEwMTYwMzc1LC0xMDI2MTk0NjA1LDE5NjU4MzYzNTcsMz
-E4MTU2OTAxLDE3NzE4MTI1NjYsLTg1NzQ1ODU3MywtNzYyMzQ3
-MDg1LDExMTkwMTI2NiwtMTE3MjMyOTM0NCwxMzA2MDk3NDU0LD
-EwMTYxNzAzNzMsLTEzNTUwMDkwOTQsLTIxMjM3OTkzMDYsLTg5
-MjU2NjE0Ml19
+eyJoaXN0b3J5IjpbLTEwNjI3NzgyNSwtMTAwMzEyMDgxNSw0Nz
+Y4OTgwOTAsLTQ3NDE1OTY2NCwxNjczNjMxMzUwLDU3OTM5OTUz
+OSwtMTkxMDE2MDM3NSwtMTAyNjE5NDYwNSwxOTY1ODM2MzU3LD
+MxODE1NjkwMSwxNzcxODEyNTY2LC04NTc0NTg1NzMsLTc2MjM0
+NzA4NSwxMTE5MDEyNjYsLTExNzIzMjkzNDQsMTMwNjA5NzQ1NC
+wxMDE2MTcwMzczLC0xMzU1MDA5MDk0LC0yMTIzNzk5MzA2LC04
+OTI1NjYxNDJdfQ==
 -->
