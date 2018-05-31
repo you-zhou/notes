@@ -1224,8 +1224,17 @@ a, *middle, c = [1, 2, 3, 4]
 
 ### ignored variable
 If you need to assign something (for instance, in Unpacking) but will not need that variable, use __:
+
+```python
 filename = 'foobar.txt'
 basename, __, ext = filename.rpartition('.')
+```
+Note: 
+Many Python style guides recommend the use of a single underscore `_` for throwaway variables rather than the double underscore `__` recommended here. The issue is that “_” is commonly used as an alias for the
+gettext() function, and is also used at the interactive prompt to hold the value of the last operation. Using a
+double underscore instead is just as clear and almost as convenient, and eliminates the risk of accidentally interfering
+with either of these other use cases.
+
 
 ## colour coded print
 Print texts  in colour coded fashion can be useful to highlight important messages.
@@ -1996,7 +2005,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTQ0OTIwMiwxNzcxODEyNTY2LC04NT
+eyJoaXN0b3J5IjpbMTE3MzIwNzQwMiwxNzcxODEyNTY2LC04NT
 c0NTg1NzMsLTc2MjM0NzA4NSwxMTE5MDEyNjYsLTExNzIzMjkz
 NDQsMTMwNjA5NzQ1NCwxMDE2MTcwMzczLC0xMzU1MDA5MDk0LC
 0yMTIzNzk5MzA2LC04OTI1NjYxNDIsMjkwODE1NzQwLDk4MTQx
