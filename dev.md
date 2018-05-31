@@ -570,7 +570,7 @@ import psycopg2 # 3rd party lib
 import recordconverter # local library
 ```
 
-## string
+## str
 Strings are ==immutable==.
 
 This means that when constructing a string from its parts, it is much more efficient to accumulate the parts in a list, which is mutable, and then glue (‘join’) the parts together when the full string is needed. 
@@ -2003,11 +2003,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM2MDQ4NDczLDMxODE1NjkwMSwxNzcxOD
-EyNTY2LC04NTc0NTg1NzMsLTc2MjM0NzA4NSwxMTE5MDEyNjYs
-LTExNzIzMjkzNDQsMTMwNjA5NzQ1NCwxMDE2MTcwMzczLC0xMz
-U1MDA5MDk0LC0yMTIzNzk5MzA2LC04OTI1NjYxNDIsMjkwODE1
-NzQwLDk4MTQxNTIxNiwxNjkwMjA2NzE5LC0xODU3MTExMjY0LC
-0xMDg5ODYzMjYzLC0xMjYzOTMwODkxLC04MzI3NzUxODUsMTk3
-NjU1MTQ3M119
+eyJoaXN0b3J5IjpbLTE1MTMwNjg0OTEsMzE4MTU2OTAxLDE3Nz
+E4MTI1NjYsLTg1NzQ1ODU3MywtNzYyMzQ3MDg1LDExMTkwMTI2
+NiwtMTE3MjMyOTM0NCwxMzA2MDk3NDU0LDEwMTYxNzAzNzMsLT
+EzNTUwMDkwOTQsLTIxMjM3OTkzMDYsLTg5MjU2NjE0MiwyOTA4
+MTU3NDAsOTgxNDE1MjE2LDE2OTAyMDY3MTksLTE4NTcxMTEyNj
+QsLTEwODk4NjMyNjMsLTEyNjM5MzA4OTEsLTgzMjc3NTE4NSwx
+OTc2NTUxNDczXX0=
 -->
