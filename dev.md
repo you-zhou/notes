@@ -1027,7 +1027,7 @@ What happens under the covers is similar to this:
 `Chair.load(chair, 3)`
 Python will call the `.load` method by inserting `chair` as the 	`self` parameter and 3 as the `number` parameter.
 
-### private & protected with a single underscore `_`
+### private & protected with a single underscore ==`_`==
 Some languages have the notion of private attributes or methods. These are methods that are meant to be implementation details and end users can’t call them. But, Python does not make an effort to prevent users from doing much of anything. Rather, it takes the attitude that you are an adult and you should take responsibility for your actions. If you want to access something, you can do it. But you should be willing to accept the consequences.
 
 In a nut shell, any client code can override an object’s properties and methods: there is no “private” keyword in Python. This philosophy, very different from highly defensive languages like Java, which give a lot of mechanisms to prevent any misuse, is expressed by the saying: “We are all responsible users”.
@@ -1972,11 +1972,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MjM0NzA4NSwxMTE5MDEyNjYsLTExNz
-IzMjkzNDQsMTMwNjA5NzQ1NCwxMDE2MTcwMzczLC0xMzU1MDA5
-MDk0LC0yMTIzNzk5MzA2LC04OTI1NjYxNDIsMjkwODE1NzQwLD
-k4MTQxNTIxNiwxNjkwMjA2NzE5LC0xODU3MTExMjY0LC0xMDg5
-ODYzMjYzLC0xMjYzOTMwODkxLC04MzI3NzUxODUsMTk3NjU1MT
-Q3MywxOTgzNDczMTczLC00MzYxNzk3NzcsLTc4NTkzMDYyMywx
-OTIxODEzNDYxXX0=
+eyJoaXN0b3J5IjpbLTg1NzQ1ODU3MywtNzYyMzQ3MDg1LDExMT
+kwMTI2NiwtMTE3MjMyOTM0NCwxMzA2MDk3NDU0LDEwMTYxNzAz
+NzMsLTEzNTUwMDkwOTQsLTIxMjM3OTkzMDYsLTg5MjU2NjE0Mi
+wyOTA4MTU3NDAsOTgxNDE1MjE2LDE2OTAyMDY3MTksLTE4NTcx
+MTEyNjQsLTEwODk4NjMyNjMsLTEyNjM5MzA4OTEsLTgzMjc3NT
+E4NSwxOTc2NTUxNDczLDE5ODM0NzMxNzMsLTQzNjE3OTc3Nywt
+Nzg1OTMwNjIzXX0=
 -->
