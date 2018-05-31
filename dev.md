@@ -1306,8 +1306,8 @@ $ pip install autopep8
 
 $ autopep8 --in-place optparse.py
 ```
-Excluding the --in-place flag will cause the program to output the modified code directly to the console for review.
-The --aggressive flag will perform more substantial changes and can be applied multiple times for greater effect.
+Excluding the `--in-place` flag will cause the program to output the modified code directly to the console for review.
+The `--aggressive` flag will perform more substantial changes and can be applied multiple times for greater effect.
 
 
 ## colour coded print
@@ -2079,11 +2079,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MzYzMTM1MCw1NzkzOTk1MzksLTE5MT
-AxNjAzNzUsLTEwMjYxOTQ2MDUsMTk2NTgzNjM1NywzMTgxNTY5
-MDEsMTc3MTgxMjU2NiwtODU3NDU4NTczLC03NjIzNDcwODUsMT
-ExOTAxMjY2LC0xMTcyMzI5MzQ0LDEzMDYwOTc0NTQsMTAxNjE3
-MDM3MywtMTM1NTAwOTA5NCwtMjEyMzc5OTMwNiwtODkyNTY2MT
-QyLDI5MDgxNTc0MCw5ODE0MTUyMTYsMTY5MDIwNjcxOSwtMTg1
-NzExMTI2NF19
+eyJoaXN0b3J5IjpbLTQ3NDE1OTY2NCwxNjczNjMxMzUwLDU3OT
+M5OTUzOSwtMTkxMDE2MDM3NSwtMTAyNjE5NDYwNSwxOTY1ODM2
+MzU3LDMxODE1NjkwMSwxNzcxODEyNTY2LC04NTc0NTg1NzMsLT
+c2MjM0NzA4NSwxMTE5MDEyNjYsLTExNzIzMjkzNDQsMTMwNjA5
+NzQ1NCwxMDE2MTcwMzczLC0xMzU1MDA5MDk0LC0yMTIzNzk5Mz
+A2LC04OTI1NjYxNDIsMjkwODE1NzQwLDk4MTQxNTIxNiwxNjkw
+MjA2NzE5XX0=
 -->
