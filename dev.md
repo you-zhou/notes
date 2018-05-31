@@ -707,6 +707,14 @@ With  `str.format()`, the replacement fields are marked by curly braces:
 	)
 	# 'This string has many many lines.'
 	```
+
+### str.rpartition
+`rpartition` can be quite handy in separate 
+```python
+filename = 'foobar.txt'
+basename, __, ext = filename.rpartition('.')
+```
+
 ## tuple
 Tuples are ordered sequences that are IMMUTABLE. 
 ==Tuples can be used as keys in dictionaries. But not lists.==
@@ -2003,11 +2011,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTMwNjg0OTEsMzE4MTU2OTAxLDE3Nz
-E4MTI1NjYsLTg1NzQ1ODU3MywtNzYyMzQ3MDg1LDExMTkwMTI2
-NiwtMTE3MjMyOTM0NCwxMzA2MDk3NDU0LDEwMTYxNzAzNzMsLT
-EzNTUwMDkwOTQsLTIxMjM3OTkzMDYsLTg5MjU2NjE0MiwyOTA4
-MTU3NDAsOTgxNDE1MjE2LDE2OTAyMDY3MTksLTE4NTcxMTEyNj
-QsLTEwODk4NjMyNjMsLTEyNjM5MzA4OTEsLTgzMjc3NTE4NSwx
-OTc2NTUxNDczXX0=
+eyJoaXN0b3J5IjpbMTY1MDU1MjU0OSwzMTgxNTY5MDEsMTc3MT
+gxMjU2NiwtODU3NDU4NTczLC03NjIzNDcwODUsMTExOTAxMjY2
+LC0xMTcyMzI5MzQ0LDEzMDYwOTc0NTQsMTAxNjE3MDM3MywtMT
+M1NTAwOTA5NCwtMjEyMzc5OTMwNiwtODkyNTY2MTQyLDI5MDgx
+NTc0MCw5ODE0MTUyMTYsMTY5MDIwNjcxOSwtMTg1NzExMTI2NC
+wtMTA4OTg2MzI2MywtMTI2MzkzMDg5MSwtODMyNzc1MTg1LDE5
+NzY1NTE0NzNdfQ==
 -->
