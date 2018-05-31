@@ -1171,6 +1171,21 @@ In text mode, the default when reading is to convert platform-specific line endi
 
 	Data is read and written in the form of bytes objects. This mode should be used for all files that don't contain text.
 
+```python
+# Bad
+f = open('file.txt')
+a = f.read()
+print a
+f.close()
+
+
+# Good
+with open('file.txt') as f:
+	for line in f:
+		print line
+
+```
+
 
 ## exceptions and error handlings
 [ref: PYTHON – EXCEPTIONS AND ERROR HANDLINGS](http://devarea.com/python-exceptions-and-error-handlings/)
@@ -2125,7 +2140,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MzM4NzMxNSw0NzY4OTgwOTAsLTQ3ND
+eyJoaXN0b3J5IjpbMTk3MDc2NTU4OSw0NzY4OTgwOTAsLTQ3ND
 E1OTY2NCwxNjczNjMxMzUwLDU3OTM5OTUzOSwtMTkxMDE2MDM3
 NSwtMTAyNjE5NDYwNSwxOTY1ODM2MzU3LDMxODE1NjkwMSwxNz
 cxODEyNTY2LC04NTc0NTg1NzMsLTc2MjM0NzA4NSwxMTE5MDEy
