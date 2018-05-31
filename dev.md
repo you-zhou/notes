@@ -1283,6 +1283,10 @@ def lookup_list(l):
 ```
 
 
+
+### pep8 and pycodestyle
+
+
 ## colour coded print
 Print texts  in colour coded fashion can be useful to highlight important messages.
 Print a string that starts a color/style, then the string, then end the color/style change with  `'\x1b[0m'`:
@@ -2052,11 +2056,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTAxNjAzNzUsLTEwMjYxOTQ2MDUsMT
-k2NTgzNjM1NywzMTgxNTY5MDEsMTc3MTgxMjU2NiwtODU3NDU4
-NTczLC03NjIzNDcwODUsMTExOTAxMjY2LC0xMTcyMzI5MzQ0LD
-EzMDYwOTc0NTQsMTAxNjE3MDM3MywtMTM1NTAwOTA5NCwtMjEy
-Mzc5OTMwNiwtODkyNTY2MTQyLDI5MDgxNTc0MCw5ODE0MTUyMT
-YsMTY5MDIwNjcxOSwtMTg1NzExMTI2NCwtMTA4OTg2MzI2Mywt
-MTI2MzkzMDg5MV19
+eyJoaXN0b3J5IjpbMTU3NDY4MDE4MSwtMTkxMDE2MDM3NSwtMT
+AyNjE5NDYwNSwxOTY1ODM2MzU3LDMxODE1NjkwMSwxNzcxODEy
+NTY2LC04NTc0NTg1NzMsLTc2MjM0NzA4NSwxMTE5MDEyNjYsLT
+ExNzIzMjkzNDQsMTMwNjA5NzQ1NCwxMDE2MTcwMzczLC0xMzU1
+MDA5MDk0LC0yMTIzNzk5MzA2LC04OTI1NjYxNDIsMjkwODE1Nz
+QwLDk4MTQxNTIxNiwxNjkwMjA2NzE5LC0xODU3MTExMjY0LC0x
+MDg5ODYzMjYzXX0=
 -->
