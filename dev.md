@@ -1264,7 +1264,7 @@ A common idiom for creating strings is to use `str.join()` on an empty string.
 letters = ['s', 'p', 'a', 'm']
 word = ''.join(letters)
 ```
-This will set the value of the variable word to ‘spam’. This idiom can be applied to lists and tuples.
+This will set the value of the variable word to ‘spam’. This idiom can be applied to **lists and tuples**.
 
 
 
@@ -2037,7 +2037,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTc2OTkwNTMsMTk2NTgzNjM1NywzMT
+eyJoaXN0b3J5IjpbLTEwMjYxOTQ2MDUsMTk2NTgzNjM1NywzMT
 gxNTY5MDEsMTc3MTgxMjU2NiwtODU3NDU4NTczLC03NjIzNDcw
 ODUsMTExOTAxMjY2LC0xMTcyMzI5MzQ0LDEzMDYwOTc0NTQsMT
 AxNjE3MDM3MywtMTM1NTAwOTA5NCwtMjEyMzc5OTMwNiwtODky
