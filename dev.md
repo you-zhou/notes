@@ -1268,7 +1268,8 @@ This will set the value of the variable word to ‘spam’. This idiom can be ap
 
 ### search an item in a collection e.g. list, set or dict
 Search with the operator `in` with a collection.
-Searches can be done much fa
+Searches can be done much faster with set and dict than list.
+As for set & dict,  it can use hash value of the item to look for it, while list 
 ```python
 s = set(['s', 'p', 'a', 'm'])
 l = ['s', 'p', 'a', 'm']
@@ -2049,11 +2050,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTY3OTY2NTMsLTEwMjYxOTQ2MDUsMT
-k2NTgzNjM1NywzMTgxNTY5MDEsMTc3MTgxMjU2NiwtODU3NDU4
-NTczLC03NjIzNDcwODUsMTExOTAxMjY2LC0xMTcyMzI5MzQ0LD
-EzMDYwOTc0NTQsMTAxNjE3MDM3MywtMTM1NTAwOTA5NCwtMjEy
-Mzc5OTMwNiwtODkyNTY2MTQyLDI5MDgxNTc0MCw5ODE0MTUyMT
-YsMTY5MDIwNjcxOSwtMTg1NzExMTI2NCwtMTA4OTg2MzI2Mywt
-MTI2MzkzMDg5MV19
+eyJoaXN0b3J5IjpbLTk0NTYwNzQ4NywtMTAyNjE5NDYwNSwxOT
+Y1ODM2MzU3LDMxODE1NjkwMSwxNzcxODEyNTY2LC04NTc0NTg1
+NzMsLTc2MjM0NzA4NSwxMTE5MDEyNjYsLTExNzIzMjkzNDQsMT
+MwNjA5NzQ1NCwxMDE2MTcwMzczLC0xMzU1MDA5MDk0LC0yMTIz
+Nzk5MzA2LC04OTI1NjYxNDIsMjkwODE1NzQwLDk4MTQxNTIxNi
+wxNjkwMjA2NzE5LC0xODU3MTExMjY0LC0xMDg5ODYzMjYzLC0x
+MjYzOTMwODkxXX0=
 -->
