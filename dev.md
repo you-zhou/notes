@@ -1606,7 +1606,7 @@ db = dataset.connect('postgresql://scott:tiger@localhost:5432/mydatabase')
 [ref: time zones](https://blog.ganssle.io/articles/2018/03/pytz-fastest-footgun.html)
 
 ## project documentation
-### c
+### conventional documents under a project
 * A ==README== file at the root directory should give general information to both users and maintainers of a project. It should be raw text or written in some very easy to read markup, such as reStructuredText or Markdown. It should contain a few lines explaining the purpose of the project or library (without assuming the user knows anything about the project), the URL of the main source for the software, and some basic credit information. This file is the main entry point for readers of the code.
 * An ==INSTALL== file is less necessary with Python. The installation instructions are often reduced to one command, such as `pip install module` or `python setup.py install` and added to the README file.
 * A ==LICENSE== file should always be present and specify the license under which the software is made available to the
@@ -1614,6 +1614,10 @@ public.
 * A ==TODO== file or a TODO section in README should list the planned development for the code.
 * A ==CHANGELOG== file or section in README should compile a short overview of the changes in the code base for the latest versions.
 
+
+### documentation tool
+[Sphinx
+Read The Docs
 
 ## project publication
 Depending on the project, your documentation might include some or all of the following components:
@@ -2198,11 +2202,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1MDkzNDI5LDIxMzE5ODc5OTksLTEwMD
-MxMjA4MTUsNDc2ODk4MDkwLC00NzQxNTk2NjQsMTY3MzYzMTM1
-MCw1NzkzOTk1MzksLTE5MTAxNjAzNzUsLTEwMjYxOTQ2MDUsMT
-k2NTgzNjM1NywzMTgxNTY5MDEsMTc3MTgxMjU2NiwtODU3NDU4
-NTczLC03NjIzNDcwODUsMTExOTAxMjY2LC0xMTcyMzI5MzQ0LD
-EzMDYwOTc0NTQsMTAxNjE3MDM3MywtMTM1NTAwOTA5NCwtMjEy
-Mzc5OTMwNl19
+eyJoaXN0b3J5IjpbLTE3MzU1ODA5MjQsMjEzMTk4Nzk5OSwtMT
+AwMzEyMDgxNSw0NzY4OTgwOTAsLTQ3NDE1OTY2NCwxNjczNjMx
+MzUwLDU3OTM5OTUzOSwtMTkxMDE2MDM3NSwtMTAyNjE5NDYwNS
+wxOTY1ODM2MzU3LDMxODE1NjkwMSwxNzcxODEyNTY2LC04NTc0
+NTg1NzMsLTc2MjM0NzA4NSwxMTE5MDEyNjYsLTExNzIzMjkzND
+QsMTMwNjA5NzQ1NCwxMDE2MTcwMzczLC0xMzU1MDA5MDk0LC0y
+MTIzNzk5MzA2XX0=
 -->
