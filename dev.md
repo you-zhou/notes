@@ -1398,9 +1398,10 @@ my_very_big_string = (
 from some.deep.module.inside.a.module import (
 	a_nice_function, another_nice_function,
 	yet_another_nice_function)
-
-
 ```
+
+Note:
+More often than not, having to split a long logical line is a sign that you are **trying to do too many things at the same time**, which may hinder readability.
 
 
 ## colour coded print
@@ -2172,11 +2173,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM2MTM1NDMxLDQ3Njg5ODA5MCwtNDc0MT
-U5NjY0LDE2NzM2MzEzNTAsNTc5Mzk5NTM5LC0xOTEwMTYwMzc1
-LC0xMDI2MTk0NjA1LDE5NjU4MzYzNTcsMzE4MTU2OTAxLDE3Nz
-E4MTI1NjYsLTg1NzQ1ODU3MywtNzYyMzQ3MDg1LDExMTkwMTI2
-NiwtMTE3MjMyOTM0NCwxMzA2MDk3NDU0LDEwMTYxNzAzNzMsLT
-EzNTUwMDkwOTQsLTIxMjM3OTkzMDYsLTg5MjU2NjE0MiwyOTA4
-MTU3NDBdfQ==
+eyJoaXN0b3J5IjpbLTE0MzMyNjQ2OTIsNDc2ODk4MDkwLC00Nz
+QxNTk2NjQsMTY3MzYzMTM1MCw1NzkzOTk1MzksLTE5MTAxNjAz
+NzUsLTEwMjYxOTQ2MDUsMTk2NTgzNjM1NywzMTgxNTY5MDEsMT
+c3MTgxMjU2NiwtODU3NDU4NTczLC03NjIzNDcwODUsMTExOTAx
+MjY2LC0xMTcyMzI5MzQ0LDEzMDYwOTc0NTQsMTAxNjE3MDM3My
+wtMTM1NTAwOTA5NCwtMjEyMzc5OTMwNiwtODkyNTY2MTQyLDI5
+MDgxNTc0MF19
 -->
