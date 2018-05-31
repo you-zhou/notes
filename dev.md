@@ -779,7 +779,7 @@ Below ==`[:]`== will create a **new** list object with a different identity. But
 `id(names) is not id(names2)`
 `id(names[0]) is id(names2[0])`
 
-### manipulate lists
+### manipulate lists with `filter` and `map`
 List comprehensions provide a powerful, concise way to work with lists. Also, the `map()` and `filter()` functions can perform operations on lists using a different, more concise syntax.
 
 ```python
@@ -801,15 +801,16 @@ b = filter(lambda x: x > 4, a)
 
 
 # Add three to all list members.
-Bad:
+# Bad:
 a = [3, 4, 5]
 for i in range(len(a)):
 	a[i] += 3
 
 
-Good:
+# Good:
 a = [3, 4, 5]
 a = [i + 3 for i in a]
+
 # Or:
 a = map(lambda i: i + 3, a)
 ```
@@ -2114,7 +2115,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MTc5NTU2MywtNDc0MTU5NjY0LDE2Nz
+eyJoaXN0b3J5IjpbMTQ1NzM3NTY0NCwtNDc0MTU5NjY0LDE2Nz
 M2MzEzNTAsNTc5Mzk5NTM5LC0xOTEwMTYwMzc1LC0xMDI2MTk0
 NjA1LDE5NjU4MzYzNTcsMzE4MTU2OTAxLDE3NzE4MTI1NjYsLT
 g1NzQ1ODU3MywtNzYyMzQ3MDg1LDExMTkwMTI2NiwtMTE3MjMy
