@@ -305,8 +305,7 @@ Included below is a list of recommended Python projects for reading. Each one of
 * [Flask](https://github.com/pallets/flask) is a microframework for Python based onWerkzeug and Jinja2. It’s intended for getting started very quickly and was developed with best intentions in mind.
 * [Diamond](https://github.com/python-diamond/Diamond) is a python daemon that collects metrics and publishes them to Graphite or other backends. It is capable of collecting cpu, memory, network, i/o, load and disk metrics. Additionally, it features an API for
 implementing custom collectors for gathering metrics from almost any source.
-* [Werkzeug](https://github.com/pallets/werkzeug) started as simple collection of various utilities for WSGI applications and has become one
-of the most advanced WSGI utility modules. It includes a powerful debugger, full-featured request and response
+* [Werkzeug](https://github.com/pallets/werkzeug) started as simple collection of various utilities for WSGI applications and has become one of the most advanced WSGI utility modules. It includes a powerful debugger, full-featured request and response objects, HTTP utilities to handle entity tags, cache control headers, HTTP dates, cookie handling, file uploads, a powerful URL routing system and a bunch of community-contributed addon modules.
 
 ## python --version
 If you still see 2.7 ensure in PATH `/usr/local/bin/` takes pecedence over `/usr/bin/`.
@@ -2181,7 +2180,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNTA1NzI1Niw0NzY4OTgwOTAsLTQ3ND
+eyJoaXN0b3J5IjpbLTMzNjgzMjExMCw0NzY4OTgwOTAsLTQ3ND
 E1OTY2NCwxNjczNjMxMzUwLDU3OTM5OTUzOSwtMTkxMDE2MDM3
 NSwtMTAyNjE5NDYwNSwxOTY1ODM2MzU3LDMxODE1NjkwMSwxNz
 cxODEyNTY2LC04NTc0NTg1NzMsLTc2MjM0NzA4NSwxMTE5MDEy
