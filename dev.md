@@ -1206,8 +1206,18 @@ Since the two approaches appear the same, we should follow the Zen of Python to 
 ### unpacking
 
 ```python
+# enumerate() will provide a tuple of two elements for each item in list
 for index, item in enumerate(some_list):
 	# do something with index and item
+
+# swap va
+a, b = b, a
+
+a, *rest = [1, 2, 3]
+# a = 1, rest = [2, 3]
+
+a, *middle, c = [1, 2, 3, 4]
+# a = 1, middle = [2, 3], c = 4
 ```
 
 
@@ -1980,11 +1990,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTgxMjU2NiwtODU3NDU4NTczLC03Nj
-IzNDcwODUsMTExOTAxMjY2LC0xMTcyMzI5MzQ0LDEzMDYwOTc0
-NTQsMTAxNjE3MDM3MywtMTM1NTAwOTA5NCwtMjEyMzc5OTMwNi
-wtODkyNTY2MTQyLDI5MDgxNTc0MCw5ODE0MTUyMTYsMTY5MDIw
-NjcxOSwtMTg1NzExMTI2NCwtMTA4OTg2MzI2MywtMTI2MzkzMD
-g5MSwtODMyNzc1MTg1LDE5NzY1NTE0NzMsMTk4MzQ3MzE3Mywt
-NDM2MTc5Nzc3XX0=
+eyJoaXN0b3J5IjpbLTE2MTYzMDA1MSwxNzcxODEyNTY2LC04NT
+c0NTg1NzMsLTc2MjM0NzA4NSwxMTE5MDEyNjYsLTExNzIzMjkz
+NDQsMTMwNjA5NzQ1NCwxMDE2MTcwMzczLC0xMzU1MDA5MDk0LC
+0yMTIzNzk5MzA2LC04OTI1NjYxNDIsMjkwODE1NzQwLDk4MTQx
+NTIxNiwxNjkwMjA2NzE5LC0xODU3MTExMjY0LC0xMDg5ODYzMj
+YzLC0xMjYzOTMwODkxLC04MzI3NzUxODUsMTk3NjU1MTQ3Mywx
+OTgzNDczMTczXX0=
 -->
