@@ -1374,8 +1374,8 @@ The `--aggressive` flag will perform more substantial changes and can be applied
 
 ### line continuations
 The Python interpreter will join consecutive lines if the last character of the line is a ==backslash `\`==. 
-This is helpful in somecases, but should usually be avoided because of its fragility: a white space added to the end of the line, after the
-backslash, will break the code and may have unexpected results.
+This is helpful in some cases, but should usually be avoided because of its fragility: **a white space added to the end of the line, after the backslash, will break the code and may have unexpected results.**
+
 A better solution is to use parentheses around your elements. Left with an unclosed parenthesis on an end-of-line the
 Python interpreter will join the next line until the parentheses are closed. The same behavior holds for curly and square
 braces.
@@ -2151,7 +2151,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NTU4ODQ5NCw0NzY4OTgwOTAsLTQ3ND
+eyJoaXN0b3J5IjpbLTc3ODU3OTg5Miw0NzY4OTgwOTAsLTQ3ND
 E1OTY2NCwxNjczNjMxMzUwLDU3OTM5OTUzOSwtMTkxMDE2MDM3
 NSwtMTAyNjE5NDYwNSwxOTY1ODM2MzU3LDMxODE1NjkwMSwxNz
 cxODEyNTY2LC04NTc0NTg1NzMsLTc2MjM0NzA4NSwxMTE5MDEy
