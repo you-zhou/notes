@@ -306,6 +306,8 @@ Included below is a list of recommended Python projects for reading. Each one of
 * [Diamond](https://github.com/python-diamond/Diamond) is a python daemon that collects metrics and publishes them to Graphite or other backends. It is capable of collecting cpu, memory, network, i/o, load and disk metrics. Additionally, it features an API for
 implementing custom collectors for gathering metrics from almost any source.
 * [Werkzeug](https://github.com/pallets/werkzeug) started as simple collection of various utilities for WSGI applications and has become one of the most advanced WSGI utility modules. It includes a powerful debugger, full-featured request and response objects, HTTP utilities to handle entity tags, cache control headers, HTTP dates, cookie handling, file uploads, a powerful URL routing system and a bunch of community-contributed addon modules.
+* [Requests](https://github.com/requests/requests) is an Apache2 Licensed HTTP library, written in Python, for human beings.
+* [Tablib](https://github.com/kennethreitz/tablib) is a format-agnostic tabular dataset library, written in Python.
 
 ## python --version
 If you still see 2.7 ensure in PATH `/usr/local/bin/` takes pecedence over `/usr/bin/`.
@@ -2180,11 +2182,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNjgzMjExMCw0NzY4OTgwOTAsLTQ3ND
-E1OTY2NCwxNjczNjMxMzUwLDU3OTM5OTUzOSwtMTkxMDE2MDM3
-NSwtMTAyNjE5NDYwNSwxOTY1ODM2MzU3LDMxODE1NjkwMSwxNz
-cxODEyNTY2LC04NTc0NTg1NzMsLTc2MjM0NzA4NSwxMTE5MDEy
-NjYsLTExNzIzMjkzNDQsMTMwNjA5NzQ1NCwxMDE2MTcwMzczLC
-0xMzU1MDA5MDk0LC0yMTIzNzk5MzA2LC04OTI1NjYxNDIsMjkw
-ODE1NzQwXX0=
+eyJoaXN0b3J5IjpbLTEwMDMxMjA4MTUsNDc2ODk4MDkwLC00Nz
+QxNTk2NjQsMTY3MzYzMTM1MCw1NzkzOTk1MzksLTE5MTAxNjAz
+NzUsLTEwMjYxOTQ2MDUsMTk2NTgzNjM1NywzMTgxNTY5MDEsMT
+c3MTgxMjU2NiwtODU3NDU4NTczLC03NjIzNDcwODUsMTExOTAx
+MjY2LC0xMTcyMzI5MzQ0LDEzMDYwOTc0NTQsMTAxNjE3MDM3My
+wtMTM1NTAwOTA5NCwtMjEyMzc5OTMwNiwtODkyNTY2MTQyLDI5
+MDgxNTc0MF19
 -->
