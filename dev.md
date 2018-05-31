@@ -1616,8 +1616,8 @@ public.
 
 
 ### documentation tool
-[Sphinx
-Read The Docs
+[Sphinx](http://www.sphinx-doc.org/en/master/)
+[Read The Docs](https://readthedocs.org/)
 
 ## project publication
 Depending on the project, your documentation might include some or all of the following components:
@@ -2202,7 +2202,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzU1ODA5MjQsMjEzMTk4Nzk5OSwtMT
+eyJoaXN0b3J5IjpbLTEyOTIzODE4NDUsMjEzMTk4Nzk5OSwtMT
 AwMzEyMDgxNSw0NzY4OTgwOTAsLTQ3NDE1OTY2NCwxNjczNjMx
 MzUwLDU3OTM5OTUzOSwtMTkxMDE2MDM3NSwtMTAyNjE5NDYwNS
 wxOTY1ODM2MzU3LDMxODE1NjkwMSwxNzcxODEyNTY2LC04NTc0
