@@ -1202,6 +1202,10 @@ Summary:
 Since the two approaches appear the same, we should follow the Zen of Python to decide when to use which. The class approach might be better if there’s a considerable amount of logic to encapsulate. The function approach might be better for situations where we’re dealing with a simple action.
 
 
+## idiomatic python
+### unpacking
+
+
 
 ## colour coded print
 Print texts  in colour coded fashion can be useful to highlight important messages.
@@ -1972,11 +1976,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NzQ1ODU3MywtNzYyMzQ3MDg1LDExMT
-kwMTI2NiwtMTE3MjMyOTM0NCwxMzA2MDk3NDU0LDEwMTYxNzAz
-NzMsLTEzNTUwMDkwOTQsLTIxMjM3OTkzMDYsLTg5MjU2NjE0Mi
-wyOTA4MTU3NDAsOTgxNDE1MjE2LDE2OTAyMDY3MTksLTE4NTcx
-MTEyNjQsLTEwODk4NjMyNjMsLTEyNjM5MzA4OTEsLTgzMjc3NT
-E4NSwxOTc2NTUxNDczLDE5ODM0NzMxNzMsLTQzNjE3OTc3Nywt
-Nzg1OTMwNjIzXX0=
+eyJoaXN0b3J5IjpbMTE0ODMyMDkyNywtODU3NDU4NTczLC03Nj
+IzNDcwODUsMTExOTAxMjY2LC0xMTcyMzI5MzQ0LDEzMDYwOTc0
+NTQsMTAxNjE3MDM3MywtMTM1NTAwOTA5NCwtMjEyMzc5OTMwNi
+wtODkyNTY2MTQyLDI5MDgxNTc0MCw5ODE0MTUyMTYsMTY5MDIw
+NjcxOSwtMTg1NzExMTI2NCwtMTA4OTg2MzI2MywtMTI2MzkzMD
+g5MSwtODMyNzc1MTg1LDE5NzY1NTE0NzMsMTk4MzQ3MzE3Mywt
+NDM2MTc5Nzc3XX0=
 -->
