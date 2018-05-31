@@ -1615,7 +1615,11 @@ public.
 
 
 ## project publication
-
+Depending on the project, your documentation might include some or all of the following components:
+* An **introduction** should show a very short overview of what can be done with the product, using one or two extremely simplified use cases. This is the thirty-second pitch for your project.
+• A **tutorial** should show some primary use cases in more detail. The reader will follow a step-by-step procedure to set-up a working prototype.
+• An API reference is typically generated from the code (see docstrings). It will list all publicly available interfaces,
+parameters, and return values.
 
 
 # Django
@@ -2193,7 +2197,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjI3NzgyNSwtMTAwMzEyMDgxNSw0Nz
+eyJoaXN0b3J5IjpbMTg4ODI3ODgzMCwtMTAwMzEyMDgxNSw0Nz
 Y4OTgwOTAsLTQ3NDE1OTY2NCwxNjczNjMxMzUwLDU3OTM5OTUz
 OSwtMTkxMDE2MDM3NSwtMTAyNjE5NDYwNSwxOTY1ODM2MzU3LD
 MxODE1NjkwMSwxNzcxODEyNTY2LC04NTc0NTg1NzMsLTc2MjM0
