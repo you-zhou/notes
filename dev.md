@@ -1620,6 +1620,7 @@ public.
 When run, Sphinx will import your code and using Python’s introspection features it will extract all function, method and class signatures. It will also extract the accompanying docstrings, and compile it all into well structured and easily readable documentation for your project.
 
 * [Read The Docs](https://readthedocs.org/)
+It is a great, free hosting for your Sphinx docs. You can configure it with commit hooks to your source repository so that rebuilding your documentation will happen automatically.
 
 ## project publication
 Depending on the project, your documentation might include some or all of the following components:
@@ -2204,7 +2205,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDIzMzM1MzUsMjEzMTk4Nzk5OSwtMT
+eyJoaXN0b3J5IjpbLTIwMDk1MzY0NDMsMjEzMTk4Nzk5OSwtMT
 AwMzEyMDgxNSw0NzY4OTgwOTAsLTQ3NDE1OTY2NCwxNjczNjMx
 MzUwLDU3OTM5OTUzOSwtMTkxMDE2MDM3NSwtMTAyNjE5NDYwNS
 wxOTY1ODM2MzU3LDMxODE1NjkwMSwxNzcxODEyNTY2LC04NTc0
