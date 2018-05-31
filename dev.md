@@ -974,6 +974,7 @@ The arbitrary keyword argument dictionary is the last way to pass arguments to f
 The same caution as in the case of arbitrary argument list is necessary, for similar reasons: these powerful techniques are to be used when there is a proven necessity to use them, and they should not be used if the simpler and clearer
 construct is sufficient to express the function’s intention.
 
+Note:
 It is up to the programmer writing the function to determine which arguments are *positional arguments* and which are *optional keyword arguments*, and to decide whether to use the advanced techniques of arbitrary argument passing. If
 the advice above is followed wisely, it is possible and enjoyable to write Python functions that are:
 • easy to read (the name and arguments need no explanations)
@@ -1969,11 +1970,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNjA5NzQ1NCwxMDE2MTcwMzczLC0xMz
-U1MDA5MDk0LC0yMTIzNzk5MzA2LC04OTI1NjYxNDIsMjkwODE1
-NzQwLDk4MTQxNTIxNiwxNjkwMjA2NzE5LC0xODU3MTExMjY0LC
-0xMDg5ODYzMjYzLC0xMjYzOTMwODkxLC04MzI3NzUxODUsMTk3
-NjU1MTQ3MywxOTgzNDczMTczLC00MzYxNzk3NzcsLTc4NTkzMD
-YyMywxOTIxODEzNDYxLDE5MjE4MTM0NjEsOTQ5ODAwMzcyLDEx
-MDkyODAzNTFdfQ==
+eyJoaXN0b3J5IjpbLTE0Nzg1NDg4NzQsMTMwNjA5NzQ1NCwxMD
+E2MTcwMzczLC0xMzU1MDA5MDk0LC0yMTIzNzk5MzA2LC04OTI1
+NjYxNDIsMjkwODE1NzQwLDk4MTQxNTIxNiwxNjkwMjA2NzE5LC
+0xODU3MTExMjY0LC0xMDg5ODYzMjYzLC0xMjYzOTMwODkxLC04
+MzI3NzUxODUsMTk3NjU1MTQ3MywxOTgzNDczMTczLC00MzYxNz
+k3NzcsLTc4NTkzMDYyMywxOTIxODEzNDYxLDE5MjE4MTM0NjEs
+OTQ5ODAwMzcyXX0=
 -->
