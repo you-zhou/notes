@@ -1210,9 +1210,10 @@ Since the two approaches appear the same, we should follow the Zen of Python to 
 for index, item in enumerate(some_list):
 	# do something with index and item
 
-# swap va
+# swap variables
 a, b = b, a
 
+# extended unpacking was introduced by PEP 3132
 a, *rest = [1, 2, 3]
 # a = 1, rest = [2, 3]
 
@@ -1220,6 +1221,11 @@ a, *middle, c = [1, 2, 3, 4]
 # a = 1, middle = [2, 3], c = 4
 ```
 
+
+### ignored variable
+If you need to assign something (for instance, in Unpacking) but will not need that variable, use __:
+filename = 'foobar.txt'
+basename, __, ext = filename.rpartition('.')
 
 ## colour coded print
 Print texts  in colour coded fashion can be useful to highlight important messages.
@@ -1990,7 +1996,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTYzMDA1MSwxNzcxODEyNTY2LC04NT
+eyJoaXN0b3J5IjpbLTQzOTQ0OTIwMiwxNzcxODEyNTY2LC04NT
 c0NTg1NzMsLTc2MjM0NzA4NSwxMTE5MDEyNjYsLTExNzIzMjkz
 NDQsMTMwNjA5NzQ1NCwxMDE2MTcwMzczLC0xMzU1MDA5MDk0LC
 0yMTIzNzk5MzA2LC04OTI1NjYxNDIsMjkwODE1NzQwLDk4MTQx
