@@ -1379,7 +1379,20 @@ This is helpful in some cases, but should usually be avoided because of its frag
 A better solution is to use parentheses around your elements. Left with an unclosed parenthesis on an end-of-line the Python interpreter will join the next line until the parentheses are closed. The same behaviour holds for curly and square braces.
 
 ```python
-
+Bad:
+my_very_big_string = """For a long time I used to go to bed early. Sometimes, \
+when I had put out my candle, my eyes would close so quickly that I had not even \
+time to say “I’m going to sleep.”"""
+from some.deep.module.inside.a.module import a_nice_function, another_nice_function, \
+yet_another_nice_function
+Good:
+my_very_big_string = (
+"For a long time I used to go to bed early. Sometimes, "
+"when I had put out my candle, my eyes would close so quickly "
+"that I had not even time to say “I’m going to sleep.”"
+)
+from some.deep.module.inside.a.module import (
+a_nice_function, another_nice_function, yet_another_nice_function)
 
 
 ```
@@ -2154,7 +2167,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzczOTc4OTcsNDc2ODk4MDkwLC00Nz
+eyJoaXN0b3J5IjpbLTE4NDE4NDcwOTMsNDc2ODk4MDkwLC00Nz
 QxNTk2NjQsMTY3MzYzMTM1MCw1NzkzOTk1MzksLTE5MTAxNjAz
 NzUsLTEwMjYxOTQ2MDUsMTk2NTgzNjM1NywzMTgxNTY5MDEsMT
 c3MTgxMjU2NiwtODU3NDU4NTczLC03NjIzNDcwODUsMTExOTAx
