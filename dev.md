@@ -771,13 +771,16 @@ print(names)
 1. `list.sort()` method sorts the list ==in place==.
 2. `sorted(list)` function returns a new list that is ordered. ==But it reuses all items in the list, instead of creating new items.==
 
-### Copy of a list
+### copy lists
 `names = ['John', 'Paul', 'George', 'Ringo']`
-Below ==`[:]`== will create a new list object with a different identity. But the items' identity remains the same with `names`. 
+Below ==`[:]`== will create a **new** list object with a different identity. But the items' identity remains the same with `names`. 
 `names2 = names[:]`
 
 `id(names) is not id(names2)`
 `id(names[0]) is id(names2[0])`
+
+### manipulate lists
+
 
 ## indexing & slicing
 Python provides two constructs to pull data out of sequence-like types (**lists, tuples, and even strings**). These are the indexing and slicing constructs. Indexing allows you to access single items out of a sequence, while slicing allows you to pull out a sub-sequence from a sequence.
@@ -2079,11 +2082,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NDE1OTY2NCwxNjczNjMxMzUwLDU3OT
-M5OTUzOSwtMTkxMDE2MDM3NSwtMTAyNjE5NDYwNSwxOTY1ODM2
-MzU3LDMxODE1NjkwMSwxNzcxODEyNTY2LC04NTc0NTg1NzMsLT
-c2MjM0NzA4NSwxMTE5MDEyNjYsLTExNzIzMjkzNDQsMTMwNjA5
-NzQ1NCwxMDE2MTcwMzczLC0xMzU1MDA5MDk0LC0yMTIzNzk5Mz
-A2LC04OTI1NjYxNDIsMjkwODE1NzQwLDk4MTQxNTIxNiwxNjkw
-MjA2NzE5XX0=
+eyJoaXN0b3J5IjpbLTY0NDEzMjc5OSwtNDc0MTU5NjY0LDE2Nz
+M2MzEzNTAsNTc5Mzk5NTM5LC0xOTEwMTYwMzc1LC0xMDI2MTk0
+NjA1LDE5NjU4MzYzNTcsMzE4MTU2OTAxLDE3NzE4MTI1NjYsLT
+g1NzQ1ODU3MywtNzYyMzQ3MDg1LDExMTkwMTI2NiwtMTE3MjMy
+OTM0NCwxMzA2MDk3NDU0LDEwMTYxNzAzNzMsLTEzNTUwMDkwOT
+QsLTIxMjM3OTkzMDYsLTg5MjU2NjE0MiwyOTA4MTU3NDAsOTgx
+NDE1MjE2XX0=
 -->
