@@ -303,10 +303,9 @@ Excellent code typically follows the guidelines outlined in Code Style, and does
 Included below is a list of recommended Python projects for reading. Each one of these projects is a paragon of Python coding.
 * [Howdoi](https://github.com/gleitz/howdoi)  is a code search tool, written in Python.
 * [Flask](https://github.com/pallets/flask) is a microframework for Python based onWerkzeug and Jinja2. It’s intended for getting started very quickly and was developed with best intentions in mind.
-* Diamond Diamond is a python daemon that collects metrics and publishes them to Graphite or other backends.
-It is capable of collecting cpu, memory, network, i/o, load and disk metrics. Additionally, it features an API for
+* [Diamond](https://github.com/python-diamond/Diamond) is a python daemon that collects metrics and publishes them to Graphite or other backends. It is capable of collecting cpu, memory, network, i/o, load and disk metrics. Additionally, it features an API for
 implementing custom collectors for gathering metrics from almost any source.
-• Werkzeug Werkzeug started as simple collection of various utilities for WSGI applications and has become one
+* [Werkzeug](https://github.com/pallets/werkzeug) started as simple collection of various utilities for WSGI applications and has become one
 of the most advanced WSGI utility modules. It includes a powerful debugger, full-featured request and response
 
 ## python --version
@@ -2182,11 +2181,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg2MTQ4NTUwLDQ3Njg5ODA5MCwtNDc0MT
-U5NjY0LDE2NzM2MzEzNTAsNTc5Mzk5NTM5LC0xOTEwMTYwMzc1
-LC0xMDI2MTk0NjA1LDE5NjU4MzYzNTcsMzE4MTU2OTAxLDE3Nz
-E4MTI1NjYsLTg1NzQ1ODU3MywtNzYyMzQ3MDg1LDExMTkwMTI2
-NiwtMTE3MjMyOTM0NCwxMzA2MDk3NDU0LDEwMTYxNzAzNzMsLT
-EzNTUwMDkwOTQsLTIxMjM3OTkzMDYsLTg5MjU2NjE0MiwyOTA4
-MTU3NDBdfQ==
+eyJoaXN0b3J5IjpbMjEwNTA1NzI1Niw0NzY4OTgwOTAsLTQ3ND
+E1OTY2NCwxNjczNjMxMzUwLDU3OTM5OTUzOSwtMTkxMDE2MDM3
+NSwtMTAyNjE5NDYwNSwxOTY1ODM2MzU3LDMxODE1NjkwMSwxNz
+cxODEyNTY2LC04NTc0NTg1NzMsLTc2MjM0NzA4NSwxMTE5MDEy
+NjYsLTExNzIzMjkzNDQsMTMwNjA5NzQ1NCwxMDE2MTcwMzczLC
+0xMzU1MDA5MDk0LC0yMTIzNzk5MzA2LC04OTI1NjYxNDIsMjkw
+ODE1NzQwXX0=
 -->
