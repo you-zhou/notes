@@ -1242,12 +1242,20 @@ Many Python style guides recommend the use of a single underscore `_` for throwa
 The issue is that `_` is commonly used as an alias for the `gettext()` function, and is also used at the interactive prompt to hold the value of the last operation. Using a double underscore instead is just as clear and almost as convenient, and eliminates the risk of accidentally interfering with either of these other use cases.
 
 
-### Create a length-N list of the same thing
+### create a length-N list of the same thing
 Use the Python ==list *== operator:
 ```python
 four_nones = [None] * 4
 # [None, None, None, None]
 ```
+
+### create a length-N list of lists
+Because lists are mutable, the * operator (as above) will create a list of N references to the same list, which is not likely what you want. 
+Instead, use a list comprehension:
+```python
+four_lists = [[] for __ in xrange(4)]
+```
+Note: Use range() instead of xrange() in Python 3
 
 
 ## colour coded print
@@ -2019,11 +2027,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzYyODE3OCwxOTY1ODM2MzU3LDMxOD
-E1NjkwMSwxNzcxODEyNTY2LC04NTc0NTg1NzMsLTc2MjM0NzA4
-NSwxMTE5MDEyNjYsLTExNzIzMjkzNDQsMTMwNjA5NzQ1NCwxMD
-E2MTcwMzczLC0xMzU1MDA5MDk0LC0yMTIzNzk5MzA2LC04OTI1
-NjYxNDIsMjkwODE1NzQwLDk4MTQxNTIxNiwxNjkwMjA2NzE5LC
-0xODU3MTExMjY0LC0xMDg5ODYzMjYzLC0xMjYzOTMwODkxLC04
-MzI3NzUxODVdfQ==
+eyJoaXN0b3J5IjpbMjExMTA0ODQ1LDE5NjU4MzYzNTcsMzE4MT
+U2OTAxLDE3NzE4MTI1NjYsLTg1NzQ1ODU3MywtNzYyMzQ3MDg1
+LDExMTkwMTI2NiwtMTE3MjMyOTM0NCwxMzA2MDk3NDU0LDEwMT
+YxNzAzNzMsLTEzNTUwMDkwOTQsLTIxMjM3OTkzMDYsLTg5MjU2
+NjE0MiwyOTA4MTU3NDAsOTgxNDE1MjE2LDE2OTAyMDY3MTksLT
+E4NTcxMTEyNjQsLTEwODk4NjMyNjMsLTEyNjM5MzA4OTEsLTgz
+Mjc3NTE4NV19
 -->
