@@ -1266,6 +1266,17 @@ word = ''.join(letters)
 ```
 This will set the value of the variable word to ‘spam’. This idiom can be applied to **lists and tuples**.
 
+### search an item in a collection e.g. list or set
+Se
+```python
+s = set(['s', 'p', 'a', 'm'])
+l = ['s', 'p', 'a', 'm']
+def lookup_set(s):
+	return 's' in s
+
+def lookup_list(l):
+	return 's' in l
+```
 
 
 ## colour coded print
@@ -2037,11 +2048,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjYxOTQ2MDUsMTk2NTgzNjM1NywzMT
-gxNTY5MDEsMTc3MTgxMjU2NiwtODU3NDU4NTczLC03NjIzNDcw
-ODUsMTExOTAxMjY2LC0xMTcyMzI5MzQ0LDEzMDYwOTc0NTQsMT
-AxNjE3MDM3MywtMTM1NTAwOTA5NCwtMjEyMzc5OTMwNiwtODky
-NTY2MTQyLDI5MDgxNTc0MCw5ODE0MTUyMTYsMTY5MDIwNjcxOS
-wtMTg1NzExMTI2NCwtMTA4OTg2MzI2MywtMTI2MzkzMDg5MSwt
-ODMyNzc1MTg1XX0=
+eyJoaXN0b3J5IjpbLTE2ODc0NTQwOTMsLTEwMjYxOTQ2MDUsMT
+k2NTgzNjM1NywzMTgxNTY5MDEsMTc3MTgxMjU2NiwtODU3NDU4
+NTczLC03NjIzNDcwODUsMTExOTAxMjY2LC0xMTcyMzI5MzQ0LD
+EzMDYwOTc0NTQsMTAxNjE3MDM3MywtMTM1NTAwOTA5NCwtMjEy
+Mzc5OTMwNiwtODkyNTY2MTQyLDI5MDgxNTc0MCw5ODE0MTUyMT
+YsMTY5MDIwNjcxOSwtMTg1NzExMTI2NCwtMTA4OTg2MzI2Mywt
+MTI2MzkzMDg5MV19
 -->
