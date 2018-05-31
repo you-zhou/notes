@@ -1623,6 +1623,8 @@ When run, Sphinx will import your code and using Python’s introspection featur
 * [Read The Docs](https://readthedocs.org/)
 It is a great, free hosting for your Sphinx docs. You can configure it with commit hooks to your source repository so that rebuilding your documentation will happen automatically.
 
+* [reStructuredText](http://docutils.sourceforge.net/rst.html)
+
 ## project publication
 Depending on the project, your documentation might include some or all of the following components:
 * An **introduction** should show a very short overview of what can be done with the product, using one or two extremely simplified use cases. This is the thirty-second pitch for your project.
@@ -2206,11 +2208,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg2MDI1MTMwLDIxMzE5ODc5OTksLTEwMD
-MxMjA4MTUsNDc2ODk4MDkwLC00NzQxNTk2NjQsMTY3MzYzMTM1
-MCw1NzkzOTk1MzksLTE5MTAxNjAzNzUsLTEwMjYxOTQ2MDUsMT
-k2NTgzNjM1NywzMTgxNTY5MDEsMTc3MTgxMjU2NiwtODU3NDU4
-NTczLC03NjIzNDcwODUsMTExOTAxMjY2LC0xMTcyMzI5MzQ0LD
-EzMDYwOTc0NTQsMTAxNjE3MDM3MywtMTM1NTAwOTA5NCwtMjEy
-Mzc5OTMwNl19
+eyJoaXN0b3J5IjpbNzA2Mzk5NjMsMjEzMTk4Nzk5OSwtMTAwMz
+EyMDgxNSw0NzY4OTgwOTAsLTQ3NDE1OTY2NCwxNjczNjMxMzUw
+LDU3OTM5OTUzOSwtMTkxMDE2MDM3NSwtMTAyNjE5NDYwNSwxOT
+Y1ODM2MzU3LDMxODE1NjkwMSwxNzcxODEyNTY2LC04NTc0NTg1
+NzMsLTc2MjM0NzA4NSwxMTE5MDEyNjYsLTExNzIzMjkzNDQsMT
+MwNjA5NzQ1NCwxMDE2MTcwMzczLC0xMzU1MDA5MDk0LC0yMTIz
+Nzk5MzA2XX0=
 -->
