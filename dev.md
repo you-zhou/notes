@@ -1222,7 +1222,7 @@ a, *middle, c = [1, 2, 3, 4]
 ```
 
 
-### ignored variable
+### ignored variable with `` or 
 If you need to assign something (for instance, in Unpacking) but will not need that variable, use `__`:
 
 ```python
@@ -2003,11 +2003,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4MTU2OTAxLDE3NzE4MTI1NjYsLTg1Nz
-Q1ODU3MywtNzYyMzQ3MDg1LDExMTkwMTI2NiwtMTE3MjMyOTM0
-NCwxMzA2MDk3NDU0LDEwMTYxNzAzNzMsLTEzNTUwMDkwOTQsLT
-IxMjM3OTkzMDYsLTg5MjU2NjE0MiwyOTA4MTU3NDAsOTgxNDE1
-MjE2LDE2OTAyMDY3MTksLTE4NTcxMTEyNjQsLTEwODk4NjMyNj
-MsLTEyNjM5MzA4OTEsLTgzMjc3NTE4NSwxOTc2NTUxNDczLDE5
-ODM0NzMxNzNdfQ==
+eyJoaXN0b3J5IjpbODM0MTA1NDg2LDMxODE1NjkwMSwxNzcxOD
+EyNTY2LC04NTc0NTg1NzMsLTc2MjM0NzA4NSwxMTE5MDEyNjYs
+LTExNzIzMjkzNDQsMTMwNjA5NzQ1NCwxMDE2MTcwMzczLC0xMz
+U1MDA5MDk0LC0yMTIzNzk5MzA2LC04OTI1NjYxNDIsMjkwODE1
+NzQwLDk4MTQxNTIxNiwxNjkwMjA2NzE5LC0xODU3MTExMjY0LC
+0xMDg5ODYzMjYzLC0xMjYzOTMwODkxLC04MzI3NzUxODUsMTk3
+NjU1MTQ3M119
 -->
