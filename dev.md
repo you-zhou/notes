@@ -1299,7 +1299,12 @@ optparse.py:472:29: E221 multiple spaces before operator
 optparse.py:544:21: W601 .has_key() is deprecated, use 'in'
 ```
 * autopep8
-* `
+The program autopep8 can be used to automatically reformat code in the PEP 8 style.
+```bash
+$ pip install autopep8
+
+$ autopep8 --in-place optparse.py
+```
 
 ## colour coded print
 Print texts  in colour coded fashion can be useful to highlight important messages.
@@ -2070,11 +2075,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE1NTEzOTUzLC0xOTEwMTYwMzc1LC0xMD
-I2MTk0NjA1LDE5NjU4MzYzNTcsMzE4MTU2OTAxLDE3NzE4MTI1
-NjYsLTg1NzQ1ODU3MywtNzYyMzQ3MDg1LDExMTkwMTI2NiwtMT
-E3MjMyOTM0NCwxMzA2MDk3NDU0LDEwMTYxNzAzNzMsLTEzNTUw
-MDkwOTQsLTIxMjM3OTkzMDYsLTg5MjU2NjE0MiwyOTA4MTU3ND
-AsOTgxNDE1MjE2LDE2OTAyMDY3MTksLTE4NTcxMTEyNjQsLTEw
-ODk4NjMyNjNdfQ==
+eyJoaXN0b3J5IjpbLTIwNzk3MzAzMTEsLTE5MTAxNjAzNzUsLT
+EwMjYxOTQ2MDUsMTk2NTgzNjM1NywzMTgxNTY5MDEsMTc3MTgx
+MjU2NiwtODU3NDU4NTczLC03NjIzNDcwODUsMTExOTAxMjY2LC
+0xMTcyMzI5MzQ0LDEzMDYwOTc0NTQsMTAxNjE3MDM3MywtMTM1
+NTAwOTA5NCwtMjEyMzc5OTMwNiwtODkyNTY2MTQyLDI5MDgxNT
+c0MCw5ODE0MTUyMTYsMTY5MDIwNjcxOSwtMTg1NzExMTI2NCwt
+MTA4OTg2MzI2M119
 -->
