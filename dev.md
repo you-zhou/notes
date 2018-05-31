@@ -1205,6 +1205,10 @@ Since the two approaches appear the same, we should follow the Zen of Python to 
 ## idiomatic python
 ### unpacking
 
+```python
+for index, item in enumerate(some_list):
+	# do something with index and item
+```
 
 
 ## colour coded print
@@ -1976,7 +1980,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODMyMDkyNywtODU3NDU4NTczLC03Nj
+eyJoaXN0b3J5IjpbMTc3MTgxMjU2NiwtODU3NDU4NTczLC03Nj
 IzNDcwODUsMTExOTAxMjY2LC0xMTcyMzI5MzQ0LDEzMDYwOTc0
 NTQsMTAxNjE3MDM3MywtMTM1NTAwOTA5NCwtMjEyMzc5OTMwNi
 wtODkyNTY2MTQyLDI5MDgxNTc0MCw5ODE0MTUyMTYsMTY5MDIw
