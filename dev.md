@@ -1243,7 +1243,7 @@ The issue is that `_` is commonly used as an alias for the `gettext()` function,
 
 
 ### Create a length-N list of the same thing
-Use the Python list * operator:
+Use the Python ==list *== operator:
 ```python
 four_nones = [None] * 4
 # [None, None, None, None]
@@ -2019,7 +2019,7 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4Nzk4MjkzMCwxOTY1ODM2MzU3LDMxOD
+eyJoaXN0b3J5IjpbLTMwNzYyODE3OCwxOTY1ODM2MzU3LDMxOD
 E1NjkwMSwxNzcxODEyNTY2LC04NTc0NTg1NzMsLTc2MjM0NzA4
 NSwxMTE5MDEyNjYsLTExNzIzMjkzNDQsMTMwNjA5NzQ1NCwxMD
 E2MTcwMzczLC0xMzU1MDA5MDk0LC0yMTIzNzk5MzA2LC04OTI1
