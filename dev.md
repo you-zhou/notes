@@ -1258,6 +1258,14 @@ four_lists = [[] for __ in xrange(4)]
 ```
 Note: Use range() instead of xrange() in Python 3
 
+### create a string from a list
+A common idiom for creating strings is to use `str.join()` on an empty string.
+```python
+letters = ['s', 'p', 'a', 'm']
+word = ''.join(letters)
+```
+This will set the value of the variable word to ‘spam’. This idiom can be applied to lists and tuples.
+
 
 
 ## colour coded print
@@ -2029,11 +2037,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4ODYzMzQyLDE5NjU4MzYzNTcsMzE4MT
-U2OTAxLDE3NzE4MTI1NjYsLTg1NzQ1ODU3MywtNzYyMzQ3MDg1
-LDExMTkwMTI2NiwtMTE3MjMyOTM0NCwxMzA2MDk3NDU0LDEwMT
-YxNzAzNzMsLTEzNTUwMDkwOTQsLTIxMjM3OTkzMDYsLTg5MjU2
-NjE0MiwyOTA4MTU3NDAsOTgxNDE1MjE2LDE2OTAyMDY3MTksLT
-E4NTcxMTEyNjQsLTEwODk4NjMyNjMsLTEyNjM5MzA4OTEsLTgz
-Mjc3NTE4NV19
+eyJoaXN0b3J5IjpbLTExOTc2OTkwNTMsMTk2NTgzNjM1NywzMT
+gxNTY5MDEsMTc3MTgxMjU2NiwtODU3NDU4NTczLC03NjIzNDcw
+ODUsMTExOTAxMjY2LC0xMTcyMzI5MzQ0LDEzMDYwOTc0NTQsMT
+AxNjE3MDM3MywtMTM1NTAwOTA5NCwtMjEyMzc5OTMwNiwtODky
+NTY2MTQyLDI5MDgxNTc0MCw5ODE0MTUyMTYsMTY5MDIwNjcxOS
+wtMTg1NzExMTI2NCwtMTA4OTg2MzI2MywtMTI2MzkzMDg5MSwt
+ODMyNzc1MTg1XX0=
 -->
