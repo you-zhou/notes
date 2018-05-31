@@ -1625,7 +1625,7 @@ It is a great, free hosting for your Sphinx docs. You can configure it with comm
 
 * [reStructuredText](http://docutils.sourceforge.net/rst.html)
 It’s like Markdown with all the optional extensions built in.
-Refer to [](http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html) and [](http://docutils.sourceforge.net/docs/user/rst/quickref.html).
+Refer to [reStructuredText Primer](http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html) and [reStructuredText Quick Reference](http://docutils.sourceforge.net/docs/user/rst/quickref.html).
 ## project publication
 Depending on the project, your documentation might include some or all of the following components:
 * An **introduction** should show a very short overview of what can be done with the product, using one or two extremely simplified use cases. This is the thirty-second pitch for your project.
@@ -2209,11 +2209,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNDIyMDk5MywyMTMxOTg3OTk5LC0xMD
-AzMTIwODE1LDQ3Njg5ODA5MCwtNDc0MTU5NjY0LDE2NzM2MzEz
-NTAsNTc5Mzk5NTM5LC0xOTEwMTYwMzc1LC0xMDI2MTk0NjA1LD
-E5NjU4MzYzNTcsMzE4MTU2OTAxLDE3NzE4MTI1NjYsLTg1NzQ1
-ODU3MywtNzYyMzQ3MDg1LDExMTkwMTI2NiwtMTE3MjMyOTM0NC
-wxMzA2MDk3NDU0LDEwMTYxNzAzNzMsLTEzNTUwMDkwOTQsLTIx
-MjM3OTkzMDZdfQ==
+eyJoaXN0b3J5IjpbMTAwMzEzOTE4LDIxMzE5ODc5OTksLTEwMD
+MxMjA4MTUsNDc2ODk4MDkwLC00NzQxNTk2NjQsMTY3MzYzMTM1
+MCw1NzkzOTk1MzksLTE5MTAxNjAzNzUsLTEwMjYxOTQ2MDUsMT
+k2NTgzNjM1NywzMTgxNTY5MDEsMTc3MTgxMjU2NiwtODU3NDU4
+NTczLC03NjIzNDcwODUsMTExOTAxMjY2LC0xMTcyMzI5MzQ0LD
+EzMDYwOTc0NTQsMTAxNjE3MDM3MywtMTM1NTAwOTA5NCwtMjEy
+Mzc5OTMwNl19
 -->
