@@ -297,8 +297,18 @@ Note: for the older  csh  (C-shell) and  ksh  (Korn-shell):
 
 # PYTHON
 ## read great code
-Read–Eval–Print Loop
-It is convenient to test codes with IDLE that comes with Python as part of the installation.
+One of the core tenets behind the design of Python is creating readable code. The motivation behind this design is simple: ==The number one thing that Python programmers do is read code.==
+One of the secrets of becoming a great Python programmer is to **read, understand, and comprehend excellent code.**
+Excellent code typically follows the guidelines outlined in Code Style, and does its best to express a clear and concise intent to the reader.
+Included below is a list of recommended Python projects for reading. Each one of these projects is a paragon of Python coding.
+• Howdoi Howdoi is a code search tool, written in Python.
+• Flask Flask is a microframework for Python based onWerkzeug and Jinja2. It’s intended for getting started very
+quickly and was developed with best intentions in mind.
+• Diamond Diamond is a python daemon that collects metrics and publishes them to Graphite or other backends.
+It is capable of collecting cpu, memory, network, i/o, load and disk metrics. Additionally, it features an API for
+implementing custom collectors for gathering metrics from almost any source.
+• Werkzeug Werkzeug started as simple collection of various utilities for WSGI applications and has become one
+of the most advanced WSGI utility modules. It includes a powerful debugger, full-featured request and response
 
 ## python --version
 If you still see 2.7 ensure in PATH `/usr/local/bin/` takes pecedence over `/usr/bin/`.
@@ -2173,11 +2183,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MTY5MTg3OSw0NzY4OTgwOTAsLTQ3ND
-E1OTY2NCwxNjczNjMxMzUwLDU3OTM5OTUzOSwtMTkxMDE2MDM3
-NSwtMTAyNjE5NDYwNSwxOTY1ODM2MzU3LDMxODE1NjkwMSwxNz
-cxODEyNTY2LC04NTc0NTg1NzMsLTc2MjM0NzA4NSwxMTE5MDEy
-NjYsLTExNzIzMjkzNDQsMTMwNjA5NzQ1NCwxMDE2MTcwMzczLC
-0xMzU1MDA5MDk0LC0yMTIzNzk5MzA2LC04OTI1NjYxNDIsMjkw
-ODE1NzQwXX0=
+eyJoaXN0b3J5IjpbLTE5ODM2MjQ5OTIsNDc2ODk4MDkwLC00Nz
+QxNTk2NjQsMTY3MzYzMTM1MCw1NzkzOTk1MzksLTE5MTAxNjAz
+NzUsLTEwMjYxOTQ2MDUsMTk2NTgzNjM1NywzMTgxNTY5MDEsMT
+c3MTgxMjU2NiwtODU3NDU4NTczLC03NjIzNDcwODUsMTExOTAx
+MjY2LC0xMTcyMzI5MzQ0LDEzMDYwOTc0NTQsMTAxNjE3MDM3My
+wtMTM1NTAwOTA5NCwtMjEyMzc5OTMwNiwtODkyNTY2MTQyLDI5
+MDgxNTc0MF19
 -->
