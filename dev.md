@@ -1242,6 +1242,14 @@ Many Python style guides recommend the use of a single underscore `_` for throwa
 The issue is that `_` is commonly used as an alias for the `gettext()` function, and is also used at the interactive prompt to hold the value of the last operation. Using a double underscore instead is just as clear and almost as convenient, and eliminates the risk of accidentally interfering with either of these other use cases.
 
 
+### Create a length-N list of the same thing
+Use the Python list * operator:
+```python
+four_nones = [None] * 4
+# [None, None, None, None]
+```
+
+
 ## colour coded print
 Print texts  in colour coded fashion can be useful to highlight important messages.
 Print a string that starts a color/style, then the string, then end the color/style change with  `'\x1b[0m'`:
@@ -2011,11 +2019,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTgzNjM1NywzMTgxNTY5MDEsMTc3MT
-gxMjU2NiwtODU3NDU4NTczLC03NjIzNDcwODUsMTExOTAxMjY2
-LC0xMTcyMzI5MzQ0LDEzMDYwOTc0NTQsMTAxNjE3MDM3MywtMT
-M1NTAwOTA5NCwtMjEyMzc5OTMwNiwtODkyNTY2MTQyLDI5MDgx
-NTc0MCw5ODE0MTUyMTYsMTY5MDIwNjcxOSwtMTg1NzExMTI2NC
-wtMTA4OTg2MzI2MywtMTI2MzkzMDg5MSwtODMyNzc1MTg1LDE5
-NzY1NTE0NzNdfQ==
+eyJoaXN0b3J5IjpbLTM4Nzk4MjkzMCwxOTY1ODM2MzU3LDMxOD
+E1NjkwMSwxNzcxODEyNTY2LC04NTc0NTg1NzMsLTc2MjM0NzA4
+NSwxMTE5MDEyNjYsLTExNzIzMjkzNDQsMTMwNjA5NzQ1NCwxMD
+E2MTcwMzczLC0xMzU1MDA5MDk0LC0yMTIzNzk5MzA2LC04OTI1
+NjYxNDIsMjkwODE1NzQwLDk4MTQxNTIxNiwxNjkwMjA2NzE5LC
+0xODU3MTExMjY0LC0xMDg5ODYzMjYzLC0xMjYzOTMwODkxLC04
+MzI3NzUxODVdfQ==
 -->
