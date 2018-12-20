@@ -68,7 +68,7 @@ The solution is to uninstall both `virtualenv` and `pipenv`
 `$ pip uninstall pipenv`
 and install `pipenv` again, which will install `virtualenv` as a dependency.
 `$ pip install --user pipenv` This does a [user installation](https://pip.pypa.io/en/stable/user_guide/#user-installs) to prevent breaking any system-wide packages.
-
+`pip install -U $(pip freeze | awk '{split($0, a, "=="); print a[1]}') --user` this will update all packages in the current pip environment.
 ## environment script
 Below is a customised bash shell script that should be executed at the end of `~/.bashrc` or `~/.bash_profile`.
 e.g. Append  `source ~/.setup_my_env` to `~/.bashrc`
@@ -316,9 +316,106 @@ If you still see 2.7 ensure in PATH `/usr/local/bin/` takes pecedence over `/usr
 ### `PYTHONPATH` environment variable
 `PYTHONPATH` is an environment variable listing non-standard directories that Python looks for **modules** or **packages** in.
 
-This variable is usually left ==empty==. Leave it empty unless you are developing code and want to use libraries that have not been installed. Otherwise, changing `PYTHONPATH` can be confusing to others trying to debug your code who forget that `PYTHONPATH` has been changed.
+This variable is usually left ==empty==. Leave it e# Matplotlib
+It's a Python plotting library, inspired by MATLAB, meaning that the terms used (**Axis, Figure, Plots**) will be similar to those used in MATLAB. [ref](http://queirozf.com/entries/matplotlib-pylab-pyplot-etc-what-s-the-different-between-these)
 
-If you had some code in `/home/test/a/plot.py`, but were working out of `/home/test/b/`, using `PYTHONPATH` allows access to that code. Otherwise, if `plot.py` was not installed using system or Python tools, trying to import it would raise an `ImportError`:
+### Figure
+`This is the entire window where one or more subplots live. A Figure object (new window) is created with the figure() command.`
+You can use it to configure things like:
+* Image size (set_size_inches())
+* Whether to use tight_layout (set_tight_layout())
+  This adjusts the subplot padding; generally makes things look better.
+
+ 
+### Axes
+`This is an object representing a subplot (which you might casually call a “plot”) which contains axes, ticks, lines, points, text, etc.`
+The Axes object has methods to allow you to configure things like:
+* The plot frame (set_frame_on or set_frame_off)
+* X-axis and Y-axis limits (set_xlim() and set_ylim())
+* X-axis and Y-axis Labels (set_xlabel() and set_ylabel())
+* The plot title (set_title())
+
+#s or `
+### mpy in tur cplt. `plt.ray  the 
+
+## pyplot
+`pyplot is a shell-like interface to Matplotlib, to make it easier to use for people who are used to MATLAB.`
+pyplot maintains state across calls.
+Useful for use in Jupyter or IPython notebooks.
+Your can import it via the matplotlib.pyplot namespace.
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0,10,9)
+y = np.randn(9)
+
+plt.scatter(x,y)
+plt.show()
+```
+
+#### plot()
+This is a command that draws points for WSGI applications and has become one of the most advanced WSGI utility modules. It includes a powerful debugger, full-featured request and response objects, HTTP utilities to handle entity tags, cache control headers, HTTP dates, cookie handling, file uploads, a powerful URL routing system and a bunch of community-contributed addon modules.
+* [Requests](https://github.com/requests/requests) is an Apache2 Licensed HTTP library, written in Python, for human beings.
+* [Tablib](https://github.com/kennethreitz/tablib) is a format-agnostic tabular dataset library, written in Python.
+
+## python --version
+If you still see 2.7 ensure in PATH `/usr/local/bin/` takes pecedence over `/usr/bin/`.
+
+## `PYTHONPATH` and `sys.pathlines and returns a list of Line2D objects. One sublety is that plot() will automatically call figure() and/or subplot() if neccesary to create the underlying Figure and Axes objects.
+#### subplot()
+This is a command that creates and returns a new subplot (Axes) object which will be used for subsequent plotting commands.
+
+
+#### plt.gcf() `gcf: Get Current Figure`
+You can use it to get a reference to the current figure when using pyplot, for example, to change image sizes.
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0,10,9)
+y = np.randn(9)
+
+# this call creates a figure in the background
+plt.scatter(x,y)
+
+# this allows you to retrieve the figure created
+# by the call to scatter() above
+fig = plt.gcf()
+fig.set_size_inches(6,2)
+
+plt.show()
+```
+#### `PYTHONPATH` environment variable
+`PYTHONPATH` is an environment variable listing non-standard directories that Python looks for **modules** or **packages** in.
+
+This variable is usually left ==empty==. Leave it eplt.gca() `gca: Get Current Axes`
+Same as with plt.gcf(), you can use plt.gca() to get a reference to the current axes, if you need to change the limits on the y-axis, for example.
+
+```python
+import matplotlib.pyplot as plt
+import numpty unless you are developing code and want to use libraries that have not been installed. Otherwise, changing `PYTHONPATH` can be confusing to others tryas np
+
+x = np.linspace(0,10,9)
+y = np.randn(9)
+
+# this call creates a figure in the background
+plt.scatter(x,y)
+
+# this allows you to retrieve the axis
+# ing to debug yohe figure code who forget that `PYTHONPATH` has been changed.
+
+If you had some code in `/home/test/a/reated 
+# by the call to scatter() above
+axis = plt.gca()
+axis.set_ylim(-3,3)
+
+plt.show()
+```
+
+#### plt.cla() / plot.py`, but were working out of `/home/test/b/`, using `PYTHONPATH` allows access to that code. Otherwise, ifclf() `clear figure/axes`
+These methods are used to clear the current figure `plot.py` was not installed using system or Python tools, trying to import it would raise an `ImportError`:
 ```python
  import plot
 Traceback (most recent call last):
@@ -348,7 +445,33 @@ Typically you don’t manually set `sys.path` or `PYTHONPATH`, normally you inst
 
 
 ### look for library locations?
-If you want to know the location of the library on the filesystem, you can inspect the `__file__` attribute.
+If you want to know the location of the library onclf()` or the current axes `plt.cla()`.
+
+
+## Plot `numpy.datetime64` values
+`pandas dtype='datetime64[ns]'` -> time series in matplotlib
+
+For Matplotlib to plot dates (or any scalar with units) a **converter to float** needs to be registered with the matplolib.units module. The current best converters for datetime64 values are in pandas. To enable the converter, import it from pandas:
+```python
+from pandas.tseries import converter as pdtc
+pdtc.register()
+```
+
+If you only want to use the pandas converter for datetime64 values
+```python
+from pandas.tseries import converter as pdtc
+import matplotlib.units as munits
+import numpy as np
+
+munits.registry[np.datetime64] = pdtc.DatetimeConverter()
+```
+**workaround**: 
+* plot index as x-ticks (e.g. 0, 1, 2, .., n) 
+* use array/list elements as x-tick labels (e.g. dates[0], dates[1], ..., dates[n]
+```python
+# Convert date series to array of strings.
+xticklabels = df['Period start time'].dt.strftime('%d/%m/%y %I%p').values
+# Use index of date arrary onas the filesystem, you can inspect the `__file__` attribute.
 
 ```python
 import json
@@ -366,16 +489,37 @@ sys.__file__
 # AttributeError: module 'sys' has no attribute '__file__'
 ```
 
-## dir and help
+x-tick.
+xticks = [i for i in range(len(xticklabels))]
+
+ax.plot(xticks, y)
+ax.set_xticklabels(xticklabels, rotation=45)
+```
+
+
+### plot vertical lines
+```python
+# Add a vertical line separator.
+ax.axvline(x=5, color='r', linestyle='dashed')
+```
+
+### plot small grid lines
+```python
+ax.grid(True, linestyle=':')
+```
+
+## PYTHON
+### REPL
+Read–Eval–Print Loop### dir and help
 ==IMPORTANT: explore Python using dir and help.==
-### dir()
+#### dir()
 The dir function returns the **attributes** of an object. It is used to discover the attributes of any object quickly.
 
 The attribute list is in alphabetical order, and you can normally ignore the first couple of attributes starting with `__`.
 
 e.g. `dir("Jack Bauer")`
 
-### help()
+#### help()
 The built-in help function also provides documentation for a method, module, class, or function if you pass them in as an argument. 
 For example, if you are curious what the attribute upper on a string does, the following gives you the documentation:
 ```python
@@ -391,7 +535,7 @@ upper(...) method of builtins.str instance
 e.g. to find examples for string formatting: `help("FORMATTING")`
 `help("builtins")`
 
-## dunder methods
+### dunder methods
 start and end with double underscores (Double UNDERscores). “Dunder add” is one way to say __add__,
 
 They are used to determine what happens under the covers
@@ -415,7 +559,12 @@ f"{new_comedian!r}"
 # 'Eric Idle is 74. Surprise!'
 ```
 
-## pdb
+
+
+
+
+
+### pdb
 Python also includes a debugger to step through code. It is found in a module named pdb. This library is modelled after the gdb library for C. To drop into the debugger at any point in a Python program, insert the code:
 `import pdb; pdb.set_trace()`
 
@@ -429,17 +578,17 @@ u, up | Pop up a level in the stack
 d, down | Push down a level in the stack
 l, list | List source code around current line
 
-## is v.s. ==
+### is v.s. ==
 `is` check identity, i.e. id(obj)
 `==` checks value
 
-## None
+### None
 None is a singleton object in Python.
 Two places to use None:
 1. init a variable that may be assigned a value in the future.
 2. the default result of a function and a method that does not explicitly return a value
 
-## pip
+### pip
 Upgrading pip.
 * On Linux or macOS:
 	`pip install -U pip`
@@ -462,6 +611,7 @@ To UNINSTALL all packages in the current environment.
 * Method 3 (with  `virtualenv`)
 	`virtualenv --clear MYENV`
 	
+
 ### pip install --user pipenv
 This does a ==user installation== to prevent breaking any system-wide packages.
 `$ pip install --user pipenv`
@@ -474,10 +624,10 @@ NOTE:
 * On Windows you can find the user base binary directory by running `py -m site --user-site` and replacing site-packages with Scripts. For example, this could return C:\Users\Username\AppData\Roaming\Python36\site-packages so you would need to set your PATH to include: \Users\Username\AppData\Roaming\Python36\Scripts.
 You can set your user PATH permanently in the Control Panel. You may need to log out for the PATHchanges to take effect.
 
-## why ```if __name__ == '__main__'```?
+## wWhy ```if __name__ == '__main__'```?
 
-In a nutshell, it checks if the current module is being `imported` or ran `directly`. 
-[Ref to Python Docs](https://docs.python.org/3/library/__main__.html).
+In a nutshell, it checks if the currenta module is being `imported` or ran `directly`. 
+[Refer to [Python Docs](https://docs.python.org/3/library/__main__.html).
 
 ```python
 if __name__ == "__main__":
@@ -509,7 +659,12 @@ If we run the module not by `importing` it but running it directly as a standalo
 
 
 
-## divide operator
+### self
+TODO
+
+
+
+### dDivide oOperator
 * 26 % 7 == 5 (you will get remainder)
 
 * 26 / 7 == 3.7142857142857144 (you will get divisor can be float value )
@@ -620,7 +775,11 @@ print "".join(nums)
 ### There are three ways to format  a string.
 [great examples for string format](https://pyformat.info/)
 
-1. built-in operator `%` - similar to C's printf (not recommended by the docs due to poor support to display tuples and dictionaries correctly) [Python docs](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
+1. built-in# Strings
+[great examples for string format](https://pyformat.info/)
+
+There are three ways to format  a string.
+* % operator `%` - similar to C's printf (not recommended by the docs due to poor support to display tuples and dictionaries correctly) [Python docs](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting)
 
 	```python
 	"Num: %d Hex: %x" % (12, 13)
@@ -649,7 +808,19 @@ With  `str.format()`, the replacement fields are marked by curly braces:
 	age = 74
 	# 1. empty curly braces. 
 	# refer variables in sequence as appeared in format method
-	"Hello, {}. You are {}.".format(name, age)
+	"
+	```python
+	"Num: %d Hex: %x" % (12, 13)
+	# 'Num: 12 Hex: d'
+	
+	"%s %s" % ('hello', 'world')
+	# 'hello world'
+	```
+	
+* format
+	```python
+	name = 'Matt'
+	print('Hello, {}. You are {}."'.format(name, age))
 	# 'Hello, Eric. You are 74.'
 
 	# 2. insert index insdie curly braces
@@ -665,7 +836,11 @@ With  `str.format()`, the replacement fields are marked by curly braces:
 	"Hello, {name}. You are {age}.".format(**person)
 	# 'Hello, Eric. You are 74.'
 
+ Matt
 
+	print('I:{} R:{} S:{}'.format(1, 2.5, 'foo'))
+	# I:1 R:2.5 S:foo
+	
 	"Name: {:*^12}".format("Ringo")
 	# 'Name: ***Ringo****'
 	
@@ -673,7 +848,7 @@ With  `str.format()`, the replacement fields are marked by curly braces:
 	# 'Percent: - 44.0%'
 	```
 	
-4. f-string from Python 3.6 [PEP 498](https://www.python.org/dev/peps/pep-0498/)
+4.* f-string from Python 3.6 [PEP 498](https://www.python.org/dev/peps/pep-0498/)
 	Because f-strings are evaluated at **runtime**, you can put any and all valid Python expressions in them.
 	```python
 	f"{2 * 37}"
@@ -724,7 +899,17 @@ filename = 'foobar.txt'
 basename, __, ext = filename.rpartition('.')
 ```
 
-## tuple
+
+	```python
+	name = 'matt'
+	f"My name is {name.capitalize()}"
+	# 'My name is Matt'
+	
+	f'Square root of two: {2**.5:5.3f}
+	# 'Square root of two: 1.414'
+	```
+
+### tuple
 Tuples are ordered sequences that are IMMUTABLE. 
 ==Tuples can be used as keys in dictionaries. But not lists.==
 
@@ -733,36 +918,36 @@ Scenarios to consider using tuples:
 * hint developers that this variable is not meant to be modified.
 * conserve memory as it use less than a list.
 
-### Two ways to create an empty tuple
+#### Two ways to create an empty tuple
 1. first_tuple = tuple()
 2. second_tuple = ()
 
-### Three ways to create a tuple with one item in it
+#### Three ways to create a tuple with one item in it
 1. first_tuple = tuple([1])
 2. second_tuple = (1,)
 3. third_tuple = 1,
 
 All of them will create a tuple `(1,)`.
 
-### Three ways to create a tuple with more than one items in it
+#### Three ways to create a tuple with more than one items in it
 1. first_tuple = tuple(['Steph', 'Curry', 'Guard'])
 2. second_tuple = 'Steph', 'Curry', 'Guard'
 3. third_tuple = ('Steph', 'Curry', 'Guard')
 
 All of them will create a tuple `('Steph', 'Curry', 'Guard')`.
 
-## list
+### list
 Lists are ordered sequences that are MUTABLE.
 
-### Two ways to create an empty list
+#### Two ways to create an empty list
 1. first_list = list()
 2. second_list = []
 
-### Two ways to create a pre-populated list
+#### Two ways to create a pre-populated list
 1. first_list = list(['Tom', 'Jerry'])
 2. second_list = ['Tom', 'Jerry']
 
-### Two ways to delete an item from a list
+#### Two ways to delete an item from a list
 ```python
 names = ['George', 'Henry', 'Fred', 'Paul']
 # 1. remove method
@@ -776,11 +961,11 @@ print(names)
 # ['George', 'Fred']
 ```
 
-### Two ways to sort a list
+#### Two ways to sort a list
 1. `list.sort()` method sorts the list ==in place==.
 2. `sorted(list)` function returns a new list that is ordered. ==But it reuses all items in the list, instead of creating new items.==
 
-### copy lists
+### copy# Copy of a lists
 `names = ['John', 'Paul', 'George', 'Ringo']`
 Below ==`[:]`== will create a **new** list object with a different identity. But the items' identity remains the same with `names`. 
 `names2 = names[:]`
@@ -836,7 +1021,7 @@ for i, item in enumerate(a):
 
 ## indexing & slicing
 Python provides two constructs to pull data out of sequence-like types (**lists, tuples, and even strings**). These are the indexing and slicing constructs. Indexing allows you to access single items out of a sequence, while slicing allows you to pull out a sub-sequence from a sequence.
-### index with []
+#### index with []
 Remember that in Python indices start at 0. If you want to pull out the first item you reference it by 0, not 1. This is called ==zero-based indexing==.
 
 > Guido van Rossum, the creator of Python, tweeted to explain how to understand negative index values:
@@ -848,7 +1033,7 @@ Note:
 * sets don't support index operations.
 * implement `.__getitem__` method if a self-defined class needs to support index operations.
 
-### slice with :
+#### slice with :
 Python uses the ==half-open== interval convention. The list goes up to but
 does not include the end index.
 `my_pets = ["dog", "cat", "bird"]`
@@ -863,10 +1048,10 @@ does not include the end index.
 ['dog', 'cat']
 * A negative index can be used in the start location or ending location. The index -1 represents the last item.
 
-## set
+### set
 Unordered collection that cannot contain duplicates.
 
-### Scenarios to use sets
+#### Scenarios to use sets
 * Removing duplicates.
 * Checking membership using the `in` operation, as fast lookup operation even on large sets.
 * set operations, such as union (|), intersection (&), difference (-), and xor (^)
@@ -885,7 +1070,7 @@ digit_set = {0, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 42 in digit_set # False
 ```
 
-Note:
+#### Note:
 * Because sets must be able to compute a **hash value** for each item in the set, sets can only contain items that are hashable.
 * Mutable items are not hashable in Python, which means you cannot hash a
 list or dictionary.
@@ -893,11 +1078,11 @@ list or dictionary.
 * To use the `in` operation, also implements the `__contains__` method.
 
 
-## dictionary
+### dictionary
 It is a building block in Python. Classes, namespaces, and modules in Python are all implemented using a dictionary under the covers.
 From Python 3.6, dictionary items are ordered based on key insertion order.
 
-### Two way to create a dictionary
+#### Two way to create a dictionary
 ```python
 # 1. use the literal syntax {key: value, ...}
 info = {'first': 'Pete', 'last': 'Best'}
@@ -906,12 +1091,12 @@ info = {'first': 'Pete', 'last': 'Best'}
 info = dict([('first', 'Pete'),
 			 ('last', 'Best')])
 ```
-### Insert values to a dictionary
+#### Insert values to a dictionary
 Use index operations (square brackets) to insert values into a dictionary.
 `info['age'] = 20`
 `info['occupation'] = 'Drummer'`
 
-### Retrieve values from a dictionary
+#### Retrieve values from a dictionary
 You can still use the `in` statement to check membership of a key.
 To retrieve it:
 1. Square bracket [].
@@ -951,7 +1136,7 @@ So, it is usually used to provide an accumulator or counter for a key.
 #### `.keys()`, `.values()` and `.items()`
 Dictionary methods keys, values and items all return views of the dictionary, which reflects the current state. It is not a **copy** of keys, values or items.
 
-### sort / order
+#### sort / order
 Sort the sequence of the iteration if a different order is desided.
 ```python
 # sorted() function will return a NEW sorted list
@@ -960,8 +1145,8 @@ for name in sorted(data.keys()):
 
 ```
 
-## loop
-### for loops with an index
+### loop
+#### for loops with an index
 Use the `in` statement in a `for` loop.
 ```python
 animals = ["cat", "dog", "bird"]
@@ -982,7 +1167,7 @@ Note:
 You can define your own classes that respond to the `for` statement, by implementing the `.__iter__` method.
 
 
-## function
+### function
 A function  implicitly returns ==None== if the function ends without return being called.
 Do not use mutable types (lists, dictionaries) for default parameters unless you know what you are doing. Because of the way Python works, **the default parameters are created only once—at function definition time, not at function execution time**. If you use a mutable default value, you will end up re-using the same instance of the default parameter during each function invocation:
 ```python
@@ -1156,11 +1341,13 @@ A Python package is a **directory** that contains a file named `__init__.py`, wh
 In addition, the directory may contain an arbitrary number of modules and sub packages.
 > PEP 8 states that directory names for packages should be short and lowercase. Underscores should ==not== be used.
 
-## read & write files
+## read & write f
+## Reading & Writing Files
 [ref: docs.python.org](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 Note: 
 Windows paths use \ as a separator, which can be problematic. Python strings also use \ as an escape character. If you had a directory named ”test” and wrote "C:\test", Python would treat \t as a tab character.
-The remedy for this is to use raw strings to represent Windows paths. Put an ==r== in front of the string: `r"C:\test"`
+The remedy for this is to use raw strings to represent Windows paths. Put an ==r== in 
+front of the string: `r"C:\test"`
 
 ### open(filename, mode) binary v.s. text mode
 * text mode 
@@ -1198,7 +1385,7 @@ with open('file.txt') as f:
 ```
 
 
-## exceptions and error handlings
+## e## Exceptions and eError hHandlings
 [ref: PYTHON – EXCEPTIONS AND ERROR HANDLINGS](http://devarea.com/python-exceptions-and-error-handlings/)
 
 It is important to handle Exceptions & Errors when dealing with some functions. e.g.
@@ -1207,7 +1394,7 @@ It is important to handle Exceptions & Errors when dealing with some functions. 
 * process response from a server (which could be down)
 
 
-## decorator
+## dDecorator
 Decorator is a good example of closure. Decorator is a function that takes another function and extends the behavior of the latter function  _without_  explicitly modifying it.
 
 This mechanism is useful for separating concerns and avoiding external un-related logic ‘polluting’ the core logic of the function or method. A good example of a piece of functionality that is better handled with decoration is ==memoization or caching==: you want to store the results of an expensive function in a table and use them directly instead of recomputing them when they have already been computed. This is clearly not part of the function logic.
@@ -1413,7 +1600,27 @@ Note:
 More often than not, having to split a long logical line is a sign that you are **trying to do too many things at the same time**, which may hinder readability.
 
 
-## colour coded print
+## colour coded p
+```python
+def add_stars(some_function):
+    def wrapper():
+        print("********************")
+        some_function()
+        print("********************")
+    return wrapper
+
+@add_stars
+def my_function():
+    print("Hello!!!")
+
+my_function()
+
+# ********************
+# Hello!!!
+# ********************
+```
+
+## Colour Coded Print
 Print texts  in colour coded fashion can be useful to highlight important messages.
 Print a string that starts a color/style, then the string, then end the color/style change with  `'\x1b[0m'`:
 ```python
@@ -1489,7 +1696,7 @@ print(highlight("red", (colourise("blue", text))))
 ```
 
 
-## anonymous functions (lambda expressions)
+## aAnonymous fFunctions (lLambda eExpressions)
 `lambda` functions are anonymous functions for simple operations. It is very common where we pass a function to another function. For example the builtin map function to map a list to a new list:
 ```python
 ls = [2,4,6]
@@ -1516,7 +1723,7 @@ print( compare(10,20) ) # -1
 ```
 
 
-## function annotations (Python 3)
+## fFunction aAnnotations (Python 3)
 You can add documentation to the parameters and the return value:
 ```python
 def add(a:"first number" = 0,
@@ -1531,7 +1738,7 @@ for item in add.__annotations__.items():
 # ('return', 'sum of a and b')
 ```
 
-## access environment variables
+## aAccess eEnvironment vVariables
 This is can be used to access files stored in the dropbox, which would have a different directory in different computers. Set the dropbox directory or database file location inside a common environment variable will make scripts portable across computers.
 
 ### os.environ
@@ -2211,11 +2418,11 @@ ax.grid(True, linestyle=':')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjM0Mzk0NTIsMTAwMzEzOTE4LDIxMz
-E5ODc5OTksLTEwMDMxMjA4MTUsNDc2ODk4MDkwLC00NzQxNTk2
-NjQsMTY3MzYzMTM1MCw1NzkzOTk1MzksLTE5MTAxNjAzNzUsLT
-EwMjYxOTQ2MDUsMTk2NTgzNjM1NywzMTgxNTY5MDEsMTc3MTgx
-MjU2NiwtODU3NDU4NTczLC03NjIzNDcwODUsMTExOTAxMjY2LC
-0xMTcyMzI5MzQ0LDEzMDYwOTc0NTQsMTAxNjE3MDM3MywtMTM1
-NTAwOTA5NF19
+eyJoaXN0b3J5IjpbLTc2NzI5MDIwNSwtMTQyMzQzOTQ1MiwxMD
+AzMTM5MTgsMjEzMTk4Nzk5OSwtMTAwMzEyMDgxNSw0NzY4OTgw
+OTAsLTQ3NDE1OTY2NCwxNjczNjMxMzUwLDU3OTM5OTUzOSwtMT
+kxMDE2MDM3NSwtMTAyNjE5NDYwNSwxOTY1ODM2MzU3LDMxODE1
+NjkwMSwxNzcxODEyNTY2LC04NTc0NTg1NzMsLTc2MjM0NzA4NS
+wxMTE5MDEyNjYsLTExNzIzMjkzNDQsMTMwNjA5NzQ1NCwxMDE2
+MTcwMzczXX0=
 -->
