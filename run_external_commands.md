@@ -12,3 +12,6 @@
 `subprocess.check_call()` and `subprocess.check_output()` are used to run a command and capture the output and return code respectively, they are similar to `subprocess.run()` but with less options.
 
 In summary, `os.system()` is a simple and easy way to run external commands, but it's less powerful and flexible than subprocess, and it's not recommended to use it in new code, `subprocess` is the recommended way to run external commands in Python, it's more powerful, flexible, and provides more control over the new process.
+
+
+
