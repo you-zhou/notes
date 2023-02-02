@@ -102,7 +102,8 @@ term
 
 ### Emoji
 
-That is so funny! :joy:
+That is so funny! :joy: 
+See also [Emoji list](https://gist.github.com/rxaviers/7360908)
 
 (See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
 
