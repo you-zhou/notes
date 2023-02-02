@@ -1,8 +1,6 @@
-# System
+# UNIX/Linux Bash
 
-## UNIX/Linux
-
-### file system hierarchy
+## file system hierarchy
 
 [Filesystem Hierarchy Standard](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)
 `$ man hier`
@@ -12,6 +10,7 @@
 
 
 ## tar/tar.gz
+
 TAR is short for "Tape Archive".
 It is used to store multiple files in one single file. But it is **only** for storing data, **not** compressing it.
 TAR files are often compressed after being created. And then the extension would become: tgz, tar.gz or gz.
@@ -20,10 +19,10 @@ TAR files are often compressed after being created. And then the extension would
 `$ tar -xvf file.tar`
 
 * Unix command to create a **compressed** TAR file:
-* 
+
 `$ tar -czvf file.tar.gz /path/to/folder-or-file`
 
-	* -c: create an archive
-	* -z: use gzip to **compress** the archive
-	* -v: enable verbose mode to show the progress of the creation process
-	* -f: let you specify the name of the archive
+* -c: create an archive
+* -z: use gzip to **compress** the archive
+* -v: enable verbose mode to show the progress of the creation process
+* -f: let you specify the name of the archive
