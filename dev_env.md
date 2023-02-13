@@ -2,7 +2,8 @@
 
 ## python, pip, virtualenv & pipenv
 
-windows
+### Windows
+
 `python -V`
 `pip -V`
 `python -m pip install -U pip`
@@ -11,7 +12,8 @@ windows
 In Windows, the default path for `WORKON_HOME` is `%USERPROFILE%Envs`
 
 
-Linux
+### Linux
+
 Installing apps with different profiles will have different default package destinations.
 user | directory
 --- | ---
