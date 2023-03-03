@@ -38,7 +38,7 @@ The "uname" command is often used in shell scripts and other automation tasks to
 uname -srm
 ```
 
-> output would be like "Linux 2.6.32-696.el6.x86_64 x86_64"
+output would be like "Linux 2.6.32-696.el6.x86_64 x86_64"
 
 On a Linux system, this will typically output something like "Linux x86_64" or "Linux armv7l". On a Unix system, it might output something like "Darwin x86_64" (for macOS) or "SunOS sparc64" (for Solaris).
 
@@ -54,7 +54,7 @@ Check the system documentation or vendor information: Finally, you can often fin
 
 ### /etc
 
-> In Linux and Unix-based systems, "/etc" is a directory that is used to store **system configuration files** that are needed by various system utilities, daemons, and services.
+In Linux and Unix-based systems, "/etc" is a directory that is used to store **system configuration files** that are needed by various system utilities, daemons, and services.
 The name "/etc" stands for =="et cetera,"== which means "and so on" or "and other things" in Latin. The idea behind this naming convention is that the directory contains miscellaneous files that don't belong in other directories.
 The "/etc" directory typically contains a variety of configuration files, including:
 System-wide configuration files for various services and daemons, such as Apache, SSH, and MySQL.
@@ -63,19 +63,27 @@ Administrative scripts and scripts used during the boot process.
 Various other configuration files and system-related data.
 Since the files in the "/etc" directory are often critical to the proper functioning of the system, they are typically owned by the "root" user and are not accessible to regular users.
 
-#### /etc/init.d
+- /etc/init.d
 
-> In Linux, the "**/etc/init.d**" directory is a standard location for ==storing the startup scripts for system services==. When a Linux system boots up, it runs a series of scripts that start and stop various system services. These scripts are typically stored in the "/etc/init.d" directory and are organized by service name.
->
-> Each script in the "/etc/init.d" directory is responsible for starting or stopping a specific system service. The scripts are usually written in Bash or another scripting language and are designed to be executed with specific arguments to start or stop the associated service.
->
-> For example, a script named "apache2" in the "/etc/init.d" directory might be used to start and stop the Apache web server. When the system boots up, the startup process will execute the "apache2" script with the "start" argument to start the web server. When the system shuts down, the shutdown process will execute the "apache2" script with the "stop" argument to stop the web server.
->
-> While the "/etc/init.d" directory is still used in many Linux distributions, some distributions have switched to using the newer "systemd" system and service manager, which stores service configuration files in a different location and uses a different approach to managing system services.
+In Linux, the "**/etc/init.d**" directory is a standard location for ==storing the startup scripts for system services==. When a Linux system boots up, it runs a series of scripts that start and stop various system services. These scripts are typically stored in the "/etc/init.d" directory and are organized by service name.
+
+Each script in the "/etc/init.d" directory is responsible for starting or stopping a specific system service. The scripts are usually written in Bash or another scripting language and are designed to be executed with specific arguments to start or stop the associated service.
+
+For example, a script named "apache2" in the "/etc/init.d" directory might be used to start and stop the Apache web server. When the system boots up, the startup process will execute the "apache2" script with the "start" argument to start the web server. When the system shuts down, the shutdown process will execute the "apache2" script with the "stop" argument to stop the web server.
+
+While the "/etc/init.d" directory is still used in many Linux distributions, some distributions have switched to using the newer "systemd" system and service manager, which stores service configuration files in a different location and uses a different approach to managing system services.
+
+- "/etc/environment": This is a system-wide configuration file that sets environment variables that apply to all users and processes on the system.
+
+- "/etc/fstab": This is a system configuration file that is used to specify the file systems that are mounted at system startup.
+
+- "/etc/sysctl.conf": This is a system configuration file that is used to configure various kernel parameters at system startup.
+
+- "/etc/profile": This is a system-wide configuration file that is read by Bourne-compatible shells such as Bash when a new shell session is started. It is used to set environment variables and perform other tasks related to the system-wide shell environment.
 
 ### /var
 
-> In Linux and Unix-based systems, "/var" is a directory that is used to store **variable data files** that are generated by system processes and applications during runtime. The name "/var" stands for =="variable,"== which refers to the fact that the files stored in this directory can change in size and content over time.
+In Linux and Unix-based systems, "/var" is a directory that is used to store **variable data files** that are generated by system processes and applications during runtime. The name "/var" stands for =="variable,"== which refers to the fact that the files stored in this directory can change in size and content over time.
 The "/var" directory typically contains a variety of files, including:
 Log files generated by system processes and applications, which are stored in the "**/var/log**" subdirectory.
 Spool files for print queues and other system spools, which are stored in the "/var/spool" subdirectory.
@@ -87,11 +95,11 @@ Since the files in the "/var" directory are often critical to the proper functio
 
 ### /proc
 
-> In Linux, the "/proc" directory is a **virtual file system** that provides information about running processes and other system information in **real-time**. It is ==**not** a physical file system and **does not** contain actual files on disk==, but instead, it is a window into the **kernel's internal data structures**.
->
-> The "/proc" directory contains a hierarchy of subdirectories and files, each of which corresponds to a specific **system resource or process**. For example, the "/proc/cpuinfo" file provides information about the CPU, including its model, speed, and number of cores. Similarly, the "/proc/meminfo" file provides information about memory usage, and the "/proc/sys" directory contains files that allow you to view and modify various system settings.
->
-> Since the information in the "/proc" directory is updated in real-time, it can be a useful tool for monitoring system performance and troubleshooting issues. However, it is important to note that the information in "/proc" is dynamic and may change rapidly, so it should be used with caution and only by experienced users who understand the underlying system architecture.
+In Linux, the "/proc" directory is a **virtual file system** that provides information about running processes and other system information in **real-time**. It is ==**not** a physical file system and **does not** contain actual files on disk==, but instead, it is a window into the **kernel's internal data structures**.
+
+The "/proc" directory contains a hierarchy of subdirectories and files, each of which corresponds to a specific **system resource or process**. For example, the "/proc/cpuinfo" file provides information about the CPU, including its model, speed, and number of cores. Similarly, the "/proc/meminfo" file provides information about memory usage, and the "/proc/sys" directory contains files that allow you to view and modify various system settings.
+
+Since the information in the "/proc" directory is updated in real-time, it can be a useful tool for monitoring system performance and troubleshooting issues. However, it is important to note that the information in "/proc" is dynamic and may change rapidly, so it should be used with caution and only by experienced users who understand the underlying system architecture.
 
 Examples to check real-time system information:
 
@@ -101,33 +109,93 @@ cat /proc/cpuinfo # displays information about the CPU, including its model, spe
 cat /proc/version # displays the Linux kernel version and other system information.
 ```
 
-## X Window System
+## X Window System (GUI)
 
-> The X Window System, also known as **X11** or simply X, is a computer software system that provides a graphical user interface (**GUI**) for Unix-like operating systems such as Linux, FreeBSD, and OpenBSD. It was first developed in 1984 by the Massachusetts Institute of Technology (MIT) and has since become ==the standard GUI for Unix-based systems==.
->
-> The X Window System is a **client-server** system, where the user's computer runs a client program that communicates with the X server running on the computer where the display is physically attached. The X server manages the graphical display and input devices such as the mouse and keyboard, while the client programs provide the user interface.
->
-> One of the key features of the X Window System is its ability to run multiple applications simultaneously, each in its own window. This allows users to easily switch between different programs and to arrange them on the screen in any way they like. Additionally, the X Window System provides a network-transparent architecture, which means that applications running on one computer can be displayed on another computer over a network.
->
-> The X Window System has been widely adopted in the Unix and Linux communities, and many popular desktop environments and window managers such as GNOME, KDE, and Xfce are built on top of it.
+The X Window System, also known as **X11** or simply X, is a computer software system that provides a graphical user interface (**GUI**) for Unix-like operating systems such as Linux, FreeBSD, and OpenBSD. It was first developed in 1984 by the Massachusetts Institute of Technology (MIT) and has since become ==the standard GUI for Unix-based systems==.
+
+The X Window System is a **client-server** system, where the user's computer runs a client program that communicates with the X server running on the computer where the display is physically attached. The X server manages the graphical display and input devices such as the mouse and keyboard, while the client programs provide the user interface.
+
+One of the key features of the X Window System is its ability to run multiple applications simultaneously, each in its own window. This allows users to easily switch between different programs and to arrange them on the screen in any way they like. Additionally, the X Window System provides a network-transparent architecture, which means that applications running on one computer can be displayed on another computer over a network.
+
+The X Window System has been widely adopted in the Unix and Linux communities, and many popular desktop environments and window managers such as GNOME, KDE, and Xfce are built on top of it.
+
+## Shell (CLI)
+
+In computing, **a shell is a program that provides a command-line interface (CLI) to interact with the operating system (OS) and execute commands**. It is the outermost layer of the OS that sits between the user and the kernel, which is the core component of the OS responsible for managing system resources and running applications.
+
+A shell allows users to type commands in a terminal or console window, and it interprets those commands and translates them into system calls that the kernel can understand and execute. The shell also provides various features such as command history, tab completion, and scripting capabilities, which can be used to automate tasks and perform complex operations.
+
+There are several different types of shells available in Linux and other Unix-like operating systems, including the Bourne shell (sh), the C shell (csh), the Korn shell (ksh), the Bourne-Again shell (bash), and the Z shell (zsh). Each shell has its own set of features and capabilities, and users can choose the shell that best fits their needs and preferences.
+
+### Set environment variables
+
+You can set environment variables using the `export` command followed by the variable name and value. Here's the basic syntax: 
+
+```bash
+export VARIABLE_NAME=value
+```
+
+This command adds the /path/to/new/directory directory to the existing PATH environment variable. Note that the $PATH syntax is used to reference the current value of PATH and add the new directory to it.
+
+To make the changes to the environment variable **permanent**, you can add the `export` command to the appropriate shell configuration file, such as `~/.bashrc` or `~/.bash_profile`.
+
+For example, to set the PATH environment variable to include a new directory, you can use the following command:
+
+```bash
+export PATH=$PATH:/path/to/new/directory
+```
+
+After following these steps, the environment variable will be set permanently and will be available in all future Bash sessions.
+
+### Bash
+
+Bash (Bourne-Again Shell) is a Unix-like shell that is a replacement for the original Bourne shell (sh) and the C shell (csh). It was developed by Brian Fox for the GNU Project as a free software alternative to the proprietary shells that were commonly used in Unix systems at the time.
+
+- `~/.bashrc`: This is a file that is read by the Bash shell every time a new shell session is started for a user. It typically contains customizations and settings specific to the user's environment, such as aliases, environment variables, and shell options.
+
+- `~/.profile`: This is a file that is read by the Bash shell or other Bourne-compatible shells when a new shell session is started. It is similar to ".bash_profile", but is used by other shells in addition to Bash.
+
+- `~/.bash_profile`: This is another file that is read by the Bash shell when a new shell session is started. It is typically used to set environment variables and perform other tasks related to the user's login session.
+
+- `~/.bash_logout`: This is a file that is read by the Bash shell when a user logs out. It can be used to perform tasks such as clearing the screen or printing a logout message.
+
+- `~/.inputrc`: This is a file that contains settings for the Readline library, which is used by many command-line programs in Linux. It can be used to customize command-line editing and history features.
+
+**Reload** the bash file to apply the changes: `source ~/.bashrc`
+
+### Zsh
+
+Zsh (Z shell) is a Unix-like shell that is an extended version of the Bourne shell (sh) and the Korn shell (ksh) with many additional features and improvements. It was developed in the early 1990s by Paul Falstad and has since become a popular alternative to other Unix shells, particularly the Bash shell.
+
+To set the user environment add `export PATH=$PATH:/your/custom/path` to below places:
+
+- `/etc/zshenv`: This is a system-wide configuration file that is read by Zsh before any other files. You can set the PATH variable ==system-wide== by adding the following line to the `/etc/zshenv` file:
+
+- `~/.zshenv`: This is a user-specific configuration file that is read by Zsh before any other files. You can add directories to the PATH variable for your user account only by adding the following line to the ~/.zshenv file:
+
+- `~/.zshrc`: This is a user-specific configuration file that is read by Zsh when a new shell session is started. You can add directories to the PATH variable for your user account only by adding the following line to the `~/.zshrc` file:
+
+- `~/.zprofile`: This is a user-specific configuration file that is read by Zsh when a user logs in. You can add directories to the PATH variable for your user account only by adding the following line to the `~/.zprofile` file:
+
+It's important to note that changes made to the PATH variable in a terminal session will only apply to that session and its child processes. To make the changes apply to all new terminal sessions, you need to edit one of the files listed above.
 
 ## Permission
 
-> Linux uses a permissions model where each file and directory has an owner, group, and a set of permissions that determine who can access the file, and what actions they can perform on it. The permissions include read, write, and execute permissions, and they can be set for the owner of the file, the group associated with the file, and others (everyone else).
->
-> Linux systems also have user accounts and groups that are used to grant users access to specific resources and operations. A user can be a member of one or more groups, and each group can have specific permissions set for it.
->
-> Some of the tools and techniques used for Linux privilege control include:
->
-> User Accounts and Groups: User accounts and groups are used to manage and control access to resources and operations. Each user account has its own set of permissions, and group memberships can be used to grant or restrict access to resources.
->
->- File Permissions: File permissions are used to control access to files and directories. Each file and directory has an owner, a group, and a set of permissions that determine who can access the file and what actions they can perform on it.
->
->- Sudo: Sudo is a command that allows a user to execute commands with the privileges of another user, such as the root user. This is useful for performing administrative tasks without logging in as the root user.
->
->- SELinux: SELinux (Security-Enhanced Linux) is a security module that provides access control mechanisms for Linux systems. It can be used to control access to files, directories, and network resources.
->
->- AppArmor: AppArmor is a Linux kernel security module that provides mandatory access control (MAC) for applications. It can be used to control access to files, directories, and other resources based on an application's profile.
+Linux uses a permissions model where each file and directory has an owner, group, and a set of permissions that determine who can access the file, and what actions they can perform on it. The permissions include read, write, and execute permissions, and they can be set for the owner of the file, the group associated with the file, and others (everyone else).
+
+Linux systems also have user accounts and groups that are used to grant users access to specific resources and operations. A user can be a member of one or more groups, and each group can have specific permissions set for it.
+
+Some of the tools and techniques used for Linux privilege control include:
+
+User Accounts and Groups: User accounts and groups are used to manage and control access to resources and operations. Each user account has its own set of permissions, and group memberships can be used to grant or restrict access to resources.
+
+- File Permissions: File permissions are used to control access to files and directories. Each file and directory has an owner, a group, and a set of permissions that determine who can access the file and what actions they can perform on it.
+
+- Sudo: Sudo is a command that allows a user to execute commands with the privileges of another user, such as the root user. This is useful for performing administrative tasks without logging in as the root user.
+
+- SELinux: SELinux (Security-Enhanced Linux) is a security module that provides access control mechanisms for Linux systems. It can be used to control access to files, directories, and network resources.
+
+- AppArmor: AppArmor is a Linux kernel security module that provides mandatory access control (MAC) for applications. It can be used to control access to files, directories, and other resources based on an application's profile.
 
 The string "-rw-rw-r--." represents the file permissions for a file in a Linux or Unix system.
 
@@ -166,11 +234,11 @@ When a new file or directory is created, the user owner and group owner are set 
 
 In a Linux or Unix-based system, you can use the "==getent==" command with the "group" parameter. Here's the syntax:
 `getent group`
-> This will display a list of all the groups in the system, along with their GID (group ID) and a list of all the users who are members of each group.
+This will display a list of all the groups in the system, along with their GID (group ID) and a list of all the users who are members of each group.
 
 or
 `cat /etc/group`
-> This will display the contents of the "/etc/group" file, which includes a list of all the groups in the system, along with their GID and a list of all the users who are members of each group.
+This will display the contents of the "/etc/group" file, which includes a list of all the groups in the system, along with their GID and a list of all the users who are members of each group.
 
 Note that you will need root or sudo privileges to execute these commands, as they display system-wide information that is not accessible to regular users.
 
