@@ -155,7 +155,19 @@ One of the key features of the X Window System is its ability to run multiple ap
 
 The X Window System has been widely adopted in the Unix and Linux communities, and many popular desktop environments and window managers such as GNOME, KDE, and Xfce are built on top of it.
 
-## Shell (CLI)
+## CLI
+
+### TTY
+
+TTY (==**Teletypewriter**==) is a type of terminal device used for communicating with computers and other devices. TTY was originally designed as a telegraph machine, but it has been adapted for use with computers to provide a text-based interface for users to interact with the operating system.
+
+TTY is a text-only interface that allows users to enter commands and see the results of those commands in text form. This is in contrast to a graphical user interface (GUI), which uses images and icons to represent commands and results.
+
+TTY is commonly used by system administrators, developers, and other technical users to manage and configure operating systems, especially in command-line environments. TTY provides a powerful and flexible interface that allows users to perform a wide range of tasks, including managing files and directories, configuring system settings, and troubleshooting issues with the operating system.
+
+In modern operating systems, TTY is usually implemented as a virtual console or terminal emulator, rather than a physical device. This allows users to access TTY sessions through a software interface, such as a terminal window or SSH connection.
+
+### Shell
 
 In computing, **a shell is a program that provides a command-line interface (CLI) to interact with the operating system (OS) and execute commands**. It is the outermost layer of the OS that sits between the user and the kernel, which is the core component of the OS responsible for managing system resources and running applications.
 
