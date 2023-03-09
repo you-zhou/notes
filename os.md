@@ -125,6 +125,16 @@ The "/usr" directory is organized into several subdirectories, each with a speci
 "/usr/local": This directory contains programs, libraries, and other files that are not included in the standard distribution of the operating system, but are installed locally by the system administrator or third-party software.
 In summary, the "/usr" directory is an essential part of the Linux file system hierarchy, and it contains a wide range of files and directories that are used by the operating system and its users.
 
+### /bin & /sbin
+
+In Linux, both the "/bin" and "/sbin" directories are subdirectories of the root file system, but they have different purposes.
+
+The "/bin" directory stands for "==**binary**==", and it contains essential user-level programs and utilities that are needed for basic system operations and maintenance. These programs are typically used by all users on the system and do not require administrative privileges to run. Examples of programs that are stored in the "/bin" directory include "ls", "cp", "mv", "rm", and "cat".
+
+The "/sbin" directory stands for "==**system binary**==", and it contains system-level programs and utilities that are used for system administration and maintenance tasks. These programs are typically used by system administrators and require administrative privileges to run. Examples of programs that are stored in the "/sbin" directory include "ifconfig", "iptables", "fdisk", "mount", and "shutdown".
+
+In summary, the main difference between the "/bin" and "/sbin" directories is the type of programs and utilities that they contain. The "/bin" directory contains essential user-level programs that are used by all users on the system, while the "/sbin" directory contains system-level programs that are used for system administration and maintenance tasks and require administrative privileges to run.
+
 ### /opt
 
 In Linux, "/opt" stands for "**optional**" and it is a directory where ==optional software== can be installed.
