@@ -215,7 +215,9 @@ To set the user environment add `export PATH=$PATH:/your/custom/path` to below p
 
 It's important to note that changes made to the PATH variable in a terminal session will only apply to that session and its child processes. To make the changes apply to all new terminal sessions, you need to edit one of the files listed above.
 
-## Permission
+## Commands
+
+### Permission
 
 Linux uses a permissions model where each file and directory has an owner, group, and a set of permissions that determine who can access the file, and what actions they can perform on it. The permissions include read, write, and execute permissions, and they can be set for the owner of the file, the group associated with the file, and others (everyone else).
 
@@ -243,7 +245,8 @@ The file permissions are divided into three sets of three characters each:
 2. the second set represents the permissions for the ==group owner== of the file
 3. and the third set represents the permissions for all ==other users==
 
-### Check permissions of a file with `ls -l`
+#### Check permissions of a file with `ls -l`
+
 `ls -l /var/log/secure`
 Or
 `stat /var/log/secure`
@@ -256,7 +259,7 @@ The next three characters "rw-" indicate that the group owner of the file has re
 The next three characters "r--" indicate that all other users have read permission only.
 The dot at the end of the string indicates that there are no special permissions or attributes set for this file.
 
-## Owner and Owner Group
+### Owner and Owner Group
 
 In Linux and Unix-based systems, every file and directory is associated with a **user owner** and a **group owner**. The owner of a file or directory is typically the user who created it, and the group owner is a group to which the user belongs.
 
@@ -266,7 +269,7 @@ The group owner is often used to provide access to multiple users who need to wo
 
 When a new file or directory is created, the user owner and group owner are set according to the user who created it and their default group. These ownership settings can be changed using the "chown" command to change the user owner, and the "chgrp" command to change the group owner.
 
-### List all groups
+#### List all groups
 
 In a Linux or Unix-based system, you can use the "==getent==" command with the "group" parameter. Here's the syntax:
 `getent group`
@@ -278,13 +281,13 @@ This will display the contents of the "/etc/group" file, which includes a list o
 
 Note that you will need root or sudo privileges to execute these commands, as they display system-wide information that is not accessible to regular users.
 
-### Check user group
+#### Check user group
 
 `groups jack`
 or
 `id jack`
 
-### Change Owner with `chown`
+#### Change Owner with `chown`
 
 In Unix-like operating systems, "chown" is a command-line utility that is used to change the ownership of files and directories. The name "chown" is short for "**change owner**."
 
@@ -312,4 +315,22 @@ chown john file.txt  # change the owner of "file.txt" to a user named "john"
 chown :staff file.txt  # change group ownership of "file.txt" to a group named "staff"
 ```
 
+### which & whereis
 
+which and whereis are two Linux commands used to find the location of executable files or commands. However, there are some differences between them.
+
+#### which
+
+This command is used to locate the executable file of a command in the user's **PATH environment variable**.
+It searches for the command in the directories listed in the PATH environment variable and prints the full path of the first executable file it finds.
+It only searches for executable files in the directories listed in the PATH variable.
+Example:
+If you type which python it will show you the path of the python executable file that is being used when you type the command python.
+
+#### whereis
+
+This command is used to locate the binary, source, and manual page files for a command.
+It searches for the command in a **predefined set of directories** (/bin, /sbin, /usr/bin, /usr/sbin, /usr/local/bin, /usr/local/sbin) and prints the paths of the binary, source, and manual page files.
+It provides more information than which, as it searches for other types of files associated with the command.
+Example:
+If you type whereis python, it will show you the binary, source, and manual page files associated with the python command.
