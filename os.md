@@ -109,6 +109,16 @@ cat /proc/cpuinfo # displays information about the CPU, including its model, spe
 cat /proc/version # displays the Linux kernel version and other system information.
 ```
 
+### /opt
+
+In Linux, "/opt" stands for "**optional**" and it is a directory where ==optional software== can be installed.
+
+Unlike the "/usr" directory which contains software packages that are installed using the system's package manager, the "/opt" directory is usually used for installing software that is not part of the core operating system or that is not available through the system's package manager.
+
+Many commercial software vendors use the "/opt" directory to install their software, as it provides a standard location for installation and makes it easy to manage the software separately from the operating system.
+
+The "/opt" directory is typically located at the root level of the file system, and its subdirectories may contain software packages organized by vendor or application name.
+
 ## X Window System (GUI)
 
 The X Window System, also known as **X11** or simply X, is a computer software system that provides a graphical user interface (**GUI**) for Unix-like operating systems such as Linux, FreeBSD, and OpenBSD. It was first developed in 1984 by the Massachusetts Institute of Technology (MIT) and has since become ==the standard GUI for Unix-based systems==.
