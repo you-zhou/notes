@@ -175,7 +175,7 @@ A shell allows users to type commands in a terminal or console window, and it in
 
 There are several different types of shells available in Linux and other Unix-like operating systems, including the Bourne shell (sh), the C shell (csh), the Korn shell (ksh), the Bourne-Again shell (bash), and the Z shell (zsh). Each shell has its own set of features and capabilities, and users can choose the shell that best fits their needs and preferences.
 
-### Set environment variables
+### `export` to set environment variables
 
 You can set environment variables using the `export` command followed by the variable name and value. Here's the basic syntax: 
 
@@ -194,6 +194,65 @@ export PATH=$PATH:/path/to/new/directory
 ```
 
 After following these steps, the environment variable will be set permanently and will be available in all future Bash sessions.
+
+### Files to set environment variables
+
+The file you should use to set user environment profile depends on the specific shell you are using on your system.
+
+If you are using the **Bash** shell, you can use one of the following files:
+
+- `~/.bashrc`: This file is executed **every time** you start a new Bash shell. It is typically used for setting environment variables, aliases, and other **shell-related** settings.
+- `~/.bash_profile`: This file is executed **only once** when you log in to your system. It is typically used for setting environment variables, running scripts, and performing other **system-related** tasks.
+
+If you are using the **Zsh** shell, you can use one of the following files:
+
+- `~/.zshrc`: This file is executed **every time** you start a new Zsh shell. It is typically used for setting environment variables, aliases, and other **shell-related** settings.
+- `~/.zsh_profile`: This file is executed **only once** when you log in to your system. It is typically used for setting environment variables, running scripts, and performing other **system-related** tasks.
+- `~/.zprofile` is similar to `~/.zsh_profile` in that it is a file used specifically by the Zsh shell. Like ~/.zsh_profile, ~/.zprofile is executed **once** when you log in to your system, and it is typically used for setting environment variables, running scripts, and performing other system-related tasks. If you are using Zsh as your default shell, you can use either ~/.zprofile or ~/.zsh_profile to set your environment variables and other settings. However, it's worth noting that ~/.zsh_profile is the more commonly used file among Zsh users for setting up the shell environment. If you're unsure which file to use, you can try using ~/.zsh_profile first. If it does not exist, Zsh will check for ~/.zprofile. ==If both files exist, ~/.zsh_profile takes precedence over ~/.zprofile.==
+  
+In general, if you are unsure which file to use, you can start by adding your environment variables to ~/.bashrc or ~/.zshrc depending on your shell. These files are commonly used and are likely to work for most situations. However, if you need your environment variables to be set for **every shell**, you should use ~/.bash_profile or ~/.zsh_profile.
+
+- `~/.profile` is another file that can be used to set user environment profile. It is executed by the login shell for both Bash and Zsh.
+
+  - If you are using Bash, ~/.bash_profile is typically used instead of ~/.profile, but if ~/.bash_profile does not exist, Bash will use ~/.profile as a **fallback**.
+  
+  - If you are using Zsh, ~/.zsh_profile is typically used instead of ~/.profile, but if ~/.zsh_profile does not exist, Zsh will use ~/.profile as a **fallback**.
+
+Therefore, if you want to ensure that your environment variables are set for both Bash and Zsh, you can add them to ~/.profile. However, if you are using only one of these shells, it is recommended to use the shell-specific configuration file (~/.bashrc for Bash or ~/.zshrc for Zsh) instead of ~/.profile.
+
+### Sequence of loadings
+
+The sequence in which the system loads these files depends on the specific shell and the configuration of your system.
+
+However, here's a general sequence of how Bash and Zsh load the configuration files when you start a new shell session:
+
+- For Bash:
+
+1. `/etc/profile`: This file is executed for ==all users when they log in== to the system.
+2. `~/.bash_profile`: This file is executed only ==once when you log in== to your system.
+3. `~/.bashrc`: This file is executed ==every time you start a new Bash shell==.
+4. `/etc/bashrc`: This file is executed for ==all users every time they start a new Bash shell==.
+
+- For Zsh:
+
+1. `/etc/zshenv`: This file is executed for ==all users every time they start a new Zsh shell==.
+2. `~/.zshenv`: This file is executed ==every time you start a new Zsh shell==.
+3. `/etc/zprofile`: This file is executed for ==all users only once when they log in to the system==.
+4. `~/.zprofile`: This file is executed ==only once when you log in to your system==.
+5. `~/.zshrc`: This file is executed ==every time you start a new Zsh shell==.
+6. `/etc/zshrc`: This file is executed for ==all users every time they start a new Zsh shell==.
+
+As you can see, the exact sequence of files loaded can vary depending on the shell and the specific configuration of your system. However, this general sequence should give you an idea of which files are loaded and in what order.
+
+### Override settings
+
+In general, the settings in later executed files will **override** settings from earlier executed files if there are conflicts.
+
+For example, if you set an environment variable in both ~/.bashrc and ~/.bash_profile, the value set in **~/.bashrc will take precedence because it is executed after ~/.bash_profile.**
+
+Similarly, if you set an environment variable in both ~/.zshenv and ~/.zshrc, the value set in **~/.zshrc will take precedence because it is executed after ~/.zshenv.**
+
+This allows you to override or modify settings from earlier executed files by adding or changing settings in later executed files. However, it's important to be careful when modifying these files, as conflicting settings could cause unexpected behavior or errors.
 
 ### Bash
 
