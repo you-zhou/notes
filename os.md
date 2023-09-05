@@ -406,19 +406,23 @@ It provides more information than which, as it searches for other types of files
 Example:
 If you type whereis python, it will show you the binary, source, and manual page files associated with the python command.
 
-### bg & fg
+### `bg` & `fg` & `jobs`
 
 Pressing `Ctrl + Z` in a Unix-like terminal will **suspend** the current process by sending it a `SIGTSTP` (**Signal Terminal Stop**) signal.
 
 To bring the suspended process back to the foreground, you can use one of the following commands:
 
-1. **fg**: This command will resume the most recently suspended job in the foreground.
+#### `fg`
+
+**fg**: This command will resume the most recently suspended job in the foreground.
 
 ```bash
 fg
 ```
 
-2. If you have multiple suspended jobs, you can list them using the `jobs` command:
+#### `jobs`
+
+If you have multiple suspended jobs, you can list them using the `jobs` command:
 
 ```bash
 jobs
@@ -435,7 +439,9 @@ To bring a specific job to the foreground, use `fg` followed by the job number:
 fg %1  # This will resume the job with number 1
 ```
 
-3. If you want to resume the process in the background (i.e., it continues to run but doesn't occupy your terminal), use the `bg` command:
+#### `bg`
+
+If you want to resume the process in the background (i.e., it continues to run but doesn't occupy your terminal), use the `bg` command:
 
 ```bash
 bg
@@ -446,10 +452,77 @@ Or for a specific job:
 bg %1  # This will resume the job with number 1 in the background
 ```
 
-Explanation:
+#### Comparisons
 
 - `fg`: This command brings a job to the foreground.
 - `bg`: This command **resumes a suspended job** in the background.
 - `jobs`: This command lists currently suspended or backgrounded jobs.
 
 Once you've issued the `fg` or `bg` command, your suspended process should **resume its execution**.
+
+### `&` * `nohup`
+
+To run a process in the background:
+
+1. If it is an existing process in the terminal, first suspend it by `Ctrl + Z`, and then `bg` to send it to execute in the background.
+2. If starting a new process, directly send it to run in the background from the outset using an ampersand (`&`) at the end of your command. 
+
+Here's how to start a new process in the background:
+
+#### `&`
+ 1. Starting a New Process in the Background
+
+When you are starting a new process, you can send it directly to the background by appending an ampersand (`&`) at the end of the command line:
+
+```sh
+your_command &
+```
+
+Example:
+
+```sh
+python script.py &
+```
+
+In this example:
+- We are running a Python script called `script.py`.
+- The `&` at the end of the command tells the shell to execute the command in the background, allowing you to continue using the terminal for other tasks.
+
+#### `nohup` (No Hangup)
+
+2. Using `nohup` to Run a Process in the Background
+
+You can also use the `nohup` command to run a process in the background and ensure it keeps running even if the terminal is closed. It protects the process by ignoring `SIGHUP` (hangup) signal that would otherwise interrupt the process. The `SIGHUP` is sent to processes running in a terminal when ther terminal is closed. So with `nohup`, the new process is created independently of the terminal session, meaning that the command will continue to run even if the user logs out or the session is closed. It allows you to continue using the terminal for other tasks.
+
+```sh
+nohup your_command &
+```
+
+Example:
+
+```sh
+nohup python script.py &
+```
+
+In this example:
+- `nohup` is a command that allows a process to continue running even after the terminal has been closed.
+- The `&` again instructs the shell to run the process in the background.
+
+#### Further instructions
+
+1. **Background Processes Output**: When you run a process in the background, its output is still connected to the terminal. If you don't want to see the output, you can redirect it to a file or to `/dev/null`. If you want to redirect both the standard output and standard error to the same file, you can use:
+   
+```sh
+nohup your_command > output.log 2>&1 &
+```
+Explanation:
+
+- `> output.log`: Redirects standard output to the file output.log.
+- `2>&1`: Redirects standard error (2) to the same location as standard output (1).
+
+
+2. **Checking Background Process Status**: You can use the `jobs` command to list the current background jobs in the shell session. If you used `nohup`, the process won't appear in the `jobs` list as it's detached from the session.
+
+By utilizing these methods, you can manage processes in a flexible manner, either sending a running process to the background or initiating a process directly in the background.
+
+**Using `nohup` is a common practice when you want to initiate a process that you know will outlast your session.**
