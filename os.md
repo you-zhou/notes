@@ -405,3 +405,51 @@ It searches for the command in a **predefined set of directories** (/bin, /sbin,
 It provides more information than which, as it searches for other types of files associated with the command.
 Example:
 If you type whereis python, it will show you the binary, source, and manual page files associated with the python command.
+
+### bg & fg
+
+Pressing `Ctrl + Z` in a Unix-like terminal will **suspend** the current process by sending it a `SIGTSTP` (**Signal Terminal Stop**) signal.
+
+To bring the suspended process back to the foreground, you can use one of the following commands:
+
+1. **fg**: This command will resume the most recently suspended job in the foreground.
+
+```bash
+fg
+```
+
+2. If you have multiple suspended jobs, you can list them using the `jobs` command:
+
+```bash
+jobs
+```
+
+This will provide an output like:
+```
+[1]-  Stopped                 your_command_1
+[2]+  Stopped                 your_command_2
+```
+
+To bring a specific job to the foreground, use `fg` followed by the job number:
+```bash
+fg %1  # This will resume the job with number 1
+```
+
+3. If you want to resume the process in the background (i.e., it continues to run but doesn't occupy your terminal), use the `bg` command:
+
+```bash
+bg
+```
+
+Or for a specific job:
+```bash
+bg %1  # This will resume the job with number 1 in the background
+```
+
+Explanation:
+
+- `fg`: This command brings a job to the foreground.
+- `bg`: This command **resumes a suspended job** in the background.
+- `jobs`: This command lists currently suspended or backgrounded jobs.
+
+Once you've issued the `fg` or `bg` command, your suspended process should **resume its execution**.
